@@ -16,20 +16,26 @@ news = client.collections.get("News")
 with news.batch.fixed_size(batch_size=20) as batch:
     batch.add_object({
         "ticker": "AAPL",
+        "signal": "Positive", 
         "title": "Apple launches new iPhone",
-        "body": "Apple announced the latest version of the iPhone with performance improvements."
+        "body": "Apple announced the latest version of the iPhone with performance improvements.", 
+        "time" : "2025-11-08"
     })
 
     batch.add_object({
         "ticker": "NVDA",
+        "signal": "Positive", 
         "title": "NVIDIA earnings beat expectations",
-        "body": "NVIDIA reported strong quarterly earnings driven by demand for AI chips."
+        "body": "NVIDIA reported strong quarterly earnings driven by demand for AI chips.", 
+        "time" : "2025-11-08"
     })
 
     batch.add_object({
         "ticker": "TSLA",
+        "signal": "Negative",
         "title": "Tesla expands production in Berlin",
-        "body": "Tesla announced increased capacity for its Berlin Gigafactory."
+        "body": "Tesla announced increased capacity for its Berlin Gigafactory.", 
+        "time": "2024-10-11"
     })
 
 failed = news.batch.failed_objects

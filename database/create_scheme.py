@@ -16,8 +16,10 @@ client.collections.create(
     vector_config=Configure.Vectors.text2vec_weaviate(),
     properties=[
         Property(name="ticker", data_type=DataType.TEXT),
+        Property(name="signal", data_type = DataType.TEXT), #Positive, Neutral or Negative. 
         Property(name="title", data_type=DataType.TEXT),
         Property(name="body", data_type=DataType.TEXT),
+        Property(name="time", data_type=DataType.TEXT),
     ],
 )
 
