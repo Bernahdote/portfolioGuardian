@@ -11,7 +11,10 @@ def analyze_stock(ticker: str, stock_data: list):
         return {"notify": False, "message": "No recent data available"}
 
     combined_text = "\n\n".join(
-        [f"[{d['timestamp']}] {d['text']}" for d in stock_data]
+        [
+            f"[{d.get('timestamp', 'no_timestamp')}] {d.get('title', '')}\n{d.get('body', '')}"
+            for d in stock_data
+        ]
     )
 
     prompt = f"""
@@ -29,7 +32,7 @@ def analyze_stock(ticker: str, stock_data: list):
     """
 
     response = client_openai.chat.completions.create(
-        model="gpt-5-2025-08-07",
+        model="gpt-5",
         messages=[
             {"role": "system", "content": "You analyze financial data objectively."},
             {"role": "user", "content": prompt}
