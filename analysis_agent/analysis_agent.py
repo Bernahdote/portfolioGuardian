@@ -27,7 +27,7 @@ def analyze_stock(ticker: str, stock_data: list):
     Respond ONLY in JSON format:
     {{
       "notify": true/false,
-      "message": "short, clear reason"
+      "message": "(BUY, SELL or GENERAL NOTICE) short, clear reason"
     }}
     """
 

@@ -15,5 +15,6 @@ if __name__ == "__main__":
 
     data = get_data("AAPL", weaviate_url, weaviate_api_key)
     result = analyze_stock("AAPL", data)
+
     print(result)
-    send_message(customer_mail, result["message"], password)
+    send_message(customer_mail, result["message"], password, subject=result["message"])
