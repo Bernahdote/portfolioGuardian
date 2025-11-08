@@ -1,6 +1,6 @@
 {
   "meta": {
-    "found": 8177681,
+    "found": 8177716,
     "returned": 3,
     "limit": 3,
     "page": 1
@@ -657,6 +657,79 @@
           "JBL": {
             "impact": "positive",
             "explanation": "JBL manufactures headphones and audio devices. The article's emphasis on the importance of headphones in everyday activities suggests a favorable environment for JBL's products, potentially increasing their sales."
+          }
+        }
+      }
+    },
+    {
+      "uuid": "7b858d7a-586a-4444-94c1-69a4b172663e",
+      "title": "Орбита Марса диктует курс Уолл-стрит: Анализ 150 лет биржевых крахов показывает 100% корреляцию",
+      "description": "",
+      "keywords": "",
+      "snippet": "Мы не знаем, в чем секрет счастья, но в октябре вы точно не грустили 🌞\n\nВ прошлом месяце ?...",
+      "url": "https://smart-lab.ru/blog/1227580.php",
+      "image_url": "https://smart-lab.ru/uploads/2025/images/21/46/53/2025/11/08/668df5.webp",
+      "language": "ru",
+      "published_at": "2025-11-08T14:38:49.000000Z",
+      "source": "smart-lab.ru",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Мы не знаем, в чем секрет счастья, но в октябре вы точно не грустили 🌞\n\nВ прошлом месяце частные инвесторы вложили в ценные бумаги 175,8 млрд рублей . Из них в облигации — 112,7 млрд , в акции — 1 4,9 млрд , в...",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The article discusses the correlation between historical market crashes and current investment trends, particularly highlighting the significant amount of money private investors have put into securities recently. However, it does not mention any specific companies or stock tickers, thus there are no direct impacts identified for any stocks.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "848526b3-a235-4707-b881-60f52a535b34",
+      "title": "子を道連れ心中、居場所なく孤立 20年で652人犠牲、虐待該当",
+      "description": "保護者が子どもを道連れにして自殺を図る無理心中。国は児童虐待と位置付け、2004年からの約20年で計...",
+      "keywords": "",
+      "snippet": "取材に応じる橋口亜希子さん\n\n保護者が子どもを道連れにして自殺を図る無理心中。国は児童虐待と位置付け、2004年か?...",
+      "url": "https://news.jp/i/1359889165925859578",
+      "image_url": "https://nordot-res.cloudinary.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1359893447003488889/origin_1.jpg",
+      "language": "ja",
+      "published_at": "2025-11-08T14:53:45.000000Z",
+      "source": "this.kiji.is",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "取材に応じる橋口亜希子さん\n\n保護者が子どもを道連れにして自殺を図る無理心中。国は児童虐待と位置付け、2004年からの約20年で計652人が犠牲になった。原因は育児不安や経済的困窮など。かつてわが子に手をかけようとした橋口亜希子さんは「居場所を失い孤立していた。社会が追い詰めている部分もあると気付いてほしい」と訴える。\n\n抱っこじゃないと寝ない、離乳食を食べない。保育士から「ちゃんと叱ってください」といさめられた。偏食だったため「みそ汁作れる？」と嫌みも言われた。小学校の授業中に教室を飛び出すなどトラブルが続発。周囲からは「母親の能力がない」との言葉も。夫は協力的だったが、次第に追い込まれた。\n\n01年。当時6歳の息子と山に車で向かい、助手席に座った息子の首に手をかけ、一気に力を込める。息子の口から「ごめんね」。われに返り、手を離した。\n\n橋口さんはその後、小学校教員からADHDの冊子を渡された。「一緒に考えませんか」。救われた気がした。\n\n発達障害の啓発活動を続ける橋口さんは「誰もが支援を受けやすい仕組みづくりが重要」と訴えた。",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article discusses the tragic issue of parental suicide involving children due to factors like economic hardship and social isolation. It highlights the need for better support systems for families facing such crises. However, there are no specific stock tickers mentioned in the article, nor are there any direct implications for companies or industries that could be identified from the content.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "0624fbe5-373d-466e-8425-f142d865816e",
+      "title": "Capital Southwest: Buy This 12% Yield While Market Is Asleep On Income (NASDAQ:CSWC)",
+      "description": "Discover why Capital Southwest (CSWC) stands out for a 12% dividend, strong earnings, and growth potential.",
+      "keywords": "",
+      "snippet": "iREIT+HOYA Capital is the premier income-focused investing service on Seeking Alpha. Our focus is on income-producing asset classes that offer the opportunity f...",
+      "url": "https://seekingalpha.com/article/4840859-capital-southwest-buy-12-percent-yield-while-market-asleep-on-income",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2078622633/image_2078622633.jpg?io=getty-c-w1536",
+      "language": "en",
+      "published_at": "2025-11-08T14:55:05.000000Z",
+      "source": "seekingalpha.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "iREIT+HOYA Capital is the premier income-focused investing service on Seeking Alpha. Our focus is on income-producing asset classes that offer the opportunity for sustainable portfolio income , diversification , and inflation hedging . Get started with a Free Two-Week Trial and take a look at our top ideas across our exclusive income-focused portfolios.\n\nIt’s a great time to be a high yield income investor, especially as the overall market remains expensive despite recent volatility. Unlike unrealized capital gains, dividends are yours to keep and can’t be clawed back by the\n\nI am Gen Alpha. I have more than 14 years of investment experience, and an MBA in Finance. I focus on stocks that are more defensive in nature, with a medium- to long-term horizon. I provide high-yield, dividend growth investment ideas in the investing group iREIT®+HOYA Capital. The group helps investors achieve dependable monthly income, portfolio diversification, and inflation hedging. It provides investment research on REITs, ETFs, closed-end funds, preferreds, and dividend champions across asset classes. It offers income-focused portfolios targeting dividend yields up to 10%. Learn more.\n\nAnalyst’s Disclosure:I/we have a beneficial long position in the shares of CSWC either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.\n\n\n\nI am not an investment advisor. This article is for informational purposes and does not constitute as financial advice. Readers are encouraged and expected to perform due diligence and draw their own conclusions prior to making any investment decisions.\n\nSeeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "CSWC"
+        ],
+        "summary": "The news emphasizes the appeal of Capital Southwest as a high-yield investment option, particularly in a market perceived as expensive. This focus on income generation is likely to positively influence CSWC's stock performance as investors seek reliable dividend-paying stocks.",
+        "ticker_impacts": {
+          "CSWC": {
+            "impact": "positive",
+            "explanation": "The article highlights Capital Southwest's strong dividend yield of 12%, which is attractive to income-focused investors. This suggests that the company is financially stable and capable of providing consistent returns, which could lead to increased investor interest and potentially higher stock prices."
           }
         }
       }

@@ -8,8 +8,10 @@ import time
 # Handle import both when run directly and when imported as module
 try:
     from .expand_tickers import process_news_articles
+    from .generate_analysis_briefs import generate_briefs_for_articles
 except ImportError:
     from expand_tickers import process_news_articles
+    from generate_analysis_briefs import generate_briefs_for_articles
 
 
 def scrape_article_text(url):
@@ -75,9 +77,9 @@ def main():
         try:
             with open(output_file, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
-                if isinstance(existing_data, dict) and "data" in existing_data:
-                    existing_uuids = {article.get("uuid") for article in existing_data["data"] if article.get("uuid")}
-                    print(f"Found {len(existing_uuids)} existing articles")
+            if isinstance(existing_data, dict) and "data" in existing_data:
+                existing_uuids = {article.get("uuid") for article in existing_data["data"] if article.get("uuid")}
+                print(f"Found {len(existing_uuids)} existing articles")
         except (json.JSONDecodeError, Exception) as e:
             print(f"Warning: Could not read existing file: {e}. Starting fresh.")
             existing_data = {"meta": {}, "data": []}
@@ -89,12 +91,23 @@ def main():
         
         print(f"New articles to add: {len(new_articles)}")
         print(f"Existing articles: {len(existing_articles)}")
-        
+
         # Combine existing and new articles
         combined_data = {
             "meta": articles_data.get("meta", existing_data.get("meta", {})),
             "data": existing_articles + new_articles
         }
+
+        pending_articles = [article for article in combined_data["data"] if not article.get("analysis_briefs_generated")]
+
+        if pending_articles:
+            print(f"\nGenerating analysis briefs for {len(pending_articles)} pending articles...")
+            try:
+                generate_briefs_for_articles(pending_articles)
+            except Exception as e:
+                print(f"Error generating analysis briefs: {e}")
+        else:
+            print("All articles already have analysis briefs.")
         
         # Write combined data
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -111,4 +124,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
