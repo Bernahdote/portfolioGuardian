@@ -1,0 +1,938 @@
+{
+  "step": 1,
+  "source": "https://github.com/trending/rust",
+  "timestamp": "2025-11-08T14:39:15.773Z",
+  "url": "https://github.com/trending/rust",
+  "title": "Trending Rust repositories on GitHub today · GitHub",
+  "aiSummary": "The GitHub page highlights trending Rust repositories, showcasing a diverse range of actively developed projects. Key projects include **librespot**, an open-source Spotify client library, and **niri**, a Wayland compositor, indicating a focus on multimedia and graphical environments. Other notable projects are **zama-ai's fhevm**, which integrates Fully Homomorphic Encryption with blockchain, and **cloudflare's quiche**, an implementation of the QUIC transport protocol. This variety reflects the Rust ecosystem's growth in areas like blockchain, system monitoring, and user interface development, making it easier for developers to find relevant projects and understand their technological focuses.",
+  "allLinks": [
+    {
+      "text": "Skip to content",
+      "href": "https://github.com/trending/rust#start-of-content"
+    },
+    {
+      "text": "Sign in",
+      "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending%2Frust"
+    },
+    {
+      "text": "GitHub CopilotWrite better code with AI",
+      "href": "https://github.com/features/copilot"
+    },
+    {
+      "text": "GitHub SparkBuild and deploy intelligent apps",
+      "href": "https://github.com/features/spark"
+    },
+    {
+      "text": "GitHub ModelsManage and compare prompts",
+      "href": "https://github.com/features/models"
+    },
+    {
+      "text": "MCP RegistryNewDiscover and integrate external tools",
+      "href": "https://github.com/mcp"
+    },
+    {
+      "text": "ActionsAutomate any workflow",
+      "href": "https://github.com/features/actions"
+    },
+    {
+      "text": "CodespacesInstant dev environments",
+      "href": "https://github.com/features/codespaces"
+    },
+    {
+      "text": "IssuesPlan and track work",
+      "href": "https://github.com/features/issues"
+    },
+    {
+      "text": "Code ReviewManage code changes",
+      "href": "https://github.com/features/code-review"
+    },
+    {
+      "text": "GitHub Advanced SecurityFind and fix vulnerabilities",
+      "href": "https://github.com/security/advanced-security"
+    },
+    {
+      "text": "Code securitySecure your code as you build",
+      "href": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "text": "Secret protectionStop leaks before they start",
+      "href": "https://github.com/security/advanced-security/secret-protection"
+    },
+    {
+      "text": "Why GitHub",
+      "href": "https://github.com/why-github"
+    },
+    {
+      "text": "Documentation",
+      "href": "https://docs.github.com/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://github.blog/"
+    },
+    {
+      "text": "Changelog",
+      "href": "https://github.blog/changelog"
+    },
+    {
+      "text": "Marketplace",
+      "href": "https://github.com/marketplace"
+    },
+    {
+      "text": "View all features",
+      "href": "https://github.com/features"
+    },
+    {
+      "text": "Enterprises",
+      "href": "https://github.com/enterprise"
+    },
+    {
+      "text": "Small and medium teams",
+      "href": "https://github.com/team"
+    },
+    {
+      "text": "Startups",
+      "href": "https://github.com/enterprise/startups"
+    },
+    {
+      "text": "Nonprofits",
+      "href": "https://github.com/solutions/industry/nonprofits"
+    },
+    {
+      "text": "App Modernization",
+      "href": "https://github.com/solutions/use-case/app-modernization"
+    },
+    {
+      "text": "DevSecOps",
+      "href": "https://github.com/solutions/use-case/devsecops"
+    },
+    {
+      "text": "DevOps",
+      "href": "https://github.com/solutions/use-case/devops"
+    },
+    {
+      "text": "CI/CD",
+      "href": "https://github.com/solutions/use-case/ci-cd"
+    },
+    {
+      "text": "View all use cases",
+      "href": "https://github.com/solutions/use-case"
+    },
+    {
+      "text": "Healthcare",
+      "href": "https://github.com/solutions/industry/healthcare"
+    },
+    {
+      "text": "Financial services",
+      "href": "https://github.com/solutions/industry/financial-services"
+    },
+    {
+      "text": "Manufacturing",
+      "href": "https://github.com/solutions/industry/manufacturing"
+    },
+    {
+      "text": "Government",
+      "href": "https://github.com/solutions/industry/government"
+    },
+    {
+      "text": "View all industries",
+      "href": "https://github.com/solutions/industry"
+    },
+    {
+      "text": "View all solutions",
+      "href": "https://github.com/solutions"
+    },
+    {
+      "text": "AI",
+      "href": "https://github.com/resources/articles?topic=ai"
+    },
+    {
+      "text": "Software Development",
+      "href": "https://github.com/resources/articles?topic=software-development"
+    },
+    {
+      "text": "DevOps",
+      "href": "https://github.com/resources/articles?topic=devops"
+    },
+    {
+      "text": "Security",
+      "href": "https://github.com/resources/articles?topic=security"
+    },
+    {
+      "text": "View all topics",
+      "href": "https://github.com/resources/articles"
+    },
+    {
+      "text": "Customer stories",
+      "href": "https://github.com/customer-stories"
+    },
+    {
+      "text": "Events & webinars",
+      "href": "https://github.com/resources/events"
+    },
+    {
+      "text": "Ebooks & reports",
+      "href": "https://github.com/resources/whitepapers"
+    },
+    {
+      "text": "Business insights",
+      "href": "https://github.com/solutions/executive-insights"
+    },
+    {
+      "text": "GitHub Skills",
+      "href": "https://skills.github.com/"
+    },
+    {
+      "text": "Documentation",
+      "href": "https://docs.github.com/"
+    },
+    {
+      "text": "Customer support",
+      "href": "https://support.github.com/"
+    },
+    {
+      "text": "Community forum",
+      "href": "https://github.com/orgs/community/discussions"
+    },
+    {
+      "text": "Trust center",
+      "href": "https://github.com/trust-center"
+    },
+    {
+      "text": "Partners",
+      "href": "https://github.com/partners"
+    },
+    {
+      "text": "GitHub SponsorsFund open source developers",
+      "href": "https://github.com/sponsors"
+    },
+    {
+      "text": "Security Lab",
+      "href": "https://securitylab.github.com/"
+    },
+    {
+      "text": "Maintainer Community",
+      "href": "https://maintainers.github.com/"
+    },
+    {
+      "text": "Accelerator",
+      "href": "https://github.com/accelerator"
+    },
+    {
+      "text": "Archive Program",
+      "href": "https://archiveprogram.github.com/"
+    },
+    {
+      "text": "Topics",
+      "href": "https://github.com/topics"
+    },
+    {
+      "text": "Trending",
+      "href": "https://github.com/trending"
+    },
+    {
+      "text": "Collections",
+      "href": "https://github.com/collections"
+    },
+    {
+      "text": "Enterprise platformAI-powered developer platform",
+      "href": "https://github.com/enterprise"
+    },
+    {
+      "text": "GitHub Advanced SecurityEnterprise-grade security features",
+      "href": "https://github.com/security/advanced-security"
+    },
+    {
+      "text": "Copilot for BusinessEnterprise-grade AI features",
+      "href": "https://github.com/features/copilot/copilot-business"
+    },
+    {
+      "text": "Premium SupportEnterprise-grade 24/7 support",
+      "href": "https://github.com/premium-support"
+    },
+    {
+      "text": "Pricing",
+      "href": "https://github.com/pricing"
+    },
+    {
+      "text": "Search syntax tips",
+      "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+    },
+    {
+      "text": "documentation",
+      "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+    },
+    {
+      "text": "Sign in",
+      "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending%2Frust"
+    },
+    {
+      "text": "Sign up",
+      "href": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ftrending%2Frust&source=header"
+    },
+    {
+      "text": "Reload",
+      "href": "https://github.com/trending/rust"
+    },
+    {
+      "text": "Reload",
+      "href": "https://github.com/trending/rust"
+    },
+    {
+      "text": "Reload",
+      "href": "https://github.com/trending/rust"
+    },
+    {
+      "text": "Explore",
+      "href": "https://github.com/explore"
+    },
+    {
+      "text": "Topics",
+      "href": "https://github.com/topics"
+    },
+    {
+      "text": "Trending",
+      "href": "https://github.com/trending"
+    },
+    {
+      "text": "Collections",
+      "href": "https://github.com/collections"
+    },
+    {
+      "text": "Events",
+      "href": "https://github.com/events"
+    },
+    {
+      "text": "GitHub Sponsors",
+      "href": "https://github.com/sponsors/explore"
+    },
+    {
+      "text": "Repositories",
+      "href": "https://github.com/trending"
+    },
+    {
+      "text": "Developers",
+      "href": "https://github.com/trending/developers"
+    },
+    {
+      "text": "Abkhazian",
+      "href": "https://github.com/trending/rust?spoken_language_code=ab"
+    },
+    {
+      "text": "Afar",
+      "href": "https://github.com/trending/rust?spoken_language_code=aa"
+    },
+    {
+      "text": "Afrikaans",
+      "href": "https://github.com/trending/rust?spoken_language_code=af"
+    },
+    {
+      "text": "Akan",
+      "href": "https://github.com/trending/rust?spoken_language_code=ak"
+    },
+    {
+      "text": "Albanian",
+      "href": "https://github.com/trending/rust?spoken_language_code=sq"
+    },
+    {
+      "text": "Amharic",
+      "href": "https://github.com/trending/rust?spoken_language_code=am"
+    },
+    {
+      "text": "Arabic",
+      "href": "https://github.com/trending/rust?spoken_language_code=ar"
+    },
+    {
+      "text": "Aragonese",
+      "href": "https://github.com/trending/rust?spoken_language_code=an"
+    },
+    {
+      "text": "Armenian",
+      "href": "https://github.com/trending/rust?spoken_language_code=hy"
+    },
+    {
+      "text": "Assamese",
+      "href": "https://github.com/trending/rust?spoken_language_code=as"
+    },
+    {
+      "text": "Avaric",
+      "href": "https://github.com/trending/rust?spoken_language_code=av"
+    },
+    {
+      "text": "Avestan",
+      "href": "https://github.com/trending/rust?spoken_language_code=ae"
+    },
+    {
+      "text": "Aymara",
+      "href": "https://github.com/trending/rust?spoken_language_code=ay"
+    },
+    {
+      "text": "Azerbaijani",
+      "href": "https://github.com/trending/rust?spoken_language_code=az"
+    },
+    {
+      "text": "Bambara",
+      "href": "https://github.com/trending/rust?spoken_language_code=bm"
+    },
+    {
+      "text": "Bashkir",
+      "href": "https://github.com/trending/rust?spoken_language_code=ba"
+    },
+    {
+      "text": "Basque",
+      "href": "https://github.com/trending/rust?spoken_language_code=eu"
+    },
+    {
+      "text": "Belarusian",
+      "href": "https://github.com/trending/rust?spoken_language_code=be"
+    },
+    {
+      "text": "Bengali",
+      "href": "https://github.com/trending/rust?spoken_language_code=bn"
+    },
+    {
+      "text": "Bihari languages",
+      "href": "https://github.com/trending/rust?spoken_language_code=bh"
+    },
+    {
+      "text": "Bislama",
+      "href": "https://github.com/trending/rust?spoken_language_code=bi"
+    },
+    {
+      "text": "Bosnian",
+      "href": "https://github.com/trending/rust?spoken_language_code=bs"
+    }
+  ],
+  "pageContext": {
+    "title": "Trending Rust repositories on GitHub today · GitHub",
+    "url": "https://github.com/trending/rust",
+    "inputs": [
+      {
+        "type": "hidden",
+        "name": "type",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"type\"]"
+      },
+      {
+        "type": "text",
+        "name": "query-builder-test",
+        "id": "query-builder-test",
+        "placeholder": "",
+        "selector": "#query-builder-test"
+      },
+      {
+        "type": "hidden",
+        "name": "authenticity_token",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"authenticity_token\"]"
+      },
+      {
+        "type": "checkbox",
+        "name": "include_email",
+        "id": "include_email",
+        "placeholder": "",
+        "selector": "#include_email"
+      },
+      {
+        "type": "hidden",
+        "name": "authenticity_token",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"authenticity_token\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "custom_scope_id",
+        "id": "custom_scope_id",
+        "placeholder": "",
+        "selector": "#custom_scope_id"
+      },
+      {
+        "type": "text",
+        "name": "custom_scope_name",
+        "id": "custom_scope_name",
+        "placeholder": "github-ruby",
+        "selector": "#custom_scope_name"
+      },
+      {
+        "type": "text",
+        "name": "custom_scope_query",
+        "id": "custom_scope_query",
+        "placeholder": "(repo:mona/a OR repo:mona/b) AND lang:python",
+        "selector": "#custom_scope_query"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "id": "text-filter-field-spoken-language",
+        "placeholder": "Filter spoken languages",
+        "selector": "#text-filter-field-spoken-language"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "id": "icon-button-ff0c690c-075c-43bc-a307-589407ab6c15",
+        "selector": "#icon-button-ff0c690c-075c-43bc-a307-589407ab6c15"
+      },
+      {
+        "text": "",
+        "id": "query-builder-test-clear-button",
+        "selector": "#query-builder-test-clear-button"
+      },
+      {
+        "text": "",
+        "id": "icon-button-454af0ec-4f46-4354-a5df-deb0b7569610",
+        "selector": "#icon-button-454af0ec-4f46-4354-a5df-deb0b7569610"
+      },
+      {
+        "text": "",
+        "id": "icon-button-6539a967-1cee-41e5-bdea-87d83c5f3a18",
+        "selector": "#icon-button-6539a967-1cee-41e5-bdea-87d83c5f3a18"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "https://github.com/trending/rust#start-of-content"
+      },
+      {
+        "text": "",
+        "href": "https://github.com/"
+      },
+      {
+        "text": "Sign in",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending%2Frust"
+      },
+      {
+        "text": "GitHub CopilotWrite better code with AI",
+        "href": "https://github.com/features/copilot"
+      },
+      {
+        "text": "GitHub SparkBuild and deploy intelligent apps",
+        "href": "https://github.com/features/spark"
+      },
+      {
+        "text": "GitHub ModelsManage and compare prompts",
+        "href": "https://github.com/features/models"
+      },
+      {
+        "text": "MCP RegistryNewDiscover and integrate external tools",
+        "href": "https://github.com/mcp"
+      },
+      {
+        "text": "ActionsAutomate any workflow",
+        "href": "https://github.com/features/actions"
+      },
+      {
+        "text": "CodespacesInstant dev environments",
+        "href": "https://github.com/features/codespaces"
+      },
+      {
+        "text": "IssuesPlan and track work",
+        "href": "https://github.com/features/issues"
+      },
+      {
+        "text": "Code ReviewManage code changes",
+        "href": "https://github.com/features/code-review"
+      },
+      {
+        "text": "GitHub Advanced SecurityFind and fix vulnerabilities",
+        "href": "https://github.com/security/advanced-security"
+      },
+      {
+        "text": "Code securitySecure your code as you build",
+        "href": "https://github.com/security/advanced-security/code-security"
+      },
+      {
+        "text": "Secret protectionStop leaks before they start",
+        "href": "https://github.com/security/advanced-security/secret-protection"
+      },
+      {
+        "text": "Why GitHub",
+        "href": "https://github.com/why-github"
+      },
+      {
+        "text": "Documentation",
+        "href": "https://docs.github.com/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://github.blog/"
+      },
+      {
+        "text": "Changelog",
+        "href": "https://github.blog/changelog"
+      },
+      {
+        "text": "Marketplace",
+        "href": "https://github.com/marketplace"
+      },
+      {
+        "text": "View all features",
+        "href": "https://github.com/features"
+      },
+      {
+        "text": "Enterprises",
+        "href": "https://github.com/enterprise"
+      },
+      {
+        "text": "Small and medium teams",
+        "href": "https://github.com/team"
+      },
+      {
+        "text": "Startups",
+        "href": "https://github.com/enterprise/startups"
+      },
+      {
+        "text": "Nonprofits",
+        "href": "https://github.com/solutions/industry/nonprofits"
+      },
+      {
+        "text": "App Modernization",
+        "href": "https://github.com/solutions/use-case/app-modernization"
+      },
+      {
+        "text": "DevSecOps",
+        "href": "https://github.com/solutions/use-case/devsecops"
+      },
+      {
+        "text": "DevOps",
+        "href": "https://github.com/solutions/use-case/devops"
+      },
+      {
+        "text": "CI/CD",
+        "href": "https://github.com/solutions/use-case/ci-cd"
+      },
+      {
+        "text": "View all use cases",
+        "href": "https://github.com/solutions/use-case"
+      },
+      {
+        "text": "Healthcare",
+        "href": "https://github.com/solutions/industry/healthcare"
+      },
+      {
+        "text": "Financial services",
+        "href": "https://github.com/solutions/industry/financial-services"
+      },
+      {
+        "text": "Manufacturing",
+        "href": "https://github.com/solutions/industry/manufacturing"
+      },
+      {
+        "text": "Government",
+        "href": "https://github.com/solutions/industry/government"
+      },
+      {
+        "text": "View all industries",
+        "href": "https://github.com/solutions/industry"
+      },
+      {
+        "text": "View all solutions",
+        "href": "https://github.com/solutions"
+      },
+      {
+        "text": "AI",
+        "href": "https://github.com/resources/articles?topic=ai"
+      },
+      {
+        "text": "Software Development",
+        "href": "https://github.com/resources/articles?topic=software-development"
+      },
+      {
+        "text": "DevOps",
+        "href": "https://github.com/resources/articles?topic=devops"
+      },
+      {
+        "text": "Security",
+        "href": "https://github.com/resources/articles?topic=security"
+      },
+      {
+        "text": "View all topics",
+        "href": "https://github.com/resources/articles"
+      },
+      {
+        "text": "Customer stories",
+        "href": "https://github.com/customer-stories"
+      },
+      {
+        "text": "Events & webinars",
+        "href": "https://github.com/resources/events"
+      },
+      {
+        "text": "Ebooks & reports",
+        "href": "https://github.com/resources/whitepapers"
+      },
+      {
+        "text": "Business insights",
+        "href": "https://github.com/solutions/executive-insights"
+      },
+      {
+        "text": "GitHub Skills",
+        "href": "https://skills.github.com/"
+      },
+      {
+        "text": "Documentation",
+        "href": "https://docs.github.com/"
+      },
+      {
+        "text": "Customer support",
+        "href": "https://support.github.com/"
+      },
+      {
+        "text": "Community forum",
+        "href": "https://github.com/orgs/community/discussions"
+      },
+      {
+        "text": "Trust center",
+        "href": "https://github.com/trust-center"
+      },
+      {
+        "text": "Partners",
+        "href": "https://github.com/partners"
+      },
+      {
+        "text": "GitHub SponsorsFund open source developers",
+        "href": "https://github.com/sponsors"
+      },
+      {
+        "text": "Security Lab",
+        "href": "https://securitylab.github.com/"
+      },
+      {
+        "text": "Maintainer Community",
+        "href": "https://maintainers.github.com/"
+      },
+      {
+        "text": "Accelerator",
+        "href": "https://github.com/accelerator"
+      },
+      {
+        "text": "Archive Program",
+        "href": "https://archiveprogram.github.com/"
+      },
+      {
+        "text": "Topics",
+        "href": "https://github.com/topics"
+      },
+      {
+        "text": "Trending",
+        "href": "https://github.com/trending"
+      },
+      {
+        "text": "Collections",
+        "href": "https://github.com/collections"
+      },
+      {
+        "text": "Enterprise platformAI-powered developer platform",
+        "href": "https://github.com/enterprise"
+      },
+      {
+        "text": "GitHub Advanced SecurityEnterprise-grade security features",
+        "href": "https://github.com/security/advanced-security"
+      },
+      {
+        "text": "Copilot for BusinessEnterprise-grade AI features",
+        "href": "https://github.com/features/copilot/copilot-business"
+      },
+      {
+        "text": "Premium SupportEnterprise-grade 24/7 support",
+        "href": "https://github.com/premium-support"
+      },
+      {
+        "text": "Pricing",
+        "href": "https://github.com/pricing"
+      },
+      {
+        "text": "Search syntax tips",
+        "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+      },
+      {
+        "text": "documentation",
+        "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax"
+      },
+      {
+        "text": "Sign in",
+        "href": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending%2Frust"
+      },
+      {
+        "text": "Sign up",
+        "href": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ftrending%2Frust&source=header"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/trending/rust"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/trending/rust"
+      },
+      {
+        "text": "Reload",
+        "href": "https://github.com/trending/rust"
+      },
+      {
+        "text": "Explore",
+        "href": "https://github.com/explore"
+      },
+      {
+        "text": "Topics",
+        "href": "https://github.com/topics"
+      },
+      {
+        "text": "Trending",
+        "href": "https://github.com/trending"
+      },
+      {
+        "text": "Collections",
+        "href": "https://github.com/collections"
+      },
+      {
+        "text": "Events",
+        "href": "https://github.com/events"
+      },
+      {
+        "text": "GitHub Sponsors",
+        "href": "https://github.com/sponsors/explore"
+      },
+      {
+        "text": "Repositories",
+        "href": "https://github.com/trending"
+      },
+      {
+        "text": "Developers",
+        "href": "https://github.com/trending/developers"
+      },
+      {
+        "text": "Abkhazian",
+        "href": "https://github.com/trending/rust?spoken_language_code=ab"
+      },
+      {
+        "text": "Afar",
+        "href": "https://github.com/trending/rust?spoken_language_code=aa"
+      },
+      {
+        "text": "Afrikaans",
+        "href": "https://github.com/trending/rust?spoken_language_code=af"
+      },
+      {
+        "text": "Akan",
+        "href": "https://github.com/trending/rust?spoken_language_code=ak"
+      },
+      {
+        "text": "Albanian",
+        "href": "https://github.com/trending/rust?spoken_language_code=sq"
+      },
+      {
+        "text": "Amharic",
+        "href": "https://github.com/trending/rust?spoken_language_code=am"
+      },
+      {
+        "text": "Arabic",
+        "href": "https://github.com/trending/rust?spoken_language_code=ar"
+      },
+      {
+        "text": "Aragonese",
+        "href": "https://github.com/trending/rust?spoken_language_code=an"
+      },
+      {
+        "text": "Armenian",
+        "href": "https://github.com/trending/rust?spoken_language_code=hy"
+      },
+      {
+        "text": "Assamese",
+        "href": "https://github.com/trending/rust?spoken_language_code=as"
+      },
+      {
+        "text": "Avaric",
+        "href": "https://github.com/trending/rust?spoken_language_code=av"
+      },
+      {
+        "text": "Avestan",
+        "href": "https://github.com/trending/rust?spoken_language_code=ae"
+      },
+      {
+        "text": "Aymara",
+        "href": "https://github.com/trending/rust?spoken_language_code=ay"
+      },
+      {
+        "text": "Azerbaijani",
+        "href": "https://github.com/trending/rust?spoken_language_code=az"
+      },
+      {
+        "text": "Bambara",
+        "href": "https://github.com/trending/rust?spoken_language_code=bm"
+      },
+      {
+        "text": "Bashkir",
+        "href": "https://github.com/trending/rust?spoken_language_code=ba"
+      },
+      {
+        "text": "Basque",
+        "href": "https://github.com/trending/rust?spoken_language_code=eu"
+      },
+      {
+        "text": "Belarusian",
+        "href": "https://github.com/trending/rust?spoken_language_code=be"
+      },
+      {
+        "text": "Bengali",
+        "href": "https://github.com/trending/rust?spoken_language_code=bn"
+      },
+      {
+        "text": "Bihari languages",
+        "href": "https://github.com/trending/rust?spoken_language_code=bh"
+      },
+      {
+        "text": "Bislama",
+        "href": "https://github.com/trending/rust?spoken_language_code=bi"
+      },
+      {
+        "text": "Bosnian",
+        "href": "https://github.com/trending/rust?spoken_language_code=bs"
+      }
+    ],
+    "articles": [
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        librespot-org /\n\n      librespot  \n\n    \n      Open Source Spotify client library\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        5,870\n      \n    \n\n        761\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        16 stars today"
+      },
+      {
+        "text": "Sponsor\n    \n  \n\n\n\n      \n            \n    \n\n    \n\n        \n          Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        YaLTeR /\n\n      niri  \n\n    \n      A scrollable-tiling Wayland compositor.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        14,589\n      \n    \n\n        517\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        54 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        ClementTsang /\n\n      bottom  \n\n    \n      Yet another cross-platform graphical process/system monitor.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        12,193\n      \n    \n\n        307\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        28 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        zama-ai /\n\n      fhevm  \n\n    \n      FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        25,012\n      \n    \n\n        1,445\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        23 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        aptos-labs /\n\n      aptos-core  \n\n    \n      Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        6,382\n      \n    \n\n        3,861\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        2 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        cloudflare /\n\n      quiche  \n\n    \n      🥧 Savoury implementation of the QUIC transport protocol and HTTP/3\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        10,824\n      \n    \n\n        890\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        73 stars today"
+      },
+      {
+        "text": "Sponsor\n    \n  \n\n\n\n      \n            \n    \n\n    \n\n        \n          Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        starship /\n\n      starship  \n\n    \n      ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        52,089\n      \n    \n\n        2,282\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        13 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        denoland /\n\n      deno  \n\n    \n      A modern runtime for JavaScript and TypeScript.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        105,074\n      \n    \n\n        5,767\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        66 stars today"
+      },
+      {
+        "text": "Sponsor\n    \n  \n\n\n\n      \n            \n    \n\n    \n\n        \n          Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        rustdesk /\n\n      rustdesk  \n\n    \n      An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        102,083\n      \n    \n\n        14,975\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        66 stars today"
+      },
+      {
+        "text": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        aws /\n\n      amazon-q-developer-cli  \n\n    \n      ✨ Agentic chat experience in your terminal. Build applications using natural language.\n    \n\n  \n      \n  \n  Rust\n\n\n\n      \n    \n\n        1,773\n      \n    \n\n        351\n      \n        Built by\n\n          \n          \n          \n          \n          \n\n      \n        \n    \n\n        8 stars today"
+      }
+    ],
+    "bodyPreview": "Skip to content\nNavigation Menu\nSign in\nExplore\nTopics\nTrending\nCollections\nEvents\nGitHub Sponsors\nTrending\n\nSee what the GitHub community is most excited about today.\n\nRepositories\nDevelopers\nSpoken Language: Any \nLanguage: Rust \nDate range: Today \n Star\n librespot-org / librespot\n\nOpen Source Spotify client library\n\n Rust  5,870  761 Built by     \n 16 stars today\n Sponsor\n Star\n YaLTeR / niri\n\nA scrollable-tiling Wayland compositor.\n\n Rust  14,589  517 Built by     \n 54 stars today\n Star\n ClementTsang / bottom\n\nYet another cross-platform graphical process/system monitor.\n\n Rust  12,193  307 Built by     \n 28 stars today\n Star\n zama-ai / fhevm\n\nFHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications\n\n Rust  25,012  1,445 Built by     \n 23 stars today\n Star\n aptos-labs / aptos-core\n\nAptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.\n\n Rust  6,382  3,861 Built by     \n 2 stars today\n Star\n cloudflare / quiche\n\n🥧 Savoury implementation of the QUIC transport protocol and HTTP/3\n\n Rust  10,824  890 Built by     \n 73 stars today\n Sponsor\n Star\n starship / starship\n\n☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!\n\n Rust  52,089  2,282 Built by     \n 13 stars today\n Star\n denoland / deno\n\nA modern runtime for JavaScript and TypeScript.\n\n Rust  105,074  5,767 Built by     \n 66 stars today\n Sponsor\n Star\n rustdesk / rustdesk\n\nAn open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.\n\n Rust  102,083  14,975 Built by     \n 66 stars today\n Star\n aws / amazon-q-developer-cli\n\n✨ Agentic chat experience in your terminal. Build applications using natural language.\n\n Rust  1,773  351 Built by     \n 8 stars today\n Sponsor\n Star\n ratatui / ratatui\n\nA Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs\n\n Rust  15,916  494 Built by     \n 58 stars today\n Star\n sigoden / aichat\n\nAll-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.\n\n Rust  8,528  548 Built by     \n 13 stars today\n Star\n emilk / egui\n\negui: an easy-to-use immediate mode GUI in Rust that runs on both web and native\n\n Rust  27,061  1,863 Built by     \n 7 stars today\n Star\n bevyengine / bevy\n\nA refreshingly simple data-driven game engine built in Rust\n\n Rust  42,974  4,217 Built by     \n 13 stars today\n Star\n zensical / zensical\n\nA modern static site generator by the creators of Material for MkDocs\n\n Rust  483  6 Built by   \n 92 stars today\n Sponsor\n Star\n rolldown / rolldown\n\nFast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.\n\n Rust  12,318  662 Built by     \n 15 stars today\n Sponsor\n Star\n bee-san / RustScan\n\n🤖 The Modern Port Scanner 🤖\n\n Rust  18,413  1,230 Built by     \n 5 stars today\n Star\n rust-lang / rustlings\n\n🦀 Small exercises to get you used "
+  },
+  "action": {
+    "fullResponse": "```json\n{\"action\": \"extract_article\", \"reasoning\": \"The page lists trending Rust repositories that are actively developed, providing insights into the current focus and growth of the Rust ecosystem.\"}\n```",
+    "action": "extract_article",
+    "reasoning": "The page lists trending Rust repositories that are actively developed, providing insights into the current focus and growth of the Rust ecosystem."
+  },
+  "result": "Extracted article: Trending Rust repositories on GitHub today · GitHub"
+}

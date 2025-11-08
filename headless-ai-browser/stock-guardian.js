@@ -276,6 +276,125 @@ async function generatePageSummary(openai, pageContext, topic, goal) {
   }
 }
 
+async function generateStepSummaryForDB(openai, pageContext, topic, goal, action, allLinks) {
+  try {
+    // Extract explored links from the action and page
+    const exploredLinks = allLinks.slice(0, 10).map(l => `- ${l.text}: ${l.href}`).join('\n');
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        {
+          role: 'system',
+          content: `You are creating a database entry for a research step about "${topic}".
+
+Goal: ${goal}
+
+Generate a JSON object with these fields:
+- "signal": "Positive", "Negative", or "Neutral" - based on whether the information found is favorable, unfavorable, or neutral for ${topic}
+- "title": A concise headline (max 10 words) describing what was found
+- "body": A detailed summary (2-4 sentences) of the key findings. IMPORTANT: Include mentions of important links explored from the list provided.
+
+Respond ONLY with valid JSON in this format:
+{"signal": "...", "title": "...", "body": "..."}`
+        },
+        {
+          role: 'user',
+          content: `Page: ${pageContext.title}
+URL: ${pageContext.url}
+
+Action taken: ${action.action} - ${action.reasoning}
+
+Content preview:
+${pageContext.bodyPreview.substring(0, 1000)}
+
+Links explored on this page:
+${exploredLinks}
+
+Generate the database entry:`
+        }
+      ],
+      temperature: 0.7,
+      max_tokens: 300
+    });
+
+    const content = response.choices[0].message.content;
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      return JSON.parse(jsonMatch[0]);
+    }
+
+    // Fallback if JSON parsing fails
+    return {
+      signal: "Neutral",
+      title: `Research step on ${topic}`,
+      body: `Explored ${pageContext.url} - ${action.reasoning}`
+    };
+  } catch (error) {
+    console.error(`⚠️  Warning: Failed to generate step summary: ${error.message}`);
+    return {
+      signal: "Neutral",
+      title: `Research step on ${topic}`,
+      body: `Explored ${pageContext.url}`
+    };
+  }
+}
+
+async function insertToDatabase(topic, signal, title, body, weaviateUrl, weaviateApiKey) {
+  try {
+    // Use Python script to insert into Weaviate
+    const { execSync } = require('child_process');
+
+    const pythonScript = `
+import weaviate
+from weaviate.classes.init import Auth
+from datetime import datetime
+import sys
+
+try:
+    client = weaviate.connect_to_weaviate_cloud(
+        cluster_url="${weaviateUrl}",
+        auth_credentials=Auth.api_key("${weaviateApiKey}"),
+    )
+
+    news = client.collections.get("News")
+
+    news.data.insert({
+        "ticker": ${JSON.stringify(topic)},
+        "signal": ${JSON.stringify(signal)},
+        "title": ${JSON.stringify(title)},
+        "body": ${JSON.stringify(body)},
+        "time": datetime.now().strftime("%Y-%m-%d")
+    })
+
+    client.close()
+    print("✅ Inserted to database")
+except Exception as e:
+    print(f"❌ Error: {str(e)}", file=sys.stderr)
+    sys.exit(1)
+`;
+
+    // Use uv run python to ensure weaviate-client is available
+    const result = execSync('uv run python -c ' + JSON.stringify(pythonScript), {
+      encoding: 'utf8',
+      timeout: 10000,
+      cwd: __dirname
+    });
+
+    console.error(`✅ Database insert successful: ${result.trim()}`);
+    return true;
+  } catch (error) {
+    console.error(`⚠️  Warning: Database insert failed: ${error.message}`);
+    if (error.stderr) {
+      console.error(`   Stderr: ${error.stderr}`);
+    }
+    if (error.stdout) {
+      console.error(`   Stdout: ${error.stdout}`);
+    }
+    return false;
+  }
+}
+
 (async () => {
   const { topic, goal, sources, metadata } = parseArgs();
 
@@ -593,6 +712,37 @@ async function generatePageSummary(openai, pageContext, topic, goal) {
               console.error(`💾 Saved context to: ${contextFilename}`);
               console.error(`📝 Summary: ${aiSummary.substring(0, 100)}...`);
               console.error(`🔗 Found ${allLinks.length} links`);
+
+              // Generate database entry and insert
+              const weaviateUrl = metadata.weaviateUrl || process.env.WEAVIATE_URL || "v0721jeoraum1hsqk0lcwq.c0.europe-west3.gcp.weaviate.cloud";
+              const weaviateApiKey = metadata.weaviateApiKey || process.env.WEAVIATE_API_KEY || "WEx4cFlBd2tGUUt3d2RCRV9JUFJNQXJxdS85MldDS2t1TmNBbVB1L2NFOW9UT25tRVh1MU9LS2V2dnpZPV92MjAw";
+
+              if (weaviateUrl && weaviateApiKey) {
+                console.error(`🗄️  Generating database entry...`);
+                const dbEntry = await generateStepSummaryForDB(openai, pageContext, topic, goal, action, allLinks);
+                console.error(`📊 DB Entry - Signal: ${dbEntry.signal}, Title: ${dbEntry.title}`);
+
+                // Save database entry to JSON file
+                const dbEntryFilename = `db_entry_source${sourceIdx + 1}_step${stepCount}.json`;
+                const dbEntryPath = path.join(articlesDir, dbEntryFilename);
+                const dbEntryData = {
+                  ticker: topic,
+                  signal: dbEntry.signal,
+                  title: dbEntry.title,
+                  body: dbEntry.body,
+                  time: new Date().toISOString().split('T')[0], // YYYY-MM-DD
+                  metadata: {
+                    step: stepCount,
+                    source: source,
+                    url: currentUrl,
+                    timestamp: stepLog.timestamp
+                  }
+                };
+                fs.writeFileSync(dbEntryPath, JSON.stringify(dbEntryData, null, 2));
+                console.error(`💾 Saved DB entry to: ${dbEntryFilename}`);
+
+                await insertToDatabase(topic, dbEntry.signal, dbEntry.title, dbEntry.body, weaviateUrl, weaviateApiKey);
+              }
             } catch (e) {
               console.error(`⚠️  Warning: Failed to save context to articles/${contextFilename}: ${e.message}`);
             }

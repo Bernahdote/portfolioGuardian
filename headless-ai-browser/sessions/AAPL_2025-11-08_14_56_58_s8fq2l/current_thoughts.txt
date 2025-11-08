@@ -1,6 +1,0 @@
-Web Crawler AI - Research Session
-Topic: AAPL
-Goal: Find news about Apple stock performance and risks
-Session: AAPL_2025-11-08_14_56_58_s8fq2l
-Started: 2025-11-08T13:56:58.780Z
-============================================================
