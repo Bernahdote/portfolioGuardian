@@ -3,6 +3,7 @@ import os
 from typing import Any, Dict, List, Optional
 from urllib.parse import urlparse
 
+import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -127,6 +128,52 @@ def generate_brief(
     return parse_response(raw_response)
 
 
+def build_crawl_payload(article: Dict[str, Any], ticker: str, brief: Dict[str, Any]) -> Dict[str, Any]:
+    resources = brief.get("resources") or []
+    sources = [
+        resource.get("url")
+        for resource in resources
+        if isinstance(resource, dict) and resource.get("url")
+    ]
+
+    if not sources and article.get("url"):
+        sources.append(normalize_url_to_base(article["url"]))
+
+    metadata = {
+        "article_uuid": article.get("uuid"),
+        "article_title": article.get("title"),
+        "published_at": article.get("published_at"),
+        "maxStepsPerSource": 10,
+    }
+    metadata = {k: v for k, v in metadata.items() if v is not None}
+
+    return {
+        "ticker": ticker,
+        "topic": brief.get("topic", ""),
+        "goal": brief.get("goal", ""),
+        "sources": sources,
+        "metadata": metadata,
+    }
+
+
+def dispatch_brief_to_crawler(
+    payload: Dict[str, Any],
+    endpoint: Optional[str] = None,
+    print_output: bool = True,
+) -> None:
+    crawler_endpoint = endpoint or os.getenv("CRAWLER_ENDPOINT", "http://localhost:5000/crawl")
+    try:
+        response = requests.post(crawler_endpoint, json=payload, timeout=30)
+        if print_output:
+            if response.ok:
+                print(f"  Crawl job dispatched (status {response.status_code}).")
+            else:
+                print(f"  Crawl job failed with status {response.status_code}: {response.text[:200]}")
+    except requests.RequestException as exc:
+        if print_output:
+            print(f"  Failed to send crawl job: {exc}")
+
+
 def generate_briefs_for_articles(
     articles: List[Dict[str, Any]],
     client: Optional[OpenAI] = None,
@@ -173,17 +220,18 @@ def generate_briefs_for_articles(
 
             try:
                 brief = generate_brief(client, article, ticker, impact_data)
-                briefs.append(
-                    {
-                        "article_uuid": article.get("uuid"),
-                        "title": title,
-                        "ticker": ticker,
-                        "brief": brief,
-                    }
-                )
+                brief_entry = {
+                    "article_uuid": article.get("uuid"),
+                    "title": title,
+                    "ticker": ticker,
+                    "brief": brief,
+                }
+                briefs.append(brief_entry)
+
+                payload = build_crawl_payload(article, ticker, brief)
                 if print_output:
-                    print(f"Ticker {ticker}:")
-                    print(json.dumps(brief, indent=2, ensure_ascii=False))
+                    print(f"Ticker {ticker}: dispatching crawl job...")
+                dispatch_brief_to_crawler(payload, print_output=print_output)
                 article_completed = True
             except json.JSONDecodeError as exc:
                 if print_output:
