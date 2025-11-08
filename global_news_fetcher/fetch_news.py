@@ -4,7 +4,12 @@ import requests
 from dotenv import load_dotenv
 from newspaper import Article
 import time
-from expand_tickers import process_news_articles
+
+# Handle import both when run directly and when imported as module
+try:
+    from .expand_tickers import process_news_articles
+except ImportError:
+    from expand_tickers import process_news_articles
 
 
 def scrape_article_text(url):
@@ -58,7 +63,9 @@ def main():
     print("\nProcessing tickers and expanding with OpenAI...")
     articles_data = process_news_articles(articles_data)
     
-    output_file = "news_articles.json"
+    # Use absolute path to ensure it works when called from Flask server
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_file = os.path.join(script_dir, "news_articles.json")
     
     # Load existing articles if file exists
     existing_uuids = set()

@@ -5,3 +5,5 @@ beautifulsoup4
 lxml[html_clean]
 newspaper3k
 openai
+flask
+flask_cors
