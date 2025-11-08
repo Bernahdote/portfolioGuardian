@@ -1,0 +1,197 @@
+{
+  "step": 4,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:58:22.456Z",
+  "url": "https://lapcatsoftware.com/articles/2024/12/3.html",
+  "title": "Apple Photos phones home on iOS 18 and macOS 15",
+  "aiSummary": "The article discusses a new feature in Apple Photos on iOS 18 and macOS 15 called Enhanced Visual Search, which allows users to search for images based on landmarks by matching them to a global index maintained by Apple. This feature is enabled by default and has raised concerns about user privacy, as it involves sending data to Apple's servers. The author emphasizes that while Apple claims to prioritize user privacy through on-device processing and encryption, the automatic data transmission without user consent could pose risks. This situation may impact Apple's stock performance as privacy issues can affect customer trust and, consequently, sales.",
+  "allLinks": [
+    {
+      "text": "Deep dive into a macOS default web browser bug",
+      "href": "https://lapcatsoftware.com/articles/2024/12/2.html"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "Google",
+      "href": "https://www.google.com/search?q=%22Enhanced+Visual+Search%22+photos&num=100&udm=14"
+    },
+    {
+      "text": "Google",
+      "href": "https://www.google.com/search?q=%22Enhanced+Visual+Search%22+photos+site:apple.com+-inurl:discussions&num=100&udm=14"
+    },
+    {
+      "text": "Photos & Privacy",
+      "href": "https://www.apple.com/legal/privacy/data/en/photos/"
+    },
+    {
+      "text": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+      "href": "https://machinelearning.apple.com/research/homomorphic-encryption"
+    },
+    {
+      "text": "Apple's own security release notes",
+      "href": "https://support.apple.com/100100"
+    },
+    {
+      "text": "9to5Mac",
+      "href": "https://9to5mac.com/2019/01/05/apple-privacy-billboard-vegas-ces/"
+    },
+    {
+      "text": "Little Snitch",
+      "href": "https://www.obdev.at/products/littlesnitch/"
+    },
+    {
+      "text": "The internet is full of experts",
+      "href": "https://lapcatsoftware.com/articles/2024/12/4.html"
+    },
+    {
+      "text": "Michael Tsai's roundup",
+      "href": "https://mjtsai.com/blog/2025/01/01/privacy-of-photos-apps-enhanced-visual-search/"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "Deep dive into a macOS default web browser bug",
+      "href": "https://lapcatsoftware.com/articles/2024/12/2.html"
+    }
+  ],
+  "pageContext": {
+    "title": "Apple Photos phones home on iOS 18 and macOS 15",
+    "url": "https://lapcatsoftware.com/articles/2024/12/3.html",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Deep dive into a macOS default web browser bug",
+        "href": "https://lapcatsoftware.com/articles/2024/12/2.html"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "Google",
+        "href": "https://www.google.com/search?q=%22Enhanced+Visual+Search%22+photos&num=100&udm=14"
+      },
+      {
+        "text": "Google",
+        "href": "https://www.google.com/search?q=%22Enhanced+Visual+Search%22+photos+site:apple.com+-inurl:discussions&num=100&udm=14"
+      },
+      {
+        "text": "Photos & Privacy",
+        "href": "https://www.apple.com/legal/privacy/data/en/photos/"
+      },
+      {
+        "text": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+        "href": "https://machinelearning.apple.com/research/homomorphic-encryption"
+      },
+      {
+        "text": "Apple's own security release notes",
+        "href": "https://support.apple.com/100100"
+      },
+      {
+        "text": "9to5Mac",
+        "href": "https://9to5mac.com/2019/01/05/apple-privacy-billboard-vegas-ces/"
+      },
+      {
+        "text": "Little Snitch",
+        "href": "https://www.obdev.at/products/littlesnitch/"
+      },
+      {
+        "text": "The internet is full of experts",
+        "href": "https://lapcatsoftware.com/articles/2024/12/4.html"
+      },
+      {
+        "text": "Michael Tsai's roundup",
+        "href": "https://mjtsai.com/blog/2025/01/01/privacy-of-photos-apps-enhanced-visual-search/"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "Deep dive into a macOS default web browser bug",
+        "href": "https://lapcatsoftware.com/articles/2024/12/2.html"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "Previous: Deep dive into a macOS default web browser bug\nArticles index\nJeff Johnson (My apps, PayPal.Me, Mastodon)\nApple Photos phones home on iOS 18 and macOS 15\nDecember 28 2024\n\nThis morning while perusing the settings of a bunch of apps on my iPhone, I discovered a new setting for Photos that was enabled by default: Enhanced Visual Search. (I manually disabled it before taking the screenshot below.)\n\nThis setting is also new to Photos on macOS Sequoia, and enabled by default.\n\nOddly, this new feature has mostly gone unmentioned in the Apple news media, according to Google. Moreover, it has also mostly gone unmentioned by Apple itself, according to Google. There appear to be only two relevant documents on Apple's website, the first of which is a legal notice about Photos & Privacy:\n\nEnhanced Visual Search in Photos allows you to search for photos using landmarks or points of interest. Your device privately matches places in your photos to a global index Apple maintains on our servers. We apply homomorphic encryption and differential privacy, and use an OHTTP relay that hides IP address. This prevents Apple from learning about the information in your photos. You can turn off Enhanced Visual Search at any time on your iOS or iPadOS device by going to Settings > Apps > Photos. On Mac, open Photos and go to Settings > General.\n\nThe second online Apple document is a blog post by Machine Learning Research titled Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem and published on October 24, 2024. (Note that iOS 18 and macOS 15 were released to the public on September 16.)\n\nAt Apple, we believe privacy is a fundamental human right. Our work to protect user privacy is informed by a set of privacy principles, and one of those principles is to prioritize using on-device processing. By performing computations locally on a user’s device, we help minimize the amount of data that is shared with Apple or other entities. Of course, a user may request on-device experiences powered by machine learning (ML) that can be enriched by looking up global knowledge hosted on servers. To uphold our commitment to privacy while delivering these experiences, we have implemented a combination of technologies to help ensure these server lookups are private, efficient, and scalable.\n\nOf course, this user never requested that my on-device experiences be \"enriched\" by phoning home to Cupertino. This choice was made by Apple, silently, without my consent.\n\nFrom my own perspective, computing privacy is simple: if something happens entirely on my computer, then it's private, whereas if my computer sends data to the manufacturer of the computer, then it's not private, or at least not entirely private. Thus, the only way to guarantee computing privacy is to not send data off the device.\n\nI don't understand most of the technical details of Apple's blog post. I have no way to personally evaluate the soundness of Apple's implementation of Enhanced Visual Sear"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"RECORD_THOUGHT\",\"thought\":\"The article discusses a new feature in Apple Photos that phones home to Apple for enhanced visual search. This may raise privacy concerns among users, impacting their perception of Apple, which could affect stock performance. However, it doesn’t directly address stock performance or risks, so I should look for more relevant articles.\",\"sentiment\":\"neutral\",\"importance\":\"medium\",\"reasoning\":\"While the article covers a feature that could influence consumer trust and privacy perceptions, it lacks direct information on stock performance or financial risks.\"}",
+    "action": "RECORD_THOUGHT",
+    "thought": "The article discusses a new feature in Apple Photos that phones home to Apple for enhanced visual search. This may raise privacy concerns among users, impacting their perception of Apple, which could affect stock performance. However, it doesn’t directly address stock performance or risks, so I should look for more relevant articles.",
+    "sentiment": "neutral",
+    "importance": "medium",
+    "reasoning": "While the article covers a feature that could influence consumer trust and privacy perceptions, it lacks direct information on stock performance or financial risks."
+  },
+  "result": "Recorded thought: The article discusses a new feature in Apple Photos that phones home to Apple for enhanced visual se..."
+}

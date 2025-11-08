@@ -1,0 +1,7 @@
+Web Crawler AI - Research Session
+Ticker: AAPL
+Topic: New releases
+Goal: Find news about new products from apple
+Session: New_releases_2025-11-08_16_03_47_8nmgag
+Started: 2025-11-08T15:03:47.851Z
+============================================================

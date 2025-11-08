@@ -1,0 +1,7 @@
+Stock Guardian - Monitoring MSFT
+Session: MSFT_2025-11-08_14_30_41_s1itlf
+Started: 2025-11-08T13:30:41.266Z
+============================================================
+
+[2025-11-08T13:31:25.097Z] [NEGATIVE] [HIGH]
+Microsoft's decision to force links in Outlook and Teams to open in Edge is generating significant backlash from IT admins, indicating potential user dissatisfaction and operational challenges for businesses. This move could impact MSFT's reputation and user retention.

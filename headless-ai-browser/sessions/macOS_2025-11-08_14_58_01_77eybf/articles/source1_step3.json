@@ -1,0 +1,846 @@
+{
+  "step": 3,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:58:13.384Z",
+  "url": "https://hn.algolia.com/?q=macOS",
+  "title": "All | Search powered by Algolia",
+  "aiSummary": "The search results related to macOS highlight several concerns that could impact Apple’s stock performance and associated risks. Key issues include security vulnerabilities, such as the ability to log in as \"root\" with an empty password and flaws in third-party applications like Adobe Acrobat Reader that could allow unauthorized access. Additionally, performance-related complaints, such as macOS Catalina being described as \"slow by design,\" may affect user satisfaction and, consequently, sales. These factors could influence investor sentiment and stock performance, as they reflect potential risks to Apple's reputation and product reliability.",
+  "allLinks": [
+    {
+      "text": "SearchHacker News",
+      "href": "https://hn.algolia.com/"
+    },
+    {
+      "text": "macOS High Sierra: Anyone can login as “root” with empty password",
+      "href": "https://news.ycombinator.com/item?id=15800676"
+    },
+    {
+      "text": "(https://twitter.com/lemiorhan/status/935578694541770752)",
+      "href": "https://twitter.com/lemiorhan/status/935578694541770752"
+    },
+    {
+      "text": "3001 points",
+      "href": "https://news.ycombinator.com/item?id=15800676"
+    },
+    {
+      "text": "vladikoff",
+      "href": "https://news.ycombinator.com/user?id=vladikoff"
+    },
+    {
+      "text": "8 years ago",
+      "href": "https://news.ycombinator.com/item?id=15800676"
+    },
+    {
+      "text": "1056 comments",
+      "href": "https://news.ycombinator.com/item?id=15800676"
+    },
+    {
+      "text": "macOS unable to open any non-Apple application",
+      "href": "https://news.ycombinator.com/item?id=25074959"
+    },
+    {
+      "text": "(https://twitter.com/lapcatsoftware/status/1326990296412991489)",
+      "href": "https://twitter.com/lapcatsoftware/status/1326990296412991489"
+    },
+    {
+      "text": "2603 points",
+      "href": "https://news.ycombinator.com/item?id=25074959"
+    },
+    {
+      "text": "mattsolle",
+      "href": "https://news.ycombinator.com/user?id=mattsolle"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=25074959"
+    },
+    {
+      "text": "1278 comments",
+      "href": "https://news.ycombinator.com/item?id=25074959"
+    },
+    {
+      "text": "macOS command-line tools you might not know about",
+      "href": "https://news.ycombinator.com/item?id=36491704"
+    },
+    {
+      "text": "(https://saurabhs.org/advanced-macos-commands)",
+      "href": "https://saurabhs.org/advanced-macos-commands"
+    },
+    {
+      "text": "2039 points",
+      "href": "https://news.ycombinator.com/item?id=36491704"
+    },
+    {
+      "text": "Gadiguibou",
+      "href": "https://news.ycombinator.com/user?id=Gadiguibou"
+    },
+    {
+      "text": "2 years ago",
+      "href": "https://news.ycombinator.com/item?id=36491704"
+    },
+    {
+      "text": "442 comments",
+      "href": "https://news.ycombinator.com/item?id=36491704"
+    },
+    {
+      "text": "MacOS Catalina: Slow by Design?",
+      "href": "https://news.ycombinator.com/item?id=23273247"
+    },
+    {
+      "text": "(https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/)",
+      "href": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/"
+    },
+    {
+      "text": "2031 points",
+      "href": "https://news.ycombinator.com/item?id=23273247"
+    },
+    {
+      "text": "jrk",
+      "href": "https://news.ycombinator.com/user?id=jrk"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=23273247"
+    },
+    {
+      "text": "998 comments",
+      "href": "https://news.ycombinator.com/item?id=23273247"
+    },
+    {
+      "text": "Apple Photos phones home on iOS 18 and macOS 15",
+      "href": "https://news.ycombinator.com/item?id=42533685"
+    },
+    {
+      "text": "(https://lapcatsoftware.com/articles/2024/12/3.html)",
+      "href": "https://lapcatsoftware.com/articles/2024/12/3.html"
+    },
+    {
+      "text": "1330 points",
+      "href": "https://news.ycombinator.com/item?id=42533685"
+    },
+    {
+      "text": "latexr",
+      "href": "https://news.ycombinator.com/user?id=latexr"
+    },
+    {
+      "text": "10 months ago",
+      "href": "https://news.ycombinator.com/item?id=42533685"
+    },
+    {
+      "text": "984 comments",
+      "href": "https://news.ycombinator.com/item?id=42533685"
+    },
+    {
+      "text": "Apple's apps bypass firewalls like LittleSnitch and LuLu on macOS Big Sur",
+      "href": "https://news.ycombinator.com/item?id=24838816"
+    },
+    {
+      "text": "(https://twitter.com/patrickwardle/status/1318465421796782082)",
+      "href": "https://twitter.com/patrickwardle/status/1318465421796782082"
+    },
+    {
+      "text": "1183 points",
+      "href": "https://news.ycombinator.com/item?id=24838816"
+    },
+    {
+      "text": "robenkleene",
+      "href": "https://news.ycombinator.com/user?id=robenkleene"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=24838816"
+    },
+    {
+      "text": "616 comments",
+      "href": "https://news.ycombinator.com/item?id=24838816"
+    },
+    {
+      "text": "macOS menu bar app that shows how full the ISS urine tank is in real time",
+      "href": "https://news.ycombinator.com/item?id=42505454"
+    },
+    {
+      "text": "(https://github.com/Jaennaet/pISSStream)",
+      "href": "https://github.com/Jaennaet/pISSStream"
+    },
+    {
+      "text": "1139 points",
+      "href": "https://news.ycombinator.com/item?id=42505454"
+    },
+    {
+      "text": "ajdude",
+      "href": "https://news.ycombinator.com/user?id=ajdude"
+    },
+    {
+      "text": "11 months ago",
+      "href": "https://news.ycombinator.com/item?id=42505454"
+    },
+    {
+      "text": "253 comments",
+      "href": "https://news.ycombinator.com/item?id=42505454"
+    },
+    {
+      "text": "Bug in macOS 14 Sonoma prevents our app from working",
+      "href": "https://news.ycombinator.com/item?id=37498979"
+    },
+    {
+      "text": "(https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/)",
+      "href": "https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/"
+    },
+    {
+      "text": "1020 points",
+      "href": "https://news.ycombinator.com/item?id=37498979"
+    },
+    {
+      "text": "eptcyka",
+      "href": "https://news.ycombinator.com/user?id=eptcyka"
+    },
+    {
+      "text": "2 years ago",
+      "href": "https://news.ycombinator.com/item?id=37498979"
+    },
+    {
+      "text": "246 comments",
+      "href": "https://news.ycombinator.com/item?id=37498979"
+    },
+    {
+      "text": "Mac OS 9",
+      "href": "https://news.ycombinator.com/item?id=33868197"
+    },
+    {
+      "text": "(https://macos9.app/)",
+      "href": "https://macos9.app/"
+    },
+    {
+      "text": "945 points",
+      "href": "https://news.ycombinator.com/item?id=33868197"
+    },
+    {
+      "text": "Shank",
+      "href": "https://news.ycombinator.com/user?id=Shank"
+    },
+    {
+      "text": "3 years ago",
+      "href": "https://news.ycombinator.com/item?id=33868197"
+    },
+    {
+      "text": "349 comments",
+      "href": "https://news.ycombinator.com/item?id=33868197"
+    },
+    {
+      "text": "Security Flaws in Adobe Acrobat Reader Allow Gaining Root on macOS Silently",
+      "href": "https://news.ycombinator.com/item?id=23180975"
+    },
+    {
+      "text": "(https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)",
+      "href": "https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/"
+    },
+    {
+      "text": "871 points",
+      "href": "https://news.ycombinator.com/item?id=23180975"
+    },
+    {
+      "text": "feross",
+      "href": "https://news.ycombinator.com/user?id=feross"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=23180975"
+    },
+    {
+      "text": "418 comments",
+      "href": "https://news.ycombinator.com/item?id=23180975"
+    },
+    {
+      "text": "The Bitcoin whitepaper is hidden in every copy of macOS",
+      "href": "https://news.ycombinator.com/item?id=35461011"
+    },
+    {
+      "text": "(https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)",
+      "href": "https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/"
+    },
+    {
+      "text": "844 points",
+      "href": "https://news.ycombinator.com/item?id=35461011"
+    },
+    {
+      "text": "waxpancake",
+      "href": "https://news.ycombinator.com/user?id=waxpancake"
+    },
+    {
+      "text": "3 years ago",
+      "href": "https://news.ycombinator.com/item?id=35461011"
+    },
+    {
+      "text": "426 comments",
+      "href": "https://news.ycombinator.com/item?id=35461011"
+    },
+    {
+      "text": "FUSE for macOS is no longer open source",
+      "href": "https://news.ycombinator.com/item?id=21759967"
+    },
+    {
+      "text": "(https://colatkinson.site/macos/fuse/2019/09/29/osxfuse/)",
+      "href": "https://colatkinson.site/macos/fuse/2019/09/29/osxfuse/"
+    },
+    {
+      "text": "840 points",
+      "href": "https://news.ycombinator.com/item?id=21759967"
+    },
+    {
+      "text": "khc",
+      "href": "https://news.ycombinator.com/user?id=khc"
+    },
+    {
+      "text": "6 years ago",
+      "href": "https://news.ycombinator.com/item?id=21759967"
+    },
+    {
+      "text": "397 comments",
+      "href": "https://news.ycombinator.com/item?id=21759967"
+    },
+    {
+      "text": "Useful built-in macOS command-line utilities",
+      "href": "https://news.ycombinator.com/item?id=42057431"
+    },
+    {
+      "text": "(https://weiyen.net/articles/useful-macos-cmd-line-utilities)",
+      "href": "https://weiyen.net/articles/useful-macos-cmd-line-utilities"
+    },
+    {
+      "text": "837 points",
+      "href": "https://news.ycombinator.com/item?id=42057431"
+    },
+    {
+      "text": "yen223",
+      "href": "https://news.ycombinator.com/user?id=yen223"
+    },
+    {
+      "text": "1 year ago",
+      "href": "https://news.ycombinator.com/item?id=42057431"
+    },
+    {
+      "text": "231 comments",
+      "href": "https://news.ycombinator.com/item?id=42057431"
+    },
+    {
+      "text": "Apple removes first-party firewall exemption in macOS 11.2 beta 2",
+      "href": "https://news.ycombinator.com/item?id=25771022"
+    },
+    {
+      "text": "(https://twitter.com/patrickwardle/status/1349488392732491776)",
+      "href": "https://twitter.com/patrickwardle/status/1349488392732491776"
+    },
+    {
+      "text": "804 points",
+      "href": "https://news.ycombinator.com/item?id=25771022"
+    },
+    {
+      "text": "mortenjorck",
+      "href": "https://news.ycombinator.com/user?id=mortenjorck"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=25771022"
+    },
+    {
+      "text": "347 comments",
+      "href": "https://news.ycombinator.com/item?id=25771022"
+    },
+    {
+      "text": "LuLu: An open-source macOS firewall that blocks unknown outgoing connections",
+      "href": "https://news.ycombinator.com/item?id=16188502"
+    },
+    {
+      "text": "(https://objective-see.com/products/lulu.html)",
+      "href": "https://objective-see.com/products/lulu.html"
+    },
+    {
+      "text": "804 points",
+      "href": "https://news.ycombinator.com/item?id=16188502"
+    },
+    {
+      "text": "mcone",
+      "href": "https://news.ycombinator.com/user?id=mcone"
+    },
+    {
+      "text": "8 years ago",
+      "href": "https://news.ycombinator.com/item?id=16188502"
+    },
+    {
+      "text": "238 comments",
+      "href": "https://news.ycombinator.com/item?id=16188502"
+    },
+    {
+      "text": "Show HN: Primitive for macOS",
+      "href": "https://news.ycombinator.com/item?id=12958445"
+    },
+    {
+      "text": "(https://primitive.lol/)",
+      "href": "https://primitive.lol/"
+    },
+    {
+      "text": "798 points",
+      "href": "https://news.ycombinator.com/item?id=12958445"
+    },
+    {
+      "text": "fogleman",
+      "href": "https://news.ycombinator.com/user?id=fogleman"
+    },
+    {
+      "text": "9 years ago",
+      "href": "https://news.ycombinator.com/item?id=12958445"
+    },
+    {
+      "text": "145 comments",
+      "href": "https://news.ycombinator.com/item?id=12958445"
+    }
+  ],
+  "pageContext": {
+    "title": "All | Search powered by Algolia",
+    "url": "https://hn.algolia.com/?q=macOS",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/"
+      },
+      {
+        "text": "SearchHacker News",
+        "href": "https://hn.algolia.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral"
+      },
+      {
+        "text": "",
+        "href": "https://hn.algolia.com/settings"
+      },
+      {
+        "text": "macOS High Sierra: Anyone can login as “root” with empty password",
+        "href": "https://news.ycombinator.com/item?id=15800676"
+      },
+      {
+        "text": "(https://twitter.com/lemiorhan/status/935578694541770752)",
+        "href": "https://twitter.com/lemiorhan/status/935578694541770752"
+      },
+      {
+        "text": "3001 points",
+        "href": "https://news.ycombinator.com/item?id=15800676"
+      },
+      {
+        "text": "vladikoff",
+        "href": "https://news.ycombinator.com/user?id=vladikoff"
+      },
+      {
+        "text": "8 years ago",
+        "href": "https://news.ycombinator.com/item?id=15800676"
+      },
+      {
+        "text": "1056 comments",
+        "href": "https://news.ycombinator.com/item?id=15800676"
+      },
+      {
+        "text": "macOS unable to open any non-Apple application",
+        "href": "https://news.ycombinator.com/item?id=25074959"
+      },
+      {
+        "text": "(https://twitter.com/lapcatsoftware/status/1326990296412991489)",
+        "href": "https://twitter.com/lapcatsoftware/status/1326990296412991489"
+      },
+      {
+        "text": "2603 points",
+        "href": "https://news.ycombinator.com/item?id=25074959"
+      },
+      {
+        "text": "mattsolle",
+        "href": "https://news.ycombinator.com/user?id=mattsolle"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=25074959"
+      },
+      {
+        "text": "1278 comments",
+        "href": "https://news.ycombinator.com/item?id=25074959"
+      },
+      {
+        "text": "macOS command-line tools you might not know about",
+        "href": "https://news.ycombinator.com/item?id=36491704"
+      },
+      {
+        "text": "(https://saurabhs.org/advanced-macos-commands)",
+        "href": "https://saurabhs.org/advanced-macos-commands"
+      },
+      {
+        "text": "2039 points",
+        "href": "https://news.ycombinator.com/item?id=36491704"
+      },
+      {
+        "text": "Gadiguibou",
+        "href": "https://news.ycombinator.com/user?id=Gadiguibou"
+      },
+      {
+        "text": "2 years ago",
+        "href": "https://news.ycombinator.com/item?id=36491704"
+      },
+      {
+        "text": "442 comments",
+        "href": "https://news.ycombinator.com/item?id=36491704"
+      },
+      {
+        "text": "MacOS Catalina: Slow by Design?",
+        "href": "https://news.ycombinator.com/item?id=23273247"
+      },
+      {
+        "text": "(https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/)",
+        "href": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/"
+      },
+      {
+        "text": "2031 points",
+        "href": "https://news.ycombinator.com/item?id=23273247"
+      },
+      {
+        "text": "jrk",
+        "href": "https://news.ycombinator.com/user?id=jrk"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=23273247"
+      },
+      {
+        "text": "998 comments",
+        "href": "https://news.ycombinator.com/item?id=23273247"
+      },
+      {
+        "text": "Apple Photos phones home on iOS 18 and macOS 15",
+        "href": "https://news.ycombinator.com/item?id=42533685"
+      },
+      {
+        "text": "(https://lapcatsoftware.com/articles/2024/12/3.html)",
+        "href": "https://lapcatsoftware.com/articles/2024/12/3.html"
+      },
+      {
+        "text": "1330 points",
+        "href": "https://news.ycombinator.com/item?id=42533685"
+      },
+      {
+        "text": "latexr",
+        "href": "https://news.ycombinator.com/user?id=latexr"
+      },
+      {
+        "text": "10 months ago",
+        "href": "https://news.ycombinator.com/item?id=42533685"
+      },
+      {
+        "text": "984 comments",
+        "href": "https://news.ycombinator.com/item?id=42533685"
+      },
+      {
+        "text": "Apple's apps bypass firewalls like LittleSnitch and LuLu on macOS Big Sur",
+        "href": "https://news.ycombinator.com/item?id=24838816"
+      },
+      {
+        "text": "(https://twitter.com/patrickwardle/status/1318465421796782082)",
+        "href": "https://twitter.com/patrickwardle/status/1318465421796782082"
+      },
+      {
+        "text": "1183 points",
+        "href": "https://news.ycombinator.com/item?id=24838816"
+      },
+      {
+        "text": "robenkleene",
+        "href": "https://news.ycombinator.com/user?id=robenkleene"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=24838816"
+      },
+      {
+        "text": "616 comments",
+        "href": "https://news.ycombinator.com/item?id=24838816"
+      },
+      {
+        "text": "macOS menu bar app that shows how full the ISS urine tank is in real time",
+        "href": "https://news.ycombinator.com/item?id=42505454"
+      },
+      {
+        "text": "(https://github.com/Jaennaet/pISSStream)",
+        "href": "https://github.com/Jaennaet/pISSStream"
+      },
+      {
+        "text": "1139 points",
+        "href": "https://news.ycombinator.com/item?id=42505454"
+      },
+      {
+        "text": "ajdude",
+        "href": "https://news.ycombinator.com/user?id=ajdude"
+      },
+      {
+        "text": "11 months ago",
+        "href": "https://news.ycombinator.com/item?id=42505454"
+      },
+      {
+        "text": "253 comments",
+        "href": "https://news.ycombinator.com/item?id=42505454"
+      },
+      {
+        "text": "Bug in macOS 14 Sonoma prevents our app from working",
+        "href": "https://news.ycombinator.com/item?id=37498979"
+      },
+      {
+        "text": "(https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/)",
+        "href": "https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/"
+      },
+      {
+        "text": "1020 points",
+        "href": "https://news.ycombinator.com/item?id=37498979"
+      },
+      {
+        "text": "eptcyka",
+        "href": "https://news.ycombinator.com/user?id=eptcyka"
+      },
+      {
+        "text": "2 years ago",
+        "href": "https://news.ycombinator.com/item?id=37498979"
+      },
+      {
+        "text": "246 comments",
+        "href": "https://news.ycombinator.com/item?id=37498979"
+      },
+      {
+        "text": "Mac OS 9",
+        "href": "https://news.ycombinator.com/item?id=33868197"
+      },
+      {
+        "text": "(https://macos9.app/)",
+        "href": "https://macos9.app/"
+      },
+      {
+        "text": "945 points",
+        "href": "https://news.ycombinator.com/item?id=33868197"
+      },
+      {
+        "text": "Shank",
+        "href": "https://news.ycombinator.com/user?id=Shank"
+      },
+      {
+        "text": "3 years ago",
+        "href": "https://news.ycombinator.com/item?id=33868197"
+      },
+      {
+        "text": "349 comments",
+        "href": "https://news.ycombinator.com/item?id=33868197"
+      },
+      {
+        "text": "Security Flaws in Adobe Acrobat Reader Allow Gaining Root on macOS Silently",
+        "href": "https://news.ycombinator.com/item?id=23180975"
+      },
+      {
+        "text": "(https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)",
+        "href": "https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/"
+      },
+      {
+        "text": "871 points",
+        "href": "https://news.ycombinator.com/item?id=23180975"
+      },
+      {
+        "text": "feross",
+        "href": "https://news.ycombinator.com/user?id=feross"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=23180975"
+      },
+      {
+        "text": "418 comments",
+        "href": "https://news.ycombinator.com/item?id=23180975"
+      },
+      {
+        "text": "The Bitcoin whitepaper is hidden in every copy of macOS",
+        "href": "https://news.ycombinator.com/item?id=35461011"
+      },
+      {
+        "text": "(https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)",
+        "href": "https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/"
+      },
+      {
+        "text": "844 points",
+        "href": "https://news.ycombinator.com/item?id=35461011"
+      },
+      {
+        "text": "waxpancake",
+        "href": "https://news.ycombinator.com/user?id=waxpancake"
+      },
+      {
+        "text": "3 years ago",
+        "href": "https://news.ycombinator.com/item?id=35461011"
+      },
+      {
+        "text": "426 comments",
+        "href": "https://news.ycombinator.com/item?id=35461011"
+      },
+      {
+        "text": "FUSE for macOS is no longer open source",
+        "href": "https://news.ycombinator.com/item?id=21759967"
+      },
+      {
+        "text": "(https://colatkinson.site/macos/fuse/2019/09/29/osxfuse/)",
+        "href": "https://colatkinson.site/macos/fuse/2019/09/29/osxfuse/"
+      },
+      {
+        "text": "840 points",
+        "href": "https://news.ycombinator.com/item?id=21759967"
+      },
+      {
+        "text": "khc",
+        "href": "https://news.ycombinator.com/user?id=khc"
+      },
+      {
+        "text": "6 years ago",
+        "href": "https://news.ycombinator.com/item?id=21759967"
+      },
+      {
+        "text": "397 comments",
+        "href": "https://news.ycombinator.com/item?id=21759967"
+      },
+      {
+        "text": "Useful built-in macOS command-line utilities",
+        "href": "https://news.ycombinator.com/item?id=42057431"
+      },
+      {
+        "text": "(https://weiyen.net/articles/useful-macos-cmd-line-utilities)",
+        "href": "https://weiyen.net/articles/useful-macos-cmd-line-utilities"
+      },
+      {
+        "text": "837 points",
+        "href": "https://news.ycombinator.com/item?id=42057431"
+      },
+      {
+        "text": "yen223",
+        "href": "https://news.ycombinator.com/user?id=yen223"
+      },
+      {
+        "text": "1 year ago",
+        "href": "https://news.ycombinator.com/item?id=42057431"
+      },
+      {
+        "text": "231 comments",
+        "href": "https://news.ycombinator.com/item?id=42057431"
+      },
+      {
+        "text": "Apple removes first-party firewall exemption in macOS 11.2 beta 2",
+        "href": "https://news.ycombinator.com/item?id=25771022"
+      },
+      {
+        "text": "(https://twitter.com/patrickwardle/status/1349488392732491776)",
+        "href": "https://twitter.com/patrickwardle/status/1349488392732491776"
+      },
+      {
+        "text": "804 points",
+        "href": "https://news.ycombinator.com/item?id=25771022"
+      },
+      {
+        "text": "mortenjorck",
+        "href": "https://news.ycombinator.com/user?id=mortenjorck"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=25771022"
+      },
+      {
+        "text": "347 comments",
+        "href": "https://news.ycombinator.com/item?id=25771022"
+      },
+      {
+        "text": "LuLu: An open-source macOS firewall that blocks unknown outgoing connections",
+        "href": "https://news.ycombinator.com/item?id=16188502"
+      },
+      {
+        "text": "(https://objective-see.com/products/lulu.html)",
+        "href": "https://objective-see.com/products/lulu.html"
+      },
+      {
+        "text": "804 points",
+        "href": "https://news.ycombinator.com/item?id=16188502"
+      },
+      {
+        "text": "mcone",
+        "href": "https://news.ycombinator.com/user?id=mcone"
+      },
+      {
+        "text": "8 years ago",
+        "href": "https://news.ycombinator.com/item?id=16188502"
+      },
+      {
+        "text": "238 comments",
+        "href": "https://news.ycombinator.com/item?id=16188502"
+      },
+      {
+        "text": "Show HN: Primitive for macOS",
+        "href": "https://news.ycombinator.com/item?id=12958445"
+      },
+      {
+        "text": "(https://primitive.lol/)",
+        "href": "https://primitive.lol/"
+      },
+      {
+        "text": "798 points",
+        "href": "https://news.ycombinator.com/item?id=12958445"
+      },
+      {
+        "text": "fogleman",
+        "href": "https://news.ycombinator.com/user?id=fogleman"
+      },
+      {
+        "text": "9 years ago",
+        "href": "https://news.ycombinator.com/item?id=12958445"
+      },
+      {
+        "text": "145 comments",
+        "href": "https://news.ycombinator.com/item?id=12958445"
+      }
+    ],
+    "articles": [
+      {
+        "text": "macOS High Sierra: Anyone can login as “root” with empty password(https://twitter.com/lemiorhan/status/935578694541770752)3001 points|vladikoff|8 years ago|1056 comments"
+      },
+      {
+        "text": "macOS unable to open any non-Apple application(https://twitter.com/lapcatsoftware/status/1326990296412991489)2603 points|mattsolle|5 years ago|1278 comments"
+      },
+      {
+        "text": "macOS command-line tools you might not know about(https://saurabhs.org/advanced-macos-commands)2039 points|Gadiguibou|2 years ago|442 comments"
+      },
+      {
+        "text": "MacOS Catalina: Slow by Design?(https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/)2031 points|jrk|5 years ago|998 comments"
+      },
+      {
+        "text": "Apple Photos phones home on iOS 18 and macOS 15(https://lapcatsoftware.com/articles/2024/12/3.html)1330 points|latexr|10 months ago|984 comments"
+      },
+      {
+        "text": "Apple's apps bypass firewalls like LittleSnitch and LuLu on macOS Big Sur(https://twitter.com/patrickwardle/status/1318465421796782082)1183 points|robenkleene|5 years ago|616 comments"
+      },
+      {
+        "text": "macOS menu bar app that shows how full the ISS urine tank is in real time(https://github.com/Jaennaet/pISSStream)1139 points|ajdude|11 months ago|253 comments"
+      },
+      {
+        "text": "Bug in macOS 14 Sonoma prevents our app from working(https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/)1020 points|eptcyka|2 years ago|246 comments"
+      },
+      {
+        "text": "Mac OS 9(https://macos9.app/)945 points|Shank|3 years ago|349 comments"
+      },
+      {
+        "text": "Security Flaws in Adobe Acrobat Reader Allow Gaining Root on macOS Silently(https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)871 points|feross|5 years ago|418 comments"
+      }
+    ],
+    "bodyPreview": "Search\nHacker News\nSearch by\nSearch\nStories\nby\nPopularity\nfor\nAll time\n\n13,987 results (0.016 seconds)\n\nmacOS High Sierra: Anyone can login as “root” with empty password(https://twitter.com/lemiorhan/status/935578694541770752)\n3001 points|vladikoff|8 years ago|1056 comments\nmacOS unable to open any non-Apple application(https://twitter.com/lapcatsoftware/status/1326990296412991489)\n2603 points|mattsolle|5 years ago|1278 comments\nmacOS command-line tools you might not know about(https://saurabhs.org/advanced-macos-commands)\n2039 points|Gadiguibou|2 years ago|442 comments\nMacOS Catalina: Slow by Design?(https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/)\n2031 points|jrk|5 years ago|998 comments\nApple Photos phones home on iOS 18 and macOS 15(https://lapcatsoftware.com/articles/2024/12/3.html)\n1330 points|latexr|10 months ago|984 comments\nApple's apps bypass firewalls like LittleSnitch and LuLu on macOS Big Sur(https://twitter.com/patrickwardle/status/1318465421796782082)\n1183 points|robenkleene|5 years ago|616 comments\nmacOS menu bar app that shows how full the ISS urine tank is in real time(https://github.com/Jaennaet/pISSStream)\n1139 points|ajdude|11 months ago|253 comments\nBug in macOS 14 Sonoma prevents our app from working(https://mullvad.net/en/blog/2023/9/13/bug-in-macos-14-sonoma-prevents-our-app-from-working/)\n1020 points|eptcyka|2 years ago|246 comments\nMac OS 9(https://macos9.app/)\n945 points|Shank|3 years ago|349 comments\nSecurity Flaws in Adobe Acrobat Reader Allow Gaining Root on macOS Silently(https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)\n871 points|feross|5 years ago|418 comments\nThe Bitcoin whitepaper is hidden in every copy of macOS(https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)\n844 points|waxpancake|3 years ago|426 comments\nFUSE for macOS is no longer open source(https://colatkinson.site/macos/fuse/2019/09/29/osxfuse/)\n840 points|khc|6 years ago|397 comments\nUseful built-in macOS command-line utilities(https://weiyen.net/articles/useful-macos-cmd-line-utilities)\n837 points|yen223|1 year ago|231 comments\nApple removes first-party firewall exemption in macOS 11.2 beta 2(https://twitter.com/patrickwardle/status/1349488392732491776)\n804 points|mortenjorck|5 years ago|347 comments\nLuLu: An open-source macOS firewall that blocks unknown outgoing connections(https://objective-see.com/products/lulu.html)\n804 points|mcone|8 years ago|238 comments\nShow HN: Primitive for macOS(https://primitive.lol/)\n798 points|fogleman|9 years ago|145 comments\nHow the Zoom macOS installer does its job without you clicking ‘install’(https://twitter.com/c1truz_/status/1244737672930824193)\n796 points|_Microft|6 years ago|325 comments\nMicrosoft and GitHub team up to take Git virtual file system to macOS, Linux(https://arstechnica.com/gadgets/2017/11/microsoft-and-github-team-up-to-take-git-virtual-file-system-to-macos"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"NAVIGATE\",\"url\":\"https://lapcatsoftware.com/articles/2024/12/3.html\",\"reasoning\":\"This article titled 'Apple Photos phones home on iOS 18 and macOS 15' might contain insights related to Apple stock performance and risks, which aligns with the goal.\"}",
+    "action": "NAVIGATE",
+    "url": "https://lapcatsoftware.com/articles/2024/12/3.html",
+    "reasoning": "This article titled 'Apple Photos phones home on iOS 18 and macOS 15' might contain insights related to Apple stock performance and risks, which aligns with the goal."
+  },
+  "result": "Navigated to https://lapcatsoftware.com/articles/2024/12/3.html"
+}

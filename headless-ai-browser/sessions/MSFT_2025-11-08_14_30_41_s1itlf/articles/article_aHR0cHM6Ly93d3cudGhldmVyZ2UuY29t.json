@@ -1,0 +1,618 @@
+{
+  "url": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open",
+  "title": "Microsoft is forcing Outlook and Teams to open links in Edge, and IT admins are angry | The Verge",
+  "content": "MICROSOFT\nNEWS\nTECH\nMicrosoft is forcing Outlook and Teams to open links in Edge, and IT admins are angry\n\nThe latest gross web push from Microsoft sees businesses forced to use Edge for certain links.\n\nby \nTom Warren\nMay 3, 2023, 9:40 AM UTC\n63\n63\nComments (All New)\nIllustration: The Verge\nTom Warren is a senior editor and author of Notepad, who has been covering all things Microsoft, PC, and tech for over 20 years.\n\nMicrosoft Edge is a good browser but for some reason Microsoft keeps trying to shove it down everyone’s throat and make it more difficult to use rivals like Chrome or Firefox. Microsoft has now started notifying IT admins that it will force Outlook and Teams to ignore the default web browser on Windows and open links in Microsoft Edge instead.\n\nReddit users have posted messages from the Microsoft 365 admin center that reveal how Microsoft is going to roll out this change. “Web links from Azure Active Directory (AAD) accounts and Microsoft (MSA) accounts in the Outlook for Windows app will open in Microsoft Edge in a single view showing the opened link side-by-side with the email it came from,” reads a message to IT admins from Microsoft.\n\nWhile this won’t affect the default browser setting in Windows, it’s yet another part of Microsoft 365 and Windows that totally ignores your default browser choice for links. Microsoft already does this with the Widgets system in Windows 11 and even the search experience, where you’ll be forced into Edge if you click a link even if you have another browser set as default.\n\nMicrosoft’s message to IT admins. Image: paulanerspezi (Reddit)\n\nIT admins aren’t happy with many complaining in various threads on Reddit, spotted by Neowin. If Outlook wasn’t enough, Microsoft says “a similar experience will arrive in Teams” soon with web links from chats opening in Microsoft Edge side-by-side with Teams chats. Microsoft seems to be rolling this out gradually across Microsoft 365 users, and IT admins get 30 days notice before it rolls out to Outlook.\n\nMicrosoft 365 Enterprise IT admins will be able to alter the policy, but those on Microsoft 365 for business will have to manage this change on individual machines. That’s going to leave a lot of small businesses with the unnecessary headache of working out what has changed. Imagine being less tech savvy, clicking a link in Outlook, and thinking you’ve lost all your favorites because it didn’t open in your usual browser.\n\nI asked Microsoft to comment on the changes. “This change is designed to create an easier way for Outlook and Microsoft Teams users to reduce task switching across windows and tabs to help stay focused,” says Katy Asher, senior director of communications at Microsoft, in a statement to The Verge. “By opening browser links in Microsoft Edge, the original message in Outlook or Teams can also be viewed alongside web content to easily access, read and respond to the message, using the matching authenticated profile. Customers have the option to disable this feature in settings.”\n\nThe notifications to IT admins come just weeks after Microsoft promised significant changes to the way Windows manages which apps open certain files or links by default. At the time Microsoft said it believed “we have a responsibility to ensure user choices are respected” and that it’s “important that we lead by example with our own first party Microsoft products.” Forcing people into Microsoft Edge and ignoring default browsers is anything but respecting user choice, and it’s gross that Microsoft continues to abuse this.\n\nMicrosoft tested a similar change to the default Windows 10 Mail app in 2018, in an attempt to force people into Edge for email links. That never came to pass, thanks to a backlash from Windows 10 testers. A similar change in 2020 saw Microsoft try and force Chrome’s default search engine to Bing using the Office 365 installer, and IT admins weren’t happy then either.\n\nWindows 11 also launched with a messy and cumbersome process to set default apps, which was a step back from Windows 10 and drew concern from competing browser makers like Mozilla, Opera, and Vivaldi. A Windows 11 update has improved that process, but it’s clear Microsoft is still interested in finding ways to circumvent default browser choices.\n\nMicrosoft has already been using aggressive prompts to stop you from using Chrome and even added a giant Bing button to Edge in an effort to push people to use its search engine. Microsoft has also faced criticism over adding buy now, pay later financing options into Edge and its plan to build a crypto wallet into Edge. Microsoft also added a prompt to Edge Dev recently that appears when you try to use Google’s rival Bard AI chatbot. This relentless push of Edge, including through Windows Update, could all backfire for Microsoft and end up alienating Edge users instead of tempting them over from Chrome.\n\nUpdate, May 3rd 1PM ET: Article updated with comment from Microsoft.\n\n63\n COMMENTS\nFollow topics and authors from this story to see more like this in your personalized homepage feed and to receive email updates.\nTOM WARREN\nMICROSOFT\nNEWS\nTECH\nMORE IN THIS STREAM\nSEE ALL\nOpera is filing a complaint over Microsoft’s tricks that push you to use Edge\nTOM WARRENJUL 2921\nMicrosoft will finally stop bugging Windows users about Edge — but only in Europe\nRICHARD LAWLERJUN 212\nMicrosoft stops using Bing to trick people into thinking they’re on Google\nTOM WARRENJAN 1519",
+  "timestamp": "2025-11-08T13:31:17.785Z",
+  "headings": [
+    "",
+    "",
+    "",
+    "Microsoft is forcing Outlook and Teams to open links in Edge, and IT admins are angry",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "MORE IN THIS STREAM",
+    "Most Popular",
+    "The Verge Daily",
+    "More in Microsoft",
+    "Top Stories",
+    "Privacy Notice",
+    "Ways we may use your data:",
+    "Privacy Center",
+    "Manage Consent Preferences",
+    "Cookie List"
+  ],
+  "links": [
+    {
+      "text": "SKIP TO MAIN CONTENT",
+      "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open#content"
+    },
+    {
+      "text": "The homepageThe VergeThe Verge logo.",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+    },
+    {
+      "text": "Sign In",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2F2023%2F5%2F3%2F23709297%2Fmicrosoft-edge-force-outlook-teams-web-links-open"
+    },
+    {
+      "text": "The VergeThe Verge logo.",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Tech",
+      "href": "https://www.theverge.com/tech"
+    },
+    {
+      "text": "Reviews",
+      "href": "https://www.theverge.com/reviews"
+    },
+    {
+      "text": "Science",
+      "href": "https://www.theverge.com/science"
+    },
+    {
+      "text": "Entertainment",
+      "href": "https://www.theverge.com/entertainment"
+    },
+    {
+      "text": "AI",
+      "href": "https://www.theverge.com/ai-artificial-intelligence"
+    },
+    {
+      "text": "The homepage",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "SUBSCRIBE",
+      "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+    },
+    {
+      "text": "Login",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2F2023%2F5%2F3%2F23709297%2Fmicrosoft-edge-force-outlook-teams-web-links-open"
+    },
+    {
+      "text": "Sign Up",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2F2023%2F5%2F3%2F23709297%2Fmicrosoft-edge-force-outlook-teams-web-links-open"
+    },
+    {
+      "text": "Amazon",
+      "href": "https://www.theverge.com/amazon"
+    },
+    {
+      "text": "Apple",
+      "href": "https://www.theverge.com/apple"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.theverge.com/facebook"
+    },
+    {
+      "text": "Google",
+      "href": "https://www.theverge.com/google"
+    },
+    {
+      "text": "Microsoft",
+      "href": "https://www.theverge.com/microsoft"
+    },
+    {
+      "text": "Samsung",
+      "href": "https://www.theverge.com/samsung"
+    },
+    {
+      "text": "Business",
+      "href": "https://www.theverge.com/business"
+    },
+    {
+      "text": "Creators",
+      "href": "https://www.theverge.com/creators"
+    },
+    {
+      "text": "Mobile",
+      "href": "https://www.theverge.com/mobile"
+    },
+    {
+      "text": "Policy",
+      "href": "https://www.theverge.com/policy"
+    },
+    {
+      "text": "Security",
+      "href": "https://www.theverge.com/cyber-security"
+    },
+    {
+      "text": "Transportation",
+      "href": "https://www.theverge.com/transportation"
+    },
+    {
+      "text": "Buying Guides",
+      "href": "https://www.theverge.com/buying-guides"
+    },
+    {
+      "text": "Deals",
+      "href": "https://www.theverge.com/good-deals"
+    },
+    {
+      "text": "Gift Guide",
+      "href": "https://www.theverge.com/gift-guide"
+    },
+    {
+      "text": "Laptops",
+      "href": "https://www.theverge.com/laptops"
+    },
+    {
+      "text": "Phones",
+      "href": "https://www.theverge.com/phones"
+    },
+    {
+      "text": "Headphones",
+      "href": "https://www.theverge.com/headphone"
+    },
+    {
+      "text": "Tablets",
+      "href": "https://www.theverge.com/tablet-review"
+    },
+    {
+      "text": "Smart Home",
+      "href": "https://www.theverge.com/smart-home-review"
+    },
+    {
+      "text": "Smartwatches",
+      "href": "https://www.theverge.com/smartwatch-review"
+    },
+    {
+      "text": "Speakers",
+      "href": "https://www.theverge.com/speakers"
+    },
+    {
+      "text": "Drones",
+      "href": "https://www.theverge.com/drone"
+    },
+    {
+      "text": "Space",
+      "href": "https://www.theverge.com/space"
+    },
+    {
+      "text": "Energy",
+      "href": "https://www.theverge.com/energy"
+    },
+    {
+      "text": "Environment",
+      "href": "https://www.theverge.com/environment"
+    },
+    {
+      "text": "Health",
+      "href": "https://www.theverge.com/health"
+    },
+    {
+      "text": "Games",
+      "href": "https://www.theverge.com/games"
+    },
+    {
+      "text": "TV Shows",
+      "href": "https://www.theverge.com/tv"
+    },
+    {
+      "text": "Movies",
+      "href": "https://www.theverge.com/film"
+    },
+    {
+      "text": "Audio",
+      "href": "https://www.theverge.com/audio"
+    },
+    {
+      "text": "AI",
+      "href": "https://www.theverge.com/ai-artificial-intelligence"
+    },
+    {
+      "text": "Electric Cars",
+      "href": "https://www.theverge.com/electric-cars"
+    },
+    {
+      "text": "Autonomous Cars",
+      "href": "https://www.theverge.com/autonomous-cars"
+    },
+    {
+      "text": "Ride-sharing",
+      "href": "https://www.theverge.com/ride-sharing"
+    },
+    {
+      "text": "Scooters",
+      "href": "https://www.theverge.com/scooters"
+    },
+    {
+      "text": "Other Transportation",
+      "href": "https://www.theverge.com/transportation"
+    },
+    {
+      "text": "Features",
+      "href": "https://www.theverge.com/features"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/theverge"
+    },
+    {
+      "text": "TikTok",
+      "href": "https://www.tiktok.com/@verge"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/verge"
+    },
+    {
+      "text": "Decoder",
+      "href": "https://www.theverge.com/decoder-podcast-with-nilay-patel"
+    },
+    {
+      "text": "The Vergecast",
+      "href": "https://www.theverge.com/the-vergecast"
+    },
+    {
+      "text": "Version History",
+      "href": "https://www.theverge.com/version-history-podcast"
+    },
+    {
+      "text": "The Verge Daily",
+      "href": "https://www.theverge.com/pages/sign-up-for-verge-daily"
+    },
+    {
+      "text": "Installer",
+      "href": "https://www.theverge.com/installer-newsletter"
+    },
+    {
+      "text": "Verge Deals",
+      "href": "https://www.theverge.com/2024/9/20/24249294/verge-deals-newsletter-subscribe-tech-discounts"
+    },
+    {
+      "text": "Notepad",
+      "href": "https://www.theverge.com/notepad-microsoft-newsletter"
+    },
+    {
+      "text": "Optimizer",
+      "href": "https://www.theverge.com/optimizer-newsletter"
+    },
+    {
+      "text": "Regulator",
+      "href": "https://www.theverge.com/regulator-newsletter"
+    },
+    {
+      "text": "The Stepback",
+      "href": "https://www.theverge.com/the-stepback-newsletter"
+    },
+    {
+      "text": "Archives",
+      "href": "https://www.theverge.com/archives/full"
+    },
+    {
+      "text": "Store",
+      "href": "https://shop.theverge.com/"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.theverge.com/subscribe?itm_campaign=menu-nav-subscribe&itm_medium=site&itm_source=navigation"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/verge"
+    },
+    {
+      "text": "Threads",
+      "href": "https://www.threads.net/@verge"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/verge"
+    },
+    {
+      "text": "Youtube",
+      "href": "https://www.youtube.com/user/theverge"
+    },
+    {
+      "text": "RSS",
+      "href": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "text": "63",
+      "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open#comments"
+    },
+    {
+      "text": "63\n63\nComments (All New)",
+      "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open#comments"
+    },
+    {
+      "text": "Notepad",
+      "href": "https://www.theverge.com/notepad-microsoft-newsletter"
+    },
+    {
+      "text": "Reddit users",
+      "href": "https://www.reddit.com/r/sysadmin/comments/132buu6/outlook_and_teams_to_ignore_default_web_browser/"
+    },
+    {
+      "text": "Reddit",
+      "href": "https://www.reddit.com/r/sysadmin/comments/132buu6/outlook_and_teams_to_ignore_default_web_browser/"
+    },
+    {
+      "text": "threads on Reddit",
+      "href": "https://www.reddit.com/r/sysadmin/comments/12mlnv9/outlook_to_ignore_default_browser_open_all_links/"
+    },
+    {
+      "text": "Neowin",
+      "href": "https://www.neowin.net/news/outlook-and-soon-teams-links-to-open-in-microsoft-edge-by-default-users-arent-too-pleased/"
+    },
+    {
+      "text": "Microsoft promised significant changes",
+      "href": "https://www.theverge.com/2023/3/17/23645140/microsoft-windows-11-app-default-taskbar-button-pinning-api"
+    },
+    {
+      "text": "Windows 10 Mail app in 2018",
+      "href": "https://www.theverge.com/2018/3/16/17130566/microsoft-windows-10-mail-edge-default-links"
+    },
+    {
+      "text": "Microsoft try and force Chrome’s default search engine to Bing",
+      "href": "https://www.theverge.com/2020/1/22/21077280/microsoft-chrome-bing-extension-office-365-proplus-installer-default-search-engine"
+    },
+    {
+      "text": "drew concern",
+      "href": "https://www.theverge.com/22630319/microsoft-windows-11-default-browser-changes"
+    },
+    {
+      "text": "aggressive prompts",
+      "href": "https://www.theverge.com/2021/12/2/22813733/microsoft-windows-edge-download-chrome-prompts"
+    },
+    {
+      "text": "buy now, pay later",
+      "href": "https://www.theverge.com/2021/11/30/22810595/microsoft-edge-zip-buy-now-pay-later"
+    },
+    {
+      "text": "build a crypto wallet into Edge",
+      "href": "https://www.theverge.com/2023/3/21/23649834/microsoft-edge-cryptocurrency-wallet-feature"
+    },
+    {
+      "text": "when you try to use Google’s rival Bard AI chatbot",
+      "href": "https://www.theverge.com/2023/4/28/23702274/microsoft-edge-developer-bing-ai-chatbot-advertisement-google-bard"
+    },
+    {
+      "text": "through Windows Update",
+      "href": "https://www.theverge.com/21310611/microsoft-edge-browser-forced-update-chromium-editorial"
+    },
+    {
+      "text": "63\n COMMENTS",
+      "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open#comments"
+    },
+    {
+      "text": "SEE ALL",
+      "href": "https://www.theverge.com/23935029/microsoft-edge-forced-windows-10-google-chrome-fight"
+    },
+    {
+      "text": "Opera is filing a complaint over Microsoft’s tricks that push you to use Edge",
+      "href": "https://www.theverge.com/news/715082/opera-microsoft-competition-complaint-edge-windows-tricks"
+    },
+    {
+      "text": "21",
+      "href": "https://www.theverge.com/news/715082/opera-microsoft-competition-complaint-edge-windows-tricks#comments"
+    },
+    {
+      "text": "Microsoft will finally stop bugging Windows users about Edge — but only in Europe",
+      "href": "https://www.theverge.com/news/678350/microsoft-dma-windows-10-11-bing-edge"
+    },
+    {
+      "text": "12",
+      "href": "https://www.theverge.com/news/678350/microsoft-dma-windows-10-11-bing-edge#comments"
+    },
+    {
+      "text": "Microsoft stops using Bing to trick people into thinking they’re on Google",
+      "href": "https://www.theverge.com/2025/1/15/24344207/microsoft-bing-search-results-google-design-change-reversed"
+    },
+    {
+      "text": "19",
+      "href": "https://www.theverge.com/2025/1/15/24344207/microsoft-bing-search-results-google-design-change-reversed#comments"
+    },
+    {
+      "text": "Nintendo is getting the Switch ready for retirement",
+      "href": "https://www.theverge.com/news/814273/nintendo-switch-2-console-primary-focus-pivot"
+    },
+    {
+      "text": "The Polestar 4 takes EV minimalism to the next level",
+      "href": "https://www.theverge.com/transportation/814717/polestar-4-review-specs-price-rear-windshield"
+    },
+    {
+      "text": "Grindr has been sold by its Chinese owner after the US expressed security concerns",
+      "href": "https://www.theverge.com/2020/3/6/21168079/grindr-sold-chinese-owner-us-cfius-security-concerns-kunlun-lgbtq"
+    },
+    {
+      "text": "Chaos and lies: Why Sam Altman was booted from OpenAI, according to new testimony",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/814876/ilya-sutskever-deposition-openai-sam-altman-elon-musk-lawsuit"
+    },
+    {
+      "text": "Spotify is launching a weekly mini ‘Wrapped’",
+      "href": "https://www.theverge.com/news/815521/spotify-listening-stats-weekly-feature-wrapped"
+    },
+    {
+      "text": "Terms",
+      "href": "https://www.voxmedia.com/legal/terms-of-use"
+    },
+    {
+      "text": "Privacy Notice",
+      "href": "https://www.voxmedia.com/legal/privacy-notice"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://policies.google.com/privacy"
+    },
+    {
+      "text": "Terms of Service",
+      "href": "https://policies.google.com/terms"
+    },
+    {
+      "text": "Advertiser Content FromThis is the title for the native ad",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Microsoft",
+      "href": "https://www.theverge.com/microsoft"
+    },
+    {
+      "text": "Big Tech tax breaks could’ve funded benefits for millions, Senator Warren finds",
+      "href": "https://www.theverge.com/news/816267/senator-elizabeth-warren-tax-break-microsoft-amazon"
+    },
+    {
+      "text": "Microsoft AI says it’ll make superintelligent AI that won’t be terrible for humanity",
+      "href": "https://www.theverge.com/news/815619/microsoft-ai-humanist-superintelligence"
+    },
+    {
+      "text": "The best laptop deals you can get right now",
+      "href": "https://www.theverge.com/good-deals/23161948/apple-macbook-lenovo-acer-deal-sale"
+    },
+    {
+      "text": "Microsoft AI’s first in-house image generator MAI-Image-1 is now available",
+      "href": "https://www.theverge.com/news/813789/microsoft-in-house-ai-image-generator-mai-image-1"
+    },
+    {
+      "text": "The AI industry is running on FOMO",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/812455/ai-industry-earnings-bubble-fomo-hype"
+    },
+    {
+      "text": "Why the Zune never killed the iPod",
+      "href": "https://www.theverge.com/podcast/811595/microsoft-zune-version-history"
+    },
+    {
+      "text": "Big Tech tax breaks could’ve funded benefits for millions, Senator Warren finds",
+      "href": "https://www.theverge.com/news/816267/senator-elizabeth-warren-tax-break-microsoft-amazon"
+    },
+    {
+      "text": "CommentsComment Icon Bubble9",
+      "href": "https://www.theverge.com/news/816267/senator-elizabeth-warren-tax-break-microsoft-amazon#comments"
+    },
+    {
+      "text": "Microsoft AI says it’ll make superintelligent AI that won’t be terrible for humanity",
+      "href": "https://www.theverge.com/news/815619/microsoft-ai-humanist-superintelligence"
+    },
+    {
+      "text": "CommentsComment Icon Bubble27",
+      "href": "https://www.theverge.com/news/815619/microsoft-ai-humanist-superintelligence#comments"
+    },
+    {
+      "text": "The best laptop deals you can get right now",
+      "href": "https://www.theverge.com/good-deals/23161948/apple-macbook-lenovo-acer-deal-sale"
+    },
+    {
+      "text": "Microsoft AI’s first in-house image generator MAI-Image-1 is now available",
+      "href": "https://www.theverge.com/news/813789/microsoft-in-house-ai-image-generator-mai-image-1"
+    },
+    {
+      "text": "The AI industry is running on FOMO",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/812455/ai-industry-earnings-bubble-fomo-hype"
+    },
+    {
+      "text": "CommentsComment Icon Bubble97",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/812455/ai-industry-earnings-bubble-fomo-hype#comments"
+    },
+    {
+      "text": "Why the Zune never killed the iPod",
+      "href": "https://www.theverge.com/podcast/811595/microsoft-zune-version-history"
+    },
+    {
+      "text": "CommentsComment Icon Bubble125",
+      "href": "https://www.theverge.com/podcast/811595/microsoft-zune-version-history#comments"
+    },
+    {
+      "text": "ADVERTISER CONTENT FROM\n\nThis is the title for the native ad",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Maybe Peloton is its own worst enemy",
+      "href": "https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitness"
+    },
+    {
+      "text": "Apple’s latest sci-fi series Pluribus luxuriates in its mystery",
+      "href": "https://www.theverge.com/entertainment/815745/pluribus-review-apple-tv"
+    },
+    {
+      "text": "Does the Trump phone exist yet?",
+      "href": "https://www.theverge.com/news/816484/does-trump-phone-exist-yet"
+    },
+    {
+      "text": "The Polestar 4 takes EV minimalism to the next level",
+      "href": "https://www.theverge.com/transportation/814717/polestar-4-review-specs-price-rear-windshield"
+    },
+    {
+      "text": "Tesla rewards Elon Musk’s reality-distortion field",
+      "href": "https://www.theverge.com/transportation/816259/tesla-shareholder-elon-musk-pay-package-reality-distortion"
+    },
+    {
+      "text": "The best early Black Friday deals we’ve found so far on laptops, TVs, and more",
+      "href": "https://www.theverge.com/tech/814345/black-friday-best-early-deals-2025"
+    },
+    {
+      "text": "Contact",
+      "href": "https://www.theverge.com/contact"
+    },
+    {
+      "text": "Tip Us",
+      "href": "https://www.theverge.com/c/tech/22579076/how-to-tip-the-verge-email-signal-and-more"
+    },
+    {
+      "text": "Community Guidelines",
+      "href": "https://www.theverge.com/community-guidelines"
+    },
+    {
+      "text": "Archives",
+      "href": "https://www.theverge.com/archives/full"
+    },
+    {
+      "text": "About",
+      "href": "https://www.theverge.com/about-the-verge"
+    },
+    {
+      "text": "Ethics Statement",
+      "href": "https://www.theverge.com/ethics-statement"
+    },
+    {
+      "text": "How We Rate and Review Products",
+      "href": "https://www.theverge.com/pages/how-we-rate"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "https://www.voxmedia.com/legal/terms-of-use"
+    },
+    {
+      "text": "Privacy Notice",
+      "href": "https://www.voxmedia.com/legal/privacy-notice"
+    },
+    {
+      "text": "Cookie Policy",
+      "href": "https://www.voxmedia.com/legal/cookie-policy"
+    },
+    {
+      "text": "Licensing FAQ",
+      "href": "https://www.voxmedia.com/pages/licensing"
+    },
+    {
+      "text": "Accessibility",
+      "href": "https://www.voxmedia.com/legal/accessibility"
+    },
+    {
+      "text": "Platform Status",
+      "href": "https://status.voxmedia.com/"
+    },
+    {
+      "text": "VOX MEDIA",
+      "href": "https://www.voxmedia.com/"
+    },
+    {
+      "text": "Cookie Policy",
+      "href": "https://www.voxmedia.com/legal/cookie-policy"
+    },
+    {
+      "text": "Cookie Policy",
+      "href": "https://www.voxmedia.com/legal/cookie-policy"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "step": 5,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:34:43.419Z",
+  "url": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/",
+  "title": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition - Casey Primozic's Homepage",
+  "aiSummary": "The webpage discusses the training of small neural networks to perform binary addition, highlighting the effectiveness of even modestly sized models in specialized tasks. The author emphasizes the potential of small networks to emulate logic gate behavior, particularly in handling binary addition with overflow. While the exploration is primarily technical and academic, it reflects a growing interest in neural network capabilities, which could influence market sentiment positively toward AI technology. However, risks include the inherent complexity of scaling these models for more extensive applications and the uncertainty of their performance in practical scenarios. Overall, opportunities lie in developing efficient, specialized AI solutions that can perform specific tasks effectively.",
+  "allLinks": [
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "Portfolio",
+      "href": "https://cprimozic.net/portfolio/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://cprimozic.net/contact/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://cprimozic.net/blog/"
+    },
+    {
+      "text": "Professional Experience",
+      "href": "https://cprimozic.net/professional/"
+    },
+    {
+      "text": "Subscribe to Blog via RSS",
+      "href": "https://cprimozic.net/rss.xml"
+    },
+    {
+      "text": "Training the Network",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#training-the-network"
+    },
+    {
+      "text": "Unique Activation Functions",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#unique-activation-functions"
+    },
+    {
+      "text": "Dissecting the Model",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#dissecting-the-model"
+    },
+    {
+      "text": "The Network's Clever Solution",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#the-networks-clever-solution"
+    },
+    {
+      "text": "Summary",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#summary"
+    },
+    {
+      "text": "Epilogue",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#epilogue"
+    },
+    {
+      "text": "previous work",
+      "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/"
+    },
+    {
+      "text": "other post",
+      "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/#designing-a-new-activation-function"
+    },
+    {
+      "text": "The Bitter Lesson",
+      "href": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10"
+    },
+    {
+      "text": "@ameo@mastodon.ameo.dev",
+      "href": "https://mastodon.ameo.dev/@ameo"
+    }
+  ],
+  "pageContext": {
+    "title": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition - Casey Primozic's Homepage",
+    "url": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "Portfolio",
+        "href": "https://cprimozic.net/portfolio/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://cprimozic.net/contact/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://cprimozic.net/blog/"
+      },
+      {
+        "text": "Professional Experience",
+        "href": "https://cprimozic.net/professional/"
+      },
+      {
+        "text": "Subscribe to Blog via RSS",
+        "href": "https://cprimozic.net/rss.xml"
+      },
+      {
+        "text": "Training the Network",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#training-the-network"
+      },
+      {
+        "text": "Unique Activation Functions",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#unique-activation-functions"
+      },
+      {
+        "text": "Dissecting the Model",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#dissecting-the-model"
+      },
+      {
+        "text": "The Network's Clever Solution",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#the-networks-clever-solution"
+      },
+      {
+        "text": "Summary",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#summary"
+      },
+      {
+        "text": "Epilogue",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#epilogue"
+      },
+      {
+        "text": "previous work",
+        "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.b-cdn.net/static/0224af3f1d8139144d337a8b97de474a/59a4c/full-adder.png"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#training-the-network"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.b-cdn.net/static/8a851191cf7f5845046460431a9d2ee6/9733e/training-accuracy-plot.png"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#unique-activation-functions"
+      },
+      {
+        "text": "other post",
+        "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/#designing-a-new-activation-function"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#dissecting-the-model"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#the-networks-clever-solution"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.b-cdn.net/static/47b0d6bde79177c307f6a3a0255d0677/74986/digital_to_analog_converter.png"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.b-cdn.net/static/35d5effd593a2caf5312a03358bfa1f7/df8b9/sine-combinations.png"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#summary"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/#epilogue"
+      },
+      {
+        "text": "The Bitter Lesson",
+        "href": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10"
+      },
+      {
+        "text": "@ameo@mastodon.ameo.dev",
+        "href": "https://mastodon.ameo.dev/@ameo"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "cprimozic.net\n@ameobea10\n•\nPortfolio\n•\nContact\n•\nBlog\n•\nProfessional Experience\nReverse Engineering a Neural Network's Clever Solution to Binary Addition\n2023-01-15\nSubscribe to Blog via RSS \n\nTraining the Network\n\nUnique Activation Functions\n\nDissecting the Model\n\nThe Network's Clever Solution\n\nSummary\n\nEpilogue\n\nThere's a ton of attention lately on massive neural networks with billions of parameters, and rightly so. By combining huge parameter counts with powerful architectures like transformers and diffusion, neural networks are capable of accomplishing astounding feats.\n\nHowever, even small networks can be surprisingly effective - especially when they're specifically designed for a specialized use-case. As part of some previous work I did, I was training small (<1000 parameter) networks to generate sequence-to-sequence mappings and perform other simple logic tasks. I wanted the models to be as small and simple as possible with the goal of building little interactive visualizations of their internal states.\n\nAfter finding good success on very simple problems, I tried training neural networks to perform binary addition. The networks would receive the bits for two 8-bit unsigned integers as input (converted the bits to floats as -1 for binary 0 and +1 for binary 1) and would be expected to produce properly-added output, including handling wrapping of overflows.\n\nTraining example in binary:\n\n  01001011 + 11010110 -> 00100001\n\nAs input/output vectors for NN training:\n\n  input:  [-1, 1, -1, -1, 1, -1, 1, 1, 1, 1, -1, 1, -1, 1, 1, -1]\n  output: [-1, -1, 1, -1, -1, -1, -1, 1]\n\nWhat I hoped/imagined the network would learn internally is something akin to a binary adder circuit:\n\nI expected that it would identify the relationships between different bits in the input and output, route them around as needed, and use the neurons as logic gates - which I'd seen happen in the past for other problems I tested.\n\nTraining the Network\n\nTo start out, I created a network with a pretty generous architecture that had 5 layers and several thousand parameters. However, I wasn't sure even that was enough. The logic circuit diagram above for the binary adder only handles a single bit; adding 8 bits to 8 bits would require a much larger number of gates, and the network would have to model all of them.\n\nAdditionally, I wasn't sure how the network would handle long chains of carries. When adding 11111111 + 00000001, for example, it wraps and produces an output of 00000000. In order for that to happen, the carry from the least-significant bit needs to propagate all the way through the adder to the most-significant bit. I thought that there was a good chance the network would need at least 8 layers in order to facilitate this kind of behavior.\n\nEven though I wasn't sure if it was going to be able to learn anything at all, I started off training the model.\n\nI created training data by generating random 8-bit unsigned integers and adding them together with wrapping. In additio"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"extract_article\",\"reasoning\":\"The article discusses reverse engineering a neural network, which is highly relevant to AI and provides insights on neural network functionality and applications.\"}",
+    "action": "extract_article",
+    "reasoning": "The article discusses reverse engineering a neural network, which is highly relevant to AI and provides insights on neural network functionality and applications."
+  },
+  "result": "Extracted article: Reverse Engineering a Neural Network's Clever Solution to Binary Addition - Casey Primozic's Homepage"
+}

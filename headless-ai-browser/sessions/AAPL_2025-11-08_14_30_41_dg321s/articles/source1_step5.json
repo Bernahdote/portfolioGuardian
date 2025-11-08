@@ -1,0 +1,773 @@
+{
+  "step": 5,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:31:21.669Z",
+  "url": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/",
+  "title": "Apple is reportedly working on a cheaper Mac laptop with an iPhone chip #Vergecast - Apple News",
+  "aiSummary": "Apple is reportedly developing a low-cost Mac laptop that will utilize an iPhone chip, aiming for a launch in the first half of 2026. This move could enhance Apple's market reach by appealing to budget-conscious consumers, potentially improving sales and market sentiment. However, the introduction of a cheaper product may also raise concerns about brand dilution and impact on profit margins. Overall, this development presents both opportunities for growth in new market segments and risks related to Apple's premium brand positioning.",
+  "allLinks": [
+    {
+      "text": "Skip to content",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/#content"
+    },
+    {
+      "text": "Apple News",
+      "href": "https://apple.4800bps.com/blog/"
+    },
+    {
+      "text": "Amazon",
+      "href": "https://www.amazon.com/gp/search?ie=UTF8&tag=amazon0bb9-20&linkCode=ur2&linkId=0f83f1a00d7903e138614fc0c867f933&camp=1789&creative=9325&index=aps&keywords=apple"
+    },
+    {
+      "text": "eBay",
+      "href": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=apple&_sacat=0&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338793693&toolid=20008&mkevt=1"
+    },
+    {
+      "text": "Google Search",
+      "href": "https://www.google.com/search?newwindow=1&q=apple"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/results?search_query=apple"
+    },
+    {
+      "text": "Wikipedia",
+      "href": "https://en.wikipedia.org/wiki/Apple_Inc."
+    },
+    {
+      "text": "November 8, 2025",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+    },
+    {
+      "text": "Apple News",
+      "href": "https://apple.4800bps.com/blog/author/apple_admin/"
+    },
+    {
+      "text": "Uncategorized",
+      "href": "https://apple.4800bps.com/blog/category/uncategorized/"
+    },
+    {
+      "text": "View full source",
+      "href": "https://www.youtube.com/shorts/Ojzomk6epc0"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://apple.4800bps.com/blog/tag/youtube/"
+    },
+    {
+      "text": "Previous Post:Apple is crossing a Steve Jobs red line | Ken Segall",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-crossing-a-steve-jobs-red-line-ken-segall/"
+    },
+    {
+      "text": "Next Post:Apple pie vs pumpkin pie! Crisp, cinnamon comfort or silky, spiced sweater – Facebook",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apple-pie-vs-pumpkin-pie-crisp-cinnamon-comfort-or-silky-spiced-sweater-facebook/"
+    },
+    {
+      "text": "iOS 26.1 update boosts iPhone security and performance improvements – Fox News",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/ios-26-1-update-boosts-iphone-security-and-performance-improvements-fox-news/"
+    },
+    {
+      "text": "Apple's early Black Friday deals are live from $24 on Amazon ? shop iPads, MacBooks …",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apples-early-black-friday-deals-are-live-from-24-on-amazon-shop-ipads-macbooks/"
+    },
+    {
+      "text": "Amazon Black Friday deals are here early from Dyson, Apple and more – Yahoo",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/amazon-black-friday-deals-are-here-early-from-dyson-apple-and-more-yahoo/"
+    },
+    {
+      "text": "Samsung Wants to Launch a U.S. Credit Card and Challenge Apple in Consumer Finance",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/samsung-wants-to-launch-a-u-s-credit-card-and-challenge-apple-in-consumer-finance-2/"
+    },
+    {
+      "text": "Your Apple Is There A Way To Delete All Messages On Apple Watch Phone Calls How To …",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/your-apple-is-there-a-way-to-delete-all-messages-on-apple-watch-phone-calls-how-to/"
+    },
+    {
+      "text": "Carcavelos (Cascais, Portugal)",
+      "href": "https://carcavelos.4800bps.com/blog/"
+    },
+    {
+      "text": "Land Rover",
+      "href": "https://landrover.4800bps.com/blog/"
+    },
+    {
+      "text": "Fortnite",
+      "href": "https://fortnite.4800bps.com/blog/"
+    },
+    {
+      "text": "PS5",
+      "href": "https://ps5.4800bps.com/blog/"
+    },
+    {
+      "text": "PlayStation",
+      "href": "https://playstation.4800bps.com/blog/"
+    },
+    {
+      "text": "Pokémon",
+      "href": "https://pokemon.4800bps.com/blog/"
+    },
+    {
+      "text": "Apple",
+      "href": "https://apple.4800bps.com/blog/"
+    },
+    {
+      "text": "iPhone",
+      "href": "https://iphone.4800bps.com/blog/"
+    },
+    {
+      "text": "Tesla",
+      "href": "https://tesla.4800bps.com/blog/"
+    },
+    {
+      "text": "TikTok",
+      "href": "https://tiktok.4800bps.com/blog/"
+    },
+    {
+      "text": "Roblox",
+      "href": "https://roblox.4800bps.com/blog/"
+    }
+  ],
+  "pageContext": {
+    "title": "Apple is reportedly working on a cheaper Mac laptop with an iPhone chip #Vergecast - Apple News",
+    "url": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/",
+    "inputs": [
+      {
+        "type": "search",
+        "name": "s",
+        "id": "",
+        "placeholder": "Search …",
+        "selector": "input[name=\"s\"]"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-2",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-2"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-7",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-7"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-8",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-8"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-9",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-9"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-10",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-10"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-purpose-11",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-purpose-11"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-11",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-11"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-14",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-14"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-15",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-15"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-21",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-21"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-23",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-23"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-28",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-28"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-32",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-32"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-36",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-36"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-50",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-50"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-52",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-52"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-76",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-76"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-85",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-85"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-93",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-93"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-98",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-98"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-104",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-104"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-124",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-124"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-126",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-126"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-142",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-142"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-156",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-156"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-163",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-163"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-173",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-173"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-192",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-192"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-202",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-202"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-209",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-209"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-231",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-231"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-232",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-232"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-238",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-238"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-246",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-246"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-253",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-253"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-264",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-264"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-278",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-278"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-284",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-284"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-290",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-290"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-294",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-294"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-297",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-297"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-394",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-394"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-431",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-431"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-452",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-452"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-527",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-527"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-528",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-528"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-541",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-541"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-559",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-559"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-612",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-612"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-667",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-667"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-690",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-690"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-699",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-699"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-728",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-728"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-740",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-740"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-755",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-755"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-767",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-767"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-804",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-804"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-807",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-807"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-867",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-867"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1005",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1005"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1019",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1019"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1067",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1067"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1071",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1071"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1135",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1135"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "fc-preference-slider-gvl-vendor-1142",
+        "placeholder": "",
+        "selector": "#fc-preference-slider-gvl-vendor-1142"
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/#content"
+      },
+      {
+        "text": "Apple News",
+        "href": "https://apple.4800bps.com/blog/"
+      },
+      {
+        "text": "Amazon",
+        "href": "https://www.amazon.com/gp/search?ie=UTF8&tag=amazon0bb9-20&linkCode=ur2&linkId=0f83f1a00d7903e138614fc0c867f933&camp=1789&creative=9325&index=aps&keywords=apple"
+      },
+      {
+        "text": "eBay",
+        "href": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=apple&_sacat=0&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338793693&toolid=20008&mkevt=1"
+      },
+      {
+        "text": "Google Search",
+        "href": "https://www.google.com/search?newwindow=1&q=apple"
+      },
+      {
+        "text": "YouTube",
+        "href": "https://www.youtube.com/results?search_query=apple"
+      },
+      {
+        "text": "Wikipedia",
+        "href": "https://en.wikipedia.org/wiki/Apple_Inc."
+      },
+      {
+        "text": "November 8, 2025",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "Apple News",
+        "href": "https://apple.4800bps.com/blog/author/apple_admin/"
+      },
+      {
+        "text": "Uncategorized",
+        "href": "https://apple.4800bps.com/blog/category/uncategorized/"
+      },
+      {
+        "text": "View full source",
+        "href": "https://www.youtube.com/shorts/Ojzomk6epc0"
+      },
+      {
+        "text": "YouTube",
+        "href": "https://apple.4800bps.com/blog/tag/youtube/"
+      },
+      {
+        "text": "Previous Post:Apple is crossing a Steve Jobs red line | Ken Segall",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-crossing-a-steve-jobs-red-line-ken-segall/"
+      },
+      {
+        "text": "Next Post:Apple pie vs pumpkin pie! Crisp, cinnamon comfort or silky, spiced sweater – Facebook",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-pie-vs-pumpkin-pie-crisp-cinnamon-comfort-or-silky-spiced-sweater-facebook/"
+      },
+      {
+        "text": "",
+        "href": "http://apple.4800bps.com/blog/feed/"
+      },
+      {
+        "text": "",
+        "href": "http://www.specificfeeds.com/widgets/emailSubscribeEncFeed/cGNhVm5WUi9Na0NoelNKTmFYZDJSVGl2RTZDSUo5TWN5ZFltMm9mTDB5cS94b1phNHRsVGZPOStZTjB5b2xLSGQrWEdqY2gwWG5zUXAwZ1BYclRNYWlKZ0ZRbHhRK3FxUmdlU0tCT3BYVGhCekxPMnNURm9jMnk2Sk8zdDBOWG98MFMyZXVueVliNmtRTmNMT0FTd1NZWFVvN2hlbUZsS01nbnllK3NPVE9oYz0=/OA==/"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fapple.4800bps.com%2Fblog%2F2025%2F11%2F08%2Fapple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/#"
+      },
+      {
+        "text": "",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast/"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fapple.4800bps.com%2Fblog%2F2025%2F11%2F08%2Fapple-is-reportedly-working-on-a-cheaper-mac-laptop-with-an-iphone-chip-vergecast"
+      },
+      {
+        "text": "iOS 26.1 update boosts iPhone security and performance improvements – Fox News",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/ios-26-1-update-boosts-iphone-security-and-performance-improvements-fox-news/"
+      },
+      {
+        "text": "Apple's early Black Friday deals are live from $24 on Amazon ? shop iPads, MacBooks …",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apples-early-black-friday-deals-are-live-from-24-on-amazon-shop-ipads-macbooks/"
+      },
+      {
+        "text": "Amazon Black Friday deals are here early from Dyson, Apple and more – Yahoo",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/amazon-black-friday-deals-are-here-early-from-dyson-apple-and-more-yahoo/"
+      },
+      {
+        "text": "Samsung Wants to Launch a U.S. Credit Card and Challenge Apple in Consumer Finance",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/samsung-wants-to-launch-a-u-s-credit-card-and-challenge-apple-in-consumer-finance-2/"
+      },
+      {
+        "text": "Your Apple Is There A Way To Delete All Messages On Apple Watch Phone Calls How To …",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/your-apple-is-there-a-way-to-delete-all-messages-on-apple-watch-phone-calls-how-to/"
+      },
+      {
+        "text": "Carcavelos (Cascais, Portugal)",
+        "href": "https://carcavelos.4800bps.com/blog/"
+      },
+      {
+        "text": "Land Rover",
+        "href": "https://landrover.4800bps.com/blog/"
+      },
+      {
+        "text": "Fortnite",
+        "href": "https://fortnite.4800bps.com/blog/"
+      },
+      {
+        "text": "PS5",
+        "href": "https://ps5.4800bps.com/blog/"
+      },
+      {
+        "text": "PlayStation",
+        "href": "https://playstation.4800bps.com/blog/"
+      },
+      {
+        "text": "Pokémon",
+        "href": "https://pokemon.4800bps.com/blog/"
+      },
+      {
+        "text": "Apple",
+        "href": "https://apple.4800bps.com/blog/"
+      },
+      {
+        "text": "iPhone",
+        "href": "https://iphone.4800bps.com/blog/"
+      },
+      {
+        "text": "Tesla",
+        "href": "https://tesla.4800bps.com/blog/"
+      },
+      {
+        "text": "TikTok",
+        "href": "https://tiktok.4800bps.com/blog/"
+      },
+      {
+        "text": "Roblox",
+        "href": "https://roblox.4800bps.com/blog/"
+      }
+    ],
+    "articles": [
+      {
+        "text": "Apple is reportedly working on a cheaper Mac laptop with an iPhone chip #Vergecast\n\t\tNovember 8, 2025 Apple News Uncategorized\n\t\n\n\t\n\n\t\tApple is working on a low-cost Mac laptop powered by an iPhone chip that it plans to launch in the first half of 2026, according to Bloomberg.View full source\n\n\n\n\n     (adsbygoogle = window.adsbygoogle || []).push({});\n\n\n\namzn_assoc_placement = \"adunit0\";\namzn_assoc_tracking_id = \"amazon0bb9-20\";\namzn_assoc_ad_mode = \"search\";\namzn_assoc_ad_type = \"smart\";\namzn_assoc_marketplace = \"amazon\";\namzn_assoc_region = \"US\";\namzn_assoc_default_search_phrase = \"apple\";\namzn_assoc_default_category = \"All\";\namzn_assoc_linkid = \"65fb41546da1472c1d2be0d0ecd40f9a\";\namzn_assoc_title = \"\";\namzn_assoc_search_bar = \"true\";\namzn_assoc_search_bar_position = \"bottom\";\n\n\n\n\n\n\n\n\n     (adsbygoogle = window.adsbygoogle || []).push({});\n\n\t\t\n\t\n\n\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tYouTube\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\t\n\t\n\t\tPost navigation\n\t\tPrevious Post:Apple is crossing a Steve Jobs red line | Ken SegallNext Post:Apple pie vs pumpkin pie! Crisp, cinnamon comfort or silky, spiced sweater – Facebook"
+      }
+    ],
+    "bodyPreview": "Skip to content\n\nApple News\n\nDaily news about Apple – fresh news, every day\n\nMENU\nApple is reportedly working on a cheaper Mac laptop with an iPhone chip #Vergecast\nNOVEMBER 8, 2025 APPLE NEWS\nUNCATEGORIZED\n\nApple is working on a low-cost Mac laptop powered by an iPhone chip that it plans to launch in the first half of 2026, according to Bloomberg.\nView full source\n\n\n\n\n\n\nYouTube\nPost navigation\nPrevious Post:\nApple is crossing a Steve Jobs red line | Ken Segall\nNext Post:\nApple pie vs pumpkin pie! Crisp, cinnamon comfort or silky, spiced sweater – Facebook\nSEARCH\nSearch for:\nSEARCH\nFOLLOW & LIKE US :)\nRECENT POSTS\niOS 26.1 update boosts iPhone security and performance improvements – Fox News\nApple's early Black Friday deals are live from $24 on Amazon ? shop iPads, MacBooks …\nAmazon Black Friday deals are here early from Dyson, Apple and more – Yahoo\nSamsung Wants to Launch a U.S. Credit Card and Challenge Apple in Consumer Finance\nYour Apple Is There A Way To Delete All Messages On Apple Watch Phone Calls How To …\nOTHER NEWS\nCarcavelos (Cascais, Portugal)\nLand Rover\nFortnite\nPS5\nPlayStation\nPokémon\nApple\niPhone\nTesla\nTikTok\nRoblox\nSOURCES\n9to5Mac (6157)\nAmazon.com (1343)\nApple (1241)\nAppleInsider (5377)\nArs Technica (843)\nBarron's (1235)\nBest Buy (3123)\nBloomberg.com (838)\nBusiness Insider (1273)\nCNBC (2363)\nCNET (3784)\nCNN (928)\nDeadline (929)\nEngadget (1823)\nFacebook (2887)\nForbes (3663)\nGSMArena.com (1225)\nHacker News (1078)\niMore (1223)\nInstagram (5237)\nInvestor's Business Daily (832)\nLinkedIn (1460)\nMac Rumors (1419)\nMacRumors (3128)\nMacworld (1579)\nMarketWatch (993)\nMashable (880)\nMint (869)\nPatently Apple (1164)\nPinterest (843)\nReddit (3910)\nReuters (1592)\nSeeking Alpha (855)\nTarget (1450)\nTechCrunch (1460)\nTechRadar (1655)\nThe Motley Fool (990)\nTheStreet (840)\nThe Verge (2778)\nTom's Guide (1312)\ntwitter.com (1310)\nX (964)\nYahoo Finance (4909)\nYouTube (11104)\nZDNet (1330)\nARCHIVE (OLD NEWS)\nNovember 2025 (1305)\nOctober 2025 (5442)\nSeptember 2025 (4598)\nAugust 2025 (4521)\nJuly 2025 (4558)\nJune 2025 (4150)\nMay 2025 (4448)\nApril 2025 (4112)\nMarch 2025 (4544)\nFebruary 2025 (4608)\nJanuary 2025 (5331)\nDecember 2024 (5136)\nNovember 2024 (4322)\nOctober 2024 (4868)\nSeptember 2024 (4567)\nAugust 2024 (4854)\nJuly 2024 (4971)\nJune 2024 (4983)\nMay 2024 (4921)\nApril 2024 (4490)\nMarch 2024 (4326)\nFebruary 2024 (4266)\nJanuary 2024 (4812)\nDecember 2023 (4675)\nNovember 2023 (4020)\nOctober 2023 (3824)\nSeptember 2023 (3876)\nAugust 2023 (3812)\nJuly 2023 (3966)\nJune 2023 (4105)\nMay 2023 (3993)\nApril 2023 (3017)\nMarch 2023 (1931)\nFebruary 2023 (2139)\nJanuary 2023 (3372)\nDecember 2022 (3441)\nNovember 2022 (2846)\nOctober 2022 (3717)\nSeptember 2022 (3573)\nAugust 2022 (3294)\nJuly 2022 (3695)\nJune 2022 (4068)\nMay 2022 (4018)\nApril 2022 (3992)\nMarch 2022 (2530)\nFebruary 2022 (2774)\nJanuary 2022 (4989)\nDecember 2021 (4164)\nNovember 2021 (3998)\nOctober 2021 (3500)\nSeptember 2021 (4019)\nAugust 2021 (2755)\nJuly 2021 (3519)\nJune 2021 (4333)\nMay 2021 (4113)\nApril 2021 (4245"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"extract_article\",\"reasoning\":\"The article discusses Apple's development of a cheaper Mac laptop with an iPhone chip, which is relevant for understanding AAPL's product strategy and market positioning.\"}",
+    "action": "extract_article",
+    "reasoning": "The article discusses Apple's development of a cheaper Mac laptop with an iPhone chip, which is relevant for understanding AAPL's product strategy and market positioning."
+  },
+  "result": "Extracted article: Apple is reportedly working on a cheaper Mac laptop with an iPhone chip #Vergecast - Apple News"
+}

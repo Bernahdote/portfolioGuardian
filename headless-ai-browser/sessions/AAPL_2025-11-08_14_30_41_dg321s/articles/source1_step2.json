@@ -1,0 +1,399 @@
+{
+  "step": 2,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:30:57.546Z",
+  "url": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/",
+  "title": "Apple is crossing a Steve Jobs red line | Ken Segall",
+  "aiSummary": "Recent commentary highlights concerns about Apple's shift in focus under Tim Cook, particularly regarding the introduction of ads in Apple Maps, which some view as a departure from the customer-centric philosophy championed by Steve Jobs. This move is perceived as a strategy to generate additional revenue, raising questions about the potential impact on customer experience and brand loyalty. Market sentiment may be affected as investors and consumers alike grapple with the implications of Apple prioritizing monetization over its traditional commitment to simplicity and innovation. This situation presents both risks, in terms of alienating loyal customers, and opportunities for increased revenue streams.",
+  "allLinks": [
+    {
+      "text": "Ken Segall\n                        Truth, Justice & Simplicity",
+      "href": "https://kensegall.com/"
+    },
+    {
+      "text": "Hello",
+      "href": "https://kensegall.com/"
+    },
+    {
+      "text": "Books",
+      "href": "https://kensegall.com/books/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://kensegall.com/blog/"
+    },
+    {
+      "text": "Speaking",
+      "href": "https://kensegall.com/speaking/"
+    },
+    {
+      "text": "Work",
+      "href": "https://kensegall.com/work/"
+    },
+    {
+      "text": "Bio",
+      "href": "https://kensegall.com/about/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://kensegall.com/contact-2/"
+    },
+    {
+      "text": "Hello",
+      "href": "https://kensegall.com/"
+    },
+    {
+      "text": "Books",
+      "href": "https://kensegall.com/books/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://kensegall.com/blog/"
+    },
+    {
+      "text": "Speaking",
+      "href": "https://kensegall.com/speaking/"
+    },
+    {
+      "text": "Work",
+      "href": "https://kensegall.com/work/"
+    },
+    {
+      "text": "Bio",
+      "href": "https://kensegall.com/about/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://kensegall.com/contact-2/"
+    },
+    {
+      "text": "amped up",
+      "href": "https://techcrunch.com/2021/05/05/apple-expands-its-ad-business-with-a-new-app-store-ad-slot/"
+    },
+    {
+      "text": "Reply",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30721#respond"
+    },
+    {
+      "text": "Reply",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30722#respond"
+    },
+    {
+      "text": "Reply",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30723#respond"
+    },
+    {
+      "text": "Reply",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30724#respond"
+    },
+    {
+      "text": "Apple is crossing a Steve Jobs red line - Evolution IT",
+      "href": "https://evit.com.au/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/"
+    },
+    {
+      "text": "Apple is crossing a Steve Jobs red line | Ken Segall - Apple News",
+      "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-crossing-a-steve-jobs-red-line-ken-segall/"
+    },
+    {
+      "text": "Cancel reply",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#respond"
+    },
+    {
+      "text": "My Sordid Past",
+      "href": "https://kensegall.com/index.php/about/"
+    },
+    {
+      "text": "My Books",
+      "href": "https://kensegall.com/index.php/books/"
+    },
+    {
+      "text": "Upcoming Talks",
+      "href": "https://kensegall.com/index.php/upcoming-talks-2/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://instagram.com/ksegall/"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ksegall/"
+    },
+    {
+      "text": "X",
+      "href": "https://x.com/ksegall"
+    },
+    {
+      "text": "Newsletter",
+      "href": "http://eepurl.com/kQqif"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#"
+    },
+    {
+      "text": "X",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#"
+    },
+    {
+      "text": "RSS",
+      "href": "https://kensegall.com/feed/"
+    },
+    {
+      "text": "Elegant Themes",
+      "href": "https://www.elegantthemes.com/"
+    },
+    {
+      "text": "WordPress",
+      "href": "https://www.wordpress.org/"
+    }
+  ],
+  "pageContext": {
+    "title": "Apple is crossing a Steve Jobs red line | Ken Segall",
+    "url": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/",
+    "inputs": [
+      {
+        "type": "search",
+        "name": "s",
+        "id": "",
+        "placeholder": "Search …",
+        "selector": "input[name=\"s\"]"
+      },
+      {
+        "type": "text",
+        "name": "author",
+        "id": "author",
+        "placeholder": "",
+        "selector": "#author"
+      },
+      {
+        "type": "text",
+        "name": "email",
+        "id": "email",
+        "placeholder": "",
+        "selector": "#email"
+      },
+      {
+        "type": "text",
+        "name": "url",
+        "id": "url",
+        "placeholder": "",
+        "selector": "#url"
+      },
+      {
+        "type": "checkbox",
+        "name": "wp-comment-cookies-consent",
+        "id": "wp-comment-cookies-consent",
+        "placeholder": "",
+        "selector": "#wp-comment-cookies-consent"
+      },
+      {
+        "type": "submit",
+        "name": "submit",
+        "id": "submit",
+        "placeholder": "",
+        "selector": "#submit"
+      },
+      {
+        "type": "hidden",
+        "name": "comment_post_ID",
+        "id": "comment_post_ID",
+        "placeholder": "",
+        "selector": "#comment_post_ID"
+      },
+      {
+        "type": "hidden",
+        "name": "comment_parent",
+        "id": "comment_parent",
+        "placeholder": "",
+        "selector": "#comment_parent"
+      },
+      {
+        "type": "hidden",
+        "name": "akismet_comment_nonce",
+        "id": "akismet_comment_nonce",
+        "placeholder": "",
+        "selector": "#akismet_comment_nonce"
+      },
+      {
+        "type": "hidden",
+        "name": "ak_js",
+        "id": "ak_js_1",
+        "placeholder": "",
+        "selector": "#ak_js_1"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Submit Comment",
+        "id": "submit",
+        "selector": "#submit"
+      }
+    ],
+    "links": [
+      {
+        "text": "Ken Segall\n                        Truth, Justice & Simplicity",
+        "href": "https://kensegall.com/"
+      },
+      {
+        "text": "Hello",
+        "href": "https://kensegall.com/"
+      },
+      {
+        "text": "Books",
+        "href": "https://kensegall.com/books/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://kensegall.com/blog/"
+      },
+      {
+        "text": "Speaking",
+        "href": "https://kensegall.com/speaking/"
+      },
+      {
+        "text": "Work",
+        "href": "https://kensegall.com/work/"
+      },
+      {
+        "text": "Bio",
+        "href": "https://kensegall.com/about/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://kensegall.com/contact-2/"
+      },
+      {
+        "text": "Hello",
+        "href": "https://kensegall.com/"
+      },
+      {
+        "text": "Books",
+        "href": "https://kensegall.com/books/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://kensegall.com/blog/"
+      },
+      {
+        "text": "Speaking",
+        "href": "https://kensegall.com/speaking/"
+      },
+      {
+        "text": "Work",
+        "href": "https://kensegall.com/work/"
+      },
+      {
+        "text": "Bio",
+        "href": "https://kensegall.com/about/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://kensegall.com/contact-2/"
+      },
+      {
+        "text": "amped up",
+        "href": "https://techcrunch.com/2021/05/05/apple-expands-its-ad-business-with-a-new-app-store-ad-slot/"
+      },
+      {
+        "text": "Reply",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30721#respond"
+      },
+      {
+        "text": "Reply",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30722#respond"
+      },
+      {
+        "text": "Reply",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30723#respond"
+      },
+      {
+        "text": "Reply",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/?replytocom=30724#respond"
+      },
+      {
+        "text": "Apple is crossing a Steve Jobs red line - Evolution IT",
+        "href": "https://evit.com.au/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/"
+      },
+      {
+        "text": "Apple is crossing a Steve Jobs red line | Ken Segall - Apple News",
+        "href": "https://apple.4800bps.com/blog/2025/11/08/apple-is-crossing-a-steve-jobs-red-line-ken-segall/"
+      },
+      {
+        "text": "Cancel reply",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#respond"
+      },
+      {
+        "text": "My Sordid Past",
+        "href": "https://kensegall.com/index.php/about/"
+      },
+      {
+        "text": "My Books",
+        "href": "https://kensegall.com/index.php/books/"
+      },
+      {
+        "text": "Upcoming Talks",
+        "href": "https://kensegall.com/index.php/upcoming-talks-2/"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://instagram.com/ksegall/"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/ksegall/"
+      },
+      {
+        "text": "X",
+        "href": "https://x.com/ksegall"
+      },
+      {
+        "text": "Newsletter",
+        "href": "http://eepurl.com/kQqif"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#"
+      },
+      {
+        "text": "X",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/#"
+      },
+      {
+        "text": "RSS",
+        "href": "https://kensegall.com/feed/"
+      },
+      {
+        "text": "Elegant Themes",
+        "href": "https://www.elegantthemes.com/"
+      },
+      {
+        "text": "WordPress",
+        "href": "https://www.wordpress.org/"
+      }
+    ],
+    "articles": [
+      {
+        "text": "Apple is crossing a Steve Jobs red line\n                            11/7/25\n                        \n                        \n\t\t\t\t\t\t\t\nYou can fault Tim Cook for a number of things. Number one on the list, of course, is that he is not Steve Jobs. The nerve of that man!\n\n\n\nWhat made Steve an effective and visionary leader was that his values were so crystal clear. He inspired Apple’s troops to excel in innovation, design and simplicity.\n\n\n\nBut he was also passionate about something that seems almost “old school”—the customer experience. Creating the best experience would lure new customers and build brand loyalty.\n\n\n\nThis is how Steve laid out his plan to us at the ad agency when he returned to a nearly bankrupt Apple in the late 1990s. The customer experience was all-important.\n\n\n\nFrom that point on, Steve would go on to spend lavishly on things that improved the experience, and he would reject—often brutally—any idea that diluted or harmed the experience.\n\n\n\nThat was Steve’s red line. Cross it if you dare.\n\n\n\nAnd what is the status of that distinct red line today? Sadly, it’s getting a bit blurry.\n\n\n\n\n\n\n\nRecent reports say that we will soon be seeing ads in Apple Maps. Just as we saw ads appear in the App Store in 2015 and get amped up in 2021.\n\n\n\nI’ll go out on a limb and say that uninvited advertising is not normally equated with a better customer experience. Why would Apple do such a thing?\n\n\n\nShocker—it’s about money. One can only imagine how eyes lit up in the Apple boardroom as they celebrated a new revenue stream.\n\n\n\nWho knows how, or even if, these ads register with Apple users as they become more visible. After all, ads are all around us today, everywhere we go. Still, many will shake their heads in disappointment that Apple—one of the richest companies on earth—is selling a piece of its soul for a bit of easy money.\n\n\n\nWhat would Steve Jobs do?\n\n\n\nI usually dodge that question on the grounds that it’s pure speculation. However, in this case, it is not speculation at all. I was in the room when Steve was presented with an eerily similar “opportunity.”\n\n\n\nHere’s what happened.\n\n\n\nSome time ago (1999-ish), agency chief Lee Clow and I were invited to a hastily scheduled meeting with Steve and his top lieutenants. The topic was building advertising into the Mac system software.\n\n\n\nAt that time, customers paid $125 for the annual upgrade to the Mac OS. It was proposed that Apple offer two flavors—an ad-free version for $125 and a free version subsidized by ads. Something for everyone! Free choice!\n\n\n\nA number of ways to integrate ads were discussed.\n\n\n\nOne was to show a cool video from a respected company (such as Nike) every time the Mac starts up. Another was to place ads in the OS contextually. For example, an “out of ink” notification might contain an ad for an ink supplier.\n\n\n\nAfter spirited debate, there was no immediate decision. But days later, Steve told me he had killed the idea. His bottom line was that it degraded the pure, elegant, clean interface that Mac users love.\n\n\n\nIt didn’t matter that customers would be free to choose a version with or without ads. He didn’t want any user to see the OS polluted in this way.\n\n\n\nHe was protecting Apple’s crown jewels. He wouldn’t sacrifice the purity of the Mac experience to make a few extra bucks. He avoided the slippery slope by refusing to step onto it.\n\n\n\nAll hail the red line!\n\n\n\nNow, fast-forward to the present. Apple’s evolution tells us that red lines do not magically live forever. They exist only as long as company leaders want them to exist. Without proper maintenance, they begin to disappear.\n\n\n\nWhatever his reason, Tim Cook is not as protective of the user experience as his predecessor was. If we were to ask Tim why it’s okay to bring ads into Apple products now, but wasn’t okay during Steve’s reign, the best (only?) answer would probably be, “Today’s Apple is very different from Steve’s Apple.”\n\n\n\nQuite true. And that is exactly the problem.\n\t\t\t\t\t\t\n\t\t\t\t\t \n                    \n\t\t\t\t\t                        \n\t\t\t\t\t\n\t\t\t\t\t                    \n\t\t\t\t\t\n\n\n\t4 Comments\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\tOld Coot\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 1:08 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tApple will do anything to make a buck and keep their share price up. I stopped using iCloud for just that reason and now with Tahoe. It has crossed that red line especially with their Music.app. If Steve were alive today that abortion that Apple calls a music.app would b e a abortion.\nReply\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\tJonathan Towell\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 4:19 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tWhat about iAds?\nReply\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\tThe Turtle\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 5:46 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tI am still waiting for Apple to finally release iFarted.\nReply\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\tHayden Green\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 6:22 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tMacOS Tahoe and iOS 26 would both have been rejected by Steve. \nI’ve never uninstalled either a MacOS or iOS update to revert back to a previous version.\nI crossed that line just a few weeks ago.\nReply\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\t\n\t\t\t\tTrackbacks/Pingbacks\n\t\t\t\t\n\t\t\t\t\t\tApple is crossing a Steve Jobs red line - Evolution IT - […] Article URL: https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/ […]\n\tApple is crossing a Steve Jobs red line | Ken Segall - Apple News - […] What made Steve an effective and visionary leader was that his values were so crystal clear. He inspired Apple's…\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\tSubmit a Comment Cancel replyYour email address will not be published. Required fields are marked *Comment * Name * \nEmail * \nWebsite \n Save my name, email, and website in this browser for the next time I comment.\n \n\nΔdocument.getElementById( \"ak_js_1\" ).setAttribute( \"value\", ( new Date() ).getTime() );"
+      },
+      {
+        "text": "Old Coot\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 1:08 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tApple will do anything to make a buck and keep their share price up. I stopped using iCloud for just that reason and now with Tahoe. It has crossed that red line especially with their Music.app. If Steve were alive today that abortion that Apple calls a music.app would b e a abortion.\nReply"
+      },
+      {
+        "text": "Jonathan Towell\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 4:19 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tWhat about iAds?\nReply"
+      },
+      {
+        "text": "The Turtle\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 5:46 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tI am still waiting for Apple to finally release iFarted.\nReply"
+      },
+      {
+        "text": "Hayden Green\t\t\t\t\n\t\t\t\t\ton November 7, 2025 at 6:22 pm\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tMacOS Tahoe and iOS 26 would both have been rejected by Steve. \nI’ve never uninstalled either a MacOS or iOS update to revert back to a previous version.\nI crossed that line just a few weeks ago.\nReply"
+      }
+    ],
+    "bodyPreview": " Ken Segall Truth, Justice & Simplicity\nApple is crossing a Steve Jobs red line\n11/7/25\n\nYou can fault Tim Cook for a number of things. Number one on the list, of course, is that he is not Steve Jobs. The nerve of that man!\n\nWhat made Steve an effective and visionary leader was that his values were so crystal clear. He inspired Apple’s troops to excel in innovation, design and simplicity.\n\nBut he was also passionate about something that seems almost “old school”—the customer experience. Creating the best experience would lure new customers and build brand loyalty.\n\nThis is how Steve laid out his plan to us at the ad agency when he returned to a nearly bankrupt Apple in the late 1990s. The customer experience was all-important.\n\nFrom that point on, Steve would go on to spend lavishly on things that improved the experience, and he would reject—often brutally—any idea that diluted or harmed the experience.\n\nThat was Steve’s red line. Cross it if you dare.\n\nAnd what is the status of that distinct red line today? Sadly, it’s getting a bit blurry.\n\nRecent reports say that we will soon be seeing ads in Apple Maps. Just as we saw ads appear in the App Store in 2015 and get amped up in 2021.\n\nI’ll go out on a limb and say that uninvited advertising is not normally equated with a better customer experience. Why would Apple do such a thing?\n\nShocker—it’s about money. One can only imagine how eyes lit up in the Apple boardroom as they celebrated a new revenue stream.\n\nWho knows how, or even if, these ads register with Apple users as they become more visible. After all, ads are all around us today, everywhere we go. Still, many will shake their heads in disappointment that Apple—one of the richest companies on earth—is selling a piece of its soul for a bit of easy money.\n\nWhat would Steve Jobs do?\n\nI usually dodge that question on the grounds that it’s pure speculation. However, in this case, it is not speculation at all. I was in the room when Steve was presented with an eerily similar “opportunity.”\n\nHere’s what happened.\n\nSome time ago (1999-ish), agency chief Lee Clow and I were invited to a hastily scheduled meeting with Steve and his top lieutenants. The topic was building advertising into the Mac system software.\n\nAt that time, customers paid $125 for the annual upgrade to the Mac OS. It was proposed that Apple offer two flavors—an ad-free version for $125 and a free version subsidized by ads. Something for everyone! Free choice!\n\nA number of ways to integrate ads were discussed.\n\nOne was to show a cool video from a respected company (such as Nike) every time the Mac starts up. Another was to place ads in the OS contextually. For example, an “out of ink” notification might contain an ad for an ink supplier.\n\nAfter spirited debate, there was no immediate decision. But days later, Steve told me he had killed the idea. His bottom line was that it degraded the pure, elegant, clean interface that Mac users love.\n\nIt didn’t matter that customers would be fre"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"extract_article\",\"reasoning\":\"The article discusses significant concerns regarding Apple's direction under Tim Cook compared to Steve Jobs, which is highly relevant for understanding the sentiment around AAPL.\"}",
+    "action": "extract_article",
+    "reasoning": "The article discusses significant concerns regarding Apple's direction under Tim Cook compared to Steve Jobs, which is highly relevant for understanding the sentiment around AAPL."
+  },
+  "result": "Extracted article: Apple is crossing a Steve Jobs red line | Ken Segall"
+}
