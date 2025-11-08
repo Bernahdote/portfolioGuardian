@@ -33,8 +33,7 @@ def analyze_stock(ticker: str, stock_data: list):
         messages=[
             {"role": "system", "content": "You analyze financial data objectively."},
             {"role": "user", "content": prompt}
-        ],
-        temperature=0.3
+        ]
     )
 
     raw = response.choices[0].message.content.strip()
