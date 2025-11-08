@@ -1,0 +1,524 @@
+{
+  "url": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy",
+  "title": "WebKit Features in Safari 18.2 | WebKit",
+  "content": "WebKit Features in Safari 18.2\n\nDec 9, 2024\n\n \n\nby Jen Simmons, Ada Rose Canon, David Degazio, Yoel Hawa, Etienne Segonzac, and John Wilander\n\nContents\nCSS\nSpatial videos and photos\nWebXR\nGenmoji\nMedia\nHTML\nWebAssembly\nWeb API\nJavaScript\nSecurity and Privacy\nWeb Inspector\nWebDriver\nWKWebView\nBug Fixes and more\nUpdating to Safari 18.2\nFeedback\n\nToday marks the arrival of Safari 18.2. With it, WebKit adds 61 new features and 111 resolved issues. Highlights include cross-document View Transitions, the ability to fill a border with a background, spatial videos in visionOS, ruby improvements, input type=week on iOS, iPadOS & visionOS, WASM garbage collection, HTTPS by default, Genmoji, and more.\n\nSafari 18.2 is available on iOS 18.2, iPadOS 18.2, visionOS 2.2, macOS Sequoia 15.2, macOS Sonoma and macOS Ventura.\n\nCSS\nText box\n\nIf you write CSS, you’ve probably struggled at some point to optically center text vertically in a box, or to get a headline to line up with the top of an image. Now you can declare which font metric you want the browser to consider the edge of the text box when calculating layout:\n\nh2 {\n  text-box: trim-start cap;\n}\n\n\nThis means “please do trim the start edge (above the headline) at the cap line”. You can see the effect on the right, where the top of the “H” lines up with the top of the image:\n\nLearn more by exploring this demo in Safari 18.2.\n\nOriginally called “leading trim”, this feature is now simply text-box. It’s a shorthand for two longhands properties— text-box-trim and text-box-edge — which you can declare separately if you need to control how each cascades. Safari 18.2 is the first browser to ship Text Box, but you can use it today to progressively enhance your design, while browsers without support simply fallback to the older behavior.\n\nView Transitions\n\nWebKit for Safari 18.2 adds support for cross-document View Transitions with @view-transition. This provides a mechanism for easily animating across webpages. It’s especially handy if you are making an app experience where you don’t want users to experience a reload when moving from one page to another. Instead, with View Transitions you can crossfade, swipe, hold steady only changing the new content, and more.\n\nBuilding on our original support for View Transitions that shipped in Safari 18.0, WebKit for Safari 18.2 adds support for view-transition-name: auto. This means you won’t have to individually name potentially hundreds of different content items if you are applying transitions to the content on a single page. We ran into this problem when we created this masonry-layout demo (switch to “Combined with View Transitions” layout with pulldown menu). With 80 items on the page, we had to write 80 separate lines of code like .card:nth-child(80) { view-transition-name: card-80; } over and over. In the real world, you couldn’t rely on there never being an 81st item, yet more-than-expected items would break the transitions. Now instead, we can just declare .card { view-transition-name: auto } and let the browser figure out the details.\n\nWebKit for Safari 18.2 also adds support for View Transition Classes and View Transition Types. Classes allow you to easily share styles between different view transitions. It can be used very nicely in combination with view-transition-name: auto . Types allow you to define different variants for the same view transition (e.g. slide-in from the right vs. slide-in from the left for a carousel).\n\nAnd Safari 18.2 adds support for the pageswap and pagereveal events for View Transitions.\n\nBackgrounds on borders\n\nWebKit for Safari 18.2 adds support for background-clip: border-area. It allows you to put a background on a box, and clip that background to only appear in the area where the border exists. It combines nicely with background-clip: text to create interesting visual effects.\n\nIn this example, we can apply a photo of a wooden table as a background to the box, twice. And then clip each background to the border-area and the text respectively.\n\nheader {\n  border-width: 30px solid transparent;\n  background-image: url(\"wooden-table.jpg\"),\n                    url(\"wooden-table.jpg\");\n  background-size: cover;\n  background-origin: border-box;\n  background-clip: border-area,\n                   text;\n}\n\n\nFor much more about how it works, read Make creative borders with background-clip: border-area.\n\nDivision by units and other complex calculations\n\nWebKit for Safari 18.2 updates the calc() function to the most recent web standard, opening up many new possibilities — including dividing by numbers with units. For example, you can convert the current viewport width to pixels with calc(100vw / 1px). Scott Kellum created a demo where the background color of the page is determined by the width of the viewport with this:\n\nhtml {\n  background: hsl(calc(100vw / 1px * 0.2deg), 100%, 80%);\n}\n\nSidelines\n\nWebKit for Safari 18.2 adds support for text-underline-position: left and text-underline-position: right. This lets you shift the position of a sideline to the other side.\n\n:root {\n  writing-mode: vertical-rl;\n}\n[lang]:lang(ja) { \n  text-underline-position: right; \n} \n[lang]:not(:lang(ja)) { \n  text-underline-position: under; \n}\n\nLearn more exploring this demo.\n\nNow that Safari 18.2 supports text-underline-position: right, the User Agent defaults for both underline position and text emphasis marks in have been changed for CJK languages.\n\nRuby\n\nWebKit for Safari 18.2 adds support for three Ruby properties: ruby-align, ruby-overhang, and the now-unprefixed ruby-position.\n\nThe ruby-align property is reminiscent of the alignment properties of Flexbox, Grid, and (as of March 2024) block layout. It provides a mechanism for shifting where ruby annotations appear — whether they group together at the start, or in the center, or spread out with equal amounts of space in-between, or equal amounts of space between & around the annotations.\n\nLearn more experimenting with this demo.\n\nTheruby-overhang property let’s you control whether or not ruby annotations are allowed to spill over into the space above the neighboring character.\n\nLearn more by exploring this demo.\n\nThe difference can be subtle, but in the second version in the demo, with ruby-overhang: none, the two characters are more clearly separated so the reader can see that there are separate annotations for each. This does cause awkward inline spacing between characters, interrupting the rhythm of the main line of text — but doing so is helpful for beginner readers of textbooks, for example.\n\nAnd last, Safari 18.2 unprefixes the ruby-position property. Supported since Safari 7 as -webkit-ruby-position with non-standard values, WebKit now supports the standardized values over, under, and inter-character.\n\nLearn more exploring this demo.\nScrollbars\n\nWebKit for Safari 18.2 adds support for scrollbar-width and scrollbar-gutter. If you used computers 13-30 years ago, you’ll remember how different scrollbars used to be. They were always present. They had thick gutters with complex edges. And they included little up and down arrows for clicking on with a mouse. Fifteen years ago, WebKit introduced a way to style these type of scrollbars through the ::-webkit-scrollbar pseudo element.\n\nToday, scrollbars are visually much simpler, often disappearing entirely when not in use. In response to these changes and after many discussions, the CSS Working Group decided to standardize a slimmed down set of tools for styling scrollbars.\n\nThescrollbar-width property provides three options. The default is auto. The thin value asks for thinner scrollbars. And none can be used to remove scrollbars entirely, while still maintaining a container that’s scrollable. On macOS, scrollbar-width: thin creates a thinner scrollbar. On iOS, iPadOS, and visionOS there is no change — iOS and iPadOS always use thin scrollbars.\n\nThescrollbar-gutter property provides an opportunity to reserve a space for the scrollbar — the space in which the scrollbar will slide. However, scrollbar-gutter has zero effect anytime a browser is using “overlay scrollbars”. Overlay scrollbars are incredibly common these days. They slide overtop the content of the page, without a visible gutter. macOS, iOS, iPadOS and visionOS all use overlay scrollbars system-wide. On macOS, users can change this behavior if they desire, by going to System Settings > Appearance, and changing “Show scroll bars” to “Always”. Only then, and on some other operating systems, will the scrollbar take up space in the page layout.\n\nThe scrollbar-gutter property has three options: auto, stable, and stable both-edges. The initial value is auto, where space is only reserved when the scrollbar is visible — that is, when the box is set to overflow: scroll, or has overflow: auto + enough content to overflow. The scrollbar: stable rule lets you as a web developer instead ask that the gutter always reserves space, which can be helpful for creating layout consistency. The third option, scrollbar-gutter: stable both-edges, asks the browser to not only create a stable space always reserved for the scrollbar, but to also create that same amount of space on both edges of the box. You can see the result below.\n\nWebsite scrollbars in Safari 18.2 on macOS, with “Show scroll bars” set to “Always” — with and without enough content to cause a scrollbar to appear. Learn more by trying this demo on macOS with overlay scrollbars instead, or on other operating systems.\nScroll to Text Fragments\n\nYou might be familiar with anchor links in HTML, where you can send someone a link to a specific anchor on the page — if the web developer of that site created an anchor link for you to use. Scroll to Text Fragments is a tool that allows a user to create a link to any fragment of text on the page, whether or not the site’s developers thought to do so. Support for Scroll to Text Fragments was added in Safari 16.1. Now in Safari 18.2, there’s an easy UI for creating a Text Fragment link.\n\nHere’s how it works. First, go to a web page and highlight the text you want to target with your link. Then choose “Copy Link with Highlight” from the context menu.\n\nThe URL looks like this: https://webkit.org/blog/16214/background-clip-border-area/#:~:text=background%2Dclip:%20text. When a user navigates to the URL, the browser will scroll the text fragment into view, and mark it with a persistent highlight.\n\nWebKit for Safari 18.2 also adds support for the ::target-text pseudo-element. It provides a mechanism for the site’s web designer/developer to style text fragment link results for their site.\n\nThe highlight that appears when a user enters a Scroll to Text Fragment URL can now be styled with the ::target-text pseudo-element.\nAnd more CSS\n\nWebKit for Safari 18.2 adds support in CSS selectors for :is(:host). Previously:is() and:host() were supported, but not in this particular combination.\n\nWebKit for Safari 18.2 adds support for using the corner keywords closest-corner and farthest-corner in circle and ellipse shapes. You might recognize these keywords from the radial gradient syntax. It lets you clip an element with syntax like clip-path: circle(closest-corner at 50px 50px).\n\nWebKit for Safari 18.2 adds support for <string> values of the syntax descriptor for @property.\n\n@property --foobar {\n   syntax: \"<string>\";\n}\n\n\nSafari 18.2 adds support for @page margin descriptors. And it adds support to @page for the Japanese standard paper sizes jis-b4 and jis-b5. Also, the size property of @page now parses as a descriptor instead of a global property.\n\nSpatial videos and photos\n\nSafari 18.2 in visionOS 2.2 now supports viewing spatial videos. You can record a spatial video on Vision Pro, iPhone 15 Pro or any iPhone 16, or any camera that records MV-HEVC with spatial metadata. You can then publish it on the web with the HTML video element, just like any other video.\n\n<video controls>\n  <source src=\"birthdayparty.mov\" type=\"video/quicktime; codecs=hvc1.1.6.L123.B0\" /> <!-- spatial video -->\n  <source src=\"birthdayparty.webm\" type=\"video/webm\" />\n</video> \n\n\nAny browser that supports HEVC video will play the spatial video file as 2D video on the webpage. In visionOS, Safari 18.2 provides UI alongside the rest of the video controls to allow users to tap to view the video spatially. On first tap, the video appears in a floating frame as the Safari window disappears. Then when the user taps again, the video further expands to create a more immersive experience. When they exit the video, the Safari window returns.\n\nSafari 18.2 in visionOS 2.2 also adds additional support for viewing spatial photos.\n\nAnytime you embed a spatial photo in a web page, it appears inline in 2D, just like any other photo. Starting with Safari 18.0 for visionOS, as a web developer, you could use the JavaScript Fullscreen API to provide a mechanism for spatial photos to escape the webpage and be immersive.\n\nNow, in Safari 18.2, users can view any spatial photo by pinching and holding it, and then selecting “View Spatial Photo”.\n\nYou can continue to use Fullscreen API on spatial photos if you’d like to make your own UI. It now also works on spatial videos. They are displayed in a stereoscopic portal with a button allowing users to fully immerse themselves in the content.\n\nWebXR\n\nWebKit for Safari 18.2 in visionOS 2.2 adds support to re-project WebXR content converting depth from forward-Z to reverse-Z. And now, the WebXR Session now includes the enabledFeatures property. When you request an XRSession you list the optionalFeatures and requiredFeatures for your WebXR experience. The enabledFeatures property tells you which features were granted without needing to feature detect them.\n\nGenmoji\n\nWebKit on iOS 18.2 and iPadOS 18.2 adds support for Genmoji. Make a brand-new Genmoji right in the keyboard. Provide a description to see a preview, and adjust your description until you’ve got the perfect custom emoji.\n\nIn Safari 18.2, you can post the Genmoji you’ve created to the web. They get added to content as images.\n\nWKWebView supports the full NSAdaptiveImageGlyph API, via the supportsAdaptiveImageGlyph property on WKWebViewConfiguration, making it possible to support adaptive image glyphs in your app. Learn more by watching Bring expression to your app with Genmoji from WWDC24.\n\nMedia\n\nWebKit for Safari 18.2 adds support for allowing websites to override the system-default accessibility caption styling. Web Video Text Tracks (WebVTT) are the web’s system for creating subtitles and captions. As a developer, you can style these text tracks with the::cue pseudo-element. In the system accessibility settings on Apple platforms, users can select a system-default caption style, or create their own custom style. Previously, the system-default caption styles would override the website’s styles. Now, system-default caption styles are always overridable, but users may still create custom styles, and prevent those styles from being overridden by the page.\n\nWebKit for Safari 18.2 now adds a fallback image to Now Playing when a website doesn’t specify one in MediaSession metadata.\n\nHTML\n\nSafari 18.2 adds support for input type=week on iOS, iPadOS, and visionOS.\n\nWebKit for Safari 18.2 adds support for blocking=render attribute for <script> and <style>. It allows you to tell the browser to block presenting the rendered page until that particular script or style file is run. This is the default behavior of many resources for a web page, so it’s not often needed. But it’s here if you find yourself in a situation where such a tool (such as a <script> with the async attribute) would be handy. WebKit for Safari 18.2 also adds support for Document render-blocking with <link rel=expect>. It similarly causes the page to be render-blocked until the essential parts of the document are parsed so it will render consistently. These two tools can be especially useful for cross-document View Transitions, where you might want more control over what must be loaded before the animation snapshots can be taken.\n\nWebAssembly\n\nWebKit for Safari 18.2 adds support for WASM Garbage Collection. It allows WebAssembly modules to define a variety of new reference types whose memory is managed automatically by the browser. These types range from simple data types like structs and arrays, to more complex type relationships such as subtyping and recursion. Without WASM GC, source languages that rely on garbage collection (such as Java, C#, Kotlin, Go, and others) generally have to write their own garbage collectors and compile them to WebAssembly. This poses a significant barrier when targeting WebAssembly. Due to the limitations of WebAssembly memory, these collectors are often forced to use less efficient implementation techniques and can’t easily interface with JavaScript. With WASM GC, these languages can often directly express their type system in WebAssembly, making it easier to target. Once running in WebAssembly, these languages can leverage the same native garbage collector the browser uses to manage JavaScript objects, which simplifies JS/WASM interoperability and often improves performance.\n\nWebKit for Safari 18.2 also adds support for WASM Tail Calls, which allows WebAssembly modules to call functions while reusing the current stack frame. Tail calls can asymptotically reduce memory usage for recursive algorithms, which enables functional programming patterns to be directly expressed in WebAssembly. Tail calls can also be used to efficiently express state machines, which can be used to improve the performance of interpreters and emulators compiled to WebAssembly.\n\nWeb API\n\nWebKit brings significant improvements to Pointer Events in Safari 18.2, including updating click, contextmenu, and click() to use PointerEvent giving developers access to the pointerType property on these events. There’s also new support support for the auxclick event that is triggered when a non-primary pointing device is pressed and released.\n\nNew PointerEvent methods getPredictedEvents() and getCoalescedEvents() are now supported. The getPredictedEvents() method returns a sequence of PointerEvent instances that are estimated future pointer positions, based on past points, current velocity, and trajectory. The getCoalescedEvents() method returns a sequence of PointerEvent instances that were coalesced (merged) into a single pointermove.\n\nAnd WebKit for Safari 18.2 now supports altitudeAngle and azimuthAngle, letting you easily determine the angle between Apple Pencil and the X-Y or Y-Z planes of the screen. The first of these read-only properties represents the angle between a pointer or stylus axis and the X-Y plane of a device screen. The second represents the angle between the Y-Z plane and the plane containing both the pointer or stylus axis and the Y axis.\n\nAdditional Web API enhancements in WebKit includes support for NavigationActivation.finished handling and implementation of a specification update that provides a new initial focus algorithm for the <dialog> element.\n\nJavaScript\n\nWebKit for Safari 18.2 introduces several enhancements to JavaScript, including a new TypedArray — the Float16Array — to complement the existing Float32Array and Float64Array. This array represents 16-bit floating point numbers in platform byte order.\n\nThe update also adds support forUint8Array.prototype.toBase64 andUint8Array.prototype.toHex, as well as forUint8Array.fromBase64, andUint8Array.prototype.setFromBase64.\n\nEnhancements to theIntl.Locale object now has support for firstDayOfWeek. It returns information about which day is considered the first day of the week in specific locations.\n\nThere is also new support for thePromise.try static method and for RegExp.escape.\n\nWebKit for Safari 18.2 adds support for type reflection for WebAssembly.Module.imports and WebAssembly.Module.exports.\n\nIterator improvements include Iterator.prototype.constructor and Iterator.prototype[@@toStringTag], and Iterator.from as part of the Iterator Helpers Proposal.\n\nSecurity and Privacy\n\nSafari 18.2 on iOS, iPadOS, and visionOS will always try to load webpages over secure connections first, i.e. HTTPS by default. Only if the secure page load fails will Safari fall back to non-secure HTTP.\n\nIn addition, on all platforms, Safari 18.2 also adds an optional Security setting to enforce secure connections and show a warning before attempting a non-secure fallback. The user then gets to choose if they want to cancel or continue over HTTP. The label of the setting is “Not Secure Connection Warning” on iOS, iPadOS, and VisionOS. It is “Warn before connecting to a website over a non-secure connection” on macOS.\n\nWeb Inspector\n\nWebKit for Safari 18.2 adds support for blackboxing ranges within a file, and adds support for sourcemaps to be blackboxed.\n\nWebKit for Safari 18.2 also adds support for showing boundThis for arrow functions in the console.\n\nWebDriver\n\nWebKit for Safari 18.2 adds support for using a persistent website data store.\n\nWKWebView\n\nWKWebView also adds support for WKDownload.originatingFrame and WKDownload.userInitiated API, as well as for WKWebpagePreferences.UpgradeToHTTPSPolicy.\n\nBug Fixes and more\n\nIn addition to all the new features, WebKit for Safari 18.2 includes work to polish existing features.\n\nAccessibility\nFixed text-transform: full-size-kana to not affect speech output.\nFixed element reflection attributes to be able to retrieve a disconnected element.\nFixed VoiceOver focus to activate PDF form fields when it lands on them.\nFixed tree updates becoming broken when children change for a dynamically ignored element and its unignored ancestor is in the same tree update cycle.\nFixed handling dynamically-created and nested aria-modal dialogs.\nFixed the accessibility tree to update when a text selection is cleared.\nBrowser\nFixed windows not getting restored after updating macOS.\nCanvas\nFixed CanvasRenderingContext2D globalAlpha property getting ignored for some values of globalCompositeOperation.\nCSS\nFixed backgrounds applied to a table row repeating in every table cell.\nFixed the size property of @page to parse as a descriptor, not a global CSS property.\nFixed background-clip: text to correctly paint text decorations.\nFixed font-variant: small-caps normal; to be invalid syntax.\nFixed -webkit-line-clamp: none to be parsable.\nFixed text-underline-offset to support percentages.\nFixed text-decoration-thickness to work on buttons.\nFixed the lh unit sometimes getting computed before line-height is resolved.\nFixed touch-action to use pan-x pan-y order when serializing.\nFixed serialization of place-content, place-items, and place-self properties.\nUpdated CSS Nesting to remove the hoisting behavior.\nFixed CSS Nested declarations inside a @scope to behave like :where(:scope).\nDisallow matching of :has() in CSS Nesting.\nImproved scrollbar styling support for interoperability.\nFixed contrast between ButtonFace and ButtonText system colors in dark mode.\nFixed attribute initial-value makes the @property rule invalid for [var(--x)].\nFixed invalidating attribute values when programmatically mutated so that page attribute selectors work as expected.\nEditing\nAligned with the standardized version of the autocorrect attribute, which does not support Email, URL and Password fields and does not treat the empty string value in a special way.\nForms\nFixed HTMLSelectElement.prototype.add with optgroup elements.\nHistory\nFixed using Cross-Origin-Opener-Policy HTTP header disabling the back-forward cache.\nJavaScript\nFixed class field initializers to disallow yield and await expressions.\nFixed DestructuringAssignmentTarget to be evaluated prior to calling [[Get]] or a stepping iterator.\nFixed throwing an exception for negative exponent in BigInt in the JIT compiler.\nFixed RegExp range quantifier to allow 2^53 – 1.\nFixed Uint8Array#setFromBase64 to decode and write chunks which occur prior to bad data.\nDisallowed yield and await expressions in class field initializers.\nFixed TimeZone without Time to be rejected in ISO8601 strings.\nFixed Object.keys(global) including non-enumerable properties unless deleted first.\nFixed the error message of Temporal.Instant.fromEpochMilliseconds.\nFixed duration format’s nanoseconds calculation ordering.\nFixed TimeZoneAnnotation to disallow sub-minute.\nTemporal.Instant.prototype.epochMilliseconds now returns a floored value.\nImproved the TypeError message when a WeakMap constructor takes an iterable that yields invalid entry.\nFixed incorrect SyntaxError when destructuring let.\nRemoved the obsoleted Temporal.Instant API.\nMedia\nFixed fullscreen error handling to include error messages.\nFixed audioTrack.configuration() values for WebM files.\nPDF\nFixed a hang that could occur using the Select All keyboard shortcut ⌘A (Command-A) on a PDF causing all pages to be blank.\nRendering\nFixed non-separable blend modes in mix-blend-mode to workon elements in compositing layers.\nFixed MathML to layout invalid markup as an <mrow>.\nImproved grid track sizing by adding support for wrapped column flex containers, multi-column containers, and items with aspect ratios that depend on row size.\nFixed margins used for grid items on relayout.\nFixed grid areas to be considered in layout overflow.\nFixed grid area overflow to include inline end and block end padding.\nFixed items that span multiple tracks with optimizations.\nFixed rendering image content with percentage height in a container with height: auto.\nFixed an extra wrap when a table with mixed white-space values applied to the table and table content.\nFixed repeating background-image sized to the content-box failing to fill the viewport in an iframe.\nFixed rendering tick marks of the range input type when the page zoom is less than 1.\nSecurity\nFixed an empty origin in the location permission prompt for a blob:// resource.\nFixed javascript: URL navigation to another browsing context created from window.open not checking the source’s Content Security Policy.\nSVG\nFixed correctly applying clip-path to the SVG element.\nFixed zooming in or out of an SVG with transform-origin.\nFixed an issue for getPointAtLength to throw an exception when path is empty.\nFixed fill to not be considered a presentation attribute on animation elements.\nFixed script elements in XHTML documents to work when trusted types are enforced.\nRemoved non-standard hasExtension.\nWeb Animations\nFixed alignment-baseline and buffered-rendering to support discrete animation.\nFixed hanging-punctuation to support discrete animation.\nFixed scroll-snap- properties to support discrete animation.\nFixed column-span to support discrete animation.\nFixed appearance to support discrete animation.\nFixed hyphenate-character to support discrete animation.\nFixed font-optical-sizing to support discrete animation.\nFixed image-rendering to support discrete animation.\nImproved animation support for shorthands.\nFixed the mask-border- properties to be animatable.\nFixed stroke-color to be animatable.\nFixed transform animations that jump back and forth instead of animating continuously.\nWeb API\nFixed the Pointer Lock API to work when Fullscreen API is enabled.\nFixed pointer events generated from platform mouse events to use the platform event’s timestamp.\nAligned oncuechange event handler handling with other event handlers.\nFixed two mousemove events dispatched when the mouse enters a web view window instead of a single one.\nFixed Pointer Events created for pointer capture to be trusted and composed.\nFixed checking against the “active document” of the pointer when setting the pointer capture.\nRemoved support for the non-standard “overflow” event.\nMoved onbeforeinput to GlobalEventHandlers.\nFixed popovertarget to work on buttons in a form.\nFixed popover tab navigation.\nFixed the directionality of non-HTML elements.\nFixed the directionality of shadow trees.\nFixed setting .value = to update dir=auto inputs.\nFixed XMLSerializer.serializeToString() not serializing the children of <img> and also not closing the <img> if it has children.\nFixed text highlights when selecting large text that ends with a common phrase.\nFixed copying a link to a common term in an article resulting in an incorrect part of the page being highlighted.\nFixed scrollIntoView(...for SVG elements.\nFixed non-modal popover dialog blocking interaction on the content behind it.\nFixed pushManager.subscribe returning an empty endpoint.\nWeb Apps\nFixed Web Application Manifest parsing to trim all ASCII whitespace.\nWebDriver\nFixed WebDriver to use pointer origin rather than viewport origin for state location resolution.\nFixed chorded mouse interactions by ensuring input dispatch logic correctly interprets successive mousepress or mouserelease actions with different button values.\nFixed WebDriver sometimes taking screenshots with a transparent grey line at the top and no rounded corners.\nFixed an issue where all script evaluation was unconditionally performed with user activation.\nWeb Inspector\nFixed parsing attributes added when editing the tag name.\nFixed an issue where multi-line content in the Console prompt was not scrollable.\nWebXR\nFixed audio not audible during an immersive session in visionOS.\nWKWebView\nFixed apps crashing intermittently crashing at launch.\nFixed -[WKWebViewConfiguration writingToolsBehavior] not available when using a deployment target lower than iOS 18. (FB15297419)\nFixed text editing corruption after [NSInputAnalytics didInsertText:] is called without a session beginning.\nUpdating to Safari 18.2\n\nSafari 18.2 is available on iOS 18.2, iPadOS 18.2, macOS Sequoia, macOS Sonoma, macOS Ventura, and in visionOS 2.2.\n\nIf you are running macOS Sonoma or macOS Ventura, you can update Safari by itself, without updating macOS. Go to  > System Settings > General > Software Update and click “More info…” under Updates Available.\n\nTo get the latest version of Safari on iPhone, iPad or Apple Vision Pro, go to Settings > General > Software Update, and tap to update.\n\nFeedback\n\nWe love hearing from you. To share your thoughts, find Jen Simmons on Bluesky / Mastodon and Jon Davis on Bluesky / Mastodon. You can follow WebKit on LinkedIn or X. If you run into any issues, we welcome your feedback on Safari UI (learn more about filing Feedback), or your WebKit bug report about web technologies or Web Inspector. If you run into a website that isn’t working as expected, please file a report at webcompat.com. Filing issues really does make a difference.\n\nDownload the latest Safari Technology Preview on macOS to stay at the forefront of the web platform and to use the latest Web Inspector features.\n\nYou can also find this information in the Safari 18.2 release notes.",
+  "timestamp": "2025-11-08T13:58:53.049Z",
+  "headings": [
+    "WebKit Features in Safari 18.2",
+    "CSS",
+    "Text box",
+    "View Transitions",
+    "Backgrounds on borders",
+    "Division by units and other complex calculations",
+    "Sidelines",
+    "Ruby",
+    "Scrollbars",
+    "Scroll to Text Fragments",
+    "And more CSS",
+    "Spatial videos and photos",
+    "WebXR",
+    "Genmoji",
+    "Media",
+    "HTML",
+    "WebAssembly",
+    "Web API",
+    "JavaScript",
+    "Security and Privacy",
+    "Web Inspector",
+    "WebDriver",
+    "WKWebView",
+    "Bug Fixes and more",
+    "Accessibility",
+    "Browser",
+    "Canvas",
+    "CSS",
+    "Editing",
+    "Forms",
+    "History",
+    "JavaScript",
+    "Media",
+    "PDF",
+    "Rendering",
+    "Security",
+    "SVG",
+    "Web Animations",
+    "Web API",
+    "Web Apps",
+    "WebDriver",
+    "Web Inspector",
+    "WebXR",
+    "WKWebView",
+    "Updating to Safari 18.2",
+    "Feedback"
+  ],
+  "links": [
+    {
+      "text": "WebKit",
+      "href": "https://webkit.org/"
+    },
+    {
+      "text": "Downloads",
+      "href": "https://webkit.org/downloads/"
+    },
+    {
+      "text": "Feature Status",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#nav-sub-menu"
+    },
+    {
+      "text": "CSS Features",
+      "href": "https://webkit.org/css-status/"
+    },
+    {
+      "text": "Standards Positions",
+      "href": "https://webkit.org/standards-positions/"
+    },
+    {
+      "text": "Documentation",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#nav-sub-menu"
+    },
+    {
+      "text": "Web Inspector",
+      "href": "https://webkit.org/web-inspector"
+    },
+    {
+      "text": "Tracking Prevention",
+      "href": "https://webkit.org/tracking-prevention/"
+    },
+    {
+      "text": "Policies",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#nav-sub-menu"
+    },
+    {
+      "text": "Project Goals",
+      "href": "https://webkit.org/project/"
+    },
+    {
+      "text": "Bug Prioritization",
+      "href": "https://webkit.org/bug-prioritization/"
+    },
+    {
+      "text": "Bug Report Guidelines",
+      "href": "https://webkit.org/bug-report-guidelines/"
+    },
+    {
+      "text": "Code Style Guidelines",
+      "href": "https://webkit.org/code-style-guidelines/"
+    },
+    {
+      "text": "Commit and Review Policy",
+      "href": "https://webkit.org/commit-and-review-policy/"
+    },
+    {
+      "text": "Feature Policy",
+      "href": "https://webkit.org/feature-policy/"
+    },
+    {
+      "text": "Security Policy",
+      "href": "https://webkit.org/security-policy/"
+    },
+    {
+      "text": "Tracking Prevention Policy",
+      "href": "https://webkit.org/tracking-prevention-policy/"
+    },
+    {
+      "text": "Contribute",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#nav-sub-menu"
+    },
+    {
+      "text": "Getting Started",
+      "href": "https://webkit.org/getting-started/"
+    },
+    {
+      "text": "Contributing Code",
+      "href": "https://webkit.org/contributing-code/"
+    },
+    {
+      "text": "Testing Contributions",
+      "href": "https://webkit.org/testing-contributions/"
+    },
+    {
+      "text": "How to Report Bugs",
+      "href": "https://webkit.org/reporting-bugs/"
+    },
+    {
+      "text": "GitHub Repository",
+      "href": "https://github.com/WebKit/WebKit"
+    },
+    {
+      "text": "Blog",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#nav-sub-menu"
+    },
+    {
+      "text": "News Posts",
+      "href": "https://webkit.org/blog/category/news/"
+    },
+    {
+      "text": "CSS Posts",
+      "href": "https://webkit.org/blog/category/css/"
+    },
+    {
+      "text": "Contributing Posts",
+      "href": "https://webkit.org/blog/category/contributing/"
+    },
+    {
+      "text": "Privacy Posts",
+      "href": "https://webkit.org/blog/category/privacy/"
+    },
+    {
+      "text": "Performance Posts",
+      "href": "https://webkit.org/blog/category/performance/"
+    },
+    {
+      "text": "JavaScript Posts",
+      "href": "https://webkit.org/blog/category/javascript/"
+    },
+    {
+      "text": "Standards Posts",
+      "href": "https://webkit.org/blog/category/standards/"
+    },
+    {
+      "text": "Web Inspector Posts",
+      "href": "https://webkit.org/blog/category/web-inspector/"
+    },
+    {
+      "text": "Safari Technology Preview Posts",
+      "href": "https://webkit.org/blog/category/safari-technology-preview/"
+    },
+    {
+      "text": "WebKit Features in Safari 18.2",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/"
+    },
+    {
+      "text": "CSS",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#css"
+    },
+    {
+      "text": "Spatial videos and photos",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#spatial-videos-and-photos"
+    },
+    {
+      "text": "WebXR",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#webxr"
+    },
+    {
+      "text": "Genmoji",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#genmoji"
+    },
+    {
+      "text": "Media",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#media"
+    },
+    {
+      "text": "HTML",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#html"
+    },
+    {
+      "text": "WebAssembly",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#webassembly"
+    },
+    {
+      "text": "Web API",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#web-api"
+    },
+    {
+      "text": "JavaScript",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#javascript"
+    },
+    {
+      "text": "Security and Privacy",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy"
+    },
+    {
+      "text": "Web Inspector",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#web-inspector"
+    },
+    {
+      "text": "WebDriver",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#webdriver"
+    },
+    {
+      "text": "WKWebView",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#wkwebview"
+    },
+    {
+      "text": "Bug Fixes and more",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#bug-fixes-and-more"
+    },
+    {
+      "text": "Updating to Safari 18.2",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#updating-to-safari-18-2"
+    },
+    {
+      "text": "Feedback",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#feedback"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/gbYMERz/d04ddec1bd31a5ce3792d3bfcb34dffb??editors=1100"
+    },
+    {
+      "text": "browser to ship",
+      "href": "https://caniuse.com/css-text-box-trim"
+    },
+    {
+      "text": "View Transitions",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API/Using"
+    },
+    {
+      "text": "@view-transition",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/@view-transition"
+    },
+    {
+      "text": "Safari 18.0",
+      "href": "https://webkit.org/blog/15865/webkit-features-in-safari-18-0/"
+    },
+    {
+      "text": "this masonry-layout demo",
+      "href": "https://webkit.org/demos/grid3/photos/"
+    },
+    {
+      "text": "Make creative borders with background-clip: border-area.",
+      "href": "https://webkit.org/blog/16214/background-clip-border-area/"
+    },
+    {
+      "text": "created a demo",
+      "href": "https://typetura.com/blog/unit-division-with-css-and-fallbacks/"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/wvVVaJJ/d7756725e3ffbd00e7f79f0b8dac5a75?editors=1100"
+    },
+    {
+      "text": "Ruby",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby"
+    },
+    {
+      "text": "as of March 2024",
+      "href": "https://caniuse.com/mdn-css_properties_align-content_block_context"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/zxOqyrR?editors=1100"
+    },
+    {
+      "text": "ruby-overhang",
+      "href": "https://www.w3.org/TR/css-ruby-1/#ruby-overhang"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/MWNNwRZ?editors=1100"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/azoOgbq?editors=1100"
+    },
+    {
+      "text": "introduced a way",
+      "href": "https://webkit.org/blog/363/styling-scrollbars/"
+    },
+    {
+      "text": "scrollbar-width",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width"
+    },
+    {
+      "text": "scrollbar-gutter",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter"
+    },
+    {
+      "text": "this demo",
+      "href": "https://codepen.io/jensimmons/pen/abegVpZ/deb36e472bfb7aca623fc46e04e8fae4?editors=1100"
+    },
+    {
+      "text": "Scroll to Text Fragments",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments"
+    },
+    {
+      "text": "Safari 16.1",
+      "href": "https://webkit.org/blog/13399/webkit-features-in-safari-16-1/#scroll-to-text-fragment"
+    },
+    {
+      "text": "::target-text",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/::target-text"
+    },
+    {
+      "text": ":is()",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/:is"
+    },
+    {
+      "text": ":host()",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host"
+    },
+    {
+      "text": "<string>",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/@property/syntax#string"
+    },
+    {
+      "text": "@property",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/@property"
+    },
+    {
+      "text": "@page",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page"
+    },
+    {
+      "text": "record",
+      "href": "https://support.apple.com/guide/iphone/spatial-photos-record-videos-apple-vision-pro-iph6e3a6d4fe/ios"
+    },
+    {
+      "text": "supports HEVC video",
+      "href": "https://caniuse.com/hevc"
+    },
+    {
+      "text": "Safari 18.0 for visionOS",
+      "href": "https://webkit.org/blog/15865/webkit-features-in-safari-18-0/#:~:text=you%20can%20use%20the%20JavaScript%20Fullscreen%20API"
+    },
+    {
+      "text": "Bring expression to your app with Genmoji",
+      "href": "https://developer.apple.com/videos/play/wwdc2024/10220/"
+    },
+    {
+      "text": "WebVTT",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API"
+    },
+    {
+      "text": "::cue",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/::cue"
+    },
+    {
+      "text": "WASM Garbage Collection",
+      "href": "https://github.com/WebAssembly/gc"
+    },
+    {
+      "text": "WASM Tail Calls",
+      "href": "https://github.com/WebAssembly/tail-call"
+    },
+    {
+      "text": "PointerEvent",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/PointerEvent"
+    },
+    {
+      "text": "auxclick",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/auxclick_event"
+    },
+    {
+      "text": "Float16Array",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float16Array"
+    },
+    {
+      "text": "Uint8Array.prototype.toBase64",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toBase64"
+    },
+    {
+      "text": "Uint8Array.prototype.toHex",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toHex"
+    },
+    {
+      "text": "Uint8Array.fromBase64",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64"
+    },
+    {
+      "text": "Uint8Array.prototype.setFromBase64",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64"
+    },
+    {
+      "text": "Intl.Locale",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale"
+    },
+    {
+      "text": "Promise.try",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/try"
+    },
+    {
+      "text": "iOS 18.2",
+      "href": "https://www.apple.com/ios/ios-18/"
+    },
+    {
+      "text": "iPadOS 18.2",
+      "href": "https://www.apple.com/ipados/ipados-18/"
+    },
+    {
+      "text": "macOS Sequoia",
+      "href": "https://www.apple.com/macos/macos-sequoia/"
+    },
+    {
+      "text": "visionOS 2.2",
+      "href": "https://www.apple.com/visionos/visionos-2/"
+    },
+    {
+      "text": "Bluesky",
+      "href": "https://bsky.app/profile/jensimmons.bsky.social"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://front-end.social/@jensimmons"
+    },
+    {
+      "text": "Bluesky",
+      "href": "https://bsky.app/profile/jondavis.bsky.social"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@jondavis"
+    },
+    {
+      "text": "on LinkedIn",
+      "href": "https://www.linkedin.com/in/apple-webkit/"
+    },
+    {
+      "text": "X",
+      "href": "http://x.com/webkit"
+    },
+    {
+      "text": "feedback",
+      "href": "https://feedbackassistant.apple.com/"
+    },
+    {
+      "text": "filing Feedback",
+      "href": "https://developer.apple.com/bug-reporting/"
+    },
+    {
+      "text": "WebKit bug report",
+      "href": "https://bugs.webkit.org/"
+    },
+    {
+      "text": "webcompat.com",
+      "href": "https://webcompat.com/"
+    },
+    {
+      "text": "Safari Technology Preview",
+      "href": "https://developer.apple.com/safari/technology-preview/"
+    },
+    {
+      "text": "Safari 18.2 release notes",
+      "href": "https://developer.apple.com/documentation/safari-release-notes/"
+    },
+    {
+      "text": "Next\nRelease Notes for Safari Technology Preview 210\nLearn more",
+      "href": "https://webkit.org/blog/16406/release-notes-for-safari-technology-preview-210/"
+    },
+    {
+      "text": "Previously\nRelease Notes for Safari Technology Preview 209\nLearn more",
+      "href": "https://webkit.org/blog/16296/release-notes-for-safari-technology-preview-209/"
+    },
+    {
+      "text": "@webkit@front-end.social",
+      "href": "https://front-end.social/@webkit"
+    },
+    {
+      "text": "Site Map",
+      "href": "https://webkit.org/sitemap/"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "http://www.apple.com/legal/privacy/"
+    },
+    {
+      "text": "Licensing WebKit",
+      "href": "https://webkit.org/licensing-webkit/"
+    },
+    {
+      "text": "WebKit and the WebKit logo are trademarks of Apple Inc.",
+      "href": "https://webkit.org/terms-of-use/"
+    }
+  ]
+}

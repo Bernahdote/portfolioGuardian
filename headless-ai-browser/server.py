@@ -212,7 +212,7 @@ if __name__ == '__main__':
 
     print(f"""
 ╔═══════════════════════════════════════════════════════╗
-║         Web Crawler AI - API Server                  ║
+║         CUA SCRAPER - API Server                  ║
 ╚═══════════════════════════════════════════════════════╝
 
 Server running on http://localhost:{port}

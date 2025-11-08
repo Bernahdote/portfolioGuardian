@@ -1,0 +1,171 @@
+{
+  "step": 7,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:58:41.741Z",
+  "url": "https://lapcatsoftware.com/articles/2024/12/1.html",
+  "title": "How Safari 18.2 https upgrade works",
+  "aiSummary": "The webpage discusses the release of Safari version 18.2, which includes an automatic HTTPS upgrade feature applicable to macOS 15.2 and earlier versions. This feature ensures that Safari attempts to load web pages over secure HTTPS connections by default, enhancing user security. However, it has limitations, such as not applying to URLs entered directly into the address bar, which could lead to confusion among users. For Apple stock performance and risk assessment, the effectiveness of such security features could impact user trust and adoption of Apple's ecosystem, potentially influencing stock valuations.",
+  "allLinks": [
+    {
+      "text": "How Safari (insanely) displays app extension icons",
+      "href": "https://lapcatsoftware.com/articles/2024/11/2.html"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "another blog post",
+      "href": "https://underpassapp.com/news/2024/12/3.html"
+    },
+    {
+      "text": "Apple's announcement",
+      "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy"
+    },
+    {
+      "text": "http://example.org",
+      "href": "http://example.org/"
+    },
+    {
+      "text": "https://example.org",
+      "href": "https://example.org/"
+    },
+    {
+      "text": "http://httpforever.com",
+      "href": "http://httpforever.com/"
+    },
+    {
+      "text": "bug report with WebKit",
+      "href": "https://bugs.webkit.org/"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "How Safari (insanely) displays app extension icons",
+      "href": "https://lapcatsoftware.com/articles/2024/11/2.html"
+    }
+  ],
+  "pageContext": {
+    "title": "How Safari 18.2 https upgrade works",
+    "url": "https://lapcatsoftware.com/articles/2024/12/1.html",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "How Safari (insanely) displays app extension icons",
+        "href": "https://lapcatsoftware.com/articles/2024/11/2.html"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "another blog post",
+        "href": "https://underpassapp.com/news/2024/12/3.html"
+      },
+      {
+        "text": "Apple's announcement",
+        "href": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy"
+      },
+      {
+        "text": "http://example.org",
+        "href": "http://example.org/"
+      },
+      {
+        "text": "https://example.org",
+        "href": "https://example.org/"
+      },
+      {
+        "text": "http://httpforever.com",
+        "href": "http://httpforever.com/"
+      },
+      {
+        "text": "bug report with WebKit",
+        "href": "https://bugs.webkit.org/"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "How Safari (insanely) displays app extension icons",
+        "href": "https://lapcatsoftware.com/articles/2024/11/2.html"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "Previous: How Safari (insanely) displays app extension icons\nArticles index\nJeff Johnson (My apps, PayPal.Me, Mastodon)\nHow Safari 18.2 https upgrade works\nDecember 12 2024\n\nYesterday, Apple released Safari version 18.2, included with iOS 18.2 and macOS 15.2, as a separate update for macOS 14 and 13. I've already discussed one new feature of Safari 18.2, Copy Link with Highlight, in another blog post. Now I'd like to discuss another new feature, automatic https upgrade. From Apple's announcement:\n\nSafari 18.2 on iOS, iPadOS, and visionOS will always try to load webpages over secure connections first, i.e. HTTPS by default. Only if the secure page load fails will Safari fall back to non-secure HTTP.\n\nIn addition, on all platforms, Safari 18.2 also adds an optional Security setting to enforce secure connections and show a warning before attempting a non-secure fallback. The user then gets to choose if they want to cancel or continue over HTTP. The label of the setting is “Not Secure Connection Warning” on iOS, iPadOS, and VisionOS. It is “Warn before connecting to a website over a non-secure connection” on macOS.\n\nI believe there's an oversight in the first paragraph, because HTTPS by default appears to apply to macOS as well as to iOS, iPadOS, and visionOS.\n\nHere's an example: if you click the insecure http link http://example.org, Safari 18.2 will automatically, silently load the secure https link https://example.org instead.\n\nThere's a confusing caveat: the https upgrade feature does not apply to URLs entered in the Safari address bar. So if you copy and paste the URL rather than clicking it, Safari will load the insecure http link, not the secure https link.\n\nI've seen mixed results with bookmarks: if you bookmark an http URL, macOS Safari loads the bookmark as insecure http, whereas iOS Safari upgrades the connection and loads the bookmark as secure https.\n\nAdding to the confusion, macOS Safari does upgrade the connection to https if you select an http URL as a Top Hit in the address bar, even if that URL is a bookmark!\n\nAll of the behavior I've described above occurs automatically in Safari 18.2, whether you like it or not. Safari 18.2 has also added a new setting called \"Warning before connecting to a website over HTTP\" on macOS (slightly contrary to the wording quoted above from Apple's blog post) and \"Not Secure Connection Warning\" on iOS (somewhat ambiguous, ought to be rephrased as \"Insecure Connection Warning\").\n\nIronically, you probably won't ever see this warning, and you might conclude that the new Safari setting doesn't work. That's what I thought at first. There are two reasons for the confusion: (1) Safari won't warn you if it can perform automatic https upgrade, because then you don't need to be warned; (2) Safari warns you only in situations where it would apply automatic https upgrade. To elaborate on the second reason, we already know that Safari does not apply https upgrade to URLs that you enter into the address bar. Thus, i"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"NAVIGATE\",\"url\":\"https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy\",\"reasoning\":\"The link to Apple's announcement on WebKit about Safari 18.2 may contain critical information related to security and privacy features that could impact user trust and, consequently, Apple’s stock performance.\"}",
+    "action": "NAVIGATE",
+    "url": "https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy",
+    "reasoning": "The link to Apple's announcement on WebKit about Safari 18.2 may contain critical information related to security and privacy features that could impact user trust and, consequently, Apple’s stock performance."
+  },
+  "result": "Navigated to https://webkit.org/blog/16301/webkit-features-in-safari-18-2/#security-and-privacy"
+}

@@ -1,0 +1,17 @@
+{
+  "sessionId": "macOS_2025-11-08_14_59_49_0cqf8f",
+  "topic": "macOS",
+  "goal": "Find news about Apple stock performance and risks",
+  "timestamp": "2025-11-08T13:59:49.944Z",
+  "sources": [
+    "https://news.ycombinator.com"
+  ],
+  "metadata": {
+    "maxStepsPerSource": 10
+  },
+  "steps": [],
+  "articlesCollected": [],
+  "thoughts": [],
+  "result": null,
+  "error": "getaddrinfo EAI_AGAIN euwest.cloud.lightpanda.io"
+}
