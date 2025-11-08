@@ -1,0 +1,405 @@
+{
+  "step": 1,
+  "source": "https://www.bloomberg.com",
+  "timestamp": "2025-11-08T13:32:50.366Z",
+  "url": "https://www.bloomberg.com/uk",
+  "title": "Bloomberg UK",
+  "aiSummary": "The provided content does not contain specific information about NVIDIA (NVDA) stock, including its recent news, market sentiment, financial data, or associated risks and opportunities. The focus appears to be on broader market indices and unrelated political and economic news. For insights on NVDA, it would be necessary to refer to more detailed financial analysis or news sources that specifically cover the company's stock performance and market developments.",
+  "allLinks": [
+    {
+      "text": "Skip to content",
+      "href": "https://www.bloomberg.com/uk#that-jump-content"
+    },
+    {
+      "text": "Bloomberg the Company & Its ProductsThe Company & its Products",
+      "href": "https://www.bloomberg.com/company/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Terminal Demo Request",
+      "href": "https://www.bloomberg.com/professional/contact-menu/?utm_source=bloomberg-menu&utm_medium=bcom&bbgsum=DG-WS-PROF-DEMO-bbgmenu"
+    },
+    {
+      "text": "Bloomberg Anywhere Remote LoginBloomberg Anywhere Login",
+      "href": "https://bba.bloomberg.net/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Customer SupportCustomer Support",
+      "href": "https://www.bloomberg.com/professional/support/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Anywhere Remote Login",
+      "href": "https://bba.bloomberg.net/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Software Updates",
+      "href": "https://www.bloomberg.com/professional/support/customer-support/software-updates/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Manage Products and Account Information",
+      "href": "https://service.bloomberg.com/portal/sessions/new?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "About",
+      "href": "https://www.bloomberg.com/company/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Careers",
+      "href": "https://www.bloomberg.com/company/what-we-do/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Inclusion at Bloomberg",
+      "href": "https://www.bloomberg.com/company/values/inclusion/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Tech at Bloomberg",
+      "href": "https://www.bloomberg.com/company/values/tech-at-bloomberg/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Philanthropy",
+      "href": "https://www.bloomberg.com/company/philanthropy/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Sustainability",
+      "href": "https://www.bloomberg.com/company/sustainability/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Beta",
+      "href": "https://www.bloomberg.com/company/values/tech-at-bloomberg/bloomberg-beta/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Press Announcements",
+      "href": "https://www.bloomberg.com/company/announcements/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Press Contacts",
+      "href": "https://www.bloomberg.com/company/press-contacts/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/Bloomberglp"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/bloomberg/"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/company/2494"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/@bloomberglp"
+    },
+    {
+      "text": "Bloomberg Professional Services",
+      "href": "https://bloomberg.com/professional?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Terminal",
+      "href": "https://www.bloomberg.com/professional/products/bloomberg-terminal/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Data",
+      "href": "https://www.bloomberg.com/professional/products/data/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Trading",
+      "href": "https://www.bloomberg.com/professional/products/trading/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Risk",
+      "href": "https://www.bloomberg.com/professional/products/risk/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Compliance",
+      "href": "https://www.bloomberg.com/professional/products/compliance/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Indices",
+      "href": "https://www.bloomberg.com/professional/products/indices/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Law",
+      "href": "https://pro.bloomberglaw.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Tax",
+      "href": "https://pro.bloombergtax.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Government",
+      "href": "https://about.bgov.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "BloombergNEF",
+      "href": "https://about.bnef.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Markets",
+      "href": "https://www.bloomberg.com/markets/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Technology",
+      "href": "https://www.bloomberg.com/technology/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Pursuits",
+      "href": "https://www.bloomberg.com/pursuits/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Politics",
+      "href": "https://www.bloomberg.com/politics/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Opinion",
+      "href": "https://www.bloomberg.com/opinion/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Businessweek",
+      "href": "https://www.bloomberg.com/businessweek/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Live Conferences",
+      "href": "https://www.bloomberglive.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    },
+    {
+      "text": "Bloomberg Radio",
+      "href": "https://www.bloombergradio.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+    }
+  ],
+  "pageContext": {
+    "title": "Bloomberg UK",
+    "url": "https://www.bloomberg.com/uk",
+    "inputs": [],
+    "buttons": [
+      {
+        "text": "Top SecuritiesChevron Down",
+        "id": "downshift-37974-toggle-button",
+        "selector": "#downshift-37974-toggle-button"
+      },
+      {
+        "text": "Top SecuritiesChevron Down",
+        "id": "downshift-37975-toggle-button",
+        "selector": "#downshift-37975-toggle-button"
+      },
+      {
+        "text": "All categoriesChevron Down",
+        "id": "downshift-37976-toggle-button",
+        "selector": "#downshift-37976-toggle-button"
+      },
+      {
+        "text": "All categoriesChevron Down",
+        "id": "downshift-37977-toggle-button",
+        "selector": "#downshift-37977-toggle-button"
+      },
+      {
+        "text": "Manage Cookies",
+        "id": "cmp-footer-link",
+        "selector": "#cmp-footer-link"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "href": "https://www.bloomberg.com/uk#that-jump-content"
+      },
+      {
+        "text": "Bloomberg the Company & Its ProductsThe Company & its Products",
+        "href": "https://www.bloomberg.com/company/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Terminal Demo Request",
+        "href": "https://www.bloomberg.com/professional/contact-menu/?utm_source=bloomberg-menu&utm_medium=bcom&bbgsum=DG-WS-PROF-DEMO-bbgmenu"
+      },
+      {
+        "text": "Bloomberg Anywhere Remote LoginBloomberg Anywhere Login",
+        "href": "https://bba.bloomberg.net/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Customer SupportCustomer Support",
+        "href": "https://www.bloomberg.com/professional/support/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Anywhere Remote Login",
+        "href": "https://bba.bloomberg.net/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Software Updates",
+        "href": "https://www.bloomberg.com/professional/support/customer-support/software-updates/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Manage Products and Account Information",
+        "href": "https://service.bloomberg.com/portal/sessions/new?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "About",
+        "href": "https://www.bloomberg.com/company/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Careers",
+        "href": "https://www.bloomberg.com/company/what-we-do/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Inclusion at Bloomberg",
+        "href": "https://www.bloomberg.com/company/values/inclusion/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Tech at Bloomberg",
+        "href": "https://www.bloomberg.com/company/values/tech-at-bloomberg/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Philanthropy",
+        "href": "https://www.bloomberg.com/company/philanthropy/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Sustainability",
+        "href": "https://www.bloomberg.com/company/sustainability/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Beta",
+        "href": "https://www.bloomberg.com/company/values/tech-at-bloomberg/bloomberg-beta/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Press Announcements",
+        "href": "https://www.bloomberg.com/company/announcements/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Press Contacts",
+        "href": "https://www.bloomberg.com/company/press-contacts/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/Bloomberglp"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/bloomberg/"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/2494"
+      },
+      {
+        "text": "YouTube",
+        "href": "https://www.youtube.com/@bloomberglp"
+      },
+      {
+        "text": "Bloomberg Professional Services",
+        "href": "https://bloomberg.com/professional?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Terminal",
+        "href": "https://www.bloomberg.com/professional/products/bloomberg-terminal/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Data",
+        "href": "https://www.bloomberg.com/professional/products/data/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Trading",
+        "href": "https://www.bloomberg.com/professional/products/trading/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Risk",
+        "href": "https://www.bloomberg.com/professional/products/risk/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Compliance",
+        "href": "https://www.bloomberg.com/professional/products/compliance/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Indices",
+        "href": "https://www.bloomberg.com/professional/products/indices/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Law",
+        "href": "https://pro.bloomberglaw.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Tax",
+        "href": "https://pro.bloombergtax.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Government",
+        "href": "https://about.bgov.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "BloombergNEF",
+        "href": "https://about.bnef.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Markets",
+        "href": "https://www.bloomberg.com/markets/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Technology",
+        "href": "https://www.bloomberg.com/technology/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Pursuits",
+        "href": "https://www.bloomberg.com/pursuits/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Politics",
+        "href": "https://www.bloomberg.com/politics/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Opinion",
+        "href": "https://www.bloomberg.com/opinion/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Businessweek",
+        "href": "https://www.bloomberg.com/businessweek/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Live Conferences",
+        "href": "https://www.bloomberglive.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      },
+      {
+        "text": "Bloomberg Radio",
+        "href": "https://www.bloombergradio.com/?utm_source=bloomberg-menu&utm_medium=bcom"
+      }
+    ],
+    "articles": [
+      {
+        "text": "3 minLula Tries to Expand Oil and Rainforests as Climate World Comes to Brazil"
+      },
+      {
+        "text": "1 hrShein Continues to Operate in France ‘Under Close Surveillance’"
+      },
+      {
+        "text": "2 hrSouth Africa Takes Reins of Regional Body After Madagascar Coup"
+      },
+      {
+        "text": "4 hrCharting the Global Economy: Bank of England Holds Line on Rates"
+      },
+      {
+        "text": "4 hrUSTR Greer Talks Trade With Swiss as Swatch CEO Blasts Approach"
+      },
+      {
+        "text": "5 hrThe Viral Milk That Helped Set Off America's Protein Boom"
+      },
+      {
+        "text": "3 minLula Tries to Expand Oil and Rainforests as Climate World Comes to Brazil"
+      },
+      {
+        "text": "1 hrShein Continues to Operate in France ‘Under Close Surveillance’"
+      },
+      {
+        "text": "2 hrSouth Africa Takes Reins of Regional Body After Madagascar Coup"
+      },
+      {
+        "text": "4 hrCharting the Global Economy: Bank of England Holds Line on Rates"
+      }
+    ],
+    "bodyPreview": "Skip to content\nThe Company & its ProductsBloomberg Terminal Demo RequestBloomberg Anywhere LoginCustomer Support\nSubscribe\n\nTop Securities\n\nFTSE 100\n9,682.57\n0.55%\nS&P 500\n6,728.80\n0.13%\nB500\n2,438.24\n0.12%\nPound/Dollar\n1.32\n0.19%\nEuro/Pound\n0.88\n0.02%\nCrude Oil\n59.75\n0.54%\nNasdaq\n23,004.54\n0.21%\nDAX\n23,569.96\n0.69%\nFTSE MIB\n42,917.67\n0.35%\nBack\nForward\nBen Montgomery/Getty Images\nStarmer Won Power by ‘Punching Left.’ Now It’s Punching Back\nThe Greens have seen a surge in membership and are now polling strongly, with some surveys even putting them ahead of Labour.\nRelated\nReeves Puts Tax-Raising Budget Plans to Watchdog for Verdict\nAllegra Stratton: Who's Guarding the UK’s Golden Goose?\nHollie Adams/Bloomberg\nComplaints About UK Rental Properties Climb to Highest on Record\nThe situation is most pronounced in London, where the number of complaints about landlords and estate agencies has risen 173%.\nNewsletter: Merryn Talks Money\nWhat Mamdani Can Learn From Cairo About Rent Control\nGet the Newsletter\nMichael M. Santiago/Getty Images\nWeekend Essay\nAmerican Politics Is All About Affordability Now\nBy Nancy Cook\nDispatch\nGeneration Erdoğan Is Losing Faith In the Only Turkey It Knows\nDispatch\nA Swedish Holiday Hotspot Is Now a Strategic Outpost Against Russia\nDispatch\nChatbots Are Sparking a New Era of Student Surveillance\nWeekend Essay\nThe Men Who Shaped the Internet Won’t Be Able to Fix It\nTim Berners-Lee dreamed of a World Wide Web for everyone. Nick Clegg and Meta had different ideas. In new books, both ignore how profit undermined the internet.\nDispatch\nVietnam Is Trying to Get Tons of Hoarded Gold Back Into Circulation\nFor generations, Vietnamese families have stashed gold as protection against hard times. Now rising prices are testing the government’s grip on the market. \nOpinionJohn Authers\nThe Real Trump Shock Is How Quickly It’s Over\nAmerican Exceptionalism is back due to AI and the world’s refusal to fight a trade war. \n1:30\nDispatch\nHow High School Baseball Saved a Town From Extinction\nAs South Korea’s population crisis deepens, the remote mining town of Sangdong set out to lure new residents by building a best-in-class baseball program from scratch.\nWeekend Interview\nJulia Ioffe on Why Putinism Won’t Die With Putin\nThe Motherland author talks about reclaiming Russia’s women, the “demented family heirlooms” of Soviet trauma, and the country’s relationship with its chief decision-maker.\nWatch (41:53)\nJournalist Julia Ioffe on Women in Russia, Putin, Trump\n11:06\nCan Mamdani Win Over Wall Street?\n22:34\nInside the Deaths That Rocked India's Relations With the West\n44:00\nHow South Korea Made Its Mark on the Globe\n9:26\nWho Will Fill Jamie Dimon’s Shoes?\n5:33\nHow Disasters Fuel the US Economy\n48:00\nCan We Still Be Optimistic in 2025?\nLatest News\n\nAll categories\n\n3 min\nLula Tries to Expand Oil and Rainforests as Climate World Comes to Brazil\n1 hr\nShein Continues to Operate in France ‘Under Close Surveillance’\n2 hr\nSouth Africa Takes Reins of Region"
+  },
+  "action": {
+    "fullResponse": "```json\n{\"action\": \"scroll\", \"direction\": \"down\", \"pixels\": 500, \"reasoning\": \"to reveal more NVDA links\"}\n```",
+    "action": "scroll",
+    "direction": "down",
+    "pixels": 500,
+    "reasoning": "to reveal more NVDA links"
+  },
+  "result": "Scrolled down"
+}

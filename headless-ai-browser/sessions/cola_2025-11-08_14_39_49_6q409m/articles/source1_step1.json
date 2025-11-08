@@ -1,0 +1,1430 @@
+{
+  "step": 1,
+  "source": "https://www.thelancet.com/journals/lanpub/home",
+  "timestamp": "2025-11-08T13:39:56.168Z",
+  "url": "https://www.thelancet.com/journals/lanpub/home",
+  "title": "The Lancet Public Health Home Page",
+  "aiSummary": "The provided webpage does not contain any relevant information about Coca-Cola (KO) stock, including news, market sentiment, financial data, or risks/opportunities. Instead, it focuses on public health topics, articles, and research findings in the field of health. For insights on Coca-Cola stock, please refer to financial news websites or stock market analysis platforms.",
+  "allLinks": [
+    {
+      "text": "Skip to Main Content",
+      "href": "https://www.thelancet.com/journals/lanpub/home#page-body-id"
+    },
+    {
+      "text": "Skip to Main Menu",
+      "href": "https://www.thelancet.com/journals/lanpub/home#mega-menu-nav"
+    },
+    {
+      "text": "Show",
+      "href": "https://www.thelancet.com/journals/lanpub/home#"
+    },
+    {
+      "text": "Forgot password?",
+      "href": "https://www.thelancet.com/action/requestResetPassword"
+    },
+    {
+      "text": "Create a Free Account",
+      "href": "https://www.thelancet.com/action/registration?redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Cancel",
+      "href": "https://www.thelancet.com/journals/lanpub/home#"
+    },
+    {
+      "text": "Submit Article",
+      "href": "https://www.editorialmanager.com/thelancetpublichealth"
+    },
+    {
+      "text": "Log in",
+      "href": "https://www.thelancet.com/action/idLogin?type=login&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Get Institutional Access",
+      "href": "https://www.thelancet.com/action/idLogin?type=institution&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Register",
+      "href": "https://www.thelancet.com/action/idLogin?type=registration&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Submit Article",
+      "href": "https://www.editorialmanager.com/thelancetpublichealth"
+    },
+    {
+      "text": "Log in",
+      "href": "https://www.thelancet.com/action/idLogin?type=login&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Get Institutional Access",
+      "href": "https://www.thelancet.com/action/idLogin?type=institution&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "Register",
+      "href": "https://www.thelancet.com/action/idLogin?type=registration&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+    },
+    {
+      "text": "This journal",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "Online first",
+      "href": "https://www.thelancet.com/journals/lanpub/onlinefirst"
+    },
+    {
+      "text": "Current issue",
+      "href": "https://www.thelancet.com/journals/lanpub/issue/current"
+    },
+    {
+      "text": "All issues",
+      "href": "https://www.thelancet.com/journals/lanpub/issues"
+    },
+    {
+      "text": "Series",
+      "href": "https://www.thelancet.com/series-do?startPage=&JournalFacetField=The%20Lancet%20Public%20Health"
+    },
+    {
+      "text": "Commissions",
+      "href": "https://www.thelancet.com/commissions-do?startPage=&JournalFacetField=The%20Lancet%20Public%20Health"
+    },
+    {
+      "text": "About the journal",
+      "href": "https://www.thelancet.com/lanpub/about"
+    },
+    {
+      "text": "Alerts",
+      "href": "https://www.thelancet.com/action/showPreferences?menuTab=Alerts"
+    },
+    {
+      "text": "Podcasts",
+      "href": "https://www.thelancet.com/multimedia/podcasts/in-conversation-with/lanpub"
+    },
+    {
+      "text": "Journals",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "The Lancet",
+      "href": "https://www.thelancet.com/journals/lancet/home"
+    },
+    {
+      "text": "The Lancet Child & Adolescent Health",
+      "href": "https://www.thelancet.com/journals/lanchi/home"
+    },
+    {
+      "text": "The Lancet Diabetes & Endocrinology",
+      "href": "https://www.thelancet.com/journals/landia/home"
+    },
+    {
+      "text": "The Lancet Digital Health",
+      "href": "https://www.thelancet.com/journals/landig/home"
+    },
+    {
+      "text": "The Lancet Gastroenterology & Hepatology",
+      "href": "https://www.thelancet.com/journals/langas/home"
+    },
+    {
+      "text": "The Lancet Global Health",
+      "href": "https://www.thelancet.com/journals/langlo/home"
+    },
+    {
+      "text": "The Lancet Haematology",
+      "href": "https://www.thelancet.com/journals/lanhae/home"
+    },
+    {
+      "text": "The Lancet Healthy Longevity",
+      "href": "https://www.thelancet.com/journals/lanhl/home"
+    },
+    {
+      "text": "The Lancet HIV",
+      "href": "https://www.thelancet.com/journals/lanhiv/home"
+    },
+    {
+      "text": "The Lancet Infectious Diseases",
+      "href": "https://www.thelancet.com/journals/laninf/home"
+    },
+    {
+      "text": "The Lancet Microbe",
+      "href": "https://www.thelancet.com/journals/lanmic/home"
+    },
+    {
+      "text": "The Lancet Neurology",
+      "href": "https://www.thelancet.com/journals/laneur/home"
+    },
+    {
+      "text": "The Lancet Obstetrics, Gynaecology, & Women's Health",
+      "href": "https://www.thelancet.com/journals/lanogw/home"
+    },
+    {
+      "text": "The Lancet Oncology",
+      "href": "https://www.thelancet.com/journals/lanonc/home"
+    },
+    {
+      "text": "The Lancet Planetary Health",
+      "href": "https://www.thelancet.com/journals/lanplh/home"
+    },
+    {
+      "text": "The Lancet Primary Care",
+      "href": "https://www.thelancet.com/journals/lanprc/home"
+    },
+    {
+      "text": "The Lancet Psychiatry",
+      "href": "https://www.thelancet.com/journals/lanpsy/home"
+    },
+    {
+      "text": "The Lancet Public Health",
+      "href": "https://www.thelancet.com/journals/lanpub/home"
+    },
+    {
+      "text": "The Lancet Respiratory Medicine",
+      "href": "https://www.thelancet.com/journals/lanres/home"
+    },
+    {
+      "text": "The Lancet Rheumatology",
+      "href": "https://www.thelancet.com/journals/lanrhe/home"
+    },
+    {
+      "text": "The Lancet Regional Health - Africa",
+      "href": "https://www.thelancet.com/regional-health/africa"
+    },
+    {
+      "text": "The Lancet Regional Health - Americas",
+      "href": "https://www.thelancet.com/journals/lanam/home"
+    },
+    {
+      "text": "The Lancet Regional Health - Europe",
+      "href": "https://www.thelancet.com/journals/lanepe/home"
+    },
+    {
+      "text": "The Lancet Regional Health - Southeast Asia",
+      "href": "https://www.thelancet.com/journals/lansea/home"
+    },
+    {
+      "text": "The Lancet Regional Health - Western Pacific",
+      "href": "https://www.thelancet.com/journals/lanwpc/home"
+    },
+    {
+      "text": "eBioMedicine",
+      "href": "https://www.thelancet.com/journals/ebiom/home"
+    },
+    {
+      "text": "eClinicalMedicine",
+      "href": "https://www.thelancet.com/journals/eclinm/home"
+    },
+    {
+      "text": "Publish",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "Publish with The Lancet Group",
+      "href": "https://www.thelancet.com/for-authors"
+    },
+    {
+      "text": "Submit your manuscript",
+      "href": "https://www.thelancet.com/submit"
+    },
+    {
+      "text": "Submission guidelines",
+      "href": "https://www.thelancet.com/submission-guidelines"
+    },
+    {
+      "text": "Content types",
+      "href": "https://www.thelancet.com/what-we-publish"
+    },
+    {
+      "text": "Editorial policies",
+      "href": "https://www.thelancet.com/editorial-policies"
+    },
+    {
+      "text": "Pathways to publication",
+      "href": "https://www.thelancet.com/pathways-to-publication"
+    },
+    {
+      "text": "Journey of a paper",
+      "href": "https://www.thelancet.com/journey-paper"
+    },
+    {
+      "text": "Why publish with us?",
+      "href": "https://www.thelancet.com/why-publish"
+    },
+    {
+      "text": "Open access",
+      "href": "https://www.thelancet.com/open-access"
+    },
+    {
+      "text": "Our journals",
+      "href": "https://www.thelancet.com/which-journal"
+    },
+    {
+      "text": "Peer review",
+      "href": "https://www.thelancet.com/peer-review"
+    },
+    {
+      "text": "Journal impact metrics",
+      "href": "https://www.thelancet.com/journal-impact-metrics"
+    },
+    {
+      "text": "Preprints with The Lancet",
+      "href": "https://www.thelancet.com/preprints"
+    },
+    {
+      "text": "Clinical",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "Clinical resources",
+      "href": "https://www.thelancet.com/clinical"
+    },
+    {
+      "text": "Core clinical topics",
+      "href": "https://www.thelancet.com/clinical/core-clinical-topics"
+    },
+    {
+      "text": "Reviews",
+      "href": "https://www.thelancet.com/clinical/reviews"
+    },
+    {
+      "text": "Clinical cases",
+      "href": "https://www.thelancet.com/clinical/clinical-cases"
+    },
+    {
+      "text": "Commissions",
+      "href": "https://www.thelancet.com/commissions-do?startPage=&ConceptID=912197"
+    },
+    {
+      "text": "Series",
+      "href": "https://www.thelancet.com/series-do?startPage=&ConceptID=912197"
+    },
+    {
+      "text": "Artificial intelligence",
+      "href": "https://www.thelancet.com/collections/artificial-intelligence"
+    },
+    {
+      "text": "Cardiology & Vascular Medicine",
+      "href": "https://www.thelancet.com/collections/cardiology-vascular-medicine"
+    },
+    {
+      "text": "Diabetes & Endocrinology",
+      "href": "https://www.thelancet.com/collections/endocrinology"
+    },
+    {
+      "text": "Infectious diseases",
+      "href": "https://www.thelancet.com/collections/infectious-diseases"
+    },
+    {
+      "text": "Neurology",
+      "href": "https://www.thelancet.com/collections/neurology"
+    },
+    {
+      "text": "Oncology",
+      "href": "https://www.thelancet.com/collections/oncology"
+    },
+    {
+      "text": "View all specialty collections",
+      "href": "https://www.thelancet.com/collections"
+    },
+    {
+      "text": "Global health",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "Global health overview",
+      "href": "https://www.thelancet.com/global-health"
+    },
+    {
+      "text": "Commissions",
+      "href": "https://www.thelancet.com/commissions-do?startPage=&ConceptID=912198"
+    },
+    {
+      "text": "Series",
+      "href": "https://www.thelancet.com/series-do?startPage=&ConceptID=912198"
+    },
+    {
+      "text": "Global burden of disease",
+      "href": "https://www.thelancet.com/gbd"
+    },
+    {
+      "text": "Climate countdown",
+      "href": "https://www.thelancet.com/countdown-health-climate"
+    },
+    {
+      "text": "COVID-19",
+      "href": "https://www.thelancet.com/action/doSearch?text1=COVID-19+OR+coronavirus+OR+SARS-CoV-2+OR+2019-nCoV&field1=Title&startPage=&P"
+    },
+    {
+      "text": "Disease Control Priorities (DCP-3)",
+      "href": "https://www.thelancet.com/disease-control-priorities-3"
+    },
+    {
+      "text": "Ebola",
+      "href": "https://www.thelancet.com/action/doSearch?text1=Ebola&field1=Title&startPage=&P"
+    },
+    {
+      "text": "Mpox",
+      "href": "https://www.thelancet.com/mpox"
+    },
+    {
+      "text": "Ukraine",
+      "href": "https://www.thelancet.com/action/doSearch?text1=Ukraine+OR+Ukrainian&field1=Title&startPage=&P"
+    },
+    {
+      "text": "Zika",
+      "href": "https://www.thelancet.com/action/doSearch?text1=Zika&field1=Title&startPage=&P"
+    },
+    {
+      "text": "Multimedia",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "Multimedia overview",
+      "href": "https://www.thelancet.com/multimedia"
+    },
+    {
+      "text": "Podcasts",
+      "href": "https://www.thelancet.com/multimedia/podcasts"
+    },
+    {
+      "text": "Videos",
+      "href": "https://www.thelancet.com/video-do"
+    },
+    {
+      "text": "Infographics",
+      "href": "https://www.thelancet.com/infographics-do"
+    },
+    {
+      "text": "Events",
+      "href": "javascript:void(0)"
+    }
+  ],
+  "pageContext": {
+    "title": "The Lancet Public Health Home Page",
+    "url": "https://www.thelancet.com/journals/lanpub/home",
+    "inputs": [
+      {
+        "type": "hidden",
+        "name": "redirectUri",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"redirectUri\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "referer",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"referer\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "ecommRedirect",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"ecommRedirect\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "code",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"code\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "UX3LoginWidget",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"UX3LoginWidget\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "isPopup",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"isPopup\"]"
+      },
+      {
+        "type": "text",
+        "name": "login",
+        "id": "login",
+        "placeholder": "",
+        "selector": "#login"
+      },
+      {
+        "type": "password",
+        "name": "password",
+        "id": "password",
+        "placeholder": "",
+        "selector": "#password"
+      },
+      {
+        "type": "checkbox",
+        "name": "savePassword",
+        "id": "4c31e095-4cfd-4512-91fb-6490d2d7217b-remember",
+        "placeholder": "",
+        "selector": "#4c31e095-4cfd-4512-91fb-6490d2d7217b-remember"
+      },
+      {
+        "type": "submit",
+        "name": "submit",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"submit\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "platform",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"platform\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "requestResetPassword",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"requestResetPassword\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "codeSite",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"codeSite\"]"
+      },
+      {
+        "type": "text",
+        "name": "email",
+        "id": "reset-password-email",
+        "placeholder": "",
+        "selector": "#reset-password-email"
+      },
+      {
+        "type": "submit",
+        "name": "submit",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"submit\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "",
+        "id": "gptSite",
+        "placeholder": "",
+        "selector": "#gptSite"
+      },
+      {
+        "type": "hidden",
+        "name": "",
+        "id": "gptLoggedIn",
+        "placeholder": "",
+        "selector": "#gptLoggedIn"
+      },
+      {
+        "type": "hidden",
+        "name": "",
+        "id": "gptAccessType",
+        "placeholder": "",
+        "selector": "#gptAccessType"
+      },
+      {
+        "type": "hidden",
+        "name": "type",
+        "id": "type",
+        "placeholder": "",
+        "selector": "#type"
+      },
+      {
+        "type": "text",
+        "name": "text1",
+        "id": "searchText",
+        "placeholder": "Search for...",
+        "selector": "#searchText"
+      },
+      {
+        "type": "hidden",
+        "name": "journalCode",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"journalCode\"]"
+      },
+      {
+        "type": "radio",
+        "name": "SeriesKey",
+        "id": "searchScopeSeries-5c9e10b9-1f29-4a3f-851e-330190da5b12",
+        "placeholder": "",
+        "selector": "#searchScopeSeries-5c9e10b9-1f29-4a3f-851e-330190da5b12"
+      },
+      {
+        "type": "radio",
+        "name": "SeriesKey",
+        "id": "searchScopeFullSite-5c9e10b9-1f29-4a3f-851e-330190da5b12",
+        "placeholder": "",
+        "selector": "#searchScopeFullSite-5c9e10b9-1f29-4a3f-851e-330190da5b12"
+      },
+      {
+        "type": "hidden",
+        "name": "file",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"file\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "mediaUrl",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"mediaUrl\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "width",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"width\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "height",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"height\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "autostart",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"autostart\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "wmode",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"wmode\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "skin",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"skin\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "active",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"active\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "inactive",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"inactive\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "background",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"background\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "image",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"image\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "link",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"link\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "file",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"file\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "mediaUrl",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"mediaUrl\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "width",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"width\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "height",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"height\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "autostart",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"autostart\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "wmode",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"wmode\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "skin",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"skin\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "active",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"active\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "inactive",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"inactive\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "background",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"background\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "image",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"image\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "link",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"link\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "file",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"file\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "mediaUrl",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"mediaUrl\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "width",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"width\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "height",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"height\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "autostart",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"autostart\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "wmode",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"wmode\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "skin",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"skin\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "active",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"active\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "inactive",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"inactive\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "background",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"background\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "image",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"image\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "link",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"link\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "file",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"file\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "mediaUrl",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"mediaUrl\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "width",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"width\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "height",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"height\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "autostart",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"autostart\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "wmode",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"wmode\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "skin",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"skin\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "active",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"active\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "inactive",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"inactive\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "background",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"background\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "image",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"image\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "link",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"link\"]"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "id": "a2a_copy_link_text",
+        "placeholder": "",
+        "selector": "#a2a_copy_link_text"
+      },
+      {
+        "type": "text",
+        "name": "",
+        "id": "a2apage_find",
+        "placeholder": "",
+        "selector": "#a2apage_find"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-3",
+        "id": "ot-group-id-3",
+        "placeholder": "",
+        "selector": "#ot-group-id-3"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-2",
+        "id": "ot-group-id-2",
+        "placeholder": "",
+        "selector": "#ot-group-id-2"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-4",
+        "id": "ot-group-id-4",
+        "placeholder": "",
+        "selector": "#ot-group-id-4"
+      },
+      {
+        "type": "text",
+        "name": "vendor-search-handler",
+        "id": "vendor-search-handler",
+        "placeholder": "Search…",
+        "selector": "#vendor-search-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "chkbox-id",
+        "placeholder": "",
+        "selector": "#chkbox-id"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-hosts-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-hosts-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-leg-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-leg-handler"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Open Oracle Keywords",
+        "id": "gpt_GrapeShotDebugBtn",
+        "selector": "#gpt_GrapeShotDebugBtn"
+      },
+      {
+        "text": "Cookie Settings",
+        "id": "cookieBtn",
+        "selector": "#cookieBtn"
+      },
+      {
+        "text": "Cookie Settings",
+        "id": "onetrust-pc-btn-handler",
+        "selector": "#onetrust-pc-btn-handler"
+      },
+      {
+        "text": "Accept all cookies",
+        "id": "onetrust-accept-btn-handler",
+        "selector": "#onetrust-accept-btn-handler"
+      },
+      {
+        "text": "Allow all",
+        "id": "accept-recommended-btn-handler",
+        "selector": "#accept-recommended-btn-handler"
+      },
+      {
+        "text": "Filter Icon",
+        "id": "filter-btn-handler",
+        "selector": "#filter-btn-handler"
+      },
+      {
+        "text": "Clear",
+        "id": "clear-filters-handler",
+        "selector": "#clear-filters-handler"
+      },
+      {
+        "text": "Apply",
+        "id": "filter-apply-handler",
+        "selector": "#filter-apply-handler"
+      },
+      {
+        "text": "Cancel",
+        "id": "filter-cancel-handler",
+        "selector": "#filter-cancel-handler"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to Main Content",
+        "href": "https://www.thelancet.com/journals/lanpub/home#page-body-id"
+      },
+      {
+        "text": "Skip to Main Menu",
+        "href": "https://www.thelancet.com/journals/lanpub/home#mega-menu-nav"
+      },
+      {
+        "text": "",
+        "href": "https://www.thelancet.com/journals/lanpub/home#"
+      },
+      {
+        "text": "Show",
+        "href": "https://www.thelancet.com/journals/lanpub/home#"
+      },
+      {
+        "text": "Forgot password?",
+        "href": "https://www.thelancet.com/action/requestResetPassword"
+      },
+      {
+        "text": "Create a Free Account",
+        "href": "https://www.thelancet.com/action/registration?redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "",
+        "href": "https://www.thelancet.com/journals/lanpub/home#"
+      },
+      {
+        "text": "Cancel",
+        "href": "https://www.thelancet.com/journals/lanpub/home#"
+      },
+      {
+        "text": "",
+        "href": "https://www.thelancet.com/journals/lanpub/home"
+      },
+      {
+        "text": "Submit Article",
+        "href": "https://www.editorialmanager.com/thelancetpublichealth"
+      },
+      {
+        "text": "Log in",
+        "href": "https://www.thelancet.com/action/idLogin?type=login&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "Get Institutional Access",
+        "href": "https://www.thelancet.com/action/idLogin?type=institution&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "Register",
+        "href": "https://www.thelancet.com/action/idLogin?type=registration&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "Submit Article",
+        "href": "https://www.editorialmanager.com/thelancetpublichealth"
+      },
+      {
+        "text": "Log in",
+        "href": "https://www.thelancet.com/action/idLogin?type=login&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "Get Institutional Access",
+        "href": "https://www.thelancet.com/action/idLogin?type=institution&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "Register",
+        "href": "https://www.thelancet.com/action/idLogin?type=registration&redirectUri=https%3A%2F%2Fwww.thelancet.com%2Fjournals%2Flanpub%2Fhome"
+      },
+      {
+        "text": "This journal",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Online first",
+        "href": "https://www.thelancet.com/journals/lanpub/onlinefirst"
+      },
+      {
+        "text": "Current issue",
+        "href": "https://www.thelancet.com/journals/lanpub/issue/current"
+      },
+      {
+        "text": "All issues",
+        "href": "https://www.thelancet.com/journals/lanpub/issues"
+      },
+      {
+        "text": "Series",
+        "href": "https://www.thelancet.com/series-do?startPage=&JournalFacetField=The%20Lancet%20Public%20Health"
+      },
+      {
+        "text": "Commissions",
+        "href": "https://www.thelancet.com/commissions-do?startPage=&JournalFacetField=The%20Lancet%20Public%20Health"
+      },
+      {
+        "text": "About the journal",
+        "href": "https://www.thelancet.com/lanpub/about"
+      },
+      {
+        "text": "Alerts",
+        "href": "https://www.thelancet.com/action/showPreferences?menuTab=Alerts"
+      },
+      {
+        "text": "Podcasts",
+        "href": "https://www.thelancet.com/multimedia/podcasts/in-conversation-with/lanpub"
+      },
+      {
+        "text": "Journals",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "The Lancet",
+        "href": "https://www.thelancet.com/journals/lancet/home"
+      },
+      {
+        "text": "The Lancet Child & Adolescent Health",
+        "href": "https://www.thelancet.com/journals/lanchi/home"
+      },
+      {
+        "text": "The Lancet Diabetes & Endocrinology",
+        "href": "https://www.thelancet.com/journals/landia/home"
+      },
+      {
+        "text": "The Lancet Digital Health",
+        "href": "https://www.thelancet.com/journals/landig/home"
+      },
+      {
+        "text": "The Lancet Gastroenterology & Hepatology",
+        "href": "https://www.thelancet.com/journals/langas/home"
+      },
+      {
+        "text": "The Lancet Global Health",
+        "href": "https://www.thelancet.com/journals/langlo/home"
+      },
+      {
+        "text": "The Lancet Haematology",
+        "href": "https://www.thelancet.com/journals/lanhae/home"
+      },
+      {
+        "text": "The Lancet Healthy Longevity",
+        "href": "https://www.thelancet.com/journals/lanhl/home"
+      },
+      {
+        "text": "The Lancet HIV",
+        "href": "https://www.thelancet.com/journals/lanhiv/home"
+      },
+      {
+        "text": "The Lancet Infectious Diseases",
+        "href": "https://www.thelancet.com/journals/laninf/home"
+      },
+      {
+        "text": "The Lancet Microbe",
+        "href": "https://www.thelancet.com/journals/lanmic/home"
+      },
+      {
+        "text": "The Lancet Neurology",
+        "href": "https://www.thelancet.com/journals/laneur/home"
+      },
+      {
+        "text": "The Lancet Obstetrics, Gynaecology, & Women's Health",
+        "href": "https://www.thelancet.com/journals/lanogw/home"
+      },
+      {
+        "text": "The Lancet Oncology",
+        "href": "https://www.thelancet.com/journals/lanonc/home"
+      },
+      {
+        "text": "The Lancet Planetary Health",
+        "href": "https://www.thelancet.com/journals/lanplh/home"
+      },
+      {
+        "text": "The Lancet Primary Care",
+        "href": "https://www.thelancet.com/journals/lanprc/home"
+      },
+      {
+        "text": "The Lancet Psychiatry",
+        "href": "https://www.thelancet.com/journals/lanpsy/home"
+      },
+      {
+        "text": "The Lancet Public Health",
+        "href": "https://www.thelancet.com/journals/lanpub/home"
+      },
+      {
+        "text": "The Lancet Respiratory Medicine",
+        "href": "https://www.thelancet.com/journals/lanres/home"
+      },
+      {
+        "text": "The Lancet Rheumatology",
+        "href": "https://www.thelancet.com/journals/lanrhe/home"
+      },
+      {
+        "text": "The Lancet Regional Health - Africa",
+        "href": "https://www.thelancet.com/regional-health/africa"
+      },
+      {
+        "text": "The Lancet Regional Health - Americas",
+        "href": "https://www.thelancet.com/journals/lanam/home"
+      },
+      {
+        "text": "The Lancet Regional Health - Europe",
+        "href": "https://www.thelancet.com/journals/lanepe/home"
+      },
+      {
+        "text": "The Lancet Regional Health - Southeast Asia",
+        "href": "https://www.thelancet.com/journals/lansea/home"
+      },
+      {
+        "text": "The Lancet Regional Health - Western Pacific",
+        "href": "https://www.thelancet.com/journals/lanwpc/home"
+      },
+      {
+        "text": "eBioMedicine",
+        "href": "https://www.thelancet.com/journals/ebiom/home"
+      },
+      {
+        "text": "eClinicalMedicine",
+        "href": "https://www.thelancet.com/journals/eclinm/home"
+      },
+      {
+        "text": "Publish",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Publish with The Lancet Group",
+        "href": "https://www.thelancet.com/for-authors"
+      },
+      {
+        "text": "Submit your manuscript",
+        "href": "https://www.thelancet.com/submit"
+      },
+      {
+        "text": "Submission guidelines",
+        "href": "https://www.thelancet.com/submission-guidelines"
+      },
+      {
+        "text": "Content types",
+        "href": "https://www.thelancet.com/what-we-publish"
+      },
+      {
+        "text": "Editorial policies",
+        "href": "https://www.thelancet.com/editorial-policies"
+      },
+      {
+        "text": "Pathways to publication",
+        "href": "https://www.thelancet.com/pathways-to-publication"
+      },
+      {
+        "text": "Journey of a paper",
+        "href": "https://www.thelancet.com/journey-paper"
+      },
+      {
+        "text": "Why publish with us?",
+        "href": "https://www.thelancet.com/why-publish"
+      },
+      {
+        "text": "Open access",
+        "href": "https://www.thelancet.com/open-access"
+      },
+      {
+        "text": "Our journals",
+        "href": "https://www.thelancet.com/which-journal"
+      },
+      {
+        "text": "Peer review",
+        "href": "https://www.thelancet.com/peer-review"
+      },
+      {
+        "text": "Journal impact metrics",
+        "href": "https://www.thelancet.com/journal-impact-metrics"
+      },
+      {
+        "text": "Preprints with The Lancet",
+        "href": "https://www.thelancet.com/preprints"
+      },
+      {
+        "text": "Clinical",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Clinical resources",
+        "href": "https://www.thelancet.com/clinical"
+      },
+      {
+        "text": "Core clinical topics",
+        "href": "https://www.thelancet.com/clinical/core-clinical-topics"
+      },
+      {
+        "text": "Reviews",
+        "href": "https://www.thelancet.com/clinical/reviews"
+      },
+      {
+        "text": "Clinical cases",
+        "href": "https://www.thelancet.com/clinical/clinical-cases"
+      },
+      {
+        "text": "Commissions",
+        "href": "https://www.thelancet.com/commissions-do?startPage=&ConceptID=912197"
+      },
+      {
+        "text": "Series",
+        "href": "https://www.thelancet.com/series-do?startPage=&ConceptID=912197"
+      },
+      {
+        "text": "Artificial intelligence",
+        "href": "https://www.thelancet.com/collections/artificial-intelligence"
+      },
+      {
+        "text": "Cardiology & Vascular Medicine",
+        "href": "https://www.thelancet.com/collections/cardiology-vascular-medicine"
+      },
+      {
+        "text": "Diabetes & Endocrinology",
+        "href": "https://www.thelancet.com/collections/endocrinology"
+      },
+      {
+        "text": "Infectious diseases",
+        "href": "https://www.thelancet.com/collections/infectious-diseases"
+      },
+      {
+        "text": "Neurology",
+        "href": "https://www.thelancet.com/collections/neurology"
+      },
+      {
+        "text": "Oncology",
+        "href": "https://www.thelancet.com/collections/oncology"
+      },
+      {
+        "text": "View all specialty collections",
+        "href": "https://www.thelancet.com/collections"
+      },
+      {
+        "text": "Global health",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Global health overview",
+        "href": "https://www.thelancet.com/global-health"
+      },
+      {
+        "text": "Commissions",
+        "href": "https://www.thelancet.com/commissions-do?startPage=&ConceptID=912198"
+      },
+      {
+        "text": "Series",
+        "href": "https://www.thelancet.com/series-do?startPage=&ConceptID=912198"
+      },
+      {
+        "text": "Global burden of disease",
+        "href": "https://www.thelancet.com/gbd"
+      },
+      {
+        "text": "Climate countdown",
+        "href": "https://www.thelancet.com/countdown-health-climate"
+      },
+      {
+        "text": "COVID-19",
+        "href": "https://www.thelancet.com/action/doSearch?text1=COVID-19+OR+coronavirus+OR+SARS-CoV-2+OR+2019-nCoV&field1=Title&startPage=&P"
+      },
+      {
+        "text": "Disease Control Priorities (DCP-3)",
+        "href": "https://www.thelancet.com/disease-control-priorities-3"
+      },
+      {
+        "text": "Ebola",
+        "href": "https://www.thelancet.com/action/doSearch?text1=Ebola&field1=Title&startPage=&P"
+      },
+      {
+        "text": "Mpox",
+        "href": "https://www.thelancet.com/mpox"
+      },
+      {
+        "text": "Ukraine",
+        "href": "https://www.thelancet.com/action/doSearch?text1=Ukraine+OR+Ukrainian&field1=Title&startPage=&P"
+      },
+      {
+        "text": "Zika",
+        "href": "https://www.thelancet.com/action/doSearch?text1=Zika&field1=Title&startPage=&P"
+      },
+      {
+        "text": "Multimedia",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Multimedia overview",
+        "href": "https://www.thelancet.com/multimedia"
+      },
+      {
+        "text": "Podcasts",
+        "href": "https://www.thelancet.com/multimedia/podcasts"
+      },
+      {
+        "text": "Videos",
+        "href": "https://www.thelancet.com/video-do"
+      },
+      {
+        "text": "Infographics",
+        "href": "https://www.thelancet.com/infographics-do"
+      },
+      {
+        "text": "Events",
+        "href": "javascript:void(0)"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "Skip to Main Content\nSkip to Main Menu\nopen links dialog\nMain menu\nThe Lancet Public Health Homepage\nFEATURE\nMental health: a public health crisis unfolding\nRead more\nSubmit\n  \nAlerts\nAbout\nOpen Access\nCurrent issue\nNovember 2025\nVolume 10Issue 11\nDownload full issue\nTable of contents\nView archive\nARTICLES\nNational roll-out of social prescribing in England's primary care system: a longitudinal observational study using Clinical Practice Research Datalink data\nBu et al.\nImage ©\nARTICLES\nThe burden of bacterial antimicrobial resistance in the WHO Eastern Mediterranean Region 1990–2021: a cross-country systematic analysis with forecasts to 2050\nMestrovic et al.\nImage ©\nARTICLES\nInvestigating associations between long-term poverty exposure and premature mortality: evidence from the National Longitudinal Survey of Youth 1979 prospective cohort\nColvin et al.\nImage ©\nOnline first\nHEALTH POLICYOpen Access\nThe 2025 China report of the Lancet Countdown on health and climate change: empowering cities for synergistic action\nCai et al.\nPublished: October 30, 2025\nARTICLESOpen Access\nHealth impact and economic evaluation of the Expanded Program on Immunization in China from 1974 to 2024: a modelling study\nWang et al.\nPublished: April 23, 2025\nView more\nEditor's pick\nCOMMENTOpen Access\nPoverty and death in the wealthiest of nations\nHimmelstein et al.\nPublished: November, 2025\nHEALTH POLICYOpen Access\nComparing US prevention efforts to other high-income countries\nPapanicolas et al.\nPublished: November, 2025\nVIEWPOINTOpen Access\nA public health perspective on assisted dying and its different modalities\nSillitti et al.\nPublished: November, 2025\nCORRESPONDENCEOpen Access\nHow gender-based violence undermines women's right to move\nde Lira et al.\nPublished: November, 2025\nLatest audio\n(mp3, 14:14mins, 12.1MB)\nIn conversation with... Daniella Cavalcanti (in Portuguese)\n\nDavide Rasella e Daniella Cavalcanti conversam com Pierre Nauleau e Taissa Vila sobre o programa brasileiro de Transferência Condicionada de Renda (o Bolsa Família), os efeitos benéficos que ele proporcionou à saúde nos últimos 20 anos de implementação e os potenciais benefícios que poderá ter no futuro, dependendo de diferentes cenários de evolução.\n\nRead associated article\nTwitter\nFacebook\nLinkedIn\nMendeley\nEmail\nShare\n(mp3, 11:50mins, 10.1MB)\nIn conversation with... Davide Rasella\n\nDavide Rasella speaks with Pierre Nauleau about the Brazilian Conditional Cash Transfer programme (the Bolsa Família programme), the beneficial health effects it provided over the last 20 years it has been implemented and the potential benefits it could have in the future depending on different evolution scenarios.\n\nRead associated article\nTwitter\nFacebook\nLinkedIn\nMendeley\nEmail\nShare\n(mp3, 15:47mins, 13.1MB)\nIn conversation with... Marie Ng\n\nMarie Ng speaks to Hui Wu about four Global Burden of Disease studies on cardiovascular diseases, smoking, mental health and injury in the ASEAN to inform public health priorities se"
+  },
+  "action": {
+    "fullResponse": "```json\n{\"action\": \"scroll\", \"direction\": \"down\", \"pixels\": 500, \"reasoning\": \"to reveal more cola links\"}\n```",
+    "action": "scroll",
+    "direction": "down",
+    "pixels": 500,
+    "reasoning": "to reveal more cola links"
+  },
+  "result": "Scrolled down"
+}

@@ -1,0 +1,366 @@
+{
+  "step": 3,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:30:57.209Z",
+  "url": "https://hn.algolia.com/?q=MSFT",
+  "title": "All | Search powered by Algolia",
+  "aiSummary": "Recent discussions surrounding Microsoft (MSFT) have highlighted a mix of market sentiment and operational challenges. The company recently achieved a market valuation exceeding $4 trillion, signaling robust investor confidence, though it has faced criticism from IT admins due to its decision to force Outlook and Teams links to open in Edge. Additionally, there are ongoing concerns regarding a potential $29 billion tax liability from the IRS, which MSFT disputes. The company's advancements in AI and quantum computing present significant growth opportunities, but the risks associated with regulatory scrutiny and workforce management remain pertinent.",
+  "allLinks": [
+    {
+      "text": "SearchHacker News",
+      "href": "https://hn.algolia.com/"
+    },
+    {
+      "text": "MSFT is forcing Outlook and Teams to open links in Edge and IT admins are angry",
+      "href": "https://news.ycombinator.com/item?id=35800158"
+    },
+    {
+      "text": "(https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open)",
+      "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open"
+    },
+    {
+      "text": "1014 points",
+      "href": "https://news.ycombinator.com/item?id=35800158"
+    },
+    {
+      "text": "dustedcodes",
+      "href": "https://news.ycombinator.com/user?id=dustedcodes"
+    },
+    {
+      "text": "3 years ago",
+      "href": "https://news.ycombinator.com/item?id=35800158"
+    },
+    {
+      "text": "722 comments",
+      "href": "https://news.ycombinator.com/item?id=35800158"
+    },
+    {
+      "text": "SolarWinds hack was 'largest and most sophisticated attack' ever: MSFT president",
+      "href": "https://news.ycombinator.com/item?id=26138931"
+    },
+    {
+      "text": "(https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R)",
+      "href": "https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R"
+    },
+    {
+      "text": "471 points",
+      "href": "https://news.ycombinator.com/item?id=26138931"
+    },
+    {
+      "text": "andrewinardeer",
+      "href": "https://news.ycombinator.com/user?id=andrewinardeer"
+    },
+    {
+      "text": "5 years ago",
+      "href": "https://news.ycombinator.com/item?id=26138931"
+    },
+    {
+      "text": "275 comments",
+      "href": "https://news.ycombinator.com/item?id=26138931"
+    },
+    {
+      "text": "GOP Rep. on cyber committee dumped MSFT shortly before $10B contract scrapped",
+      "href": "https://news.ycombinator.com/item?id=27840908"
+    },
+    {
+      "text": "(https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/)",
+      "href": "https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/"
+    },
+    {
+      "text": "176 points",
+      "href": "https://news.ycombinator.com/item?id=27840908"
+    },
+    {
+      "text": "fooey",
+      "href": "https://news.ycombinator.com/user?id=fooey"
+    },
+    {
+      "text": "4 years ago",
+      "href": "https://news.ycombinator.com/item?id=27840908"
+    },
+    {
+      "text": "66 comments",
+      "href": "https://news.ycombinator.com/item?id=27840908"
+    },
+    {
+      "text": "Family of MSFT employee who died warn tech companies not to overwork workers",
+      "href": "https://news.ycombinator.com/item?id=45084370"
+    },
+    {
+      "text": "(https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/)",
+      "href": "https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/"
+    },
+    {
+      "text": "134 points",
+      "href": "https://news.ycombinator.com/item?id=45084370"
+    },
+    {
+      "text": "christhecaribou",
+      "href": "https://news.ycombinator.com/user?id=christhecaribou"
+    },
+    {
+      "text": "2 months ago",
+      "href": "https://news.ycombinator.com/item?id=45084370"
+    },
+    {
+      "text": "99 comments",
+      "href": "https://news.ycombinator.com/item?id=45084370"
+    },
+    {
+      "text": "Microsoft tops $4T in valuation: Great news for MSFT, not so great for workers",
+      "href": "https://news.ycombinator.com/item?id=44787831"
+    },
+    {
+      "text": "(https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html)",
+      "href": "https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html"
+    },
+    {
+      "text": "96 points",
+      "href": "https://news.ycombinator.com/item?id=44787831"
+    },
+    {
+      "text": "CrankyBear",
+      "href": "https://news.ycombinator.com/user?id=CrankyBear"
+    },
+    {
+      "text": "3 months ago",
+      "href": "https://news.ycombinator.com/item?id=44787831"
+    },
+    {
+      "text": "85 comments",
+      "href": "https://news.ycombinator.com/item?id=44787831"
+    },
+    {
+      "text": "Julia Liuson promoted to President of the MSFT DevDiv, which now includes GitHub",
+      "href": "https://news.ycombinator.com/item?id=29098640"
+    },
+    {
+      "text": "(https://pastebin.com/pA3uP0bG)",
+      "href": "https://pastebin.com/pA3uP0bG"
+    },
+    {
+      "text": "82 points",
+      "href": "https://news.ycombinator.com/item?id=29098640"
+    },
+    {
+      "text": "ghuntley",
+      "href": "https://news.ycombinator.com/user?id=ghuntley"
+    },
+    {
+      "text": "4 years ago",
+      "href": "https://news.ycombinator.com/item?id=29098640"
+    },
+    {
+      "text": "32 comments",
+      "href": "https://news.ycombinator.com/item?id=29098640"
+    }
+  ],
+  "pageContext": {
+    "title": "All | Search powered by Algolia",
+    "url": "https://hn.algolia.com/?q=MSFT",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/"
+      },
+      {
+        "text": "SearchHacker News",
+        "href": "https://hn.algolia.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral"
+      },
+      {
+        "text": "",
+        "href": "https://hn.algolia.com/settings"
+      },
+      {
+        "text": "MSFT is forcing Outlook and Teams to open links in Edge and IT admins are angry",
+        "href": "https://news.ycombinator.com/item?id=35800158"
+      },
+      {
+        "text": "(https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open)",
+        "href": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open"
+      },
+      {
+        "text": "1014 points",
+        "href": "https://news.ycombinator.com/item?id=35800158"
+      },
+      {
+        "text": "dustedcodes",
+        "href": "https://news.ycombinator.com/user?id=dustedcodes"
+      },
+      {
+        "text": "3 years ago",
+        "href": "https://news.ycombinator.com/item?id=35800158"
+      },
+      {
+        "text": "722 comments",
+        "href": "https://news.ycombinator.com/item?id=35800158"
+      },
+      {
+        "text": "SolarWinds hack was 'largest and most sophisticated attack' ever: MSFT president",
+        "href": "https://news.ycombinator.com/item?id=26138931"
+      },
+      {
+        "text": "(https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R)",
+        "href": "https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R"
+      },
+      {
+        "text": "471 points",
+        "href": "https://news.ycombinator.com/item?id=26138931"
+      },
+      {
+        "text": "andrewinardeer",
+        "href": "https://news.ycombinator.com/user?id=andrewinardeer"
+      },
+      {
+        "text": "5 years ago",
+        "href": "https://news.ycombinator.com/item?id=26138931"
+      },
+      {
+        "text": "275 comments",
+        "href": "https://news.ycombinator.com/item?id=26138931"
+      },
+      {
+        "text": "GOP Rep. on cyber committee dumped MSFT shortly before $10B contract scrapped",
+        "href": "https://news.ycombinator.com/item?id=27840908"
+      },
+      {
+        "text": "(https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/)",
+        "href": "https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/"
+      },
+      {
+        "text": "176 points",
+        "href": "https://news.ycombinator.com/item?id=27840908"
+      },
+      {
+        "text": "fooey",
+        "href": "https://news.ycombinator.com/user?id=fooey"
+      },
+      {
+        "text": "4 years ago",
+        "href": "https://news.ycombinator.com/item?id=27840908"
+      },
+      {
+        "text": "66 comments",
+        "href": "https://news.ycombinator.com/item?id=27840908"
+      },
+      {
+        "text": "Family of MSFT employee who died warn tech companies not to overwork workers",
+        "href": "https://news.ycombinator.com/item?id=45084370"
+      },
+      {
+        "text": "(https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/)",
+        "href": "https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/"
+      },
+      {
+        "text": "134 points",
+        "href": "https://news.ycombinator.com/item?id=45084370"
+      },
+      {
+        "text": "christhecaribou",
+        "href": "https://news.ycombinator.com/user?id=christhecaribou"
+      },
+      {
+        "text": "2 months ago",
+        "href": "https://news.ycombinator.com/item?id=45084370"
+      },
+      {
+        "text": "99 comments",
+        "href": "https://news.ycombinator.com/item?id=45084370"
+      },
+      {
+        "text": "Microsoft tops $4T in valuation: Great news for MSFT, not so great for workers",
+        "href": "https://news.ycombinator.com/item?id=44787831"
+      },
+      {
+        "text": "(https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html)",
+        "href": "https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html"
+      },
+      {
+        "text": "96 points",
+        "href": "https://news.ycombinator.com/item?id=44787831"
+      },
+      {
+        "text": "CrankyBear",
+        "href": "https://news.ycombinator.com/user?id=CrankyBear"
+      },
+      {
+        "text": "3 months ago",
+        "href": "https://news.ycombinator.com/item?id=44787831"
+      },
+      {
+        "text": "85 comments",
+        "href": "https://news.ycombinator.com/item?id=44787831"
+      },
+      {
+        "text": "Julia Liuson promoted to President of the MSFT DevDiv, which now includes GitHub",
+        "href": "https://news.ycombinator.com/item?id=29098640"
+      },
+      {
+        "text": "(https://pastebin.com/pA3uP0bG)",
+        "href": "https://pastebin.com/pA3uP0bG"
+      },
+      {
+        "text": "82 points",
+        "href": "https://news.ycombinator.com/item?id=29098640"
+      },
+      {
+        "text": "ghuntley",
+        "href": "https://news.ycombinator.com/user?id=ghuntley"
+      },
+      {
+        "text": "4 years ago",
+        "href": "https://news.ycombinator.com/item?id=29098640"
+      },
+      {
+        "text": "32 comments",
+        "href": "https://news.ycombinator.com/item?id=29098640"
+      }
+    ],
+    "articles": [
+      {
+        "text": "MSFT is forcing Outlook and Teams to open links in Edge and IT admins are angry(https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open)1014 points|dustedcodes|3 years ago|722 comments"
+      },
+      {
+        "text": "SolarWinds hack was 'largest and most sophisticated attack' ever: MSFT president(https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R)471 points|andrewinardeer|5 years ago|275 comments"
+      },
+      {
+        "text": "GOP Rep. on cyber committee dumped MSFT shortly before $10B contract scrapped(https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/)176 points|fooey|4 years ago|66 comments"
+      },
+      {
+        "text": "Family of MSFT employee who died warn tech companies not to overwork workers(https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/)134 points|christhecaribou|2 months ago|99 comments"
+      },
+      {
+        "text": "Microsoft tops $4T in valuation: Great news for MSFT, not so great for workers(https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html)96 points|CrankyBear|3 months ago|85 comments"
+      },
+      {
+        "text": "Julia Liuson promoted to President of the MSFT DevDiv, which now includes GitHub(https://pastebin.com/pA3uP0bG)82 points|ghuntley|4 years ago|32 comments"
+      },
+      {
+        "text": "MSFT demonstrates formerly elusive physics needed to build scalable qubits(https://news.microsoft.com/innovation-stories/azure-quantum-majorana-topological-qubit/)75 points|rahulravu96|4 years ago|14 comments"
+      },
+      {
+        "text": "IRS says Microsoft may owe more than $29B in back taxes; MSFT disagrees(https://apnews.com/article/microsoft-taxes-irs-96eb66abe86de19f1108209a8d57431a)68 points|ciceryadam|2 years ago|8 comments"
+      },
+      {
+        "text": "MSFT Q2/2023 Earnings Release(https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/press-release-webcast)66 points|ckastner|3 years ago|60 comments"
+      },
+      {
+        "text": "Why MSFT Copilot+ and AI PCs are the final nail in the coffin of open computing(https://venturebeat.com/ai/ceding-control-how-copilot-and-pcs-could-make-enterprises-beholden-to-microsoft/)61 points|dollar|1 year ago|60 comments"
+      }
+    ],
+    "bodyPreview": "Search\nHacker News\nSearch by\nSearch\nStories\nby\nPopularity\nfor\nAll time\n\n717 results (0.01 seconds)\n\nMSFT is forcing Outlook and Teams to open links in Edge and IT admins are angry(https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open)\n1014 points|dustedcodes|3 years ago|722 comments\nSolarWinds hack was 'largest and most sophisticated attack' ever: MSFT president(https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R)\n471 points|andrewinardeer|5 years ago|275 comments\nGOP Rep. on cyber committee dumped MSFT shortly before $10B contract scrapped(https://www.salon.com/2021/07/14/gop-rep-on-cyber-committee-dumped-msft-stock-shortly-before-10b-pentagon-contract-was-scrapped/)\n176 points|fooey|4 years ago|66 comments\nFamily of MSFT employee who died warn tech companies not to overwork workers(https://padailypost.com/2025/08/29/family-of-microsoft-employee-who-died-warn-tech-companies-not-to-overwork-workers/)\n134 points|christhecaribou|2 months ago|99 comments\nMicrosoft tops $4T in valuation: Great news for MSFT, not so great for workers(https://www.computerworld.com/article/4032921/microsoft-tops-4t-in-valuation-great-news-for-the-company-not-so-great-for-its-workers.html)\n96 points|CrankyBear|3 months ago|85 comments\nJulia Liuson promoted to President of the MSFT DevDiv, which now includes GitHub(https://pastebin.com/pA3uP0bG)\n82 points|ghuntley|4 years ago|32 comments\nMSFT demonstrates formerly elusive physics needed to build scalable qubits(https://news.microsoft.com/innovation-stories/azure-quantum-majorana-topological-qubit/)\n75 points|rahulravu96|4 years ago|14 comments\nIRS says Microsoft may owe more than $29B in back taxes; MSFT disagrees(https://apnews.com/article/microsoft-taxes-irs-96eb66abe86de19f1108209a8d57431a)\n68 points|ciceryadam|2 years ago|8 comments\nMSFT Q2/2023 Earnings Release(https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/press-release-webcast)\n66 points|ckastner|3 years ago|60 comments\nWhy MSFT Copilot+ and AI PCs are the final nail in the coffin of open computing(https://venturebeat.com/ai/ceding-control-how-copilot-and-pcs-could-make-enterprises-beholden-to-microsoft/)\n61 points|dollar|1 year ago|60 comments\nMSFT's WizardLM2 models have been taken down(https://huggingface.co/WizardLM/WizardLM-13B-V1.2)\n58 points|null_point|2 years ago|25 comments\nMSFT needs so much power to train that it's considering small nuclear reactors(https://futurism.com/the-byte/microsoft-power-train-ai-small-nuclear-reactors)\n56 points|signa11|2 years ago|58 comments\nCVPR panels on the future of data and ML infra (R.Socher, HF, W&B, Google, MSFT)\n55 points|morpheusme|4 years ago|4 comments\nHi HN! :)\n\nCVPR is starting this week! To kick things off, we'd love to invite you to two CVPR panels on the future of datasets and next-gen ML infrastructure. Comment below if you want ask a question on the topics mentioned and we will do our best to include it in the discussion!\n\n1. CVPR pr"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"navigate\",\"url\":\"https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open\",\"reasoning\":\"This article discusses MSFT forcing Outlook and Teams to open links in Edge, which is relevant to current operational practices and may affect user sentiment.\"}",
+    "action": "navigate",
+    "url": "https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open",
+    "reasoning": "This article discusses MSFT forcing Outlook and Teams to open links in Edge, which is relevant to current operational practices and may affect user sentiment."
+  },
+  "result": "Navigated to https://www.theverge.com/2023/5/3/23709297/microsoft-edge-force-outlook-teams-web-links-open"
+}

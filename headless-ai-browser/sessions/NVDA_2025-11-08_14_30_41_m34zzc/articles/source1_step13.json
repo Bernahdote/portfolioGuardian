@@ -1,0 +1,110 @@
+{
+  "step": 13,
+  "source": "https://finance.yahoo.com",
+  "timestamp": "2025-11-08T13:32:09.185Z",
+  "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85",
+  "title": "Yahoo is part of the Yahoo family of brands.",
+  "aiSummary": "The provided content does not contain any relevant information regarding NVDA stock, market sentiment, financial data, or associated risks and opportunities. It primarily discusses cookie consent and data privacy practices related to Yahoo's services. Please provide specific content or data related to NVDA stock for a meaningful analysis.",
+  "allLinks": [
+    {
+      "text": "guce",
+      "href": "https://uk.yahoo.com/"
+    },
+    {
+      "text": "cookie policy",
+      "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+    },
+    {
+      "text": "our partners",
+      "href": "https://consent.yahoo.com/v2/partners-list?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85"
+    },
+    {
+      "text": "privacy policy",
+      "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+    },
+    {
+      "text": "cookie policy",
+      "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+    },
+    {
+      "text": "Manage privacy settings",
+      "href": "https://consent.yahoo.com/v2/partners?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85"
+    }
+  ],
+  "pageContext": {
+    "title": "Yahoo is part of the Yahoo family of brands.",
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85",
+    "inputs": [
+      {
+        "type": "hidden",
+        "name": "csrfToken",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"csrfToken\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "sessionId",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"sessionId\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "originalDoneUrl",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"originalDoneUrl\"]"
+      },
+      {
+        "type": "hidden",
+        "name": "namespace",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"namespace\"]"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Go to end",
+        "id": "scroll-down-btn",
+        "selector": "#scroll-down-btn"
+      }
+    ],
+    "links": [
+      {
+        "text": "guce",
+        "href": "https://uk.yahoo.com/"
+      },
+      {
+        "text": "cookie policy",
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+      },
+      {
+        "text": "our partners",
+        "href": "https://consent.yahoo.com/v2/partners-list?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85"
+      },
+      {
+        "text": "privacy policy",
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+      },
+      {
+        "text": "cookie policy",
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85&userType=NON_REG"
+      },
+      {
+        "text": "Manage privacy settings",
+        "href": "https://consent.yahoo.com/v2/partners?sessionId=3_cc-session_b831381a-4d16-4fdf-9c77-1fb34bfd2b85"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "guce\nguce\n\nYahoo is part of the Yahoo family of brands.\n\nWhen you use our sites and apps, we use cookies to:\nprovide our sites and apps to you\nauthenticate users, apply security measures, and prevent spam and abuse, and\nmeasure your use of our sites and apps\nIf you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency & Consent Framework, will also store and/or access information on a device (in other words, use cookies) and use precise geolocation data and other personal data such as IP address and browsing and search data, for analytics, personalised advertising and content, advertising and content measurement, and audience research and services development.\n\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\n\nIf you would like to customise your choices, click 'Manage privacy settings'.\n\nYou can withdraw your consent or change your choices at any time by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps. Find out more about how we use your personal data in our privacy policy and cookie policy.\n\nAccept all Reject all Manage privacy settings\nGo to end"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"navigate\",\"url\":\"https://uk.yahoo.com/\",\"reasoning\":\"to search for NVDA-related news and articles on Yahoo's main site.\"}",
+    "action": "navigate",
+    "url": "https://uk.yahoo.com/",
+    "reasoning": "to search for NVDA-related news and articles on Yahoo's main site."
+  },
+  "result": "Navigated to https://uk.yahoo.com/"
+}

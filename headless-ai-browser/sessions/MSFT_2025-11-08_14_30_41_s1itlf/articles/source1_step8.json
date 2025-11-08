@@ -1,0 +1,615 @@
+{
+  "step": 8,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:31:42.155Z",
+  "url": "https://www.theverge.com/microsoft",
+  "title": "Microsoft | The Verge",
+  "aiSummary": "Microsoft (MSFT) continues to solidify its position as a leading tech company, driven by its strong presence in cloud computing through Azure and ongoing innovations in AI, such as the development of superintelligent AI aimed at benefiting humanity. The company is also expanding its hardware offerings and gaming portfolio, which could present growth opportunities. Recent updates, including enhancements to the Edge browser and the introduction of new AI tools, reflect a proactive approach to technology trends. However, market sentiment may be influenced by broader economic factors and competition from other tech giants like Google and Apple.",
+  "allLinks": [
+    {
+      "text": "Skip to main content",
+      "href": "https://www.theverge.com/microsoft#content"
+    },
+    {
+      "text": "The homepageThe VergeThe Verge logo.",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+    },
+    {
+      "text": "Sign In",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+    },
+    {
+      "text": "The VergeThe Verge logo.",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Tech",
+      "href": "https://www.theverge.com/tech"
+    },
+    {
+      "text": "Reviews",
+      "href": "https://www.theverge.com/reviews"
+    },
+    {
+      "text": "Science",
+      "href": "https://www.theverge.com/science"
+    },
+    {
+      "text": "Entertainment",
+      "href": "https://www.theverge.com/entertainment"
+    },
+    {
+      "text": "AI",
+      "href": "https://www.theverge.com/ai-artificial-intelligence"
+    },
+    {
+      "text": "The homepageThe VergeThe Verge logo.",
+      "href": "https://www.theverge.com/"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+    },
+    {
+      "text": "Login",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+    },
+    {
+      "text": "Sign Up",
+      "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+    },
+    {
+      "text": "Amazon",
+      "href": "https://www.theverge.com/amazon"
+    },
+    {
+      "text": "Apple",
+      "href": "https://www.theverge.com/apple"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.theverge.com/facebook"
+    },
+    {
+      "text": "Google",
+      "href": "https://www.theverge.com/google"
+    },
+    {
+      "text": "Microsoft",
+      "href": "https://www.theverge.com/microsoft"
+    },
+    {
+      "text": "Samsung",
+      "href": "https://www.theverge.com/samsung"
+    },
+    {
+      "text": "Business",
+      "href": "https://www.theverge.com/business"
+    },
+    {
+      "text": "Creators",
+      "href": "https://www.theverge.com/creators"
+    },
+    {
+      "text": "Mobile",
+      "href": "https://www.theverge.com/mobile"
+    },
+    {
+      "text": "Policy",
+      "href": "https://www.theverge.com/policy"
+    },
+    {
+      "text": "Security",
+      "href": "https://www.theverge.com/cyber-security"
+    },
+    {
+      "text": "Transportation",
+      "href": "https://www.theverge.com/transportation"
+    },
+    {
+      "text": "Buying Guides",
+      "href": "https://www.theverge.com/buying-guides"
+    },
+    {
+      "text": "Deals",
+      "href": "https://www.theverge.com/good-deals"
+    },
+    {
+      "text": "Gift Guide",
+      "href": "https://www.theverge.com/gift-guide"
+    },
+    {
+      "text": "Laptops",
+      "href": "https://www.theverge.com/laptops"
+    },
+    {
+      "text": "Phones",
+      "href": "https://www.theverge.com/phones"
+    },
+    {
+      "text": "Headphones",
+      "href": "https://www.theverge.com/headphone"
+    },
+    {
+      "text": "Tablets",
+      "href": "https://www.theverge.com/tablet-review"
+    },
+    {
+      "text": "Smart Home",
+      "href": "https://www.theverge.com/smart-home-review"
+    },
+    {
+      "text": "Smartwatches",
+      "href": "https://www.theverge.com/smartwatch-review"
+    },
+    {
+      "text": "Speakers",
+      "href": "https://www.theverge.com/speakers"
+    },
+    {
+      "text": "Drones",
+      "href": "https://www.theverge.com/drone"
+    },
+    {
+      "text": "Space",
+      "href": "https://www.theverge.com/space"
+    },
+    {
+      "text": "Energy",
+      "href": "https://www.theverge.com/energy"
+    },
+    {
+      "text": "Environment",
+      "href": "https://www.theverge.com/environment"
+    }
+  ],
+  "pageContext": {
+    "title": "Microsoft | The Verge",
+    "url": "https://www.theverge.com/microsoft",
+    "inputs": [
+      {
+        "type": "text",
+        "name": "query",
+        "id": ":Rkqgr96:",
+        "placeholder": "Search",
+        "selector": "#:Rkqgr96:"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "id": "email",
+        "placeholder": "Enter your email",
+        "selector": "#email"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-ISP2V2_1",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-ISP2V2_1"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-C0003",
+        "id": "ot-group-id-C0003",
+        "placeholder": "",
+        "selector": "#ot-group-id-C0003"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_2",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_2"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_11",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_11"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_6",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_6"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_3",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_3"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-C0002",
+        "id": "ot-group-id-C0002",
+        "placeholder": "",
+        "selector": "#ot-group-id-C0002"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-C0005",
+        "id": "ot-group-id-C0005",
+        "placeholder": "",
+        "selector": "#ot-group-id-C0005"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-C0004",
+        "id": "ot-group-id-C0004",
+        "placeholder": "",
+        "selector": "#ot-group-id-C0004"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-ISF2V2_2",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-ISF2V2_2"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-ISF2V2_1",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-ISF2V2_1"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_8",
+        "id": "ot-group-id-IAB2V2_8",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_8"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_4",
+        "id": "ot-group-id-IAB2V2_4",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_4"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_5",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_5"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_9",
+        "id": "ot-group-id-IAB2V2_9",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_9"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_10",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_10"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_7",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_7"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_1",
+        "id": "ot-group-id-IAB2V2_1",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_1"
+      },
+      {
+        "type": "text",
+        "name": "vendor-search-handler",
+        "id": "vendor-search-handler",
+        "placeholder": "Search…",
+        "selector": "#vendor-search-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "chkbox-id",
+        "placeholder": "",
+        "selector": "#chkbox-id"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-hosts-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-hosts-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-leg-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-leg-handler"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "TechExpand",
+        "id": "headlessui-disclosure-button-:R134qgr96:",
+        "selector": "#headlessui-disclosure-button-:R134qgr96:"
+      },
+      {
+        "text": "ReviewsExpand",
+        "id": "headlessui-disclosure-button-:R154qgr96:",
+        "selector": "#headlessui-disclosure-button-:R154qgr96:"
+      },
+      {
+        "text": "ScienceExpand",
+        "id": "headlessui-disclosure-button-:R174qgr96:",
+        "selector": "#headlessui-disclosure-button-:R174qgr96:"
+      },
+      {
+        "text": "EntertainmentExpand",
+        "id": "headlessui-disclosure-button-:R194qgr96:",
+        "selector": "#headlessui-disclosure-button-:R194qgr96:"
+      },
+      {
+        "text": "CarsExpand",
+        "id": "headlessui-disclosure-button-:R1d4qgr96:",
+        "selector": "#headlessui-disclosure-button-:R1d4qgr96:"
+      },
+      {
+        "text": "VideosExpand",
+        "id": "headlessui-disclosure-button-:R1h4qgr96:",
+        "selector": "#headlessui-disclosure-button-:R1h4qgr96:"
+      },
+      {
+        "text": "PodcastsExpand",
+        "id": "headlessui-disclosure-button-:R1j4qgr96:",
+        "selector": "#headlessui-disclosure-button-:R1j4qgr96:"
+      },
+      {
+        "text": "NewslettersExpand",
+        "id": "headlessui-disclosure-button-:R1l4qgr96:",
+        "selector": "#headlessui-disclosure-button-:R1l4qgr96:"
+      },
+      {
+        "text": "Manage Privacy Settings",
+        "id": "ot-sdk-btn",
+        "selector": "#ot-sdk-btn"
+      },
+      {
+        "text": "Accept",
+        "id": "onetrust-accept-btn-handler",
+        "selector": "#onetrust-accept-btn-handler"
+      },
+      {
+        "text": "Reject Non-Essential",
+        "id": "onetrust-reject-all-handler",
+        "selector": "#onetrust-reject-all-handler"
+      },
+      {
+        "text": "Manage Settings",
+        "id": "onetrust-pc-btn-handler",
+        "selector": "#onetrust-pc-btn-handler"
+      },
+      {
+        "text": "",
+        "id": "close-pc-btn-handler",
+        "selector": "#close-pc-btn-handler"
+      },
+      {
+        "text": "Allow All",
+        "id": "accept-recommended-btn-handler",
+        "selector": "#accept-recommended-btn-handler"
+      },
+      {
+        "text": "Filter Icon",
+        "id": "filter-btn-handler",
+        "selector": "#filter-btn-handler"
+      },
+      {
+        "text": "Clear",
+        "id": "clear-filters-handler",
+        "selector": "#clear-filters-handler"
+      },
+      {
+        "text": "Apply",
+        "id": "filter-apply-handler",
+        "selector": "#filter-apply-handler"
+      },
+      {
+        "text": "Cancel",
+        "id": "filter-cancel-handler",
+        "selector": "#filter-cancel-handler"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to main content",
+        "href": "https://www.theverge.com/microsoft#content"
+      },
+      {
+        "text": "The homepageThe VergeThe Verge logo.",
+        "href": "https://www.theverge.com/"
+      },
+      {
+        "text": "Subscribe",
+        "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+      },
+      {
+        "text": "Sign In",
+        "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+      },
+      {
+        "text": "The VergeThe Verge logo.",
+        "href": "https://www.theverge.com/"
+      },
+      {
+        "text": "Tech",
+        "href": "https://www.theverge.com/tech"
+      },
+      {
+        "text": "Reviews",
+        "href": "https://www.theverge.com/reviews"
+      },
+      {
+        "text": "Science",
+        "href": "https://www.theverge.com/science"
+      },
+      {
+        "text": "Entertainment",
+        "href": "https://www.theverge.com/entertainment"
+      },
+      {
+        "text": "AI",
+        "href": "https://www.theverge.com/ai-artificial-intelligence"
+      },
+      {
+        "text": "The homepageThe VergeThe Verge logo.",
+        "href": "https://www.theverge.com/"
+      },
+      {
+        "text": "Subscribe",
+        "href": "https://www.theverge.com/subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation"
+      },
+      {
+        "text": "Login",
+        "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+      },
+      {
+        "text": "Sign Up",
+        "href": "https://www.theverge.com/auth/login?returnPath=%2Fmicrosoft"
+      },
+      {
+        "text": "Amazon",
+        "href": "https://www.theverge.com/amazon"
+      },
+      {
+        "text": "Apple",
+        "href": "https://www.theverge.com/apple"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.theverge.com/facebook"
+      },
+      {
+        "text": "Google",
+        "href": "https://www.theverge.com/google"
+      },
+      {
+        "text": "Microsoft",
+        "href": "https://www.theverge.com/microsoft"
+      },
+      {
+        "text": "Samsung",
+        "href": "https://www.theverge.com/samsung"
+      },
+      {
+        "text": "Business",
+        "href": "https://www.theverge.com/business"
+      },
+      {
+        "text": "Creators",
+        "href": "https://www.theverge.com/creators"
+      },
+      {
+        "text": "Mobile",
+        "href": "https://www.theverge.com/mobile"
+      },
+      {
+        "text": "Policy",
+        "href": "https://www.theverge.com/policy"
+      },
+      {
+        "text": "Security",
+        "href": "https://www.theverge.com/cyber-security"
+      },
+      {
+        "text": "Transportation",
+        "href": "https://www.theverge.com/transportation"
+      },
+      {
+        "text": "Buying Guides",
+        "href": "https://www.theverge.com/buying-guides"
+      },
+      {
+        "text": "Deals",
+        "href": "https://www.theverge.com/good-deals"
+      },
+      {
+        "text": "Gift Guide",
+        "href": "https://www.theverge.com/gift-guide"
+      },
+      {
+        "text": "Laptops",
+        "href": "https://www.theverge.com/laptops"
+      },
+      {
+        "text": "Phones",
+        "href": "https://www.theverge.com/phones"
+      },
+      {
+        "text": "Headphones",
+        "href": "https://www.theverge.com/headphone"
+      },
+      {
+        "text": "Tablets",
+        "href": "https://www.theverge.com/tablet-review"
+      },
+      {
+        "text": "Smart Home",
+        "href": "https://www.theverge.com/smart-home-review"
+      },
+      {
+        "text": "Smartwatches",
+        "href": "https://www.theverge.com/smartwatch-review"
+      },
+      {
+        "text": "Speakers",
+        "href": "https://www.theverge.com/speakers"
+      },
+      {
+        "text": "Drones",
+        "href": "https://www.theverge.com/drone"
+      },
+      {
+        "text": "Space",
+        "href": "https://www.theverge.com/space"
+      },
+      {
+        "text": "Energy",
+        "href": "https://www.theverge.com/energy"
+      },
+      {
+        "text": "Environment",
+        "href": "https://www.theverge.com/environment"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "SKIP TO MAIN CONTENT\nThe homepage\nSUBSCRIBE\nMicrosoft\nFollow\n\nIt might not get the same kind of attention as Google and Apple, but Microsoft is still one of the biggest and most powerful tech companies operating today. It runs Azure, one of the biggest cloud computing services, and maintains Windows 11 and the whole Office suite of software. It also makes plenty of Surface hardware and has a whole slew of gaming products, including the Xbox Series X. But the company is ever expanding — building new hardware, acquiring new game studios, and making sure that even if Microsoft doesn’t run your phone, it can touch plenty of the apps on it.\n\nHalo Infinite is about to get its last major update\n\nThis month’s content update for Halo Infinite is its last, as the team focuses on ‘multiple’ Halo titles in development.\n\nRICHARD LAWLERNOV 7\nBig Tech tax breaks could’ve funded benefits for millions, Senator Warren finds\n\nGoogle’s $17.9 billion tax break is enough to pay for SNAP benefits for more than 7 million people.\n\nEMMA ROTHNOV 7\nLATEST IN MICROSOFT\nD\n2\nDOMINIC PRESTON\nNOV 7\nA track record you can trust.\n\nMicrosoft wants to build superintelligent AI “designed only to serve humanity,” and y’know what? I think this a company that’s proved it’s got what it takes.\n\nashleytwo:\n\nFrom the people that brought you Teams...\n\nGet the day’s best comment and more in my free newsletter, The Verge Daily.\n\nNEWS\nMicrosoft AI says it’ll make superintelligent AI that won’t be terrible for humanity\nEMMA ROTHNOV 627\nD\n1\nDOMINIC PRESTON\nNOV 6\nMicrosoft might have something to say about that.\n\nGoogle says it wants to use AI to turn Maps into an “all-knowing copilot,” but someone else in the AI space got to that name first.\n\npretendworld:\n\nan all-knowing WHAT?\n\nGet the day’s best comment and more in my free newsletter, The Verge Daily.\n\nTECH\nThe best laptop deals you can get right now\nBRANDT RANJ and SHEENA VASANINOV 5\nNEWS\nMicrosoft AI’s first in-house image generator MAI-Image-1 is now available\nELISSA WELLENOV 4\nJ\n0\nJESS WEATHERBED\nNOV 4\nMicrosoft gives passkeys an Edge.\n\nThe Edge browser will now let users store passkeys via the Microsoft Password Manager, making it easier to ditch traditional passwords. Passkeys are backed up to your Microsoft account, and can sync across devices. Microsoft says this feature is currently limited to Windows users, but will be expanded to additional platforms in the future.\n\nThis content isn't visible due to your cookie preferences. To load this content, click the Allow button below to opt in to \"Social Media & Embedded Content\" cookies. These cookies are set and controlled by the third party sources from which the embedded content originates.\n\nAllow\nView and Manage all cookie consent preferences\nThe AI industry is running on FOMO\n\n﻿At least according to Big Tech’s latest earnings calls.\n\nHAYDEN FIELDNOV 397\nWhy the Zune never killed the iPod\n\nIn this episode of Version History: Microsoft’s wildly ambitious, totally hopeless music machine.\n\nD"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"scroll\",\"direction\":\"down\",\"pixels\":500,\"reasoning\":\"To reveal more links related to MSFT, as there are currently no visible articles or relevant links on the page.\"}",
+    "action": "scroll",
+    "direction": "down",
+    "pixels": 500,
+    "reasoning": "To reveal more links related to MSFT, as there are currently no visible articles or relevant links on the page."
+  },
+  "result": "Scrolled down"
+}
