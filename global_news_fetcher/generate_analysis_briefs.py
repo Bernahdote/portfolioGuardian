@@ -1,6 +1,7 @@
 import json
 import os
 from typing import Any, Dict, List, Optional
+from urllib.parse import urlparse
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -37,8 +38,6 @@ Article Summary: {summary}
 Article Excerpt: {full_text}
 
 Target Ticker: {ticker}
-Existing Sentiment: {impact}
-Existing Rationale: {explanation}
 
 Return ONLY valid JSON in this exact shape (no markdown):
 {{
@@ -47,19 +46,54 @@ Return ONLY valid JSON in this exact shape (no markdown):
   "goal": "One actionable objective describing what the agent must determine about the ticker's exposure.",
   "resources": [
     {{
-      "title": "Name of a reputable article, report, filing, or dataset",
-      "url": "https://...",
+      "title": "Name of a reputable website, news source, or data provider",
+      "url": "https://example.com",
       "why": "Brief reason this source helps evaluate the impact"
     }}
   ]
 }}
 
 Guidelines:
-- Base the topic and goal on the news narrative and prior sentiment.
-- Provide 2-3 unique, high-quality links (recent news, investor materials, filings, industry data). Avoid blogs and duplicate domains whenever possible.
-- Links must be directly relevant to the ticker and contain the https:// prefix.
-- If strong links are unavailable, surface the closest credible resources and explain the gap in the `why` field.
+- Base the topic and goal on the news narrative.
+- Provide 2-3 unique, high-quality base domain URLs only (e.g., https://example.com, NOT https://example.com/specific/article/path).
+- URLs must be ONLY the base domain with https:// prefix - no paths, no query parameters, no fragments.
+- The analysis agent will browse these websites themselves to find relevant information, so provide only the domain name.
+- Focus on reputable sources (financial news sites, company investor relations pages, regulatory filing sites, industry data providers). Avoid blogs and duplicate domains whenever possible.
+- If strong sources are unavailable, surface the closest credible base domains and explain the gap in the `why` field.
 """
+
+
+def normalize_url_to_base(url: str) -> str:
+    """
+    Normalize a URL to its base domain only (e.g., https://example.com).
+    Removes paths, query parameters, and fragments.
+    """
+    if not url:
+        return url
+    
+    # Ensure URL has a scheme
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+    
+    try:
+        parsed = urlparse(url)
+        # Reconstruct base URL with scheme and netloc only
+        base_url = f"{parsed.scheme}://{parsed.netloc}"
+        return base_url
+    except Exception:
+        # If parsing fails, return as-is (shouldn't happen with valid URLs)
+        return url
+
+
+def normalize_brief_urls(brief: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Normalize all URLs in the brief's resources to base domains only.
+    """
+    if "resources" in brief and isinstance(brief["resources"], list):
+        for resource in brief["resources"]:
+            if "url" in resource and isinstance(resource["url"], str):
+                resource["url"] = normalize_url_to_base(resource["url"])
+    return brief
 
 
 def parse_response(raw_response: str) -> Dict[str, Any]:
@@ -67,7 +101,9 @@ def parse_response(raw_response: str) -> Dict[str, Any]:
     if content.startswith("```"):
         lines = content.split("\n")
         content = "\n".join(lines[1:-1]) if len(lines) > 2 else content
-    return json.loads(content)
+    parsed = json.loads(content)
+    # Normalize URLs to base domains
+    return normalize_brief_urls(parsed)
 
 
 def generate_brief(
