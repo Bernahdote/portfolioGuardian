@@ -1,6 +1,6 @@
 {
   "meta": {
-    "found": 8177527,
+    "found": 8177649,
     "returned": 3,
     "limit": 3,
     "page": 1
@@ -405,6 +405,211 @@
         "expanded_tickers": [],
         "summary": "The news article titled 'Grassroots O2' does not provide sufficient information to identify any specific stock tickers or assess their potential impacts. As such, there are no relevant tickers or market implications to report.",
         "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "3758961d-5bb6-485c-bf01-9be331def03d",
+      "title": "Grassroots O2",
+      "description": "",
+      "keywords": "",
+      "snippet": "",
+      "url": "http://o2and00823.blogspot.com/feeds/7608567664406311124/comments/default",
+      "image_url": "",
+      "language": "zh",
+      "published_at": "2025-11-08T14:22:28.000000Z",
+      "source": "o2and00823.blogspot.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The article titled 'Grassroots O2' does not provide any specific information regarding stock tickers or companies. As a result, there are no identified tickers that would be affected by this news, and no implications for the market can be drawn from the content provided.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "dc78322e-4d94-4335-889f-d7535db6901f",
+      "title": "A \"Storie al bivio\" Maria Elisabetta Alberti Casellati",
+      "description": "Il ministro per le riforme istituzionali aprirà il suo album di foto di famiglia",
+      "keywords": "",
+      "snippet": "Alba Parietti, Emanuela Folliero, Patrizia Rossetti, che presenta il nuovo amore Marco Antonio Bellini, Luca Ward - che parlerà del suo nuovo lavoro teatrale, ...",
+      "url": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2025/11/A-Storie-al-bivio-Maria-Elisabetta-Alberti-Casellati-77cb1caf-df74-4cb8-992f-e476fb17b887-ssi.html",
+      "image_url": "http://www.rai.it/cropgd/560x292/dl/img/2025/10/17/1600x900_1760695359480_tommorw%20series%2056.jpg",
+      "language": "it",
+      "published_at": "2025-11-08T14:30:00.000000Z",
+      "source": "rai.it",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Alba Parietti, Emanuela Folliero, Patrizia Rossetti, che presenta il nuovo amore Marco Antonio Bellini, Luca Ward - che parlerà del suo nuovo lavoro teatrale, in scena all’Ecoteatro di Milano dal 12 dicembre - sono alcuni degli ospiti di Monica Setta, nella puntata di “Storie al bivio” in onda sabato 8 novembre alle 15.30 su Rai 2. Poi, Samanta de Grenet, Angela Melillo e Clizia Incorvaia, che ricorderà la suocera Eleonora Giorgi scomparsa nel marzo scorso. Infine, aprirà il suo album di foto di famiglia il ministro per le Riforme Istituzionali Maria Elisabetta Alberti Casellati, già prima donna presidente del Senato nel 2018.\n\nCome sempre saranno presenti, con i consigli di lettura della settimana, i ragazzi “Genz” Matteo Martinetti, Maria Vittoria Canino ed Edoardo Leonardi.\n\nLa regia di “Storie al bivio” è di Giacomo Necci",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article primarily discusses a television show segment featuring various personalities and does not mention any specific companies or stock tickers. Therefore, there are no relevant stock tickers that may be affected by this news.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "e7b43d7d-059d-4792-8ac0-2ac2b48c1c74",
+      "title": "Vintage photos show what life really looked like in the 1920s",
+      "description": "In many ways, life in the 1920s looked vastly different than our world today. Here's how times have changed.",
+      "keywords": "",
+      "snippet": "Have an account? Log in .\n\nThis story is available exclusively to Business Insider subscribers. Become an Insider and start reading now.\n\nA century ago, at the ...",
+      "url": "https://www.businessinsider.com/photos-of-1920s-100-years-ago-2020",
+      "image_url": "https://i.insider.com/690e5151513c94655a3ddd37?width=764&format=jpeg",
+      "language": "en",
+      "published_at": "2025-11-08T14:28:01.000000Z",
+      "source": "businessinsider.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "lighning bolt icon An icon in the shape of a lightning bolt.\n\nlighning bolt icon An icon in the shape of a lightning bolt. Impact Link\n\nHave an account? Log in .\n\nA century ago, at the peak of the Roaring Twenties, a luxurious winter estate was built in the booming state of Florida for cereal heiress Marjorie Merriweather Post and finance tycoon Edward F. Hutton.\n\nAround the same time, F. Scott Fitzgerald was publishing \"The Great Gatsby,\" a novel that captured the glamour and excess of the era.\n\nFlash forward to 2025, and President Donald Trump hosted a Gatsby-themed Halloween party at that same Florida estate: Mar-a-Lago.\n\nThe party, like many in the mansion's history, was filled with feathers, flapper dresses, and bobbed haircuts.\n\nBut beyond its opulence and distinctive aesthetics, the 1920s were a time of significant societal shifts.\n\nAfter a war-torn decade, the '20s saw artistic, cultural, and technological advancements in the workplace, entertainment, democratic rights, and more.\n\nBut while the decade brought liberation for some Americans, there's a darker side to its history, too, that includes many of the same societal issues the world continues to grapple with, like racism, sexism, and wealth disparities.\n\nTake a look at these vintage photos that show how people lived in the 1920s, from the societal progress that shaped the era to the simple pleasures we still enjoy today.",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The article discusses the historical context of the 1920s and its cultural significance, but does not mention any specific companies or stock tickers. Therefore, there are no identifiable impacts on any stocks.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "bf631d83-25dd-4e1f-8bd9-b2ff9a0fe3cd",
+      "title": "Schedule for Week of November 9, 2025",
+      "description": "",
+      "keywords": "",
+      "snippet": "Items in Red will not be released due to the government shutdown.\n\n----- Monday, November 10th -----\n\n----- Tuesday, November 11th -----\n\n----- Wednesday, Novem...",
+      "url": "http://www.blogger.com/feeds/10004977/posts/default/3265173858809738839",
+      "image_url": "",
+      "language": "en",
+      "published_at": "2025-11-08T14:31:18.000000Z",
+      "source": "calculatedriskblog.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article does not provide any specific information or context that would affect any stock tickers. Therefore, there are no relevant tickers identified and no impacts to report.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "ac468fc4-4bf1-4528-9627-c50d32682b6d",
+      "title": "Πτώση στις τιμές του πετρελαίου: Ποιοι θα κυνηγήσουν ευκαιρίες εξαγορών",
+      "description": "Η συγκυρία μοιάζει κατάλληλη…",
+      "keywords": "",
+      "snippet": "Η συγκυρία μοιάζει κατάλληλη…\n\nΗ πτώση των τιμών πετρελαίου δημιουργεί ευκαιρίες για σ...",
+      "url": "https://www.fortunegreece.com/article/ptosi-stis-times-tou-petrelaiou-poioi-tha-kinigisoun-efkairies-exagoron/",
+      "image_url": "https://www.fortunegreece.com/wp-content/uploads/2025/11/shutterstock_2124440186.jpg",
+      "language": "el",
+      "published_at": "2025-11-08T14:43:24.000000Z",
+      "source": "fortunegreece.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Η συγκυρία μοιάζει κατάλληλη…\n\nΗ πτώση των τιμών πετρελαίου δημιουργεί ευκαιρίες για στρατηγικές εξαγορές και συγχωνεύσεις (M&A).\n\nΕταιρείες με υπερβολικό χρέος πωλούν περιουσιακά στοιχεία για ρευστότητα, ενώ ισχυρά κεφαλαιοποιημένες εταιρείες εκμεταλλεύονται τις «ευκαιρίες αγοράς».\n\nΗ παγκόσμια παραγωγή πετρελαίου αυξήθηκε, ενώ η Διεθνής Υπηρεσία Ενέργειας προβλέπει πλεονάζουσα προσφορά 4 εκατ. βαρελιών ημερησίως το επόμενο έτος.\n\nΌταν οι τιμές του πετρελαίου ανεβαίνουν, οι μετοχές των μεγάλων πετρελαϊκών εταιρειών φτάνουν στα ύψη. Όμως, η πραγματική ευκαιρία για δημιουργία αξίας εμφανίζεται όταν οι τιμές υποχωρούν. Τότε, εταιρείες με υπερβολικό χρέος πωλούν περιουσιακά στοιχεία για να αντλήσουν ρευστότητα, ενώ όσες έχουν αποθέματα μετρητών μπορούν να εκμεταλλευτούν τις «ευκαιρίες αγοράς».\n\nΗ συγκυρία μοιάζει κατάλληλη. Η αποθήκευση πετρελαίου έχει αυξηθεί σημαντικά φέτος, καθώς ο ΟΠΕΚ αύξησε την παραγωγή. Παράλληλα, η Διεθνής Υπηρεσία Ενέργειας προβλέπει πλεονάζουσα προσφορά 4 εκατ. βαρελιών ημερησίως για το επόμενο έτος. Ο ΟΠΕΚ ανακοίνωσε ότι δεν θα προχωρήσει σε αυξήσεις της παραγωγής, ενώ οι κυρώσεις σε ρωσικές πετρελαϊκές εταιρείες ενδέχεται να περιορίσουν τις εξαγωγές, χωρίς ωστόσο να αποκλείεται η περαιτέρω πτώση των τιμών.\n\nΈνας νέος κύκλος συγχωνεύσεων και εξαγορών (M&A) φαίνεται πιθανός, καθώς οι εταιρείες ανησυχούν για τα αποθέματά τους. Σύμφωνα με την Goldman Sachs, τα αποδεδειγμένα αποθέματα πετρελαίου το 2024 επαρκούσαν μόλις για 10 χρόνια, μειωμένα κατά ένα τέταρτο σε σχέση με το 2013. Για να διατηρηθεί αυτή η σταθερότητα, απαιτείται είτε επιτυχής εξερεύνηση είτε εξαγορές.\n\nΟι μεγάλες ευκαιρίες βρίσκονται στις ΗΠΑ, όπου Exxon και Chevron έχουν ισχυρές ισολογισμούς και μπορούν να χρησιμοποιήσουν τις υψηλές τιμές των μετοχών τους για εξαγορές ανταγωνιστών. Επιπλέον, η αγορά γειτονικών εκτάσεων προσφέρει οικονομίες κλίμακας, γεγονός που εξηγεί γιατί οι περισσότερες πρόσφατες εξαγορές έχουν γίνει στην αμερικανική αγορά και γιατί αναμένεται περαιτέρω συγκέντρωση στην περιοχή του Permian Basin.\n\nΜερικές εταιρείες όπως η Apache και η Devon Energy, των οποίων τα μεγάλα έργα έχουν αξία μεγαλύτερη από ολόκληρη την κεφαλαιοποίηση της αγοράς τους, γίνονται ιδιαίτερα ελκυστικά «στοιχεία» για εξαγορές.\n\nΣτην Ευρώπη, οι εταιρείες με ισχυρότερους ισολογισμούς είναι η Equinor και η Shell, ωστόσο οι πιθανότητες για μεγάλες εξαγορές είναι περιορισμένες. Ένα παράδειγμα είναι η πορτογαλική Galp, με κεφαλαιοποίηση 12 δισ. ευρώ και επιτυχημένη εξερεύνηση στη Ναμίμπια, αλλά με υψηλή τιμή μετοχής, διαφοροποιημένα περιουσιακά στοιχεία και κυρίαρχο μέτοχο.\n\nΟι περισσότερο υπερχρεωμένες εταιρείες, όπως η Kosmos Energy και η Tullow, πιέζονται από την πτώση των τιμών. Η Tullow, με χρέη που υπερβαίνουν την κεφαλαιοποίησή της, αναγκάζεται να πουλήσει περιουσιακά στοιχεία και να αναχρηματοδοτήσει το χρέος της, ενώ τα ομόλογά της διαπραγματεύονται στα 85 σεντ ανά δολάριο.\n\nΜία εναλλακτική στρατηγική για τις ευρωπαϊκές εταιρείες είναι η συμμετοχή σε ανακαλύψεις άλλων εταιρειών, όπως η πιθανή αναζήτηση συνεργατών από τη BP για το κοίτασμα Bumerangue στη Βραζιλία. Αν και αυτές οι συνεργασίες είναι λιγότερο εντυπωσιακές από τις μεγάλες εξαγορές, μπορούν να προσφέρουν στις ευρωπαϊκές εταιρείες τρόπους να αξιοποιήσουν την επιχειρηματική τους δραστηριότητα και να ενισχύσουν τη θέση τους στην αγορά.\n\nΣυμπερασματικά, η πτώση των τιμών πετρελαίου δεν αποτελεί μόνο πρόκληση, αλλά και ευκαιρία για εταιρείες με κεφαλαιακή ισχύ να ενισχύσουν τη θέση τους μέσω στρατηγικών εξαγορών και συνεργασιών, με τις ΗΠΑ να παραμένουν η κύρια σκηνή μεγάλων M&A.\n\nΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΕΣ ΕΙΔΗΣΕΙΣ:",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "CVX",
+          "XOM",
+          "BP",
+          "APA",
+          "TLW",
+          "EQNR",
+          "KOS",
+          "DVN"
+        ],
+        "summary": "The article discusses the decline in oil prices and the resulting opportunities for mergers and acquisitions in the oil sector. Companies with strong financial positions, like ExxonMobil and Chevron, are likely to benefit as they can acquire undervalued assets, while heavily indebted companies like Kosmos Energy and Tullow Oil may struggle and face negative impacts.",
+        "ticker_impacts": {
+          "XOM": {
+            "impact": "positive",
+            "explanation": "ExxonMobil (XOM) is well-positioned to take advantage of lower oil prices to acquire other companies, as it has a strong balance sheet and can use its high stock prices for acquisitions."
+          },
+          "CVX": {
+            "impact": "positive",
+            "explanation": "Chevron (CVX) can benefit similarly to ExxonMobil by leveraging its strong financial position to pursue acquisition opportunities in a market where weaker companies may be forced to sell assets."
+          },
+          "APA": {
+            "impact": "positive",
+            "explanation": "Apache Corporation (APA) is highlighted as an attractive acquisition target due to its valuable projects that exceed its market capitalization, making it a potential target for larger companies looking for growth."
+          },
+          "DVN": {
+            "impact": "positive",
+            "explanation": "Devon Energy (DVN) is also mentioned as a company with significant projects that could attract acquisition interest, especially as larger firms seek to consolidate in the industry."
+          },
+          "EQNR": {
+            "impact": "neutral",
+            "explanation": "Equinor (EQNR) has a strong balance sheet but is in a region where major acquisitions are limited, so while it may not face immediate impacts, it could be indirectly affected by market trends."
+          },
+          "RDS.A": {
+            "impact": "neutral",
+            "explanation": "Royal Dutch Shell (RDS.A) is in a strong position financially but faces limited opportunities for large acquisitions in Europe, making its impact from this news neutral."
+          },
+          "KOS": {
+            "impact": "negative",
+            "explanation": "Kosmos Energy (KOS) is struggling with high debt levels and may be forced to sell assets due to falling oil prices, which negatively impacts its market position."
+          },
+          "TLW": {
+            "impact": "negative",
+            "explanation": "Tullow Oil (TLW) is heavily indebted and facing pressure from declining oil prices, which could lead to asset sales and refinancing challenges, negatively affecting its stock."
+          },
+          "BP": {
+            "impact": "neutral",
+            "explanation": "BP is mentioned in the context of potential partnerships for exploration but does not have immediate acquisition opportunities, resulting in a neutral impact from this news."
+          }
+        }
+      }
+    },
+    {
+      "uuid": "0bc47e86-1005-4d6c-8211-a973b5bdb4ec",
+      "title": "Market Shifts, Geopolitical Tensions, and Policy Debates Shape Global Outlook",
+      "description": "The path to homeownership in the United States is becoming increasingly challenging, with the median age of a first-time homebuyer now reaching a record 40",
+      "keywords": "",
+      "snippet": "Key Takeaways\n\nThe median age of a first-time homebuyer in the U.S. has surged to a record 40 years old , up from 31 a decade ago, signaling a deepening housing...",
+      "url": "https://stockmarketwatch.com/stock-market-news/market-shifts-geopolitical-tensions-and-policy-debates-shape-global-outlook/55771/",
+      "image_url": "https://stockmarketwatch.com/stock-market-news/wp-content/uploads/2025/07/breaking-news.webp",
+      "language": "en",
+      "published_at": "2025-11-08T14:38:28.000000Z",
+      "source": "thestockmarketwatch.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Key Takeaways\n\nThe median age of a first-time homebuyer in the U.S. has surged to a record 40 years old , up from 31 a decade ago, signaling a deepening housing affordability crisis that delays wealth building for an entire generation.\n\n, up from 31 a decade ago, signaling a deepening housing affordability crisis that delays wealth building for an entire generation. Quantum computing stocks have dramatically outperformed AI, with some soaring over 1,900% in the last 12 months , despite these companies being years away from significant revenue generation, highlighting a speculative market trend.\n\n, despite these companies being years away from significant revenue generation, highlighting a speculative market trend. Russia is actively preparing proposals for potential nuclear weapons tests , following statements from former U.S. President Donald Trump regarding the resumption of American nuclear testing, escalating geopolitical tensions.\n\n, following statements from former U.S. President Donald Trump regarding the resumption of American nuclear testing, escalating geopolitical tensions. Former President Trump has called for Senate Republicans to redirect federal health insurance funds directly to citizens, bypassing insurance companies, amidst ongoing debates over healthcare policy and government spending.\n\nHousing Affordability Crisis Delays American Dream\n\nThe path to homeownership in the United States is becoming increasingly challenging, with the median age of a first-time homebuyer now reaching a record 40 years old. This marks a significant increase from 31 just a decade ago, according to reports from the National Association of Realtors (NAR). The share of first-time buyers has also plummeted to a record low of 21%, down from nearly 50% in 2010.\n\nThis deepening housing affordability crisis is largely attributed to persistently high home prices, rising mortgage rates, and a chronic shortage of affordable inventory. Experts warn that delaying homeownership until age 40, instead of 30, could result in a loss of approximately $150,000 in equity on a typical starter home, impacting long-term wealth building and intergenerational financial security. Most first-time buyers are now making a 10% down payment, the highest since 1989, often relying on personal savings or financial assets like stocks, and in some cases, gifts or loans from family and friends.\n\nQuantum Computing Stocks Soar Amid Speculative Growth\n\nIn a striking market trend, quantum computing stocks have seen explosive growth, with some firms outperforming the broader AI sector by soaring as much as 2,734% in the past year. Companies like Quantum Computing Inc. (QUBT), D-Wave Quantum (QBTS), Rigetti Computing (RGTI), and IonQ (IONQ) have experienced significant surges, turning them into billion-dollar enterprises.\n\nThis remarkable performance comes even as these companies are unlikely to generate substantial revenue for years, highlighting the highly speculative nature of the sector. Analysts note that while the technology holds immense potential to revolutionize industries like medicine, cybersecurity, and finance, the path to commercialization remains uncertain. Despite warnings from industry leaders, including Nvidia (NVDA) CEO Jensen Huang, who previously stated the technology was \"decades\" off, investor enthusiasm remains high, fueled by the prospect of quantum computing reaching an \"inflection point.\"\n\nRussia Prepares for Possible Nuclear Tests\n\nGeopolitical tensions are escalating as Russian President Vladimir Putin has instructed his Ministries of Foreign Affairs and Defense, along with intelligence services, to prepare proposals for possible Russian nuclear weapons tests. This directive comes in direct response to recent statements from former U.S. President Donald Trump, who appeared to suggest the United States might resume its own nuclear tests.\n\nPutin emphasized that Russia would only resume nuclear testing if the United States did so first, while also tasking his government to analyze Washington's intentions. Russian Defense Minister Andrei Belousov has reportedly urged immediate readiness at the Novaya Zemlya Arctic test site, citing U.S. weapons modernization. Russia has not officially conducted a nuclear test since 1990, and this development signals a potential shift in global nuclear policy, raising concerns about a new arms race.\n\nTrump Advocates Direct Healthcare Funding to Citizens\n\nFormer U.S. President Donald Trump has proposed a significant shift in healthcare policy, urging Senate Republicans to redirect federal funds currently paid to health insurance companies directly to individuals. In a social media post, Trump suggested this move would empower people to purchase their own healthcare and achieve cost savings.\n\nThis proposal emerges amidst ongoing debates in Congress over healthcare funding, particularly concerning federal health insurance tax credits set to expire at the end of the year. Democrats have been pushing to extend these subsidies, warning that their expiration could drastically increase premium costs for millions of Americans. Trump's call to bypass insurance companies and directly fund citizens adds a new dimension to the contentious discussions surrounding healthcare affordability and government's role in the sector.\n\nDisclaimer: This article is for informational purposes only and does not constitute financial advice. We are not financial professionals. The authors and/or site operators may hold positions in the companies or assets mentioned. Always do your own research before making financial decisions.",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "QUBT",
+          "QBTS",
+          "RGTI",
+          "NVDA",
+          "IONQ"
+        ],
+        "summary": "The article highlights significant trends in the housing market and the explosive growth of quantum computing stocks. The rising median age of first-time homebuyers indicates a housing affordability crisis, while quantum computing companies are experiencing remarkable stock performance despite their long path to revenue generation. Geopolitical tensions are also mentioned, but they do not directly impact the identified tickers. Overall, the quantum computing sector is poised for positive growth, benefiting companies like QUBT, QBTS, RGTI, and IONQ.",
+        "ticker_impacts": {
+          "QUBT": {
+            "impact": "positive",
+            "explanation": "Quantum Computing Inc. has seen significant growth in its stock price due to the overall surge in quantum computing stocks, which have outperformed the AI sector. This trend indicates strong investor interest and potential for future revenue, positively affecting QUBT."
+          },
+          "QBTS": {
+            "impact": "positive",
+            "explanation": "D-Wave Quantum's stock has benefited from the explosive growth in the quantum computing sector. As investor enthusiasm continues to rise, QBTS is likely to see increased demand and higher valuations, leading to a positive impact on its stock."
+          },
+          "RGTI": {
+            "impact": "positive",
+            "explanation": "Rigetti Computing has experienced a surge in stock price amid the speculative growth in quantum computing. The company's potential to revolutionize technology attracts investor interest, resulting in a positive impact on RGTI's stock."
+          },
+          "IONQ": {
+            "impact": "positive",
+            "explanation": "IonQ's stock has been positively impacted by the overall performance of quantum computing stocks, which have seen dramatic increases. The excitement surrounding quantum technology and its future applications supports a positive outlook for IONQ."
+          },
+          "NVDA": {
+            "impact": "neutral",
+            "explanation": "Nvidia, while mentioned in the context of quantum computing, is primarily focused on AI and graphics processing. The news does not directly impact NVDA's core business, so its stock is expected to remain stable, resulting in a neutral impact."
+          }
+        }
       }
     }
   ]
