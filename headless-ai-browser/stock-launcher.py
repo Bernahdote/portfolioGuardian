@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Stock Guardian Launcher - Monitor multiple stocks across various news sources
+Stock Launcher - Run multiple research jobs across various sources
+Supports topic, goal, and sources for flexible research
 """
 
 import subprocess
@@ -12,11 +13,12 @@ import queue
 from datetime import datetime
 
 
-class StockMonitorInstance:
-    """Represents a single stock monitoring configuration."""
+class ResearchInstance:
+    """Represents a single research configuration."""
 
-    def __init__(self, ticker: str, sources: List[str], metadata: Optional[Dict] = None):
-        self.ticker = ticker
+    def __init__(self, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
+        self.topic = topic
+        self.goal = goal
         self.sources = sources
         self.metadata = metadata or {}
 
@@ -25,7 +27,8 @@ class StockMonitorInstance:
         args = [
             'node',
             'stock-guardian.js',
-            self.ticker,
+            self.topic,
+            self.goal,
             json.dumps(self.sources)
         ]
         if self.metadata:
@@ -33,30 +36,26 @@ class StockMonitorInstance:
         return args
 
 
-class StockGuardianLauncher:
-    """Manages multiple stock monitoring instances."""
+class StockLauncher:
+    """Manages multiple research instances."""
 
-    def __init__(self, base_port: int = 9222):
-        self.base_port = base_port
-        self.instances: List[StockMonitorInstance] = []
+    def __init__(self):
+        self.instances: List[ResearchInstance] = []
 
-    def add_stock(self, ticker: str, sources: List[str], metadata: Optional[Dict] = None):
-        """Add a stock to monitor."""
+    def add_job(self, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
+        """Add a research job to the queue."""
         if metadata is None:
             metadata = {}
 
-        # Auto-assign port if not specified
-        if 'port' not in metadata:
-            metadata['port'] = self.base_port + len(self.instances)
-
-        instance = StockMonitorInstance(ticker, sources, metadata)
+        instance = ResearchInstance(topic, goal, sources, metadata)
         self.instances.append(instance)
         return instance
 
-    def run_instance(self, instance: StockMonitorInstance, result_queue: queue.Queue):
-        """Run a single stock monitoring instance."""
+    def run_instance(self, instance: ResearchInstance, result_queue: queue.Queue):
+        """Run a single research instance."""
         try:
-            print(f"🔍 Starting monitoring for {instance.ticker} on port {instance.metadata.get('port', 9222)}")
+            print(f"🔍 Starting research on: {instance.topic}")
+            print(f"   Goal: {instance.goal}")
             print(f"   Sources: {', '.join(instance.sources)}")
 
             result = subprocess.run(
@@ -67,7 +66,8 @@ class StockGuardianLauncher:
             )
 
             output = {
-                'ticker': instance.ticker,
+                'topic': instance.topic,
+                'goal': instance.goal,
                 'sources': instance.sources,
                 'success': result.returncode == 0,
                 'stdout': result.stdout,
@@ -80,7 +80,8 @@ class StockGuardianLauncher:
 
         except subprocess.TimeoutExpired:
             result_queue.put({
-                'ticker': instance.ticker,
+                'topic': instance.topic,
+                'goal': instance.goal,
                 'sources': instance.sources,
                 'success': False,
                 'error': 'Timeout after 600 seconds',
@@ -88,7 +89,8 @@ class StockGuardianLauncher:
             })
         except Exception as e:
             result_queue.put({
-                'ticker': instance.ticker,
+                'topic': instance.topic,
+                'goal': instance.goal,
                 'sources': instance.sources,
                 'success': False,
                 'error': str(e),
@@ -96,12 +98,12 @@ class StockGuardianLauncher:
             })
 
     def run_all_parallel(self) -> List[Dict]:
-        """Run all stock monitoring instances in parallel."""
+        """Run all research instances in parallel."""
         result_queue = queue.Queue()
         threads = []
 
         print(f"\n{'='*60}")
-        print(f"📊 Stock Guardian - Monitoring {len(self.instances)} stocks in parallel")
+        print(f"🔍 Running {len(self.instances)} research jobs in parallel")
         print(f"{'='*60}\n")
 
         for instance in self.instances:
@@ -124,12 +126,12 @@ class StockGuardianLauncher:
         return results
 
     def run_all_sequential(self) -> List[Dict]:
-        """Run all stock monitoring instances sequentially."""
+        """Run all research instances sequentially."""
         results = []
         result_queue = queue.Queue()
 
         print(f"\n{'='*60}")
-        print(f"📊 Stock Guardian - Monitoring {len(self.instances)} stocks sequentially")
+        print(f"🔍 Running {len(self.instances)} research jobs sequentially")
         print(f"{'='*60}\n")
 
         for instance in self.instances:
@@ -139,12 +141,12 @@ class StockGuardianLauncher:
         return results
 
 
-def example_tech_stocks():
-    """Example: Monitor major tech stocks."""
+def example_stocks():
+    """Example: Monitor multiple stocks for investment research."""
 
-    launcher = StockGuardianLauncher(base_port=9222)
+    launcher = StockLauncher()
 
-    # Define common news sources for tech stocks
+    # Define common news sources
     tech_sources = [
         "https://news.ycombinator.com",
         "https://techcrunch.com",
@@ -152,26 +154,29 @@ def example_tech_stocks():
 
     financial_sources = [
         "https://finance.yahoo.com",
-        "https://www.bloomberg.com",
+        "https://www.cnbc.com/stocks/",
     ]
 
-    # Monitor Apple
-    launcher.add_stock(
-        ticker="AAPL",
+    # Research Apple
+    launcher.add_job(
+        topic="AAPL",
+        goal="Monitor Apple stock for investment risks and opportunities. Focus on recent news, earnings, and market sentiment.",
         sources=tech_sources,
         metadata={"maxStepsPerSource": 15}
     )
 
-    # Monitor Microsoft
-    launcher.add_stock(
-        ticker="MSFT",
+    # Research Microsoft
+    launcher.add_job(
+        topic="MSFT",
+        goal="Find recent news about Microsoft stock performance and any potential risks or growth opportunities.",
         sources=tech_sources,
         metadata={"maxStepsPerSource": 15}
     )
 
-    # Monitor NVIDIA
-    launcher.add_stock(
-        ticker="NVDA",
+    # Research NVIDIA
+    launcher.add_job(
+        topic="NVDA",
+        goal="Research NVIDIA stock with focus on AI chip market and competition.",
         sources=financial_sources,
         metadata={"maxStepsPerSource": 15}
     )
@@ -181,11 +186,12 @@ def example_tech_stocks():
 
     # Print summary
     print(f"\n{'='*60}")
-    print("📊 MONITORING SUMMARY")
+    print("📊 RESEARCH SUMMARY")
     print(f"{'='*60}\n")
 
     for result in results:
-        print(f"Stock: {result['ticker']}")
+        print(f"Topic: {result['topic']}")
+        print(f"Goal: {result['goal'][:60]}...")
         print(f"Success: {result['success']}")
         if result['success']:
             try:
@@ -200,24 +206,26 @@ def example_tech_stocks():
 
 
 def example_custom():
-    """Example: Custom stock monitoring."""
+    """Example: Custom research job."""
 
-    if len(sys.argv) < 3:
-        print("Usage: python stock-launcher.py custom <ticker> <source1> <source2> ...")
-        print("Example: python stock-launcher.py custom TSLA https://news.ycombinator.com https://techcrunch.com")
+    if len(sys.argv) < 4:
+        print("Usage: python stock-launcher.py custom <topic> <goal> <source1> <source2> ...")
+        print('Example: python stock-launcher.py custom "TSLA" "Find Tesla stock news" https://news.ycombinator.com')
         sys.exit(1)
 
-    ticker = sys.argv[2]
-    sources = sys.argv[3:]
+    topic = sys.argv[2]
+    goal = sys.argv[3]
+    sources = sys.argv[4:]
 
-    launcher = StockGuardianLauncher()
-    launcher.add_stock(ticker, sources, {"maxStepsPerSource": 20})
+    launcher = StockLauncher()
+    launcher.add_job(topic, goal, sources, {"maxStepsPerSource": 20})
 
     results = launcher.run_all_sequential()
 
     for result in results:
         print(f"\n{'='*60}")
-        print(f"Stock: {result['ticker']}")
+        print(f"Topic: {result['topic']}")
+        print(f"Goal: {result['goal']}")
         print(f"Success: {result['success']}")
         if result['success']:
             print(f"Output:\n{result['stdout']}")
@@ -231,8 +239,8 @@ def main():
     if len(sys.argv) > 1:
         command = sys.argv[1]
 
-        if command == "tech":
-            example_tech_stocks()
+        if command == "stocks":
+            example_stocks()
         elif command == "custom":
             example_custom()
         else:
@@ -244,22 +252,23 @@ def main():
 
 def print_usage():
     """Print usage instructions."""
-    print("Stock Guardian Launcher")
+    print("Stock Launcher - Research Assistant")
     print("=" * 60)
     print("\nUsage:")
-    print("  python stock-launcher.py tech              - Monitor major tech stocks")
-    print("  python stock-launcher.py custom <ticker> <sources...>")
-    print("                                             - Monitor custom stock")
+    print("  python stock-launcher.py stocks            - Monitor multiple stocks")
+    print('  python stock-launcher.py custom <topic> <goal> <sources...>')
+    print("                                             - Custom research job")
     print("\nOr use as a library:")
-    print("  from stock_launcher import StockGuardianLauncher")
-    print("  launcher = StockGuardianLauncher()")
-    print("  launcher.add_stock('AAPL', ['https://news.ycombinator.com'])")
+    print("  from stock_launcher import StockLauncher")
+    print("  launcher = StockLauncher()")
+    print('  launcher.add_job("AAPL", "Find Apple news", ["https://news.ycombinator.com"])')
     print("  results = launcher.run_all_parallel()")
     print("\nExample:")
-    print('  launcher.add_stock(')
-    print('      ticker="TSLA",')
-    print('      sources=["https://techcrunch.com", "https://news.ycombinator.com"],')
-    print('      metadata={"port": 9222, "maxStepsPerSource": 20}')
+    print('  launcher.add_job(')
+    print('      topic="AAPL",')
+    print('      goal="Monitor Apple stock for investment risks and opportunities",')
+    print('      sources=["https://news.ycombinator.com", "https://finance.yahoo.com"],')
+    print('      metadata={"maxStepsPerSource": 20}')
     print('  )')
 
 

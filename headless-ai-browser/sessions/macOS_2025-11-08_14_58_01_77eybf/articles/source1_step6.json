@@ -1,0 +1,203 @@
+{
+  "step": 6,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:58:33.560Z",
+  "url": "https://lapcatsoftware.com/articles/2024/12/2.html",
+  "title": "Deep dive into a macOS default web browser bug",
+  "aiSummary": "The blog post discusses a bug in macOS related to the Launch Services API, which affects the management of default web browsers. This issue, particularly relevant for developers, stems from how macOS treats apps with the same bundle identifier, leading to complications when multiple versions of an app are installed. Such bugs can hinder user experience and potentially impact the reliability of Apple's software ecosystem, which may influence investor sentiment and stock performance. Understanding these technical issues is crucial as they can pose risks to Apple's reputation and operational stability, factors that investors closely monitor.",
+  "allLinks": [
+    {
+      "text": "How Safari 18.2 https upgrade works",
+      "href": "https://lapcatsoftware.com/articles/2024/12/1.html"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "Apple Developer Documentation",
+      "href": "https://developer.apple.com/documentation/coreservices/launch_services"
+    },
+    {
+      "text": "disappearing Safari extensions",
+      "href": "https://lapcatsoftware.com/articles/disappearing-safari.html"
+    },
+    {
+      "text": "Link Unshortener",
+      "href": "https://underpassapp.com/LinkUnshortener/"
+    },
+    {
+      "text": "Xcode",
+      "href": "https://developer.apple.com/xcode/"
+    },
+    {
+      "text": "Arc",
+      "href": "https://arc.net/"
+    },
+    {
+      "text": "Default web browser",
+      "href": "https://github.com/lapcat/Defaultwebbrowser"
+    },
+    {
+      "text": "deleting DerivedData the right way",
+      "href": "https://lapcatsoftware.com/articles/DerivedData.html"
+    },
+    {
+      "text": "PrivateWindow",
+      "href": "https://github.com/lapcat/PrivateWindow"
+    },
+    {
+      "text": "three versions of the PrivateWindow app",
+      "href": "https://github.com/lapcat/PrivateWindow/releases"
+    },
+    {
+      "text": "StopTheMadness Pro",
+      "href": "https://underpassapp.com/StopTheMadness/"
+    },
+    {
+      "text": "Jeff Johnson",
+      "href": "https://lapcatsoftware.com/"
+    },
+    {
+      "text": "My apps",
+      "href": "https://underpassapp.com/"
+    },
+    {
+      "text": "PayPal.Me",
+      "href": "https://www.paypal.me/JeffJohnsonWI"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@lapcatsoftware"
+    },
+    {
+      "text": "Articles index",
+      "href": "https://lapcatsoftware.com/articles/index.html"
+    },
+    {
+      "text": "How Safari 18.2 https upgrade works",
+      "href": "https://lapcatsoftware.com/articles/2024/12/1.html"
+    }
+  ],
+  "pageContext": {
+    "title": "Deep dive into a macOS default web browser bug",
+    "url": "https://lapcatsoftware.com/articles/2024/12/2.html",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "How Safari 18.2 https upgrade works",
+        "href": "https://lapcatsoftware.com/articles/2024/12/1.html"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "Apple Developer Documentation",
+        "href": "https://developer.apple.com/documentation/coreservices/launch_services"
+      },
+      {
+        "text": "disappearing Safari extensions",
+        "href": "https://lapcatsoftware.com/articles/disappearing-safari.html"
+      },
+      {
+        "text": "Link Unshortener",
+        "href": "https://underpassapp.com/LinkUnshortener/"
+      },
+      {
+        "text": "Xcode",
+        "href": "https://developer.apple.com/xcode/"
+      },
+      {
+        "text": "Arc",
+        "href": "https://arc.net/"
+      },
+      {
+        "text": "Default web browser",
+        "href": "https://github.com/lapcat/Defaultwebbrowser"
+      },
+      {
+        "text": "deleting DerivedData the right way",
+        "href": "https://lapcatsoftware.com/articles/DerivedData.html"
+      },
+      {
+        "text": "PrivateWindow",
+        "href": "https://github.com/lapcat/PrivateWindow"
+      },
+      {
+        "text": "three versions of the PrivateWindow app",
+        "href": "https://github.com/lapcat/PrivateWindow/releases"
+      },
+      {
+        "text": "StopTheMadness Pro",
+        "href": "https://underpassapp.com/StopTheMadness/"
+      },
+      {
+        "text": "Jeff Johnson",
+        "href": "https://lapcatsoftware.com/"
+      },
+      {
+        "text": "My apps",
+        "href": "https://underpassapp.com/"
+      },
+      {
+        "text": "PayPal.Me",
+        "href": "https://www.paypal.me/JeffJohnsonWI"
+      },
+      {
+        "text": "Mastodon",
+        "href": "https://mastodon.social/@lapcatsoftware"
+      },
+      {
+        "text": "Articles index",
+        "href": "https://lapcatsoftware.com/articles/index.html"
+      },
+      {
+        "text": "How Safari 18.2 https upgrade works",
+        "href": "https://lapcatsoftware.com/articles/2024/12/1.html"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "Previous: How Safari 18.2 https upgrade works\nArticles index\nJeff Johnson (My apps, PayPal.Me, Mastodon)\nDeep dive into a macOS default web browser bug\nDecember 20 2024\n\nThis blog post has undergone some revision and correction since first published. It turns out, contrary to my initial assumption, that the code signatures of the apps is largely irrelevant. Thanks to Avi Drissman of the Google Chrome team for assistance!\n\nAccording to the Apple Developer Documentation, \"macOS Launch Services is an API that enables a running app to open other apps or their document files, similar to the Finder or the Dock.\" Launch Services covers an assortment of functionality on macOS, including control over your default web browser, which you can (normally) see and change in System Settings under (for some strange reason) Desktop & Dock.\n\nLaunch Services has become quite buggy in recent years. One notorious bug was the case of the disappearing Safari extensions, introduced in macOS 11 Big Sur and finally fixed in macOS 13 Ventura. In this blog post, I'll discuss a current bug involving multiple versions of the same app installed on one Mac. The bug is particularly painful for Mac software developers such as myself, because we're constantly building and running different versions of the apps that we develop.\n\nTechnically speaking, apps are treated as the same by Launch Services if they share a bundle identifier. For illustration, I'll use my app Link Unshortener. The App Store installs it at /Applications/Link Unshortener.app in the file system. In Terminal app, the following command displays the contents of Link Unshortener's Info.plist file, which contains essential information about the app:\n\ncat '/Applications/Link Unshortener.app/Contents/Info.plist'\n\nLink Unshortener's bundle identifier:\n\n<key>CFBundleIdentifier</key>\n<string>com.underpassapp.LinkUnshortener</string>\n\nLink Unshortener's bundle version:\n\n<key>CFBundleVersion</key>\n<string>54</string>\n\nI've set Link Unshortener as the default web browser on my Macs, which is possible because the app also declares in its Info.plist file that it handles http and https website URL schemes. This command opens the specified URL in the default web browser, which for me is Link Unshortener:\n\nopen https://www.apple.com\n\nWhen you set the default web browser on your Mac, Launch Services records not only the bundle identifier of the app but also, for some strange reason, its bundle version. You can find this information in the ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist file:\n\n<key>LSHandlerPreferredVersions</key>\n<dict>\n<key>LSHandlerRoleAll</key>\n<string>54.0</string>\n</dict>\n<key>LSHandlerRoleAll</key>\n<string>com.underpassapp.linkunshortener</string>\n<key>LSHandlerURLScheme</key>\n<string>http</string>\n\n\nAs long as you don't update your default web browser, you can move the app almost anywhere in the file system on your Mac—or onto the file system of another Mac connected by F"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"NAVIGATE\",\"url\":\"https://lapcatsoftware.com/articles/2024/12/1.html\",\"reasoning\":\"The article titled 'How Safari 18.2 https upgrade works' may provide insights into changes in Safari that could impact user experience and potentially affect Apple's stock performance.\"}",
+    "action": "NAVIGATE",
+    "url": "https://lapcatsoftware.com/articles/2024/12/1.html",
+    "reasoning": "The article titled 'How Safari 18.2 https upgrade works' may provide insights into changes in Safari that could impact user experience and potentially affect Apple's stock performance."
+  },
+  "result": "Navigated to https://lapcatsoftware.com/articles/2024/12/1.html"
+}
