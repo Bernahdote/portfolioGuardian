@@ -4,6 +4,7 @@ import requests
 from dotenv import load_dotenv
 from newspaper import Article
 import time
+from expand_tickers import process_news_articles
 
 
 def scrape_article_text(url):
@@ -31,7 +32,6 @@ def main():
     
     url = "https://api.marketaux.com/v1/news/all"
     params = {
-
         "api_token": api_key
     }
     
@@ -50,28 +50,56 @@ def main():
                 full_text = scrape_article_text(article["url"])
                 article["full_text"] = full_text
                 
-        
-        for article in articles:
-            if "similar" in article and isinstance(article["similar"], list):
-                for similar_article in article["similar"]:
-                    if "url" in similar_article and "full_text" not in similar_article:
-                        print(f"Scraping similar article: {similar_article.get('title', 'Unknown')[:50]}...")
-                        full_text = scrape_article_text(similar_article["url"])
-                        similar_article["full_text"] = full_text
-                        time.sleep(0.5)
+            # Remove similar articles - we don't want them
+            if "similar" in article:
+                del article["similar"]
+    
+    # Process tickers: check if articles have tickers and expand them with OpenAI
+    print("\nProcessing tickers and expanding with OpenAI...")
+    articles_data = process_news_articles(articles_data)
     
     output_file = "news_articles.json"
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(articles_data, f, indent=2, ensure_ascii=False, default=str)
     
+    # Load existing articles if file exists
+    existing_uuids = set()
+    existing_data = {"meta": {}, "data": []}
+    
+    if os.path.exists(output_file):
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                if isinstance(existing_data, dict) and "data" in existing_data:
+                    existing_uuids = {article.get("uuid") for article in existing_data["data"] if article.get("uuid")}
+                    print(f"Found {len(existing_uuids)} existing articles")
+        except (json.JSONDecodeError, Exception) as e:
+            print(f"Warning: Could not read existing file: {e}. Starting fresh.")
+            existing_data = {"meta": {}, "data": []}
+    
+    # Filter out articles that already exist (by UUID)
     if isinstance(articles_data, dict) and "data" in articles_data:
-        article_count = len(articles_data["data"])
-    elif isinstance(articles_data, list):
-        article_count = len(articles_data)
+        new_articles = [article for article in articles_data["data"] if article.get("uuid") not in existing_uuids]
+        existing_articles = existing_data.get("data", [])
+        
+        print(f"New articles to add: {len(new_articles)}")
+        print(f"Existing articles: {len(existing_articles)}")
+        
+        # Combine existing and new articles
+        combined_data = {
+            "meta": articles_data.get("meta", existing_data.get("meta", {})),
+            "data": existing_articles + new_articles
+        }
+        
+        # Write combined data
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(combined_data, f, indent=2, ensure_ascii=False, default=str)
+        
+        total_count = len(combined_data["data"])
+        print(f"Total articles in file: {total_count}")
     else:
-        article_count = "N/A"
-    
-    print(f"Number of articles: {article_count}")
+        # Fallback: just write the new data if structure is unexpected
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(articles_data, f, indent=2, ensure_ascii=False, default=str)
+        print("Wrote articles to file (unexpected data structure)")
 
 
 if __name__ == "__main__":

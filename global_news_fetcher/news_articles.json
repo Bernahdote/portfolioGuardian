@@ -1,207 +1,88 @@
 {
   "meta": {
-    "found": 8177013,
+    "found": 8177251,
     "returned": 3,
     "limit": 3,
     "page": 1
   },
   "data": [
     {
-      "uuid": "7ff38619-43a3-495a-95cb-a0ee4397b1cf",
-      "title": "Ares Capital: Strong Quarter, But A Dividend Cut Is Still On The Table (NASDAQ:ARCC)",
-      "description": "Ares Capital delivered a strong quarter with solid investment activity, NAV growth, and robust liquidity, maintaining its dividend for now. See why ARCC stock is a Hold.",
-      "keywords": "",
-      "snippet": "I can hear it now. My article title is clickbait. But if you know me, then you know I don't write clickbait titles. I give my honest assessment.\n\nContributing a...",
-      "url": "https://seekingalpha.com/article/4840227-ares-capital-strong-quarter-dividend-cut-still-on-table",
-      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2217841235/image_2217841235.jpg?io=getty-c-w1536",
-      "language": "en",
-      "published_at": "2025-11-08T12:30:00.000000Z",
-      "source": "seekingalpha.com",
-      "relevance_score": null,
-      "entities": [
-        {
-          "symbol": "ARCC",
-          "name": "Ares Capital Corporation",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Financial Services",
-          "match_score": 81.38498,
-          "sentiment_score": 0.296,
-          "highlights": [
-            {
-              "highlight": "<em>Ares</em> <em>Capital</em>: Strong Quarter, But A Dividend Cut Is Still On The Table (<em>NASDAQ:ARCC</em>)",
-              "sentiment": 0.296,
-              "highlighted_in": "title"
-            }
-          ]
-        }
-      ],
-      "similar": [],
-      "full_text": "I can hear it now. My article title is clickbait. But if you know me, then you know I don't write clickbait titles. I give my honest assessment.\n\nContributing analyst to the iREIT+Hoya Capital investment group. Dividend Collection Agency is not a registered investment professional nor financial advisor and these articles should not be taken as financial advice. This is for educational purposes only and I encourage everyone to do their own due diligence. I'm a Navy veteran who enjoys dividend investing in quality blue-chip stocks, BDC's, and REITs. I am a buy-and-hold investor who prefers quality over quantity and plans to supplement his retirement income and live off dividends in the next 5-7 years. I aspire to reach and help the hard working, lower and middle class workers build investment portfolios of high quality, dividend-paying companies. I also hope to give investors a new perspective to help them reach financial independence.\n\nAnalyst’s Disclosure:I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.\n\nSeeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body."
-    },
-    {
-      "uuid": "24ec946c-daf3-4d78-82fd-e75d17825f83",
-      "title": "The One Chart Every S&P 500 Investor Needs To See Right Now",
-      "description": "The S&P 500 is highly concentrated in the Mag 7, making diversification beyond Big Tech increasingly attractive for long-term investors. Discover the full analysis here.",
-      "keywords": "",
-      "snippet": "Join iREIT on Alpha today to get the most in-depth research that includes REITs, mREITs, Preferreds, BDCs, MLPs, ETFs, and other income alternatives. 438 testim...",
-      "url": "https://seekingalpha.com/article/4840566-the-one-chart-every-s-and-p-500-investor-needs-to-see-right-now",
-      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2208260093/image_2208260093.jpg?io=getty-c-w1536",
-      "language": "en",
-      "published_at": "2025-11-08T12:30:00.000000Z",
-      "source": "seekingalpha.com",
+      "uuid": "fa3b252b-4e00-4bb8-a4e7-4ae9922a2668",
+      "title": "Браки и разводы в Беларуси: сравнили цифры по регионам",
+      "description": "Изучили статистику браков и разводов в разрезе регионов Беларуси за последние годы.",
+      "keywords": "браки, разводы, Белстат",
+      "snippet": "Фото носит иллюстративный характер, источник: freepik.com\n\nФото носит иллюстративный характ?...",
+      "url": "https://myfin.by/article/zhizn/braki-i-razvody-v-belarusi-sravnili-cifry-po-regionam-41642",
+      "image_url": "https://myfin.by/source//2/n4D-9jHuNBkNponm_uqIU2hppVOZdVLe.jpg",
+      "language": "ru",
+      "published_at": "2025-11-08T13:21:25.000000Z",
+      "source": "myfin.by",
       "relevance_score": null,
       "entities": [],
-      "similar": [],
-      "full_text": "Join iREIT on Alpha today to get the most in-depth research that includes REITs, mREITs, Preferreds, BDCs, MLPs, ETFs, and other income alternatives. 438 testimonials, and most are 5 stars. Nothing to lose with our FREE 2-week trial .\n\nMore than a year ago, I wrote an article titled \"The One Chart That Keeps Me Up At Night.\" The article was about the ( updated ) chart below, which displays the long-term purchasing power\n\nLeo Nelissen is an analyst focusing on major economic developments related to supply chains, infrastructure, and commodities. He is a contributing author for iREIT®+HOYA Capital.As a member of the iREIT®+HOYA Capital team, Leo aims to provide insightful analysis and actionable investment ideas, with a particular emphasis on dividend growth opportunities. Learn More.\n\nAnalyst’s Disclosure:I/we have a beneficial long position in the shares of ODFL either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.\n\nSeeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body."
+      "full_text": "Фото носит иллюстративный характер, источник: freepik.com\n\nФото носит иллюстративный характер, источник: freepik.com 13:21 08.11.2025 1262 Чтение: 1 мин.\n\nИзучили статистику браков и разводов в разрезе регионов Беларуси за последние годы.\n\nПо данным Белстата, в 2024 году в стране было зарегистрировано 46 242 брака и 34 866 разводов.\n\nЧисло браков на 1000 человек населения составило 5,1, разводов – 3,8.\n\nДля сравнения: в 2019 году число браков в Беларуси составляло 62 744, а разводов – 34 470.\n\nИсточник: Белстат\n\nЧто касается региональной статистики, то, к примеру, в 2024 году в Минске было зарегистрировано 11 589 браков.\n\nВ Гомельской области заключили 6465 браков, в Минской – 6420.\n\nДоступны и более ранние цифры – в 2019 году больше всего брачных союзов зафиксировано в столице (15 208), меньше всего – в Гродненской области (6528).\n\nИсточник: Белстат\n\nВ 2024 году разводов в столице оформили 7716, в Минской области – 5541, в Брестской – 4636.\n\nПри этом пятью годами ранее в этих регионах цифры были такими: 7859, 5043 и 4516 соответственно.\n\n\n\n\n\nИсточник: Белстат\n\nИсточник: Myfin.by Если вы заметили ошибку в тексте новости, пожалуйста, выделите её и нажмите Ctrl+Enter",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article discusses marriage and divorce statistics in Belarus, which do not directly relate to any specific stock tickers or companies. Therefore, there are no identified tickers affected by this news.",
+        "ticker_impacts": {}
+      }
     },
     {
-      "uuid": "568cd827-7fa0-4a1f-8c02-f27fa68b2519",
-      "title": "What Moved Markets This Week",
-      "description": "US stocks ended the week lower in a broad risk-off move fueled by worries over the AI trade and valuations. Read more about this week's major events on Wall Street.",
+      "uuid": "5dec8a33-393a-4bc0-aae9-9961983108bf",
+      "title": "고미코퍼레이션 베트남, ‘맘앤베이비 페스티벌 2025’서 궁중비책·뉴케어 하이하이 선보여",
+      "description": "고미코퍼레이션 베트남이 11월 8~9일 호치민에서 열리는 ‘맘앤베이비 페스티벌 2025’에 참가해 한국 프리미엄 유아 스킨케어 브랜드 ‘궁중비책’과 어린이 영양 간식 ‘뉴케어 하이하이’를 선보인다. 이번 행사를 통해 현지 소비자와의 접점을 확대하고, 체험형 프로그램과 디지털 마케팅을 결합한 K-브랜드 홍보를 강화한다. 고미코퍼레이션 베트남은 현지 시장 협력과 소비자 인사이트를 기반으로 차별화된 유통 전략을 추진하며, 베트남을 넘어 아시아 전역으로 커머스 생태계를 확장할 계획이다.",
       "keywords": "",
-      "snippet": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Spotify.\n\nDmitry Vinogradov/iStock Editorial...",
-      "url": "https://seekingalpha.com/article/4840853-what-moved-markets-this-week",
-      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1497253868/image_1497253868.jpg?io=getty-c-w1536",
-      "language": "en",
-      "published_at": "2025-11-08T12:28:57.000000Z",
-      "source": "seekingalpha.com",
+      "snippet": "글로벌 커머스 플랫폼 기업 어셈블코퍼레이션(Assemble Corporation)의 베트남 법인 고미코퍼레이션 베트남(Gomi Corporation Vietnam...",
+      "url": "https://www.venturesquare.net/1013126",
+      "image_url": "https://www.venturesquare.net/wp-content/uploads/2025/11/pic-696x522.jpg",
+      "language": "ko",
+      "published_at": "2025-11-08T13:11:22.000000Z",
+      "source": "venturesquare.net",
       "relevance_score": null,
-      "entities": [
-        {
-          "symbol": "AAXN",
-          "name": "Axon Enterprise Inc",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Industrials",
-          "match_score": 22.228851,
-          "sentiment_score": 0,
-          "highlights": [
-            {
-              "highlight": "<em>Axon</em> <em>Enterprise</em> (AXON)[+185 characters]",
-              "sentiment": 0,
-              "highlighted_in": "main_text"
-            }
-          ]
-        },
-        {
-          "symbol": "NVDA",
-          "name": "NVIDIA Corporation",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Technology",
-          "match_score": 11.816595,
-          "sentiment_score": 0,
-          "highlights": [
-            {
-              "highlight": "That vibe was encapsulated by \"Big Short[+299 characters]",
-              "sentiment": 0,
-              "highlighted_in": "main_text"
-            }
-          ]
-        },
-        {
-          "symbol": "SMCI",
-          "name": "Super Micro Computer, Inc.",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Technology",
-          "match_score": 25.582474,
-          "sentiment_score": -0.382,
-          "highlights": [
-            {
-              "highlight": "Here’s Why <em>Super</em> <em>Micro</e[+274 characters]",
-              "sentiment": -0.3125,
-              "highlighted_in": "main_text"
-            },
-            {
-              "highlight": "Top S&P 500 Losers\n\n<em>Super</em> <em>M[+270 characters]",
-              "sentiment": -0.4515,
-              "highlighted_in": "main_text"
-            }
-          ]
-        },
-        {
-          "symbol": "DDOG",
-          "name": "Datadog, Inc.",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Technology",
-          "match_score": 15.114777,
-          "sentiment_score": 0.3939,
-          "highlights": [
-            {
-              "highlight": "<em>Datadog</em> (DDOG) +17%. Expedia Gr[+315 characters]",
-              "sentiment": 0.3939,
-              "highlighted_in": "main_text"
-            }
-          ]
-        },
-        {
-          "symbol": "EXPE",
-          "name": "Expedia Group, Inc.",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Consumer Cyclical",
-          "match_score": 14.765552,
-          "sentiment_score": 0.3939,
-          "highlights": [
-            {
-              "highlight": "<em>Expedia</em> Group (EXPE) +17%. DuPo[+294 characters]",
-              "sentiment": 0.3939,
-              "highlighted_in": "main_text"
-            }
-          ]
-        },
-        {
-          "symbol": "HSIC",
-          "name": "Henry Schein, Inc.",
-          "exchange": null,
-          "exchange_long": null,
-          "country": "us",
-          "type": "equity",
-          "industry": "Healthcare",
-          "match_score": 19.965166,
-          "sentiment_score": 0.3939,
-          "highlights": [
-            {
-              "highlight": "<em>Henry</em> <em>Schein</em> (HSIC) +1[+290 characters]",
-              "sentiment": 0.3939,
-              "highlighted_in": "main_text"
-            }
-          ]
+      "entities": [],
+      "full_text": "글로벌 커머스 플랫폼 기업 어셈블코퍼레이션(Assemble Corporation)의 베트남 법인 고미코퍼레이션 베트남(Gomi Corporation Vietnam)은 한국 프리미엄 유아 스킨케어 브랜드 ‘궁중비책(Goongbe)’과 함께 오는 11월 8~9일 호치민시 안호이동 문화체육서비스센터에서 열리는 ‘맘앤베이비 페스티벌 2025(Festival Mẹ Bầu & Em Bé 2025)’에 공식 참가한다고 8일 밝혔다.\n\n‘맘앤베이비 페스티벌’은 베트남 최대 규모의 임산부·유아 전문 박람회로, 약 200개 브랜드와 1만 명 이상의 방문객이 참여할 예정이다. 고미코퍼레이션 베트남은 궁중비책의 현지 유통 파트너로서, 이번 행사를 통해 브랜드의 프리미엄 이미지를 강화하고 현지 소비자 접점을 확대할 계획이다.\n\n고미코퍼레이션 베트남은 이번 페스티벌에서 궁중비책과 함께 최근 론칭한 ‘뉴케어(Nucare) 하이하이’ 제품도 선보인다. ‘뉴케어 하이하이’는 대상웰라이프의 생애주기 맞춤 영양 브랜드 ‘뉴케어’에서 개발한 어린이용 건강 간식으로, 글로벌 인기 캐릭터 ‘핑크퐁 아기상어’ 디자인을 적용한 것이 특징이다. 초코맛과 밀크맛 두 가지로 구성된 제품은 균형 잡힌 영양소를 제공하면서도 아이들의 흥미를 높여 베트남 유아 가정의 긍정적인 반응을 얻고 있다.\n\n앞서 고미코퍼레이션 베트남은 대상웰라이프 베트남사무소와 ‘뉴케어 하이하이’에 대한 유통 및 디지털 마케팅 계약을 체결하고, SNS·키즈 콘텐츠 플랫폼·마미 커뮤니티 등 다양한 채널을 통한 현지 마케팅을 본격화하고 있다.\n\n회사 측은 “프리미엄 K-뉴트리션과 글로벌 IP를 결합한 전략적 파트너십을 통해 베트남 유아영양식 시장에서 차별화된 경쟁력을 확보하겠다”고 밝혔다.\n\n행사 기간 동안 고미코퍼레이션 베트남은 궁중비책과 뉴케어 하이하이 공동 부스를 운영하며, 다양한 체험형 프로그램을 진행한다.\n\n궁중비책은 본사 직수입 제품 라인을 전시하고 방문객이 직접 제품을 체험할 수 있는 공간을 마련했다. 뉴케어 하이하이는 시음 코너와 함께 아기상어 포토존, 경품 이벤트 등을 준비해 가족 단위 방문객의 참여를 유도할 예정이다. 또한 행사 기간 중 제품을 구매한 고객에게는 특별 할인 혜택이 제공된다.\n\n고미코퍼레이션 관계자는 “이번 페스티벌은 베트남 부모들에게 궁중비책의 브랜드 철학과 한국 프리미엄 스킨케어 기술, 그리고 뉴케어 하이하이의 K-뉴트리션 가치를 직접 경험할 수 있는 기회가 될 것”이라며 “베트남 유아·패밀리 시장 내 K-브랜드의 입지를 강화하겠다”고 말했다.\n\n고미코퍼레이션 베트남은 현지 시장과의 긴밀한 협력, 소비자 데이터 기반 인사이트를 통해 새로운 브랜드 경험과 차별화된 유통 전략을 만들어가고 있다. 이번 행사를 통해 K-브랜드의 가치를 널리 알리는 동시에, 베트남 시장을 비롯한 아시아 전역에서 지속 가능한 커머스 생태계 구축을 목표로 하고 있다.\n\nLike this: Like Loading...\n\nRelated\n\nGomi Corporation Vietnam to Present Gungjungbichaek and Newcare Hihi at 'Mom & Baby Festival 2025' Gomi Corporation Vietnam, a Vietnamese subsidiary of global commerce platform company Assemble Corporation, announced on the 8th that it will officially participate in the 'Mom & Baby Festival 2025 (Festival Mẹ Bầu & Em Bé 2025)' to be held at the An Hoi Ward Culture and Sports Service Center in Ho Chi Minh City on November 8th and 9th together with the Korean premium baby skincare brand 'Goongbe '. The \"Mom & Baby Festival\" is Vietnam's largest exhibition specializing in maternity care and infant care, with approximately 200 brands and over 10,000 visitors expected to participate. As the local distribution partner for Gungjungbichaek, Gomi Corporation Vietnam plans to use this event to strengthen the brand's premium image and expand its reach with local consumers. At this festival, Gomi Corporation Vietnam will showcase its recently launched \"Nucare Hi Hi,\" along with its Gungjungbichaek line. Developed by Daesang Welllife's personalized nutrition brand, Nucare, \"Nucare Hi Hi\" is a healthy snack for children. Designed with the globally popular Pinkfong character, Baby Shark, in mind, \"Nucare Hi Hi\" comes in two flavors: chocolate and milk. These products provide balanced nutrition while also engaging children, earning positive responses from families with young children in Vietnam. Gomi Corporation Vietnam previously signed a distribution and digital marketing contract with Daesang Welllife Vietnam Office for 'New Care Hi Hi' and is now in full swing with local marketing through various channels such as SNS, kids content platforms, and Mommy communities. The company stated, “We will secure differentiated competitiveness in the Vietnamese infant nutrition market through a strategic partnership that combines premium K-nutrition and global IP.” During the event, Gomi Corporation Vietnam will operate a joint booth with Gungjungbicheok and Newcare Hihi and will offer various experiential programs. Gungjungbicheok will showcase its line of directly imported products and provide a space where visitors can experience the products firsthand. Newcare Hihi will encourage family participation with a tasting corner, Baby Shark photo zone, and giveaway events. Customers who purchase products during the event will also receive special discounts. A Gomi Corporation official said, “This festival will be an opportunity for Vietnamese parents to experience firsthand the brand philosophy of Gungjungbichaek, premium Korean skincare technology, and the K-nutrition value of Newcare Hihi,” adding, “We will strengthen the position of K-brands in the Vietnamese baby and family market.” Gomi Corporation Vietnam is developing new brand experiences and differentiated distribution strategies through close collaboration with the local market and consumer data-driven insights. Through this event, the company aims to widely promote the value of K-brands and build a sustainable commerce ecosystem across Asia, including in the Vietnamese market. Gomi Corporation Vietnam Signs Distribution and Marketing Agreement for \"Newcare Hi-Hi\" with Daesang Welllife Vietnam Office\n\nGomi Corporation Vietnam présentera Gungjungbichaek et Newcare Hihi au « Festival Maman et Bébé 2025 » Gomi Corporation Vietnam, filiale vietnamienne de la société de plateforme de commerce mondial Assemble Corporation, a annoncé le 8 qu'elle participera officiellement au « Festival Maman et Bébé 2025 (Festival Mẹ Bầu & Em Bé 2025) » qui se tiendra au Centre culturel et sportif du quartier An Hoi à Hô Chi Minh-Ville les 8 et 9 novembre, en partenariat avec la marque coréenne de soins pour bébés haut de gamme « Goongbe ». Le « Festival Maman & Bébé » est le plus grand salon vietnamien dédié aux soins maternels et infantiles. Près de 200 marques et plus de 10 000 visiteurs sont attendus. Distributeur local de Gungjungbichaek, Gomi Corporation Vietnam entend profiter de cet événement pour renforcer l’image haut de gamme de la marque et étendre sa présence auprès des consommateurs vietnamiens. Lors de ce festival, Gomi Corporation Vietnam présentera son nouveau produit « Nucare Hi Hi », ainsi que sa gamme Gungjungbichaek. Développé par Nucare, la marque de nutrition personnalisée de Daesang Welllife, « Nucare Hi Hi » est un en-cas sain pour enfants. Inspiré du personnage mondialement connu de Pinkfong, Baby Shark, « Nucare Hi Hi » se décline en deux saveurs : chocolat et lait. Ces produits offrent une nutrition équilibrée tout en stimulant l'imagination des enfants, et ont rencontré un vif succès auprès des familles vietnamiennes avec de jeunes enfants. Gomi Corporation Vietnam a précédemment signé un contrat de distribution et de marketing numérique avec Daesang Welllife Vietnam Office pour « New Care Hi Hi » et est maintenant en pleine campagne de marketing local via différents canaux tels que les réseaux sociaux, les plateformes de contenu pour enfants et les communautés de mamans. L'entreprise a déclaré : « Nous allons assurer une compétitivité différenciée sur le marché vietnamien de la nutrition infantile grâce à un partenariat stratégique qui combine une nutrition K de qualité supérieure et une propriété intellectuelle mondiale. » Durant cet événement, Gomi Corporation Vietnam tiendra un stand commun avec Gungjungbicheok et Newcare Hihi et proposera divers programmes expérientiels. Gungjungbicheok présentera sa gamme de produits importés directement et offrira un espace où les visiteurs pourront les découvrir. Newcare Hihi encouragera les familles à participer grâce à un espace de dégustation, une zone photo Baby Shark et des jeux-concours. Les clients qui achèteront des produits pendant l'événement bénéficieront également de réductions spéciales. Un responsable de Gomi Corporation a déclaré : « Ce festival sera l'occasion pour les parents vietnamiens de découvrir par eux-mêmes la philosophie de la marque Gungjungbichaek, la technologie coréenne haut de gamme des soins de la peau et les bienfaits nutritionnels coréens de Newcare Hihi », ajoutant : « Nous renforcerons la position des marques coréennes sur le marché vietnamien des produits pour bébés et familles. » Gomi Corporation Vietnam développe de nouvelles expériences de marque et des stratégies de distribution différenciées grâce à une collaboration étroite avec le marché local et à une analyse approfondie des données consommateurs. À travers cet événement, l'entreprise souhaite promouvoir largement la valeur des marques coréennes et bâtir un écosystème commercial durable en Asie, notamment au Vietnam. Gomi Corporation Vietnam signe un accord de distribution et de commercialisation pour « Newcare Hi-Hi » avec Daesang Welllife Vietnam Office\n\nLike this: Like Loading...",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "ASMB",
+          "DASTF"
+        ],
+        "summary": "Gomi Corporation Vietnam is participating in the Mom & Baby Festival 2025, showcasing premium baby skincare and nutrition products. This event is expected to enhance brand visibility and market reach for both Assemble Corporation and Daesang Welllife, positively impacting their stock performance.",
+        "ticker_impacts": {
+          "ASMB": {
+            "impact": "positive",
+            "explanation": "Assemble Corporation, the parent company of Gomi Corporation Vietnam, is likely to benefit from the increased visibility and brand promotion at the Mom & Baby Festival 2025. Their participation in this event could lead to higher sales and market share in the Vietnamese infant care market."
+          },
+          "DASTF": {
+            "impact": "positive",
+            "explanation": "Daesang Welllife, which developed the Newcare Hi Hi product, is expected to see a positive impact as their product gains exposure at a major festival. The collaboration with Gomi Corporation Vietnam and the focus on marketing could enhance their brand presence and sales in the region."
+          }
         }
-      ],
-      "similar": [
-        {
-          "uuid": "c0266377-88d9-4dc5-84c8-8f880bab9922",
-          "title": "FPIs pull out ₹13,740 crore this week despite IPO optimism",
-          "description": "FPIs withdrew ₹13,740 crore from Indian markets this week, despite optimism surrounding IPOs and primary market resilience.",
-          "keywords": "FPI, IPO, Foreign portfolio investors, Sensex, Nifty, Rupee",
-          "snippet": "Foreign portfolio investors (FPIs) remained net sellers in Indian markets this week, withdrawing ₹13,740.43 crore across four trading sessions from November 3...",
-          "url": "https://www.thehindubusinessline.com/markets/fpis-pull-out-13740-crore-this-week-despite-ipo-optimism/article70255788.ece",
-          "image_url": "https://bl-i.thgim.com/public/incoming/pvahmp/article70255823.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__Euro__Ho_2_1_PPCJMJ46.jpg",
-          "language": "en",
-          "published_at": "2025-11-08T08:57:37.000000Z",
-          "source": "thehindubusinessline.com",
-          "relevance_score": null,
-          "entities": [],
-          "full_text": "Foreign portfolio investors (FPIs) remained net sellers in Indian markets this week, withdrawing ₹13,740.43 crore across four trading sessions from November 3 to November 7, 2025, according to data from National Securities Depository Limited (NSDL).\n\nThe selling pressure was most pronounced on Monday when FPIs pulled out ₹6,422.49 crore, followed by ₹3,754 crore on Friday. Thursday saw marginal net inflows of ₹20.14 crore, while Tuesday witnessed outflows of ₹1,583.52 crore. Markets remained closed on Wednesday for a holiday.\n\n\"While October witnessed net FII buying of ₹3,902 crores, November has started with FIIs turning sellers on every trading day, so far,\" said Dr V K Vijayakumar, Chief Investment Strategist, Geojit Investments Limited. \"The net FII sell figure through exchanges in November up to 8th, stood at ₹13,367 crore. This takes the total FII sell figure for 2025, so far, to a massive ₹2,07,568 crore.\"\n\nEquity witnessed the heaviest selling with FPIs withdrawing ₹12,568.66 crore through stock exchanges and primary markets combined during the week. Monday alone saw equity outflows of ₹7,586.75 crore, followed by ₹2,723.56 crore on Friday, ₹1,932.18 crore on Tuesday, and ₹326.17 crore on Thursday.\n\nHowever, the primary market showed resilience with FPIs investing ₹798.67 crore through IPOs and other routes. Thursday saw primary market investments of ₹444.26 crore, while Friday recorded ₹329.15 crore, signaling renewed confidence in new listings despite secondary market volatility.\n\n\"FIIs, particularly the hedge funds, are selling in India and buying in other markets which are driven by AI trade,\" Dr. Vijayakumar explained. \"US, China, South Korea and Taiwan are regarded as AI winners while India is widely regarded as an AI loser. This perception is hugely influencing the FPI action in the ongoing global rally driven by AI trade.\"\n\nIn the debt segment, FPIs showed mixed behavior. Under the Debt-FAR category, foreign investors remained net buyers, investing ₹1,003.81 crore for the week. The Debt-VRR segment saw positive inflows of ₹1,416.67 crore, while the general debt limit category witnessed outflows of ₹1,857.59 crore.\n\nRoss Maxwell, Global Strategy Lead at VT Markets, said, \"FPIs are likely seeing opportunities particularly in sectors such as financial services, renewable energy, and consumer tech, to gain early exposure to high quality companies aligned with India's long-term growth ambitions. At the same time, volatile global bond yields and currency fluctuations have made the secondary markets riskier, prompting investors to deploy capital through IPOs where valuations often appear more reasonable.\"\n\n\"The surge in FPI participation in IPOs indicates a subtle shift rather than a broader reversal of cautious sentiment,\" Maxwell added. \"While overall FPI flows into the secondary market remain uneven due to global rate uncertainty and geopolitical risks, primary market inflows show investors are differentiating between short-term volatility and long-term opportunity.\"\n\nThe rupee weakened marginally during the week, moving from ₹88.7241 per dollar on Monday to ₹88.6026 on Friday, reflecting the sustained FPI selling pressure.\n\nDr Vijayakumar noted that elevated AI valuations globally could impact future FPI flows. \"The problem, however, is that AI valuations have reached elevated levels and further rallies from here run the risk of a bubble burst. This realisation is dawning on investors widely now. This may restrain sustained FII selling in India. If, along with this realisation, India's earnings growth continues to improve, FIIs are likely to turn buyers. But this may take time.\"\n\nThe benchmark indices reflected the selling pressure, with Nifty50 declining 0.89 per cent during the week to close at 25,492.30, while BSE Sensex fell 0.86 per cent to settle at 83,216.28.\n\nMore Like This\n\nPublished on November 8, 2025"
-        }
-      ],
-      "full_text": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Spotify.\n\nDmitry Vinogradov/iStock Editorial via Getty Images\n\nSeeking Alpha News Quiz\n\nUp for a challenge? Test your knowledge on the biggest events in the investing world over the past week. Take the latest Seeking Alpha News Quiz and see how you stack up against the competition.\n\n\n\nWall Street closed out a volatile week lower in a broad risk-off move fueled by worries about the AI trade and valuations.\n\n\n\nMajor indexes fell across the board, with the Nasdaq Composite (COMP:IND) sliding -3.0% for its worst weekly performance since April, while the Nasdaq 100 (US100:IND) dropped -3.09%. The S&P 500 (SP500) lost -1.6%, and the Dow Jones Industrial Average (DJI) shed -1.2% as investors rotated away from high-growth names.\n\n\n\nThat vibe was encapsulated by \"Big Short\" money manager Michael Burry disclosing that he is betting against AI darlings Nvidia (NVDA) and Palantir (PLTR). That was followed by Palantir CEO Alex Karp, whose stock was sliding on valuation worries despite stellar earnings, calling Burry \"bats--- crazy.\"\n\n\n\nCrypto was also hit hard. Bitcoin (BTC-USD) tumbled 6.9%, flirting with bear-market territory and the closely watched $100,000 support level that traders have defended since early October.\n\n\n\n“An exhausting week in markets if you were paying attention. (But) Friday’s price action throughout the day indicates a potential recovery from this garden-variety correction,” said Seeking Alpha analyst Alex King of Cestrian Capital Research.\n\n\n\nThe pullback followed weeks of record highs and light data flow amid the prolonged government shutdown. Attention will now turn to next week’s earnings and any fresh Fed commentary as traders look for signs that the rally’s underlying momentum remains intact.\n\n\n\nRead a preview of next week’s major events in Seeking Alpha’s Catalyst Watch.\n\n\n\nSeeking Alpha's Calls Of The Week\n\nMedical Properties Trust's (MPW) Accelerating Recovery Justifies An Upgrade.\n\n\n\nObsidian Energy (OBE): Strong Production, But With High Operating Costs.\n\n\n\nVICI Properties (VICI) Is A Top REIT To Buy With Shares Priced Below $30.\n\n\n\nHere’s Why Super Micro Computer (SMCI) Is The Company I'll Never Trust.\n\n\n\n3M (MMM): Caution Still Needed After Sales Growth At Multiyear Highs.\n\n\n\nAMD (AMD) Reports Decent Results, But Correction Risks Are Growing.\n\n\n\nMoving To The Sidelines On UPS (UPS) As Global Trade Pains Deepen.\n\n\n\nCleveland-Cliffs (CLF) Is Being Pulled By Diverging Macroeconomic Forces.\n\n\n\nDarden (DRI): Weaker Spending By Younger Consumers Is A Warning Sign.\n\n\n\nMP Materials (MP) Is Now A Pawn In The U.S.-China Rare-Earth Tug Of War.\n\nWeekly Movement\n\nU.S. Indices\n\nDow -1.2% to 46,987. S&P 500 -1.6% to 6,729. Nasdaq -3.0% to 23,005. Russell 2000 -1.9% to 2,433. CBOE Volatility Index +9.4% to 19.08.\n\n\n\nS&P 500 Sectors\n\nConsumer Staples +0.8%. Utilities +0.7%. Financials +0.8%. Telecom -1.7%. Healthcare +1.3%. Industrials -1.1%. Information Technology -4.2%. Materials +0.4%. Energy +1.5%. Consumer Discretionary -1.6%. Real Estate +1%.\n\n\n\nWorld Indices\n\nLondon -0.4% to 9,683. France -2.1% to 7,950. Germany -1.6% to 23,570. Japan -4.1% to 50,276. China +1.1% to 3,998. Hong Kong +1.3% to 26,242. India -0.9% to 83,216.\n\n\n\nCommodities and Bonds\n\nCrude Oil WTI -2% to $59.75/bbl. Gold +0.3% to $4,009.8/oz. Natural Gas +4.6% to 4.315. Ten-Year Bond Yield -0.2 bps to 4.093.\n\n\n\nForex and Cryptos\n\nEUR/USD +0.26%. USD/JPY -0.38%. GBP/USD +0.05%. Bitcoin -7.%. Litecoin -1.1%. Ethereum -11.3%. XRP -7.7%.\n\n\n\nTop S&P 500 Gainers\n\nKenvue (KVUE) +17%. Datadog (DDOG) +17%. Expedia Group (EXPE) +17%. DuPont de Nemours (DD) +17%. Henry Schein (HSIC) +14%.\n\n\n\nTop S&P 500 Losers\n\nSuper Micro Computer (SMCI) -23%. DoorDash (DASH) -20%. Axon Enterprise (AXON) -18%. Zoetis (ZTS) -17%. Norwegian Cruise Line Holdings (NCLH) -15%.\n\n\n\nWhere will the markets be headed next week? Current trends and ideas? Add your thoughts to the comments section."
+      }
+    },
+    {
+      "uuid": "6a153319-642d-46d1-b23c-d18d22005d56",
+      "title": "Europoslanec Zdechovský vyhrál téměř milion ve Sportce",
+      "description": "Při pátečním slosování loterijní hry Sportka vyhrál český europoslanec Tomáš Zdechovský (KDU-ČSL) 933 552 korun. Pochlubil se tím na sociální síti X. Peníze si podle svých slov nenechá.",
+      "keywords": "Tomáš Zdechovský, Europoslanci, Sportka, Výhra, Milióny, Charita",
+      "snippet": "",
+      "url": "https://www.novinky.cz/clanek/zahranicni-evropa-europoslanec-zdechovsky-vyhral-temer-milion-ve-sportce-40547949",
+      "image_url": "https://d15-a.sdn.cz/d_15/c_img_oa_A/nQOSLp28xnB7SycClbDgzv7C/092b.jpeg?fl=cro,0,0,3852,2167%7Cres,1200,,1%7Cjpg,80,,1",
+      "language": "cs",
+      "published_at": "2025-11-08T13:08:15.000000Z",
+      "source": "novinky.cz",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article discusses a Czech politician winning a lottery prize and does not mention any specific companies or industries that would be impacted by this event. Therefore, there are no relevant stock tickers or impacts to report.",
+        "ticker_impacts": {}
+      }
     }
   ]
 }
