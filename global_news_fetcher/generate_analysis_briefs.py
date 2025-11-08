@@ -161,7 +161,7 @@ def dispatch_brief_to_crawler(
     endpoint: Optional[str] = None,
     print_output: bool = True,
 ) -> None:
-    crawler_endpoint = endpoint or os.getenv("CRAWLER_ENDPOINT", "http://localhost:5000/crawl")
+    crawler_endpoint = endpoint or os.getenv("CRAWLER_ENDPOINT", "http://localhost:5050/crawl")
     try:
         response = requests.post(crawler_endpoint, json=payload, timeout=30)
         if print_output:
