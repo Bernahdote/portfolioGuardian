@@ -1,0 +1,268 @@
+{
+  "step": 10,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:35:08.146Z",
+  "url": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/",
+  "title": "Non-Pointless Software Projects for New Devs in the LLM Age - Casey Primozic's Homepage",
+  "aiSummary": "The webpage discusses the challenges new developers face in finding meaningful software projects, particularly in the context of the AI-driven coding landscape. The author emphasizes the importance of creating projects that serve a personal purpose, rather than engaging in tasks that feel like mere exercises. Key opportunities lie in developing practical applications, such as a screenshot hosting app, which can enhance motivation and demonstrate real skills to potential employers. However, there is a sentiment of demoralization among developers due to the ease with which AI can generate code, presenting a risk of diminished value in traditional programming efforts.",
+  "allLinks": [
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "Portfolio",
+      "href": "https://cprimozic.net/portfolio/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://cprimozic.net/contact/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://cprimozic.net/blog/"
+    },
+    {
+      "text": "Professional Experience",
+      "href": "https://cprimozic.net/professional/"
+    },
+    {
+      "text": "Subscribe to Blog via RSS",
+      "href": "https://cprimozic.net/rss.xml"
+    },
+    {
+      "text": "Non-Pointless Projects",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#non-pointless-projects"
+    },
+    {
+      "text": "Screenshot Hosting + Sharing App",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-hosting--sharing-app"
+    },
+    {
+      "text": "Screenshot Project Extensions + Additional Features",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-project-extensions--additional-features"
+    },
+    {
+      "text": "Reminder Email CLI",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#reminder-email-cli"
+    },
+    {
+      "text": "Discord Bot",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#discord-bot"
+    },
+    {
+      "text": "Hosting a Game Server/Message Board/etc.",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#hosting-a-game-servermessage-boardetc"
+    },
+    {
+      "text": "Self-Hosted Web Analytics",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#self-hosted-web-analytics"
+    },
+    {
+      "text": "Webdev Slant",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#webdev-slant"
+    },
+    {
+      "text": "Conclusion + Philosophical Thoughts",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#conclusion--philosophical-thoughts"
+    },
+    {
+      "text": "Github Student Developer Pack",
+      "href": "https://education.github.com/pack"
+    },
+    {
+      "text": "ShareX",
+      "href": "https://getsharex.com/"
+    },
+    {
+      "text": "You should take more screenshots",
+      "href": "https://alexwlchan.net/2022/screenshots/"
+    },
+    {
+      "text": "Mailgun",
+      "href": "https://www.mailgun.com/"
+    },
+    {
+      "text": "Cloudflare Worker Cron Triggers",
+      "href": "https://developers.cloudflare.com/workers/configuration/cron-triggers/"
+    },
+    {
+      "text": "Plausible",
+      "href": "https://plausible.io/"
+    },
+    {
+      "text": "FlagCounter",
+      "href": "https://flagcounter.com/"
+    }
+  ],
+  "pageContext": {
+    "title": "Non-Pointless Software Projects for New Devs in the LLM Age - Casey Primozic's Homepage",
+    "url": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "Portfolio",
+        "href": "https://cprimozic.net/portfolio/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://cprimozic.net/contact/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://cprimozic.net/blog/"
+      },
+      {
+        "text": "Professional Experience",
+        "href": "https://cprimozic.net/professional/"
+      },
+      {
+        "text": "Subscribe to Blog via RSS",
+        "href": "https://cprimozic.net/rss.xml"
+      },
+      {
+        "text": "Non-Pointless Projects",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#non-pointless-projects"
+      },
+      {
+        "text": "Screenshot Hosting + Sharing App",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-hosting--sharing-app"
+      },
+      {
+        "text": "Screenshot Project Extensions + Additional Features",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-project-extensions--additional-features"
+      },
+      {
+        "text": "Reminder Email CLI",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#reminder-email-cli"
+      },
+      {
+        "text": "Discord Bot",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#discord-bot"
+      },
+      {
+        "text": "Hosting a Game Server/Message Board/etc.",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#hosting-a-game-servermessage-boardetc"
+      },
+      {
+        "text": "Self-Hosted Web Analytics",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#self-hosted-web-analytics"
+      },
+      {
+        "text": "Webdev Slant",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#webdev-slant"
+      },
+      {
+        "text": "Conclusion + Philosophical Thoughts",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#conclusion--philosophical-thoughts"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#non-pointless-projects"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-hosting--sharing-app"
+      },
+      {
+        "text": "Github Student Developer Pack",
+        "href": "https://education.github.com/pack"
+      },
+      {
+        "text": "ShareX",
+        "href": "https://getsharex.com/"
+      },
+      {
+        "text": "You should take more screenshots",
+        "href": "https://alexwlchan.net/2022/screenshots/"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#screenshot-project-extensions--additional-features"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#reminder-email-cli"
+      },
+      {
+        "text": "Mailgun",
+        "href": "https://www.mailgun.com/"
+      },
+      {
+        "text": "Cloudflare Worker Cron Triggers",
+        "href": "https://developers.cloudflare.com/workers/configuration/cron-triggers/"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#discord-bot"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#hosting-a-game-servermessage-boardetc"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#self-hosted-web-analytics"
+      },
+      {
+        "text": "Plausible",
+        "href": "https://plausible.io/"
+      },
+      {
+        "text": "FlagCounter",
+        "href": "https://flagcounter.com/"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.b-cdn.net/static/983fb3853012717eee85bd52062413f5/b81de/flag-counter.png"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#webdev-slant"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/#conclusion--philosophical-thoughts"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "cprimozic.net\n@ameobea10\n•\nPortfolio\n•\nContact\n•\nBlog\n•\nProfessional Experience\nNon-Pointless Software Projects for New Devs in the LLM Age\n2025-05-26\nSubscribe to Blog via RSS \n\nNon-Pointless Projects\n\nScreenshot Hosting + Sharing App\n\nScreenshot Project Extensions + Additional Features\n\nReminder Email CLI\n\nDiscord Bot\n\nHosting a Game Server/Message Board/etc.\n\nSelf-Hosted Web Analytics\n\nWebdev Slant\n\nConclusion + Philosophical Thoughts\n\nI, like many other devs, learned most of my coding by building projects. I've never been one to read textbooks or tutorials through chapter by chapter - I prefer to start something and then look stuff up along the way and trial-and-error my way to the end.\n\nBuilding a portfolio of projects to show off your skills is still highly recommended to college-age devs trying to land their first job, judging by the posts on subreddits like /r/csMajors that show up on my Reddit homepage.\n\nThe issue is that it's often really hard to find an idea for a project to work on that feels worth doing.\n\nI've heard this multiple times from friends learning software development, seen it echoed online, and experienced it myself. It's easy to look up \"software project ideas\" online or ask ChatGPT to recommend something, but the many of those suggestions just seem so pointless.\n\nSure, building a snake game clone or writing your own tiny scripting language interpreter can be very educational and worthwhile. But at the end of the project, the code's going to sit on Github and never get run by anyone again. If you're lucky, some recruiter or dev assigned to be your interviewer will glance through the readme.\n\nIt's always been hard for me to find motivation to work on projects like that. They felt like homework assignments without even the benefit of getting a good grade at the end if it turns out well.\n\nIn the age of AI coding, it's even worse. Even if you don't use any LLM assistance, the knowledge that some LLM could generate the whole thing given a 50-word prompt is very demoralizing to say the least.\n\nNon-Pointless Projects\n\nI'll get straight to my point.\n\nMy solution for making projects feel like they matter is to build stuff that you use yourself\n\nI've been programming and building software for over 10 years now. Over that time, I've built many projects that I still use frequently. The fact that they're real, living applications that actually serve a purpose automatically elevates them to be more meaningful that some artificial coding challenge.\n\nHere are some of the things I've built over the years and use to this day:\n\nScreenshot Hosting + Sharing App\n\nOne of the earliest projects I built was a webserver that I could upload screenshots to. If you spend a lot of time online like me, then you probably post a lot of screenshots to apps like Discord or Slack. For me at least, I still find it really cool to be able to post a link to a domain that's my username with a super-short URL.\n\nYou can make this as simple or complicated as you wa"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"scroll\",\"direction\":\"down\",\"pixels\":500,\"reasoning\":\"To reveal more links related to AI or relevant articles that can provide insights.\"}",
+    "action": "scroll",
+    "direction": "down",
+    "pixels": 500,
+    "reasoning": "To reveal more links related to AI or relevant articles that can provide insights."
+  },
+  "result": "Scrolled down"
+}

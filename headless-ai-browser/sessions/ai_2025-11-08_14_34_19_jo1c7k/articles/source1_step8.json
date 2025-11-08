@@ -1,0 +1,527 @@
+{
+  "step": 8,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:34:57.442Z",
+  "url": "https://cprimozic.net/blog/",
+  "title": "Blog - Casey Primozic's Homepage",
+  "aiSummary": "The provided content does not contain any relevant information about AI stocks, market sentiment, financial data, or associated risks and opportunities. It primarily features blog posts related to programming, software development, and technical projects by Casey Primozic. For insights into AI stocks, a different source focusing on financial analysis and market updates would be necessary.",
+  "allLinks": [
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "cprimozic.net",
+      "href": "https://cprimozic.net/"
+    },
+    {
+      "text": "@ameobea10",
+      "href": "https://twitter.com/ameobea10/"
+    },
+    {
+      "text": "Portfolio",
+      "href": "https://cprimozic.net/portfolio/"
+    },
+    {
+      "text": "Contact",
+      "href": "https://cprimozic.net/contact/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://cprimozic.net/blog/"
+    },
+    {
+      "text": "Professional Experience",
+      "href": "https://cprimozic.net/professional/"
+    },
+    {
+      "text": "The Tech Behind Geotoy",
+      "href": "https://cprimozic.net/blog/the-tech-behind-geotoy/"
+    },
+    {
+      "text": "Compiling the Boundary-First-Flattening Library to Wasm",
+      "href": "https://cprimozic.net/notes/posts/compiling-boundary-first-flattening-to-wasm/"
+    },
+    {
+      "text": "Non-Pointless Software Projects for New Devs in the LLM Age",
+      "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/"
+    },
+    {
+      "text": "Building Modular Audio Nodes in Web Audio",
+      "href": "https://cprimozic.net/blog/building-modular-audio-nodes-in-web-audio/"
+    },
+    {
+      "text": "Optimizing Advent of Code D9P2 with High-Performance Rust",
+      "href": "https://cprimozic.net/blog/optimizing-advent-of-code-2024/"
+    },
+    {
+      "text": "Creating Constrained Bezier Curves for an Envelope Generator",
+      "href": "https://cprimozic.net/notes/posts/creating-constrained-bezier-curves-for-an-envelope-generator/"
+    },
+    {
+      "text": "Notes on Self Hosting a Bluesky PDS Alongside Other Services",
+      "href": "https://cprimozic.net/notes/posts/notes-on-self-hosting-bluesky-pds-alongside-other-services/"
+    },
+    {
+      "text": "A Small Change to Significantly Improve Triplanar Mapping",
+      "href": "https://cprimozic.net/notes/posts/a-small-change-to-improve-triplanar-mapping/"
+    },
+    {
+      "text": "Fixing a Bug in Google Chrome as a First-Time Contributor",
+      "href": "https://cprimozic.net/blog/fixing-a-bug-in-google-chrome/"
+    },
+    {
+      "text": "My Favorite Tools + Techniques for Procedural Gamedev",
+      "href": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/"
+    },
+    {
+      "text": "Trying Kolmogorov-Arnold Networks in Practice",
+      "href": "https://cprimozic.net/blog/trying-out-kans/"
+    },
+    {
+      "text": "Computing Normals for \"Smooth by Angle\" Shading Like Blender",
+      "href": "https://cprimozic.net/blog/computing-auto-smooth-shaded-normals-like-blender/"
+    },
+    {
+      "text": "A Process for Subdividing + Deforming Arbitrary 3D Meshes",
+      "href": "https://cprimozic.net/blog/subdividing-meshes-for-displacement/"
+    },
+    {
+      "text": "What I've Learned Building Interactive Embedding Visualizations",
+      "href": "https://cprimozic.net/blog/building-embedding-visualizations-from-user-profiles/"
+    },
+    {
+      "text": "Trying Out Cloudflare's `foundations` Library for Rust",
+      "href": "https://cprimozic.net/blog/trying-out-cloudflare-foundations-library/"
+    },
+    {
+      "text": "PIXI.JS Optimizations",
+      "href": "https://cprimozic.net/notes/posts/pixi-js-optimizations/"
+    },
+    {
+      "text": "Building a Realistic Raindrop-Covered Window Pane Material in Three.JS",
+      "href": "https://cprimozic.net/notes/posts/building-realistic-rainy-window-pane-in-threejs/"
+    },
+    {
+      "text": "Wrapping Meshes With Geodesic Walks",
+      "href": "https://cprimozic.net/blog/wrapping-meshes-with-geodesic-walks/"
+    },
+    {
+      "text": "Speeding Up Geodesic Tracing in geometry-central",
+      "href": "https://cprimozic.net/notes/posts/speeding-up-geodesic-tracing-in-geometry-central/"
+    },
+    {
+      "text": "amdgpu_top: A Modern radeontop Alternative",
+      "href": "https://cprimozic.net/notes/posts/amdgpu_top-a-modern-radeontop-alternative/"
+    },
+    {
+      "text": "Generating 4K PBR Textures Using Stable Diffusion XL",
+      "href": "https://cprimozic.net/notes/posts/generating-textures-for-3d-using-stable-diffusion/"
+    },
+    {
+      "text": "Building RNN Architecture Visualizations With TikZ",
+      "href": "https://cprimozic.net/notes/posts/building-rnn-architecture-visualizations-with-tikz/"
+    },
+    {
+      "text": "Growing Bonsai Networks with RNNs",
+      "href": "https://cprimozic.net/blog/growing-sparse-computational-graphs-with-rnns/"
+    },
+    {
+      "text": "Machine Learning Benchmarks on the 7900 XTX",
+      "href": "https://cprimozic.net/notes/posts/machine-learning-benchmarks-on-the-7900-xtx/"
+    },
+    {
+      "text": "Drawing Graphviz Edge Splines",
+      "href": "https://cprimozic.net/notes/posts/graphviz-spline-drawing/"
+    },
+    {
+      "text": "Building a Signal Analyzer with Modern Web Tech",
+      "href": "https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/"
+    },
+    {
+      "text": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/"
+    },
+    {
+      "text": "Implementing Depth Pre-Pass Optimization for Three.JS",
+      "href": "https://cprimozic.net/blog/threejs-depth-pre-pass-optimization/"
+    },
+    {
+      "text": "Speeding Up Three.JS with Depth-Based Fragment Culling",
+      "href": "https://cprimozic.net/blog/depth-based-fragment-culling-webgl/"
+    },
+    {
+      "text": "Logic Through the Lens of Neural Networks",
+      "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/"
+    },
+    {
+      "text": "Middle-End Development with SvelteKit + TensorFlow.JS",
+      "href": "https://cprimozic.net/blog/fullstack-sveltekit-recommendation-app-middle-end-development/"
+    },
+    {
+      "text": "Exploring Neural Networks Visually in the Browser",
+      "href": "https://cprimozic.net/blog/neural-network-experiments-and-visualizations/"
+    },
+    {
+      "text": "My Evaluation of SvelteKit for Full-Stack Web App Development",
+      "href": "https://cprimozic.net/blog/trying-out-sveltekit/"
+    },
+    {
+      "text": "My Setup for Self-Hosting Dozens of Web Applications + Services on a Single Server",
+      "href": "https://cprimozic.net/blog/my-selfhosted-websites-architecture/"
+    },
+    {
+      "text": "Habits I've Developed for Fast + Efficient Programming",
+      "href": "https://cprimozic.net/blog/programming-speed-strategies/"
+    },
+    {
+      "text": "Using Graph Embeddings for Music Visualization + Discovery with node2vec",
+      "href": "https://cprimozic.net/blog/graph-embeddings-for-music-discovery/"
+    },
+    {
+      "text": "Building Music Galaxy — An Interactive 3D Visualization of Musical Artists",
+      "href": "https://cprimozic.net/blog/building-music-galaxy/"
+    },
+    {
+      "text": "Speeding Up the Webcola Graph Viz Library with Rust + WebAssembly",
+      "href": "https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/"
+    },
+    {
+      "text": "FM Synthesis in the Browser with Rust, Web Audio, and WebAssembly with SIMD",
+      "href": "https://cprimozic.net/blog/fm-synth-rust-wasm-simd/"
+    },
+    {
+      "text": "Finding + Fixing a AudioWorkletProcessor Performance Pitfall",
+      "href": "https://cprimozic.net/blog/webaudio-audioworklet-optimization/"
+    },
+    {
+      "text": "Building SPF420 x SYNC^UP - An Online Concert Experience",
+      "href": "https://cprimozic.net/blog/building-spf420-syncup/"
+    },
+    {
+      "text": "Debugging a Hanging Apache2 Server on the Fly",
+      "href": "https://cprimozic.net/blog/apache2-performance-debugging-journey/"
+    },
+    {
+      "text": "Building a Statically Linked `wasm-opt` for Continuous Deployment",
+      "href": "https://cprimozic.net/blog/building-static-wasm-opt-for-ci-cd/"
+    },
+    {
+      "text": "Building a Wavetable Synthesizer from Scratch with Rust, WebAssembly, and Web Audio",
+      "href": "https://cprimozic.net/blog/buliding-a-wavetable-synthesizer-with-rust-wasm-and-webaudio/"
+    },
+    {
+      "text": "Using Rayon for Simple Parallelization of SQL Queries in Rust",
+      "href": "https://cprimozic.net/blog/rust-parallelism-rayon-join/"
+    },
+    {
+      "text": "My Thoughts on Rust's Future: A Positive Outlook",
+      "href": "https://cprimozic.net/blog/my-thoughts-on-rusts-future/"
+    },
+    {
+      "text": "Deploying a REST API with Rust, Diesel, Rocket, and MySQL on Google Cloud Run",
+      "href": "https://cprimozic.net/blog/rust-rocket-cloud-run/"
+    },
+    {
+      "text": "Phost: A Static Project Hosting Utility",
+      "href": "https://cprimozic.net/blog/phost/"
+    },
+    {
+      "text": "A Rusty Advent of Code",
+      "href": "https://cprimozic.net/blog/a-rusty-aoc/"
+    },
+    {
+      "text": "Building Robintrack",
+      "href": "https://cprimozic.net/blog/building-robintrack/"
+    },
+    {
+      "text": "Creating a Noise Function Compositor",
+      "href": "https://cprimozic.net/blog/creating-noise-function-compositor/"
+    },
+    {
+      "text": "Writing a Hashmap-to-Struct Procedural Macro in Rust",
+      "href": "https://cprimozic.net/blog/writing-a-hashmap-to-struct-procedural-macro-in-rust/"
+    },
+    {
+      "text": "Osu!Statistics - PP/Rank Over Time",
+      "href": "https://cprimozic.net/blog/osu-statistics-1/"
+    },
+    {
+      "text": "Building an Algorithmic Trading Platform in Rust",
+      "href": "https://cprimozic.net/blog/building-an-algorithmic-trading-platform-in-rust/"
+    }
+  ],
+  "pageContext": {
+    "title": "Blog - Casey Primozic's Homepage",
+    "url": "https://cprimozic.net/blog/",
+    "inputs": [],
+    "buttons": [],
+    "links": [
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "cprimozic.net",
+        "href": "https://cprimozic.net/"
+      },
+      {
+        "text": "@ameobea10",
+        "href": "https://twitter.com/ameobea10/"
+      },
+      {
+        "text": "Portfolio",
+        "href": "https://cprimozic.net/portfolio/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://cprimozic.net/contact/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://cprimozic.net/blog/"
+      },
+      {
+        "text": "Professional Experience",
+        "href": "https://cprimozic.net/professional/"
+      },
+      {
+        "text": "",
+        "href": "https://cprimozic.net/rss.xml"
+      },
+      {
+        "text": "The Tech Behind Geotoy",
+        "href": "https://cprimozic.net/blog/the-tech-behind-geotoy/"
+      },
+      {
+        "text": "Compiling the Boundary-First-Flattening Library to Wasm",
+        "href": "https://cprimozic.net/notes/posts/compiling-boundary-first-flattening-to-wasm/"
+      },
+      {
+        "text": "Non-Pointless Software Projects for New Devs in the LLM Age",
+        "href": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/"
+      },
+      {
+        "text": "Building Modular Audio Nodes in Web Audio",
+        "href": "https://cprimozic.net/blog/building-modular-audio-nodes-in-web-audio/"
+      },
+      {
+        "text": "Optimizing Advent of Code D9P2 with High-Performance Rust",
+        "href": "https://cprimozic.net/blog/optimizing-advent-of-code-2024/"
+      },
+      {
+        "text": "Creating Constrained Bezier Curves for an Envelope Generator",
+        "href": "https://cprimozic.net/notes/posts/creating-constrained-bezier-curves-for-an-envelope-generator/"
+      },
+      {
+        "text": "Notes on Self Hosting a Bluesky PDS Alongside Other Services",
+        "href": "https://cprimozic.net/notes/posts/notes-on-self-hosting-bluesky-pds-alongside-other-services/"
+      },
+      {
+        "text": "A Small Change to Significantly Improve Triplanar Mapping",
+        "href": "https://cprimozic.net/notes/posts/a-small-change-to-improve-triplanar-mapping/"
+      },
+      {
+        "text": "Fixing a Bug in Google Chrome as a First-Time Contributor",
+        "href": "https://cprimozic.net/blog/fixing-a-bug-in-google-chrome/"
+      },
+      {
+        "text": "My Favorite Tools + Techniques for Procedural Gamedev",
+        "href": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/"
+      },
+      {
+        "text": "Trying Kolmogorov-Arnold Networks in Practice",
+        "href": "https://cprimozic.net/blog/trying-out-kans/"
+      },
+      {
+        "text": "Computing Normals for \"Smooth by Angle\" Shading Like Blender",
+        "href": "https://cprimozic.net/blog/computing-auto-smooth-shaded-normals-like-blender/"
+      },
+      {
+        "text": "A Process for Subdividing + Deforming Arbitrary 3D Meshes",
+        "href": "https://cprimozic.net/blog/subdividing-meshes-for-displacement/"
+      },
+      {
+        "text": "What I've Learned Building Interactive Embedding Visualizations",
+        "href": "https://cprimozic.net/blog/building-embedding-visualizations-from-user-profiles/"
+      },
+      {
+        "text": "Trying Out Cloudflare's `foundations` Library for Rust",
+        "href": "https://cprimozic.net/blog/trying-out-cloudflare-foundations-library/"
+      },
+      {
+        "text": "PIXI.JS Optimizations",
+        "href": "https://cprimozic.net/notes/posts/pixi-js-optimizations/"
+      },
+      {
+        "text": "Building a Realistic Raindrop-Covered Window Pane Material in Three.JS",
+        "href": "https://cprimozic.net/notes/posts/building-realistic-rainy-window-pane-in-threejs/"
+      },
+      {
+        "text": "Wrapping Meshes With Geodesic Walks",
+        "href": "https://cprimozic.net/blog/wrapping-meshes-with-geodesic-walks/"
+      },
+      {
+        "text": "Speeding Up Geodesic Tracing in geometry-central",
+        "href": "https://cprimozic.net/notes/posts/speeding-up-geodesic-tracing-in-geometry-central/"
+      },
+      {
+        "text": "amdgpu_top: A Modern radeontop Alternative",
+        "href": "https://cprimozic.net/notes/posts/amdgpu_top-a-modern-radeontop-alternative/"
+      },
+      {
+        "text": "Generating 4K PBR Textures Using Stable Diffusion XL",
+        "href": "https://cprimozic.net/notes/posts/generating-textures-for-3d-using-stable-diffusion/"
+      },
+      {
+        "text": "Building RNN Architecture Visualizations With TikZ",
+        "href": "https://cprimozic.net/notes/posts/building-rnn-architecture-visualizations-with-tikz/"
+      },
+      {
+        "text": "Growing Bonsai Networks with RNNs",
+        "href": "https://cprimozic.net/blog/growing-sparse-computational-graphs-with-rnns/"
+      },
+      {
+        "text": "Machine Learning Benchmarks on the 7900 XTX",
+        "href": "https://cprimozic.net/notes/posts/machine-learning-benchmarks-on-the-7900-xtx/"
+      },
+      {
+        "text": "Drawing Graphviz Edge Splines",
+        "href": "https://cprimozic.net/notes/posts/graphviz-spline-drawing/"
+      },
+      {
+        "text": "Building a Signal Analyzer with Modern Web Tech",
+        "href": "https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/"
+      },
+      {
+        "text": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/"
+      },
+      {
+        "text": "Implementing Depth Pre-Pass Optimization for Three.JS",
+        "href": "https://cprimozic.net/blog/threejs-depth-pre-pass-optimization/"
+      },
+      {
+        "text": "Speeding Up Three.JS with Depth-Based Fragment Culling",
+        "href": "https://cprimozic.net/blog/depth-based-fragment-culling-webgl/"
+      },
+      {
+        "text": "Logic Through the Lens of Neural Networks",
+        "href": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/"
+      },
+      {
+        "text": "Middle-End Development with SvelteKit + TensorFlow.JS",
+        "href": "https://cprimozic.net/blog/fullstack-sveltekit-recommendation-app-middle-end-development/"
+      },
+      {
+        "text": "Exploring Neural Networks Visually in the Browser",
+        "href": "https://cprimozic.net/blog/neural-network-experiments-and-visualizations/"
+      },
+      {
+        "text": "My Evaluation of SvelteKit for Full-Stack Web App Development",
+        "href": "https://cprimozic.net/blog/trying-out-sveltekit/"
+      },
+      {
+        "text": "My Setup for Self-Hosting Dozens of Web Applications + Services on a Single Server",
+        "href": "https://cprimozic.net/blog/my-selfhosted-websites-architecture/"
+      },
+      {
+        "text": "Habits I've Developed for Fast + Efficient Programming",
+        "href": "https://cprimozic.net/blog/programming-speed-strategies/"
+      },
+      {
+        "text": "Using Graph Embeddings for Music Visualization + Discovery with node2vec",
+        "href": "https://cprimozic.net/blog/graph-embeddings-for-music-discovery/"
+      },
+      {
+        "text": "Building Music Galaxy — An Interactive 3D Visualization of Musical Artists",
+        "href": "https://cprimozic.net/blog/building-music-galaxy/"
+      },
+      {
+        "text": "Speeding Up the Webcola Graph Viz Library with Rust + WebAssembly",
+        "href": "https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/"
+      },
+      {
+        "text": "FM Synthesis in the Browser with Rust, Web Audio, and WebAssembly with SIMD",
+        "href": "https://cprimozic.net/blog/fm-synth-rust-wasm-simd/"
+      },
+      {
+        "text": "Finding + Fixing a AudioWorkletProcessor Performance Pitfall",
+        "href": "https://cprimozic.net/blog/webaudio-audioworklet-optimization/"
+      },
+      {
+        "text": "Building SPF420 x SYNC^UP - An Online Concert Experience",
+        "href": "https://cprimozic.net/blog/building-spf420-syncup/"
+      },
+      {
+        "text": "Debugging a Hanging Apache2 Server on the Fly",
+        "href": "https://cprimozic.net/blog/apache2-performance-debugging-journey/"
+      },
+      {
+        "text": "Building a Statically Linked `wasm-opt` for Continuous Deployment",
+        "href": "https://cprimozic.net/blog/building-static-wasm-opt-for-ci-cd/"
+      },
+      {
+        "text": "Building a Wavetable Synthesizer from Scratch with Rust, WebAssembly, and Web Audio",
+        "href": "https://cprimozic.net/blog/buliding-a-wavetable-synthesizer-with-rust-wasm-and-webaudio/"
+      },
+      {
+        "text": "Using Rayon for Simple Parallelization of SQL Queries in Rust",
+        "href": "https://cprimozic.net/blog/rust-parallelism-rayon-join/"
+      },
+      {
+        "text": "My Thoughts on Rust's Future: A Positive Outlook",
+        "href": "https://cprimozic.net/blog/my-thoughts-on-rusts-future/"
+      },
+      {
+        "text": "Deploying a REST API with Rust, Diesel, Rocket, and MySQL on Google Cloud Run",
+        "href": "https://cprimozic.net/blog/rust-rocket-cloud-run/"
+      },
+      {
+        "text": "Phost: A Static Project Hosting Utility",
+        "href": "https://cprimozic.net/blog/phost/"
+      },
+      {
+        "text": "A Rusty Advent of Code",
+        "href": "https://cprimozic.net/blog/a-rusty-aoc/"
+      },
+      {
+        "text": "Building Robintrack",
+        "href": "https://cprimozic.net/blog/building-robintrack/"
+      },
+      {
+        "text": "Creating a Noise Function Compositor",
+        "href": "https://cprimozic.net/blog/creating-noise-function-compositor/"
+      },
+      {
+        "text": "Writing a Hashmap-to-Struct Procedural Macro in Rust",
+        "href": "https://cprimozic.net/blog/writing-a-hashmap-to-struct-procedural-macro-in-rust/"
+      },
+      {
+        "text": "Osu!Statistics - PP/Rank Over Time",
+        "href": "https://cprimozic.net/blog/osu-statistics-1/"
+      },
+      {
+        "text": "Building an Algorithmic Trading Platform in Rust",
+        "href": "https://cprimozic.net/blog/building-an-algorithmic-trading-platform-in-rust/"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "cprimozic.net\n@ameobea10\n•\nPortfolio\n•\nContact\n•\nBlog\n•\nProfessional Experience\nCasey Primozic's Blog\nThe Tech Behind Geotoy - 2025-08-17\nCompiling the Boundary-First-Flattening Library to Wasm - 2025-08-04\nNon-Pointless Software Projects for New Devs in the LLM Age - 2025-05-26\nBuilding Modular Audio Nodes in Web Audio - 2025-05-18\nOptimizing Advent of Code D9P2 with High-Performance Rust - 2024-12-31\nCreating Constrained Bezier Curves for an Envelope Generator - 2024-12-26\nNotes on Self Hosting a Bluesky PDS Alongside Other Services - 2024-11-14\nA Small Change to Significantly Improve Triplanar Mapping - 2024-09-01\nFixing a Bug in Google Chrome as a First-Time Contributor - 2024-08-25\nMy Favorite Tools + Techniques for Procedural Gamedev - 2024-07-26\nTrying Kolmogorov-Arnold Networks in Practice - 2024-07-02\nComputing Normals for \"Smooth by Angle\" Shading Like Blender - 2024-06-20\nA Process for Subdividing + Deforming Arbitrary 3D Meshes - 2024-06-20\nWhat I've Learned Building Interactive Embedding Visualizations - 2024-05-16\nTrying Out Cloudflare's `foundations` Library for Rust - 2024-04-15\nPIXI.JS Optimizations - 2024-01-02\nBuilding a Realistic Raindrop-Covered Window Pane Material in Three.JS - 2023-11-12\nWrapping Meshes With Geodesic Walks - 2023-10-16\nSpeeding Up Geodesic Tracing in geometry-central - 2023-10-12\namdgpu_top: A Modern radeontop Alternative - 2023-08-24\nGenerating 4K PBR Textures Using Stable Diffusion XL - 2023-08-20\nBuilding RNN Architecture Visualizations With TikZ - 2023-08-15\nGrowing Bonsai Networks with RNNs - 2023-07-23\nMachine Learning Benchmarks on the 7900 XTX - 2023-07-01\nDrawing Graphviz Edge Splines - 2023-06-01\nBuilding a Signal Analyzer with Modern Web Tech - 2023-05-16\nReverse Engineering a Neural Network's Clever Solution to Binary Addition - 2023-01-15\nImplementing Depth Pre-Pass Optimization for Three.JS - 2022-09-27\nSpeeding Up Three.JS with Depth-Based Fragment Culling - 2022-09-26\nLogic Through the Lens of Neural Networks - 2022-07-19\nMiddle-End Development with SvelteKit + TensorFlow.JS - 2022-06-02\nExploring Neural Networks Visually in the Browser - 2022-04-02\nMy Evaluation of SvelteKit for Full-Stack Web App Development - 2022-01-04\nMy Setup for Self-Hosting Dozens of Web Applications + Services on a Single Server - 2021-12-29\nHabits I've Developed for Fast + Efficient Programming - 2021-10-24\nUsing Graph Embeddings for Music Visualization + Discovery with node2vec - 2021-10-23\nBuilding Music Galaxy — An Interactive 3D Visualization of Musical Artists - 2021-10-17\nSpeeding Up the Webcola Graph Viz Library with Rust + WebAssembly - 2021-05-24\nFM Synthesis in the Browser with Rust, Web Audio, and WebAssembly with SIMD - 2021-03-20\nFinding + Fixing a AudioWorkletProcessor Performance Pitfall - 2020-11-12\nBuilding SPF420 x SYNC^UP - An Online Concert Experience - 2020-07-19\nDebugging a Hanging Apache2 Server on the Fly - 2020-01-08\nBuilding a Statically Linked `wasm-opt` for Continuous Deployment - 2019-"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"navigate\",\"url\":\"https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/\",\"reasoning\":\"This article discusses software projects for new developers in the context of large language models (LLMs), which is relevant to AI and could provide insights on current trends and opportunities in the AI field.\"}",
+    "action": "navigate",
+    "url": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/",
+    "reasoning": "This article discusses software projects for new developers in the context of large language models (LLMs), which is relevant to AI and could provide insights on current trends and opportunities in the AI field."
+  },
+  "result": "Navigated to https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/"
+}

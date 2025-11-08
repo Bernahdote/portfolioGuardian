@@ -1,0 +1,780 @@
+{
+  "step": 1,
+  "source": "https://news.ycombinator.com",
+  "timestamp": "2025-11-08T13:34:24.149Z",
+  "url": "https://news.ycombinator.com/",
+  "title": "Hacker News",
+  "aiSummary": "The Hacker News page does not provide specific information about AI stock, market sentiment, financial data, or associated risks and opportunities. It primarily features discussions on technology and software development topics, with notable mentions including advancements in neural networks and software frameworks. The sentiment surrounding tech innovations appears positive, though no direct financial implications or stock performance details are presented. For insights on AI stock, further specialized financial sources would be necessary.",
+  "allLinks": [
+    {
+      "text": "Hacker News",
+      "href": "https://news.ycombinator.com/news"
+    },
+    {
+      "text": "new",
+      "href": "https://news.ycombinator.com/newest"
+    },
+    {
+      "text": "past",
+      "href": "https://news.ycombinator.com/front"
+    },
+    {
+      "text": "comments",
+      "href": "https://news.ycombinator.com/newcomments"
+    },
+    {
+      "text": "ask",
+      "href": "https://news.ycombinator.com/ask"
+    },
+    {
+      "text": "show",
+      "href": "https://news.ycombinator.com/show"
+    },
+    {
+      "text": "jobs",
+      "href": "https://news.ycombinator.com/jobs"
+    },
+    {
+      "text": "submit",
+      "href": "https://news.ycombinator.com/submit"
+    },
+    {
+      "text": "login",
+      "href": "https://news.ycombinator.com/login?goto=news"
+    },
+    {
+      "text": "My friends and I accidentally faked the Ryzen 7 9700X3D leaks",
+      "href": "https://old.reddit.com/r/pcmasterrace/comments/1orc6jl/my_friends_and_i_accidentally_faked_the_ryzen_7/"
+    },
+    {
+      "text": "reddit.com",
+      "href": "https://news.ycombinator.com/from?site=reddit.com"
+    },
+    {
+      "text": "djrockstar1",
+      "href": "https://news.ycombinator.com/user?id=djrockstar1"
+    },
+    {
+      "text": "2 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45855933"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45855933&goto=news"
+    },
+    {
+      "text": "11 comments",
+      "href": "https://news.ycombinator.com/item?id=45855933"
+    },
+    {
+      "text": "Why is Zig so cool?",
+      "href": "https://nilostolte.github.io/tech/articles/ZigCool.html"
+    },
+    {
+      "text": "nilostolte.github.io",
+      "href": "https://news.ycombinator.com/from?site=nilostolte.github.io"
+    },
+    {
+      "text": "vitalnodo",
+      "href": "https://news.ycombinator.com/user?id=vitalnodo"
+    },
+    {
+      "text": "14 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45852328"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45852328&goto=news"
+    },
+    {
+      "text": "284 comments",
+      "href": "https://news.ycombinator.com/item?id=45852328"
+    },
+    {
+      "text": "Valdi – A cross-platform UI framework that delivers native performance",
+      "href": "https://github.com/Snapchat/Valdi"
+    },
+    {
+      "text": "github.com/snapchat",
+      "href": "https://news.ycombinator.com/from?site=github.com/snapchat"
+    },
+    {
+      "text": "yehiaabdelm",
+      "href": "https://news.ycombinator.com/user?id=yehiaabdelm"
+    },
+    {
+      "text": "13 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45852854"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45852854&goto=news"
+    },
+    {
+      "text": "128 comments",
+      "href": "https://news.ycombinator.com/item?id=45852854"
+    },
+    {
+      "text": "Making Democracy Work: Fixing and Simplifying Egalitarian Paxos",
+      "href": "https://arxiv.org/abs/2511.02743"
+    },
+    {
+      "text": "arxiv.org",
+      "href": "https://news.ycombinator.com/from?site=arxiv.org"
+    },
+    {
+      "text": "otrack",
+      "href": "https://news.ycombinator.com/user?id=otrack"
+    },
+    {
+      "text": "6 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45854862"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45854862&goto=news"
+    },
+    {
+      "text": "20 comments",
+      "href": "https://news.ycombinator.com/item?id=45854862"
+    },
+    {
+      "text": "Friendly attributes pattern in Ruby",
+      "href": "https://brunosutic.com/blog/ruby-friendly-attributes-pattern"
+    },
+    {
+      "text": "brunosutic.com",
+      "href": "https://news.ycombinator.com/from?site=brunosutic.com"
+    },
+    {
+      "text": "brunosutic",
+      "href": "https://news.ycombinator.com/user?id=brunosutic"
+    },
+    {
+      "text": "7 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45792555"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45792555&goto=news"
+    },
+    {
+      "text": "23 comments",
+      "href": "https://news.ycombinator.com/item?id=45792555"
+    },
+    {
+      "text": "Becoming a compiler engineer",
+      "href": "https://rona.substack.com/p/becoming-a-compiler-engineer"
+    },
+    {
+      "text": "rona.substack.com",
+      "href": "https://news.ycombinator.com/from?site=rona.substack.com"
+    },
+    {
+      "text": "lalitkale",
+      "href": "https://news.ycombinator.com/user?id=lalitkale"
+    },
+    {
+      "text": "15 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45851495"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45851495&goto=news"
+    },
+    {
+      "text": "119 comments",
+      "href": "https://news.ycombinator.com/item?id=45851495"
+    },
+    {
+      "text": "Apple is crossing a Steve Jobs red line",
+      "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/"
+    },
+    {
+      "text": "kensegall.com",
+      "href": "https://news.ycombinator.com/from?site=kensegall.com"
+    },
+    {
+      "text": "zdw",
+      "href": "https://news.ycombinator.com/user?id=zdw"
+    },
+    {
+      "text": "17 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45850430"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45850430&goto=news"
+    },
+    {
+      "text": "284 comments",
+      "href": "https://news.ycombinator.com/item?id=45850430"
+    },
+    {
+      "text": "Myna: Monospace typeface designed for symbol-heavy programming languages",
+      "href": "https://github.com/sayyadirfanali/Myna"
+    },
+    {
+      "text": "github.com/sayyadirfanali",
+      "href": "https://news.ycombinator.com/from?site=github.com/sayyadirfanali"
+    },
+    {
+      "text": "birdculture",
+      "href": "https://news.ycombinator.com/user?id=birdculture"
+    },
+    {
+      "text": "19 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45849342"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45849342&goto=news"
+    },
+    {
+      "text": "140 comments",
+      "href": "https://news.ycombinator.com/item?id=45849342"
+    },
+    {
+      "text": "Cekura (YC F24) Is Hiring",
+      "href": "https://news.ycombinator.com/item?id=45856069"
+    },
+    {
+      "text": "1 hour ago",
+      "href": "https://news.ycombinator.com/item?id=45856069"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45856069&goto=news"
+    },
+    {
+      "text": "Reverse engineering a neural network's clever solution to binary addition (2023)",
+      "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/"
+    },
+    {
+      "text": "cprimozic.net",
+      "href": "https://news.ycombinator.com/from?site=cprimozic.net"
+    },
+    {
+      "text": "Ameo",
+      "href": "https://news.ycombinator.com/user?id=Ameo"
+    },
+    {
+      "text": "4 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45808288"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45808288&goto=news"
+    },
+    {
+      "text": "2 comments",
+      "href": "https://news.ycombinator.com/item?id=45808288"
+    },
+    {
+      "text": "Immutable Software Deploys Using ZFS Jails on FreeBSD",
+      "href": "https://conradresearch.com/articles/immutable-software-deploy-zfs-jails"
+    },
+    {
+      "text": "conradresearch.com",
+      "href": "https://news.ycombinator.com/from?site=conradresearch.com"
+    },
+    {
+      "text": "vermaden",
+      "href": "https://news.ycombinator.com/user?id=vermaden"
+    },
+    {
+      "text": "13 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45852895"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45852895&goto=news"
+    },
+    {
+      "text": "34 comments",
+      "href": "https://news.ycombinator.com/item?id=45852895"
+    },
+    {
+      "text": "The Initial Ideal Customer Profile Worksheet",
+      "href": "https://www.reifyworks.com/writing/2023-01-30-iicp"
+    },
+    {
+      "text": "reifyworks.com",
+      "href": "https://news.ycombinator.com/from?site=reifyworks.com"
+    },
+    {
+      "text": "mrbbk",
+      "href": "https://news.ycombinator.com/user?id=mrbbk"
+    },
+    {
+      "text": "9 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45801651"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45801651&goto=news"
+    },
+    {
+      "text": "4 comments",
+      "href": "https://news.ycombinator.com/item?id=45801651"
+    },
+    {
+      "text": "How did I get here?",
+      "href": "https://how-did-i-get-here.net/"
+    },
+    {
+      "text": "how-did-i-get-here.net",
+      "href": "https://news.ycombinator.com/from?site=how-did-i-get-here.net"
+    },
+    {
+      "text": "zachlatta",
+      "href": "https://news.ycombinator.com/user?id=zachlatta"
+    },
+    {
+      "text": "17 hours ago",
+      "href": "https://news.ycombinator.com/item?id=45850382"
+    },
+    {
+      "text": "hide",
+      "href": "https://news.ycombinator.com/hide?id=45850382&goto=news"
+    },
+    {
+      "text": "45 comments",
+      "href": "https://news.ycombinator.com/item?id=45850382"
+    },
+    {
+      "text": "Why I love OCaml (2023)",
+      "href": "https://mccd.space/posts/ocaml-the-worlds-best/"
+    },
+    {
+      "text": "mccd.space",
+      "href": "https://news.ycombinator.com/from?site=mccd.space"
+    }
+  ],
+  "pageContext": {
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "inputs": [
+      {
+        "type": "text",
+        "name": "q",
+        "id": "",
+        "placeholder": "",
+        "selector": "input[name=\"q\"]"
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/"
+      },
+      {
+        "text": "Hacker News",
+        "href": "https://news.ycombinator.com/news"
+      },
+      {
+        "text": "new",
+        "href": "https://news.ycombinator.com/newest"
+      },
+      {
+        "text": "past",
+        "href": "https://news.ycombinator.com/front"
+      },
+      {
+        "text": "comments",
+        "href": "https://news.ycombinator.com/newcomments"
+      },
+      {
+        "text": "ask",
+        "href": "https://news.ycombinator.com/ask"
+      },
+      {
+        "text": "show",
+        "href": "https://news.ycombinator.com/show"
+      },
+      {
+        "text": "jobs",
+        "href": "https://news.ycombinator.com/jobs"
+      },
+      {
+        "text": "submit",
+        "href": "https://news.ycombinator.com/submit"
+      },
+      {
+        "text": "login",
+        "href": "https://news.ycombinator.com/login?goto=news"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45855933&how=up&goto=news"
+      },
+      {
+        "text": "My friends and I accidentally faked the Ryzen 7 9700X3D leaks",
+        "href": "https://old.reddit.com/r/pcmasterrace/comments/1orc6jl/my_friends_and_i_accidentally_faked_the_ryzen_7/"
+      },
+      {
+        "text": "reddit.com",
+        "href": "https://news.ycombinator.com/from?site=reddit.com"
+      },
+      {
+        "text": "djrockstar1",
+        "href": "https://news.ycombinator.com/user?id=djrockstar1"
+      },
+      {
+        "text": "2 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45855933"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45855933&goto=news"
+      },
+      {
+        "text": "11 comments",
+        "href": "https://news.ycombinator.com/item?id=45855933"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45852328&how=up&goto=news"
+      },
+      {
+        "text": "Why is Zig so cool?",
+        "href": "https://nilostolte.github.io/tech/articles/ZigCool.html"
+      },
+      {
+        "text": "nilostolte.github.io",
+        "href": "https://news.ycombinator.com/from?site=nilostolte.github.io"
+      },
+      {
+        "text": "vitalnodo",
+        "href": "https://news.ycombinator.com/user?id=vitalnodo"
+      },
+      {
+        "text": "14 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45852328"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45852328&goto=news"
+      },
+      {
+        "text": "284 comments",
+        "href": "https://news.ycombinator.com/item?id=45852328"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45852854&how=up&goto=news"
+      },
+      {
+        "text": "Valdi – A cross-platform UI framework that delivers native performance",
+        "href": "https://github.com/Snapchat/Valdi"
+      },
+      {
+        "text": "github.com/snapchat",
+        "href": "https://news.ycombinator.com/from?site=github.com/snapchat"
+      },
+      {
+        "text": "yehiaabdelm",
+        "href": "https://news.ycombinator.com/user?id=yehiaabdelm"
+      },
+      {
+        "text": "13 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45852854"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45852854&goto=news"
+      },
+      {
+        "text": "128 comments",
+        "href": "https://news.ycombinator.com/item?id=45852854"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45854862&how=up&goto=news"
+      },
+      {
+        "text": "Making Democracy Work: Fixing and Simplifying Egalitarian Paxos",
+        "href": "https://arxiv.org/abs/2511.02743"
+      },
+      {
+        "text": "arxiv.org",
+        "href": "https://news.ycombinator.com/from?site=arxiv.org"
+      },
+      {
+        "text": "otrack",
+        "href": "https://news.ycombinator.com/user?id=otrack"
+      },
+      {
+        "text": "6 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45854862"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45854862&goto=news"
+      },
+      {
+        "text": "20 comments",
+        "href": "https://news.ycombinator.com/item?id=45854862"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45792555&how=up&goto=news"
+      },
+      {
+        "text": "Friendly attributes pattern in Ruby",
+        "href": "https://brunosutic.com/blog/ruby-friendly-attributes-pattern"
+      },
+      {
+        "text": "brunosutic.com",
+        "href": "https://news.ycombinator.com/from?site=brunosutic.com"
+      },
+      {
+        "text": "brunosutic",
+        "href": "https://news.ycombinator.com/user?id=brunosutic"
+      },
+      {
+        "text": "7 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45792555"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45792555&goto=news"
+      },
+      {
+        "text": "23 comments",
+        "href": "https://news.ycombinator.com/item?id=45792555"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45851495&how=up&goto=news"
+      },
+      {
+        "text": "Becoming a compiler engineer",
+        "href": "https://rona.substack.com/p/becoming-a-compiler-engineer"
+      },
+      {
+        "text": "rona.substack.com",
+        "href": "https://news.ycombinator.com/from?site=rona.substack.com"
+      },
+      {
+        "text": "lalitkale",
+        "href": "https://news.ycombinator.com/user?id=lalitkale"
+      },
+      {
+        "text": "15 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45851495"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45851495&goto=news"
+      },
+      {
+        "text": "119 comments",
+        "href": "https://news.ycombinator.com/item?id=45851495"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45850430&how=up&goto=news"
+      },
+      {
+        "text": "Apple is crossing a Steve Jobs red line",
+        "href": "https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/"
+      },
+      {
+        "text": "kensegall.com",
+        "href": "https://news.ycombinator.com/from?site=kensegall.com"
+      },
+      {
+        "text": "zdw",
+        "href": "https://news.ycombinator.com/user?id=zdw"
+      },
+      {
+        "text": "17 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45850430"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45850430&goto=news"
+      },
+      {
+        "text": "284 comments",
+        "href": "https://news.ycombinator.com/item?id=45850430"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45849342&how=up&goto=news"
+      },
+      {
+        "text": "Myna: Monospace typeface designed for symbol-heavy programming languages",
+        "href": "https://github.com/sayyadirfanali/Myna"
+      },
+      {
+        "text": "github.com/sayyadirfanali",
+        "href": "https://news.ycombinator.com/from?site=github.com/sayyadirfanali"
+      },
+      {
+        "text": "birdculture",
+        "href": "https://news.ycombinator.com/user?id=birdculture"
+      },
+      {
+        "text": "19 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45849342"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45849342&goto=news"
+      },
+      {
+        "text": "140 comments",
+        "href": "https://news.ycombinator.com/item?id=45849342"
+      },
+      {
+        "text": "Cekura (YC F24) Is Hiring",
+        "href": "https://news.ycombinator.com/item?id=45856069"
+      },
+      {
+        "text": "1 hour ago",
+        "href": "https://news.ycombinator.com/item?id=45856069"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45856069&goto=news"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45808288&how=up&goto=news"
+      },
+      {
+        "text": "Reverse engineering a neural network's clever solution to binary addition (2023)",
+        "href": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/"
+      },
+      {
+        "text": "cprimozic.net",
+        "href": "https://news.ycombinator.com/from?site=cprimozic.net"
+      },
+      {
+        "text": "Ameo",
+        "href": "https://news.ycombinator.com/user?id=Ameo"
+      },
+      {
+        "text": "4 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45808288"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45808288&goto=news"
+      },
+      {
+        "text": "2 comments",
+        "href": "https://news.ycombinator.com/item?id=45808288"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45852895&how=up&goto=news"
+      },
+      {
+        "text": "Immutable Software Deploys Using ZFS Jails on FreeBSD",
+        "href": "https://conradresearch.com/articles/immutable-software-deploy-zfs-jails"
+      },
+      {
+        "text": "conradresearch.com",
+        "href": "https://news.ycombinator.com/from?site=conradresearch.com"
+      },
+      {
+        "text": "vermaden",
+        "href": "https://news.ycombinator.com/user?id=vermaden"
+      },
+      {
+        "text": "13 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45852895"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45852895&goto=news"
+      },
+      {
+        "text": "34 comments",
+        "href": "https://news.ycombinator.com/item?id=45852895"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45801651&how=up&goto=news"
+      },
+      {
+        "text": "The Initial Ideal Customer Profile Worksheet",
+        "href": "https://www.reifyworks.com/writing/2023-01-30-iicp"
+      },
+      {
+        "text": "reifyworks.com",
+        "href": "https://news.ycombinator.com/from?site=reifyworks.com"
+      },
+      {
+        "text": "mrbbk",
+        "href": "https://news.ycombinator.com/user?id=mrbbk"
+      },
+      {
+        "text": "9 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45801651"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45801651&goto=news"
+      },
+      {
+        "text": "4 comments",
+        "href": "https://news.ycombinator.com/item?id=45801651"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45850382&how=up&goto=news"
+      },
+      {
+        "text": "How did I get here?",
+        "href": "https://how-did-i-get-here.net/"
+      },
+      {
+        "text": "how-did-i-get-here.net",
+        "href": "https://news.ycombinator.com/from?site=how-did-i-get-here.net"
+      },
+      {
+        "text": "zachlatta",
+        "href": "https://news.ycombinator.com/user?id=zachlatta"
+      },
+      {
+        "text": "17 hours ago",
+        "href": "https://news.ycombinator.com/item?id=45850382"
+      },
+      {
+        "text": "hide",
+        "href": "https://news.ycombinator.com/hide?id=45850382&goto=news"
+      },
+      {
+        "text": "45 comments",
+        "href": "https://news.ycombinator.com/item?id=45850382"
+      },
+      {
+        "text": "",
+        "href": "https://news.ycombinator.com/vote?id=45846517&how=up&goto=news"
+      },
+      {
+        "text": "Why I love OCaml (2023)",
+        "href": "https://mccd.space/posts/ocaml-the-worlds-best/"
+      },
+      {
+        "text": "mccd.space",
+        "href": "https://news.ycombinator.com/from?site=mccd.space"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "\tHacker Newsnew | past | comments | ask | show | jobs | submit\tlogin\n\n\n\n1.\t\n\tMy friends and I accidentally faked the Ryzen 7 9700X3D leaks (reddit.com)\n\t110 points by djrockstar1 2 hours ago | hide | 11 comments\n\n2.\t\n\tWhy is Zig so cool? (nilostolte.github.io)\n\t382 points by vitalnodo 14 hours ago | hide | 284 comments\n\n3.\t\n\tValdi – A cross-platform UI framework that delivers native performance (github.com/snapchat)\n\t338 points by yehiaabdelm 13 hours ago | hide | 128 comments\n\n4.\t\n\tMaking Democracy Work: Fixing and Simplifying Egalitarian Paxos (arxiv.org)\n\t64 points by otrack 6 hours ago | hide | 20 comments\n\n5.\t\n\tFriendly attributes pattern in Ruby (brunosutic.com)\n\t42 points by brunosutic 7 hours ago | hide | 23 comments\n\n6.\t\n\tBecoming a compiler engineer (rona.substack.com)\n\t253 points by lalitkale 15 hours ago | hide | 119 comments\n\n7.\t\n\tApple is crossing a Steve Jobs red line (kensegall.com)\n\t349 points by zdw 17 hours ago | hide | 284 comments\n\n8.\t\n\tMyna: Monospace typeface designed for symbol-heavy programming languages (github.com/sayyadirfanali)\n\t297 points by birdculture 19 hours ago | hide | 140 comments\n\n9.\t\tCekura (YC F24) Is Hiring\n\t1 hour ago | hide\n\n10.\t\n\tReverse engineering a neural network's clever solution to binary addition (2023) (cprimozic.net)\n\t17 points by Ameo 4 hours ago | hide | 2 comments\n\n11.\t\n\tImmutable Software Deploys Using ZFS Jails on FreeBSD (conradresearch.com)\n\t104 points by vermaden 13 hours ago | hide | 34 comments\n\n12.\t\n\tThe Initial Ideal Customer Profile Worksheet (reifyworks.com)\n\t62 points by mrbbk 9 hours ago | hide | 4 comments\n\n13.\t\n\tHow did I get here? (how-did-i-get-here.net)\n\t245 points by zachlatta 17 hours ago | hide | 45 comments\n\n14.\t\n\tWhy I love OCaml (2023) (mccd.space)\n\t342 points by art-w 23 hours ago | hide | 249 comments\n\n15.\t\n\tLocal First Htmx (elijahm.com)\n\t65 points by srid 11 hours ago | hide | 36 comments\n\n16.\t\n\tRuby already solved my problem (masilotti.com)\n\t232 points by joemasilotti 18 hours ago | hide | 97 comments\n\n17.\t\n\tMullvad: Shutting down our search proxy Leta (mullvad.net)\n\t128 points by holysoles 12 hours ago | hide | 84 comments\n\n18.\t\n\tRunning a 68060 CPU in Quadra 650 (github.com/zigzagjoe)\n\t54 points by zdw 12 hours ago | hide | 24 comments\n\n19.\t\n\tDark mode by local sunlight (2021) (ctnicholas.dev)\n\t10 points by gaws 3 hours ago | hide | 4 comments\n\n20.\t\n\tYouTube Removes Windows 11 Bypass Tutorials, Claims 'Risk of Physical Harm' (itsfoss.com)\n\t695 points by WaitWaitWha 16 hours ago | hide | 269 comments\n\n21.\t\n\tComputational Complexity of Air Travel Planning (2003) [pdf] (ai.mit.edu)\n\t3 points by arnon 2 hours ago | hide | discuss\n\n22.\t\n\tCerebras Code now supports GLM 4.6 at 1000 tokens/sec (cerebras.ai)\n\t105 points by nathabonfim59 13 hours ago | hide | 71 comments\n\n23.\t\n\tApple's \"notarisation\" – blocking software freedom of developers and users (fsfe.org)\n\t148 points by DavideNL 7 hours ago | hide | 98 comments\n\n24.\t\n\tVenn Diagram for 7 Sets (moebio.com)\n\t139 point"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"type\",\"selector\":\"input[name=\\\"q\\\"]\",\"text\":\"ai\",\"reasoning\":\"searching for ai-related content on Hacker News\"}",
+    "action": "type",
+    "selector": "input[name=\"q\"]",
+    "text": "ai",
+    "reasoning": "searching for ai-related content on Hacker News"
+  },
+  "result": "Typed \"ai\""
+}

@@ -10,34 +10,35 @@ const path = require('path');
 function parseArgs() {
   const args = process.argv.slice(2);
 
-  if (args.length < 2) {
-    console.error('Error: stock ticker and sources are required');
-    console.error('Usage: node stock-guardian.js <ticker> <sources_json> [metadata_json]');
-    console.error('Example: node stock-guardian.js "AAPL" \'["https://news.ycombinator.com","https://finance.yahoo.com"]\' \'{"port":9222}\'');
+  if (args.length < 3) {
+    console.error('Error: topic, goal, and sources are required');
+    console.error('Usage: node stock-guardian.js <topic> <goal> <sources_json> [metadata_json]');
+    console.error('Example: node stock-guardian.js "AAPL" "Monitor Apple stock for investment risks and opportunities" \'["https://news.ycombinator.com","https://finance.yahoo.com"]\' \'{"maxStepsPerSource":15}\'');
     process.exit(1);
   }
 
-  const ticker = args[0];
+  const topic = args[0];
+  const goal = args[1];
   let sources = [];
 
   try {
-    sources = JSON.parse(args[1]);
+    sources = JSON.parse(args[2]);
   } catch (e) {
     console.error('Error: sources must be valid JSON array');
     process.exit(1);
   }
 
   let metadata = {};
-  if (args[2]) {
+  if (args[3]) {
     try {
-      metadata = JSON.parse(args[2]);
+      metadata = JSON.parse(args[3]);
     } catch (e) {
       console.error('Error: metadata must be valid JSON');
       process.exit(1);
     }
   }
 
-  return { ticker, sources, metadata };
+  return { topic, goal, sources, metadata };
 }
 
 async function getPageContext(page) {
@@ -61,7 +62,8 @@ async function getPageContext(page) {
         selector: btn.id ? `#${btn.id}` : null
       }));
 
-      const links = Array.from(document.querySelectorAll('a')).slice(0, 40).map(a => ({
+      // Get more links for better crawling (100 instead of 40)
+      const links = Array.from(document.querySelectorAll('a')).slice(0, 100).map(a => ({
         text: a.textContent?.trim(),
         href: a.href
       }));
@@ -153,64 +155,59 @@ async function extractFullArticle(page) {
   }
 }
 
-async function askStockGuardianAI(openai, pageContext, ticker, currentThoughts, conversationHistory = [], urlUnchangedCount = 0) {
-  let additionalContext = '';
-  if (urlUnchangedCount > 0) {
-    additionalContext = `\n\n⚠️ IMPORTANT: The URL has not changed for ${urlUnchangedCount} step(s). You may be stuck or actions aren't working. Consider:
-- Using NAVIGATE action to go directly to one of the relevant links shown in the page context
-- Looking for ${ticker}-related links in the "links" array and navigating to them
-- If you've tried multiple actions without success, use NAVIGATE to explore a different article or page
-- Act like a web crawler - follow promising links to gather more information`;
-  }
+async function askStockGuardianAI(openai, pageContext, topic, goal, currentThoughts, conversationHistory = [], urlUnchangedCount = 0) {
+  const systemPrompt = `You are a Web Crawler AI Agent with the following mission:
 
-  const systemPrompt = `You are a Stock Guardian AI Agent, specialized in safeguarding investment portfolios by monitoring news, financial data, and market sentiment.
+📌 TOPIC: ${topic}
+🎯 GOAL: ${goal}
 
-Your Mission:
-You are currently monitoring ${ticker} stock. Your job is to:
-1. Navigate financial news sites and sources
-2. Extract relevant articles, news, and data about ${ticker}
-3. Analyze sentiment and identify risks/opportunities
-4. Build a comprehensive understanding of market conditions affecting ${ticker}
+PRIMARY STRATEGY - WEB CRAWLER MODE:
+You should PRIMARILY operate as a web crawler, meaning:
+1. **NAVIGATE first, interact second**: Your main action should be NAVIGATE to follow links
+2. **Follow ${topic}-related links aggressively**: Look through the "links" array and NAVIGATE to any URL relevant to "${topic}" and your goal
+3. **Extract when you land on relevant pages**: Use EXTRACT_ARTICLE when you've navigated to a page with substantial content related to your goal
+4. **Record insights as you go**: Use RECORD_THOUGHT to capture key observations that help achieve your goal
+5. **Keep moving**: Don't get stuck on one page - if you've extracted content, move to the next link
 
-Available actions:
-1. TYPE: Type text into an input field (e.g., search for "${ticker}")
-   Format: {"action": "type", "selector": "input selector", "text": "text to type", "reasoning": "why"}
+⚠️ ONLY use TYPE/CLICK/SCROLL if:
+- You're on the initial landing page and see a search box (then search for "${topic}")
+- There are NO relevant links visible in the links array
+- You need to scroll to reveal more links
 
-2. PRESS_ENTER: Submit forms/searches
-   Format: {"action": "press_enter", "selector": "input selector", "reasoning": "why"}
+📋 Available actions:
+1. NAVIGATE: Go directly to a URL from the links array (PREFERRED ACTION)
+   Format: {"action": "navigate", "url": "https://...", "reasoning": "why this link helps achieve the goal"}
 
-3. CLICK: Click buttons or links
-   Format: {"action": "click", "selector": "button/link selector", "reasoning": "why"}
+2. EXTRACT_ARTICLE: Extract full article content from current page
+   Format: {"action": "extract_article", "reasoning": "why this article is relevant to the goal"}
 
-4. WAIT: Wait for elements to load
-   Format: {"action": "wait", "selector": "element selector", "timeout": 5000, "reasoning": "why"}
+3. RECORD_THOUGHT: Record important insights
+   Format: {"action": "record_thought", "thought": "your analysis/observation", "sentiment": "positive|negative|neutral", "importance": "high|medium|low", "reasoning": "why this matters for the goal"}
 
-5. EXTRACT_ARTICLE: Extract full article content from current page
-   Format: {"action": "extract_article", "reasoning": "why this article is relevant to ${ticker}"}
+4. SCROLL: Scroll to see more links
+   Format: {"action": "scroll", "direction": "down", "pixels": 500, "reasoning": "to reveal more relevant links"}
 
-6. RECORD_THOUGHT: Record important insights about ${ticker}
-   Format: {"action": "record_thought", "thought": "your analysis/observation", "sentiment": "positive|negative|neutral", "importance": "high|medium|low", "reasoning": "why this matters"}
+5. TYPE: Type text into search field (ONLY on landing pages)
+   Format: {"action": "type", "selector": "input selector", "text": "${topic}", "reasoning": "searching for ${topic}"}
 
-7. SCROLL: Scroll to see more content
-   Format: {"action": "scroll", "direction": "down|up", "pixels": 500, "reasoning": "why"}
+6. PRESS_ENTER: Submit search forms
+   Format: {"action": "press_enter", "selector": "input selector", "reasoning": "submit search for ${topic}"}
 
-8. NAVIGATE: Go to a specific URL (use this to follow links when stuck or to explore articles)
-   Format: {"action": "navigate", "url": "https://...", "reasoning": "why"}
+7. CLICK: Click buttons (rarely needed)
+   Format: {"action": "click", "selector": "button selector", "reasoning": "why"}
 
-9. DONE: Complete monitoring session
-   Format: {"action": "done", "summary": "overall assessment of ${ticker}", "reasoning": "why done"}
+8. DONE: Complete monitoring session
+   Format: {"action": "done", "summary": "overall summary of findings related to the goal", "reasoning": "why you're done"}
 
-Strategy:
-- Search for "${ticker}" on the current site
-- Look for recent news, earnings reports, analyst ratings
-- Extract full articles that discuss ${ticker}
-- Record your thoughts on risks, opportunities, sentiment
-- Navigate between multiple sources to get comprehensive coverage
-- **ACT LIKE A WEB CRAWLER**: When you see relevant links about ${ticker}, use NAVIGATE to follow them
-- If stuck on the same page, check the "links" array for ${ticker}-related URLs and navigate to them
-- Be thorough - check multiple pages and articles${additionalContext}
+🔥 DECISION TREE (follow this order):
+1. Check if current page has substantial content related to your goal → EXTRACT_ARTICLE
+2. Look at "links" array for ${topic}-related URLs → NAVIGATE to most relevant
+3. If no relevant links visible → SCROLL down to load more
+4. If on landing page with search box and no relevant links → TYPE "${topic}" then PRESS_ENTER
+5. If you've gathered 3+ articles and insights relevant to your goal → consider DONE
 
-ALWAYS include detailed "reasoning" explaining what you observe and why you're taking each action.
+Remember: You're a CRAWLER focused on achieving your goal. Follow links, extract content, and move on. Don't overthink interactions.
+
 Respond with ONLY a valid JSON object.`;
 
   const messages = [
@@ -218,7 +215,7 @@ Respond with ONLY a valid JSON object.`;
     ...conversationHistory,
     {
       role: 'user',
-      content: `Current Thoughts on ${ticker}:\n${currentThoughts}\n\nCurrent page state:\n${JSON.stringify(pageContext, null, 2)}\n\nWhat should I do next to gather intelligence on ${ticker}?`
+      content: `Current Thoughts:\n${currentThoughts}\n\nCurrent page state:\n${JSON.stringify(pageContext, null, 2)}\n\nWhat should I do next to achieve the goal?`
     }
   ];
 
@@ -239,7 +236,7 @@ Respond with ONLY a valid JSON object.`;
   throw new Error('AI did not return valid JSON action');
 }
 
-function appendToThoughts(thoughtsFile, thought, ticker) {
+function appendToThoughts(thoughtsFile, thought) {
   const timestamp = new Date().toISOString();
   const entry = `\n[${timestamp}] ${thought.sentiment ? `[${thought.sentiment.toUpperCase()}]` : ''} ${thought.importance ? `[${thought.importance.toUpperCase()}]` : ''}\n${thought.thought}\n`;
   fs.appendFileSync(thoughtsFile, entry);
@@ -254,14 +251,14 @@ function saveArticle(articlesDir, url, articleData) {
   return filename;
 }
 
-async function generatePageSummary(openai, pageContext, ticker) {
+async function generatePageSummary(openai, pageContext, topic, goal) {
   try {
     const response = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
         {
           role: 'system',
-          content: `You are an expert financial analyst. Summarize the key information relevant to ${ticker} stock from the provided webpage content. Focus on news, market sentiment, financial data, and any risks/opportunities. Be concise (3-5 sentences).`
+          content: `You are an expert analyst. Summarize the key information relevant to "${topic}" from the provided webpage content. Focus on information that helps achieve this goal: "${goal}". Be concise (3-5 sentences).`
         },
         {
           role: 'user',
@@ -280,14 +277,14 @@ async function generatePageSummary(openai, pageContext, ticker) {
 }
 
 (async () => {
-  const { ticker, sources, metadata } = parseArgs();
+  const { topic, goal, sources, metadata } = parseArgs();
 
   // Create session ID and folder
   const now = new Date();
   const dateStr = now.toISOString().split('T')[0]; // YYYY-MM-DD
   const timeStr = now.toTimeString().split(' ')[0].replace(/:/g, '_'); // HH_MM_SS
   const sessionId = Math.random().toString(36).substring(2, 8);
-  const sessionName = `${ticker}_${dateStr}_${timeStr}_${sessionId}`;
+  const sessionName = `${topic.replace(/[^a-zA-Z0-9]/g, '_')}_${dateStr}_${timeStr}_${sessionId}`;
   const sessionDir = path.join(__dirname, 'sessions', sessionName);
 
   // Create session directory structure
@@ -296,20 +293,23 @@ async function generatePageSummary(openai, pageContext, ticker) {
   fs.mkdirSync(articlesDir, { recursive: true });
 
   console.error(`\n═══════════════════════════════════════════════════════`);
-  console.error(`📊 Stock Guardian AI - Monitoring ${ticker}`);
+  console.error(`🔍 Web Crawler AI - Research Agent`);
   console.error(`Session: ${sessionName}`);
+  console.error(`Topic: ${topic}`);
+  console.error(`Goal: ${goal}`);
   console.error(`Sources: ${sources.join(', ')}`);
   console.error(`═══════════════════════════════════════════════════════\n`);
 
   // Initialize thought file
   const thoughtsFile = path.join(sessionDir, 'current_thoughts.txt');
-  const thoughtsHeader = `Stock Guardian - Monitoring ${ticker}\nSession: ${sessionName}\nStarted: ${now.toISOString()}\n${'='.repeat(60)}\n`;
+  const thoughtsHeader = `Web Crawler AI - Research Session\nTopic: ${topic}\nGoal: ${goal}\nSession: ${sessionName}\nStarted: ${now.toISOString()}\n${'='.repeat(60)}\n`;
   fs.writeFileSync(thoughtsFile, thoughtsHeader);
 
   // Session log object
   const sessionLog = {
     sessionId: sessionName,
-    ticker: ticker,
+    topic: topic,
+    goal: goal,
     timestamp: now.toISOString(),
     sources: sources,
     metadata: metadata,
@@ -410,7 +410,7 @@ async function generatePageSummary(openai, pageContext, ticker) {
           const currentThoughts = fs.readFileSync(thoughtsFile, 'utf8');
 
           // Ask AI what to do (pass urlUnchangedCount to encourage navigation if stuck)
-          const action = await askStockGuardianAI(openai, pageContext, ticker, currentThoughts, conversationHistory, urlUnchangedCount);
+          const action = await askStockGuardianAI(openai, pageContext, topic, goal, currentThoughts, conversationHistory, urlUnchangedCount);
           stepLog.action = action;
 
           console.error(`\n🤖 AI: ${action.reasoning}`);
@@ -525,7 +525,7 @@ async function generatePageSummary(openai, pageContext, ticker) {
               break;
 
             case 'record_thought':
-              appendToThoughts(thoughtsFile, action, ticker);
+              appendToThoughts(thoughtsFile, action);
               sessionLog.thoughts.push({
                 thought: action.thought,
                 sentiment: action.sentiment,
@@ -571,7 +571,7 @@ async function generatePageSummary(openai, pageContext, ticker) {
             try {
               // Generate AI summary of the page
               console.error(`🤖 Generating AI summary...`);
-              const aiSummary = await generatePageSummary(openai, pageContext, ticker);
+              const aiSummary = await generatePageSummary(openai, pageContext, topic, goal);
 
               // Extract all links
               const allLinks = pageContext.links.filter(link => link.href && link.text);
@@ -619,13 +619,15 @@ async function generatePageSummary(openai, pageContext, ticker) {
 
     // Final summary
     console.error(`\n${'='.repeat(60)}`);
-    console.error(`📊 Monitoring Complete for ${ticker}`);
+    console.error(`📊 Research Complete`);
+    console.error(`Topic: ${topic}`);
     console.error(`Articles collected: ${sessionLog.articlesCollected.length}`);
     console.error(`Thoughts recorded: ${sessionLog.thoughts.length}`);
     console.error(`${'='.repeat(60)}\n`);
 
     sessionLog.result = {
-      ticker: ticker,
+      topic: topic,
+      goal: goal,
       articlesCollected: sessionLog.articlesCollected.length,
       thoughtsRecorded: sessionLog.thoughts.length,
       sourcesProcessed: sources.length

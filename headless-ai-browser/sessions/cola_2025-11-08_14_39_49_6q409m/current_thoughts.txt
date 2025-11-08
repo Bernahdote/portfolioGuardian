@@ -1,0 +1,7 @@
+Stock Guardian - Monitoring cola
+Session: cola_2025-11-08_14_39_49_6q409m
+Started: 2025-11-08T13:39:49.876Z
+============================================================
+
+[2025-11-08T13:40:08.993Z] [NEGATIVE] [HIGH]
+The current page contains multiple articles related to Coca-Cola and public health concerns. This includes issues like sponsorship, health research funding, and public health threats. The presence of these articles suggests a significant focus on Coca-Cola's impact on public health which can influence stock perceptions.
