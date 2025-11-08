@@ -1,6 +1,6 @@
 {
   "meta": {
-    "found": 8177251,
+    "found": 8177335,
     "returned": 3,
     "limit": 3,
     "page": 1
@@ -82,6 +82,122 @@
         "expanded_tickers": [],
         "summary": "The news article discusses a Czech politician winning a lottery prize and does not mention any specific companies or industries that would be impacted by this event. Therefore, there are no relevant stock tickers or impacts to report.",
         "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "429fe026-9068-4bdc-b946-dab77df30d75",
+      "title": "Gen AI Is Going Mainstream: Here’s What’s Coming Next",
+      "description": "84% of leaders now use GenAI every week, and 45% daily. Now that AI has gone mainstream, what happens next?",
+      "keywords": "",
+      "snippet": "I just completed nearly 60,000 miles of travel across Europe, Asia, and the Middle East meeting with hundred of companies to discuss their AI strategies. While ...",
+      "url": "https://joshbersin.com/2025/11/gen-ai-is-going-mainstream-heres-whats-coming-next/",
+      "image_url": "https://joshbersin.com/wp-content/uploads/2025/11/cross-chasm.png",
+      "language": "en",
+      "published_at": "2025-11-08T13:37:12.000000Z",
+      "source": "joshbersin.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "I just completed nearly 60,000 miles of travel across Europe, Asia, and the Middle East meeting with hundred of companies to discuss their AI strategies. While every company’s maturity is different, one thing is clear: AI as a business tool has arrived: it’s real and the use-cases are growing.\n\nA new survey by Wharton shows that 46% of business leaders use Gen AI daily and 80% use it weekly. And among these users, 72% are measuring ROI and 74% report a positive return. HR, by the way, is the #3 department in use cases, only slightly behind IT and Finance.\n\nBudgets, as you may expect, are also going up: 23% of large companies are spending $20M or more, and 43% are spending over $10M per year.\n\nWhat are companies getting out of all this? Productivity. The #1 use case, by far, is what we call “stage 1” usage – individual productivity. AI is helping people summarize meetings, analyze data, find information, and author or analyze documents. These personal productivity use cases are very real, but they’re also only the beginning.\n\nGen AI May Be The New Microsoft Office\n\nI hate to say it, but these are similar use cases to the early days of word processing, spreadsheets, and internet search: they’re “individual productivity” benefits. Microsoft really designed for this. The MS Copilot is slowly becoming the “New Microsoft Office Suite.”\n\nOf course AI does much more. About 12% of companies now have corporate agents (ie. IBM’s “Ask HR” for example), and these “knowledge and information management” chatbots will be everywhere. Internal AI agents like this can replace complex portals and Sharepoint sites, and also serve as customer support systems. Every company will have one.\n\nOne of our clients, a large healthcare company, has been running an employee chatbot (agent) for a four years. It’s so successful that every HR application is now being integrated behind it. Employees ask it for help with pay, benefits, work schedules, and even training.\n\nRecruiting is another proven use of AI: job candidates can chat with an agent, take an AI-based assessment, and get interviewed by an AI avatar. And they can do this in the middle of the night: no need to schedule a call with a recruiter or hiring manager.\n\nWhile the high-ROI multi-function agents aren’t quite here yet (stage 3 above), companies are now deploying AI-based coaches and AI based learning tools. Many of our large clients are now implementing AI-native learning systems and seeing 30-40% reduction in staff with vast improvements in workforce enablement.\n\nFor HR overall our Galileo business has suddenly exploded as more and more companies want a highly tuned HR and learning agent for staff and managers. (Galileo is now a digital HR business partner and Supertutor.)\n\nCrossing The Rubicon: What Chasm Did We Cross?\n\nCrossing a Rubicon means “passing a point of no return.” Well that’s where we are.\n\nDespite inflammatory stories about AI ruining our lives and careers, Gen AI is a useful, pragmatic, easy to understand tool. It’s by no means perfect (listen to my podcast on the high rate of errors from ChatGPT), but once you learn how to use it (and build a trusted data set to train it), it works quite well.\n\nTwo years ago the NYT was trying to frighten us with stories of AI acting as a romance partner. Well those stories are over, and thanks to a $Trillion (literally) of capital investment in infrastructure, engineering, and power plants, this stuff is reasonably safe.\n\nI’m not saying it’s 100% safe: if you aren’t careful it’s easy to come up with a wrong answer, a poorly written report, or bogus finding. But we’re getting used to “checking” the AI, so we’re more comfortable with its “probabilistic nature.”\n\nAnd there are new issues: we’re all going to be living next to a powerplant or a data center, and that raises new political issues.(One of the leaders in the UAE informed me that every ChatGPT query consumes four liters of water, which is now the next big challenge to address.)\n\nWhere Do We Go Next?\n\nAs I will be discussing in a major webinar this week (AI Trends for 2026), this is barely even the beginning. We have many changes yet to come, so let me mention them here.\n\nFrom Single User to Multi-Function Use Cases\n\nFirst, the big ROI from AI is going to be what I call a “multi-functional agent.” (see stage 3 above)\n\nThe productivity tools we have today are like having an AI tool to help you turn the steering wheel in your car. (Power steering.) It’s a nice thing to have, but we really want the AI to “take me from place to place,” not “help me steer.”\n\nThis is starting to happen in recruiting and training, where we now have agents that can write job requisitions, chat with candidates, schedule interviews, and screen resumes all in one. Soon they’ll be connected to onboarding and annual performance reviews. This “hiring and career” agent is what we call a multi-functional AI agent, and we’re working on a blueprint to help vendors and buyers build these out.\n\nCompanies don’t want hundreds of agents running around pulling on steering wheels: they want “smart” agents working on end-to-end business processes. (ie. “design to build to distribute to sell”, or “position to target to market to close a sale” and then “bill to collect to renew and support.” So the individual use-cases we’re exploring will soon be much more integrated.\n\nAnd as these multi-functional agents appear (many will be built by IT, not by vendors), we then have to change every job in the company. No more need for “interview schedulers” or “SDR appointment creators” or “accounts receivable experts.” The agents do these “steering wheel” things in the context of a workflow.\n\nWe’ve seen this is in our Galileo business. What started as an HR “assistant” can now answer a question, develop a course, and give a user the answer to a complex pay, rewards, or internal company question. Galileo literally “builds solutions” for you, taking you from “idea or problem” to “proven solution” like the self-driving car.\n\nAgents Will Have Memory and Personalities\n\nThe second change coming is Agents who “know you.” Galileo now remembers who you are and what you did last. Rather than starting from scratch each time, the agents “learn from your usage” or “learn from the business itself.” This makes them more autonomous, personalized, and valuable.\n\nSuppose you’re a manager and you have a capacity problem. You ask Galileo something like “can you help me hire a new staff member?” and Galileo may say “before I open a requisition can I ask you to explain what you want this person to do?” It may then ask you about span of control (it has benchmarks) and say “for the salary you need it may be better to look for internal candidate, do you want me to find someone in the company with the skills you need?”\n\nA month later when you ask Galileo for help again it’s likely to say “it looks like your last hire didn’t ramp as fast as we expected, should we look at a new development plan for your team before we add a new person?”\n\nSee where I’m going?\n\nOnce all the “steering wheel” agents are working it’s time to put them together and let the AI help steer the entire operation. This is not far away at all, we’ll see a lot of this in 2026.\n\nData Management Will Now Be Mission Critical\n\nWhen we run across companies with experience we always find the same thing: the biggest new discipline they developed was data management, data labeling, and data governance. We learned this lesson with Galileo. If the data is not correct, current, and well labeled, the AI will not perform accurately.\n\nRemember the AI has no idea what these words or numbers mean. It simply uses probability and vector calculus to “produce answers.” Even the tiniest error in your data set could cause a high percentage of mistakes (Read my article about 45% of news queries being erroneous for more). So over time companies like IBM, Walmart, and BMS find that data ownership has become mission-critical.\n\nIBM has more than 6,000 HR policies in its “Ask HR” agent, and every policy has an owner who is responsible for keeping it up to date. Now IBM is building an agent to ripple through the policies and monitor regulatory changes in thousands of jurisdictions to point out possible problems. We’ll all be going down this learning curve.\n\nAgents Will Talk to Agents\n\nAnd there’s more. Now that we’ve “crossed the chasm” we need agent-to-agent communications. These protocols (a2a and MCP) are not mature yet, but companies are working on it. We now have Galileo connected to SAP’s Joule, for example, and more integrations are coming.\n\nLet me warn you, by the way. Don’t get excited and buy 50 different agents for use-cases in HR. The utility of the individual agents won’t seem so exciting if they don’t work together. Many of our clients now sign one-year contracts just to make sure they’re not stuck with something that gets obsoleted in a hurry.\n\nEarly next year we’re launching an Agentic AI Blueprint for HR, to show you where these agents should connect to each other. This kind of blueprint will help you make sure you don’t wind up with too many vendors, each pulling the car in different directions. (The self-driving care analogy works pretty well.)\n\nVendor Risks To Consider\n\nThere are still risks ahead. We don’t know if OpenAI is going to clean up its act or not. The MS Copilot is spread thin and going in many directions. And tools like Gemini and Anthropic are going to have to deal with Grok, Deepseek, and others. And if the stock market crashes a lot of these companies are likely to be consolidated.\n\nI think products that focus on quality, pragmatic business areas like Galileo, Paradox, Eightfold, Sana, Arist, and others are ready for purchase. So there are many strong HR vendors in the market.\n\nThe HCM vendors, from SAP to Workday to ADP and HiBob to ServiceNow, are building agents into their payroll and workflow engines. They aspire to be your end-to-end multi-functional agent provider too (SAP’s acquisition of SmartRecruiters, Workday’s acquisition of HiredScore, Paradox, and Sana) so we have to keep up with their offerings.\n\nWhat About Other Fears? Job Loss? Dumbing Down Workers?\n\nThroughout these meetings I heard all sorts of fears. HR staff are worried about their jobs. Recruiters aren’t sure which candidates are real. Some asked me “are we just going to become dummer?”\n\nHere’s my answer to these issues.\n\nIf you don’t lean into this revolution, it’s just going to start without you. This is a revolutionary time in business, and we have a once in a lifetime to re-engineer what we do. Now is not the time to chicken out. Get your hands on the tool of your choice or let us show you how to use Galileo. Your fluency and experience will show you new opportunities for your career.\n\nAs far as AI taking over our human jobs, I’d stop listening to the techies. There’s just no way.\n\nEven if we do wind up with self-driving cars, we’ll then look back and say “driving wasn’t that great anyway” (I will still have my sports car.) Let’s spend some time focused on other parts of our lives, adding value in new ways.\n\nAnd AI is so new, so imperfect, and so rapidly changing that we all have jobs as Superworkers, consultants, and innovators to find new use-cases.\n\nWhen the first spreadsheet was launched in 1981 I remember people thinking that accountants would go out of business. Ha! Look what happened! There are more accountants than ever, they’re just not wasting time adding numbers in tiny columns by hand.\n\nAnd those of you who are designers, creators, authors, or analysts – think of AI as your own personal supercomputer. Just like cabinet makers use routers and automatic saws, you can still build gorgeous and elegant things, just learn to use the new tools.\n\nWelcome to the new world: the mist has lifted and AI is here to stay. Let’s all get on the Superworker road and help our organizations learn, apply, and leverage this amazing new technology. It’s now all up to us.\n\nAdditional Information\n\nAI and HR Trends for 2026: Webinar\n\nBBC Finds That 45% of AI Queries Produce Erroneous Answers\n\nAI: Not Always Right, But Seldom In Doubt (podcast)\n\nGalileo: The World’s Trusted Agent for Everything HR",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "IBM",
+          "MSFT"
+        ],
+        "summary": "The article discusses the mainstream adoption of Generative AI (Gen AI) in businesses, highlighting its impact on productivity and HR functions. Companies like Microsoft and IBM are positioned to benefit from this trend as their AI solutions are increasingly utilized in various sectors.",
+        "ticker_impacts": {
+          "MSFT": {
+            "impact": "positive",
+            "explanation": "Microsoft is heavily involved in AI development, particularly with its Copilot feature, which is being compared to the new Microsoft Office Suite. As Gen AI becomes more mainstream, Microsoft's products are likely to see increased adoption, leading to potential revenue growth."
+          },
+          "IBM": {
+            "impact": "positive",
+            "explanation": "IBM is mentioned as a provider of AI solutions, such as their 'Ask HR' chatbot. As companies increasingly implement AI for productivity and HR functions, IBM stands to benefit from greater demand for its AI technologies and services."
+          }
+        }
+      }
+    },
+    {
+      "uuid": "2fbb2f7a-7998-41eb-a05a-0897e1a9279a",
+      "title": "SEBI warns against online digital gold investments",
+      "description": "SEBI warns investors about the risks of unregulated digital gold products and promotes SEBI-regulated gold investment alternatives.",
+      "keywords": "",
+      "snippet": "Capital markets regulator SEBI has cautioned investors on digital gold products offered by many unregulated entities as an alternate to physical gold.\n\nIt has c...",
+      "url": "https://www.thehindubusinessline.com/markets/sebi-warns-against-online-digital-gold-investments/article70255971.ece",
+      "image_url": "https://bl-i.thgim.com/public/incoming/tz68jp/article70256556.ece/alternates/LANDSCAPE_1200/PO23_Gold_price.jpg",
+      "language": "en",
+      "published_at": "2025-11-08T13:34:18.000000Z",
+      "source": "thehindubusinessline.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Capital markets regulator SEBI has cautioned investors on digital gold products offered by many unregulated entities as an alternate to physical gold.\n\nIt has come to the notice of SEBI that some digital/online platforms are offering ‘Digital Gold/E-Gold Products’. It is being marketed as an alternative for investment in physical gold, said SEBI.\n\nDigital gold products are different from SEBI-regulated gold products as they are neither notified as securities nor regulated as commodity derivatives. They operate entirely outside the purview of SEBI. Such digital gold products may entail significant risks for investors and may expose investors to counterparty and operational risks, it said.\n\nThe capital markets regulator emphasised that none of the investor protection mechanisms under securities market purview will be available for investments in such Digital Gold/EGold products\n\nSEBI has enabled investments in gold and gold-related instruments through exchange traded commodity derivative contracts, Gold Exchange Traded Funds (ETFs) offered by Mutual Funds and Electronic Gold Receipts tradeable on stock exchanges.\n\nInvestments in these SEBI-regulated gold products can be made through SEBI registered intermediaries and are governed by the regulatory framework prescribed by SEBI, it added.\n\nPublished on November 8, 2025",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "GLD",
+          "GDX",
+          "IAU"
+        ],
+        "summary": "SEBI's warning against unregulated digital gold investments emphasizes the importance of regulated alternatives, which could lead to increased investments in gold ETFs like GDX, IAU, and GLD, positively impacting their stock performance.",
+        "ticker_impacts": {
+          "GDX": {
+            "impact": "positive",
+            "explanation": "The news highlights the risks associated with unregulated digital gold products, which may lead investors to seek safer, regulated alternatives. As a gold mining ETF, GDX could benefit from increased investment in gold-related securities."
+          },
+          "IAU": {
+            "impact": "positive",
+            "explanation": "As a gold ETF, IAU stands to gain from the SEBI's warning against unregulated digital gold products. Investors may turn to IAU for a safer and regulated investment option in gold."
+          },
+          "GLD": {
+            "impact": "positive",
+            "explanation": "GLD, being a well-known gold ETF, is likely to see increased interest as investors look for secure and regulated gold investment options following SEBI's warning about the risks of digital gold."
+          }
+        }
+      }
+    },
+    {
+      "uuid": "e48a5db1-dfd5-4c64-ba60-4da2ccd7069b",
+      "title": "Saudi entities ink SAR 7.6B deals on Day 3 of Biban 2025",
+      "description": "Saudi Arabia’s Biban 2025 Forum witnessed the signing of 11 agreements and memorandums of understanding (MoUs) and the launch of seven new programson",
+      "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+      "snippet": "Saudi Arabia’s Biban 2025 Forum witnessed the signing of 11 agreements and memorandums of understanding (MoUs) and the launch of seven new programs on Day 3, ...",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1856918",
+      "image_url": "https://argaamplus.s3.amazonaws.com/1bda1a60-5815-476a-8bec-603f7e27ed7c.png",
+      "language": "en",
+      "published_at": "2025-11-08T13:33:00.000000Z",
+      "source": "argaam.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Saudi Arabia’s Biban 2025 Forum witnessed the signing of 11 agreements and memorandums of understanding (MoUs) and the launch of seven new programs on Day 3, with a combined value exceeding SAR 7.6 billion. The deals are aimed at boosting entrepreneurship and the small and medium-sized enterprise (SME) sector.\n\n\n\nAccording to the state-owned SPA, Small & Medium Enterprises General Authority (Monsha'at) signed key financing agreements, including a SAR 4 billion partnership with Tarmeez Capital to fund entrepreneurs and SMEs, and a SAR 3 billion agreement with Al-Tayseer Finance. Monsha’at also inked a SAR 600 million deal with Alpha Arabia Finance Co. under joint financing programs designed to strengthen growth and sustainability for micro, small, and medium enterprises.\n\nThe new agreements included partnerships across multiple sectors, from crafts and academia to technology and development finance. Monsha’at signed an agreement with the Crafts Association to organize three training camps aimed at improving artisans’ access to raw materials and enhancing their skills. It also partnered with the Ektfa to promote social entrepreneurship under the “My Project 3” initiative, and with Golf Saudi to enable micro and small enterprises and artisans to participate in sports and entertainment events. In addition, Jahez joined the “Your Project is Ready” initiative to help entrepreneurs enter e-commerce with technical and training support.\n\nOn the academic level, Monsha’at signed cooperation agreements with Prince Sattam bin Abdulaziz University and the Arab Open University to promote entrepreneurship awareness through workshops and training programs. It also partnered with King Salman Science Oasis to stimulate innovation and investment in technology and entrepreneurship.\n\nOn the development finance front, the Sulaiman Al Rajhi Foundation for Development Finance, in collaboration with the General Authority of Awqaf (GAA), announced a financing product for Jana Fund beneficiaries — offering loans of SAR 60,000 to SAR 200,000 to support productive families in line with project size and nature.\n\nMeanwhile, the Saudi Finance Co. unveiled a new tax return financing program offering up to SAR 750,000 in quick digital operating loans to ease financial pressures on micro, small, and medium enterprises. A specialized hackathon for the cultural sector was also launched during the forum.",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "JAHEZ",
+          "ALPHA",
+          "ALTY"
+        ],
+        "summary": "The Biban 2025 Forum has resulted in significant financial agreements aimed at boosting the SME sector in Saudi Arabia. Companies involved in these agreements, such as Tarmeez Capital, Al-Tayseer Finance, Alpha Arabia Finance, and Jahez, are likely to see positive impacts on their stock due to increased funding and business opportunities.",
+        "ticker_impacts": {
+          "TARMEZ": {
+            "impact": "positive",
+            "explanation": "Tarmeez Capital has signed a SAR 4 billion partnership with Monsha'at to fund entrepreneurs and SMEs, indicating strong financial backing and growth potential for the company."
+          },
+          "ALTY": {
+            "impact": "positive",
+            "explanation": "Al-Tayseer Finance has entered into a SAR 3 billion agreement with Monsha'at, which will likely enhance its business operations and financial stability, positively impacting its stock."
+          },
+          "ALPHA": {
+            "impact": "positive",
+            "explanation": "Alpha Arabia Finance Co. has secured a SAR 600 million deal with Monsha'at for joint financing programs, suggesting an increase in business opportunities and revenue for the company."
+          },
+          "JAHEZ": {
+            "impact": "positive",
+            "explanation": "Jahez's participation in the 'Your Project is Ready' initiative to support entrepreneurs in e-commerce indicates a strategic move to expand its services, which could lead to increased market share and revenue."
+          }
+        }
       }
     }
   ]
