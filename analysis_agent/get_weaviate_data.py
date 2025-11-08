@@ -15,7 +15,9 @@ def get_data(ticker, weaviate_url, weaviate_api_key, verbose=False):
         limit=5,
         filters=Filter.by_property("ticker").equal(ticker)
     )
-
+    print(response)
+    if not response.objects:
+        return None
     data = []
     for obj in response.objects:
         props = obj.properties

@@ -15,14 +15,25 @@ def analyze():
     data = request.json
     ticker = data.get('ticker')
     
-    password = os.getenv("SMTP_PASSWORD")
+    # Get your environment variables
     weaviate_url = os.getenv("WEAVIATE_URL")
     weaviate_api_key = os.getenv("WEAVIATE_API_KEY")
     
+    # Handle None case
     stock_data = get_data(ticker, weaviate_url, weaviate_api_key)
+    
+    if stock_data is None:
+        # Ticker not found in database
+        return jsonify({
+            "action_needed": False,
+            "message": f"No data available for {ticker}. This ticker may not be in the database yet."
+        }), 200
+    
+    # Continue with analysis if data exists
     result = analyze_stock(ticker, stock_data)
     
     return jsonify(result)
+
 
 @app.route('/api/send-email', methods=['POST'])
 def send_email():
