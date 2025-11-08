@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "found": 8176631,
+    "returned": 3,
+    "limit": 3,
+    "page": 1
+  },
+  "data": [
+    {
+      "uuid": "d2407284-7fe4-4490-bb69-f059d418c7e6",
+      "title": "小川「楽しんで頂上を」 冬季パラのカーリング代表",
+      "description": "車いすカーリング混合ダブルスの世界王者で、来年のミラノ・コルティナ冬季パラリンピック日本代表に内定し...",
+      "keywords": "",
+      "snippet": "練習後に写真に納まる小川亜希（中央左）、中島洋治（同右）組とコーチら＝東京辰巳アイスアリーナ\n\n車いすカーリ?...",
+      "url": "https://news.jp/i/1359831786494018142",
+      "image_url": "https://nordot-res.cloudinary.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1359836071276790352/origin_1.jpg",
+      "language": "ja",
+      "published_at": "2025-11-08T11:10:11.000000Z",
+      "source": "this.kiji.is",
+      "relevance_score": null,
+      "entities": [],
+      "similar": []
+    },
+    {
+      "uuid": "0f502bf3-9efc-480d-b17a-e3040078d173",
+      "title": "新潟で鳥インフル疑い 28万羽飼育の養鶏場",
+      "description": "新潟県は8日、同県胎内市の養鶏場で、高病原性鳥インフルエンザの疑いがある事例が簡易検査で確認されたと...",
+      "keywords": "",
+      "snippet": "新潟県は8日、同県胎内市の養鶏場で、高病原性鳥インフルエンザの疑いがある事例が簡易検査で確認されたと発表した...",
+      "url": "https://news.jp/i/1359834807806263355",
+      "image_url": "https://nordot-res.cloudinary.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+      "language": "ja",
+      "published_at": "2025-11-08T11:10:11.000000Z",
+      "source": "this.kiji.is",
+      "relevance_score": null,
+      "entities": [],
+      "similar": []
+    },
+    {
+      "uuid": "54228b6b-5f47-4a44-8a80-9e4e1fd8c080",
+      "title": "自民小林氏、防衛費のGDP比2％超を主張",
+      "description": "",
+      "keywords": "",
+      "snippet": "自民党の小林鷹之政調会長は8日、札幌市で講演し、防衛費と関連経費を合わせて国内総生産（GDP）比2％に増やす政府?...",
+      "url": "https://news.jp/i/1359840489017835888",
+      "image_url": "https://nordot-res.cloudinary.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+      "language": "ja",
+      "published_at": "2025-11-08T11:10:11.000000Z",
+      "source": "this.kiji.is",
+      "relevance_score": null,
+      "entities": [],
+      "similar": []
+    }
+  ]
+}
