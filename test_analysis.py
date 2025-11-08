@@ -12,4 +12,4 @@ if __name__ == "__main__":
     data = mock_weaviate_stock_data("AAPL")
     result = analyze_stock("AAPL", data)
     print(result)
-    send_message(customer_mail, result, password)
+    send_message(customer_mail, result["message"], password)

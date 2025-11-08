@@ -1,7 +1,7 @@
 import smtplib
 
 def send_message(recipient, message, password, subject="",):
-    email = "teo-portfolioGuardian"
+    email = "portfolioGuardianteo@gmail.com"
 
     auth = (email, password)
 
