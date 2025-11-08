@@ -17,7 +17,7 @@ app = Flask(__name__)
 # Store running jobs
 jobs = {}
 
-def run_crawler(job_id, topic, goal, sources, metadata):
+def run_crawler(job_id, ticker, topic, goal, sources, metadata):
     """Run the web crawler script in a separate process"""
     try:
         # Prepare the command
@@ -27,6 +27,7 @@ def run_crawler(job_id, topic, goal, sources, metadata):
         cmd = [
             'node',
             'stock-guardian.js',
+            ticker,
             topic,
             goal,
             sources_json,
@@ -84,7 +85,8 @@ def start_crawl():
 
     Request body:
     {
-        "topic": "AAPL",
+        "ticker": "AAPL",
+        "topic": "Apple Inc",
         "goal": "Monitor Apple stock for investment risks and opportunities",
         "sources": ["https://news.ycombinator.com", "https://finance.yahoo.com"],
         "metadata": {
@@ -97,7 +99,8 @@ def start_crawl():
     {
         "job_id": "uuid",
         "status": "queued",
-        "topic": "AAPL",
+        "ticker": "AAPL",
+        "topic": "Apple Inc",
         "goal": "...",
         "created_at": "2025-11-08T12:00:00"
     }
@@ -108,9 +111,13 @@ def start_crawl():
     if not data:
         return jsonify({'error': 'Request body required'}), 400
 
+    ticker = data.get('ticker')
     topic = data.get('topic')
     goal = data.get('goal')
     sources = data.get('sources')
+
+    if not ticker:
+        return jsonify({'error': 'ticker is required'}), 400
 
     if not topic:
         return jsonify({'error': 'topic is required'}), 400
@@ -128,6 +135,7 @@ def start_crawl():
     job_id = str(uuid.uuid4())
     jobs[job_id] = {
         'job_id': job_id,
+        'ticker': ticker,
         'topic': topic,
         'goal': goal,
         'sources': sources,
@@ -143,7 +151,7 @@ def start_crawl():
     # Start crawler in background thread
     thread = threading.Thread(
         target=run_crawler,
-        args=(job_id, topic, goal, sources, metadata)
+        args=(job_id, ticker, topic, goal, sources, metadata)
     )
     thread.daemon = True
     thread.start()
@@ -151,6 +159,7 @@ def start_crawl():
     return jsonify({
         'job_id': job_id,
         'status': 'queued',
+        'ticker': ticker,
         'topic': topic,
         'goal': goal,
         'sources': sources,
@@ -228,8 +237,9 @@ Example request:
   curl -X POST http://localhost:{port}/crawl \\
     -H "Content-Type: application/json" \\
     -d '{{
-      "topic": "AAPL",
-      "goal": "Find news about Apple stock performance and risks",
+    "ticker" : "AAPL",
+      "topic": "New releases",
+      "goal": "Find news about new products from apple",
       "sources": ["https://news.ycombinator.com"],
       "metadata": {{"maxStepsPerSource": 10}}
     }}'

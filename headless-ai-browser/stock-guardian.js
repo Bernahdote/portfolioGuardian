@@ -10,35 +10,36 @@ const path = require('path');
 function parseArgs() {
   const args = process.argv.slice(2);
 
-  if (args.length < 3) {
-    console.error('Error: topic, goal, and sources are required');
-    console.error('Usage: node stock-guardian.js <topic> <goal> <sources_json> [metadata_json]');
-    console.error('Example: node stock-guardian.js "AAPL" "Monitor Apple stock for investment risks and opportunities" \'["https://news.ycombinator.com","https://finance.yahoo.com"]\' \'{"maxStepsPerSource":15}\'');
+  if (args.length < 4) {
+    console.error('Error: ticker, topic, goal, and sources are required');
+    console.error('Usage: node stock-guardian.js <ticker> <topic> <goal> <sources_json> [metadata_json]');
+    console.error('Example: node stock-guardian.js "AAPL" "Apple Inc" "Monitor Apple stock for investment risks and opportunities" \'["https://news.ycombinator.com","https://finance.yahoo.com"]\' \'{"maxStepsPerSource":15}\'');
     process.exit(1);
   }
 
-  const topic = args[0];
-  const goal = args[1];
+  const ticker = args[0];
+  const topic = args[1];
+  const goal = args[2];
   let sources = [];
 
   try {
-    sources = JSON.parse(args[2]);
+    sources = JSON.parse(args[3]);
   } catch (e) {
     console.error('Error: sources must be valid JSON array');
     process.exit(1);
   }
 
   let metadata = {};
-  if (args[3]) {
+  if (args[4]) {
     try {
-      metadata = JSON.parse(args[3]);
+      metadata = JSON.parse(args[4]);
     } catch (e) {
       console.error('Error: metadata must be valid JSON');
       process.exit(1);
     }
   }
 
-  return { topic, goal, sources, metadata };
+  return { ticker, topic, goal, sources, metadata };
 }
 
 async function getPageContext(page) {
@@ -396,7 +397,7 @@ except Exception as e:
 }
 
 (async () => {
-  const { topic, goal, sources, metadata } = parseArgs();
+  const { ticker, topic, goal, sources, metadata } = parseArgs();
 
   // Create session ID and folder
   const now = new Date();
@@ -414,6 +415,7 @@ except Exception as e:
   console.error(`\n═══════════════════════════════════════════════════════`);
   console.error(`🔍 Web Crawler AI - Research Agent`);
   console.error(`Session: ${sessionName}`);
+  console.error(`Ticker: ${ticker}`);
   console.error(`Topic: ${topic}`);
   console.error(`Goal: ${goal}`);
   console.error(`Sources: ${sources.join(', ')}`);
@@ -421,12 +423,13 @@ except Exception as e:
 
   // Initialize thought file
   const thoughtsFile = path.join(sessionDir, 'current_thoughts.txt');
-  const thoughtsHeader = `Web Crawler AI - Research Session\nTopic: ${topic}\nGoal: ${goal}\nSession: ${sessionName}\nStarted: ${now.toISOString()}\n${'='.repeat(60)}\n`;
+  const thoughtsHeader = `Web Crawler AI - Research Session\nTicker: ${ticker}\nTopic: ${topic}\nGoal: ${goal}\nSession: ${sessionName}\nStarted: ${now.toISOString()}\n${'='.repeat(60)}\n`;
   fs.writeFileSync(thoughtsFile, thoughtsHeader);
 
   // Session log object
   const sessionLog = {
     sessionId: sessionName,
+    ticker: ticker,
     topic: topic,
     goal: goal,
     timestamp: now.toISOString(),
@@ -726,7 +729,8 @@ except Exception as e:
                 const dbEntryFilename = `db_entry_source${sourceIdx + 1}_step${stepCount}.json`;
                 const dbEntryPath = path.join(articlesDir, dbEntryFilename);
                 const dbEntryData = {
-                  ticker: topic,
+                  ticker: ticker,  // Use ticker parameter
+                  topic: topic,     // Include topic for reference
                   signal: dbEntry.signal,
                   title: dbEntry.title,
                   body: dbEntry.body,
@@ -741,7 +745,7 @@ except Exception as e:
                 fs.writeFileSync(dbEntryPath, JSON.stringify(dbEntryData, null, 2));
                 console.error(`💾 Saved DB entry to: ${dbEntryFilename}`);
 
-                await insertToDatabase(topic, dbEntry.signal, dbEntry.title, dbEntry.body, weaviateUrl, weaviateApiKey);
+                await insertToDatabase(ticker, dbEntry.signal, dbEntry.title, dbEntry.body, weaviateUrl, weaviateApiKey);
               }
             } catch (e) {
               console.error(`⚠️  Warning: Failed to save context to articles/${contextFilename}: ${e.message}`);
@@ -776,6 +780,7 @@ except Exception as e:
     console.error(`${'='.repeat(60)}\n`);
 
     sessionLog.result = {
+      ticker: ticker,
       topic: topic,
       goal: goal,
       articlesCollected: sessionLog.articlesCollected.length,

@@ -16,7 +16,8 @@ from datetime import datetime
 class ResearchInstance:
     """Represents a single research configuration."""
 
-    def __init__(self, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
+    def __init__(self, ticker: str, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
+        self.ticker = ticker
         self.topic = topic
         self.goal = goal
         self.sources = sources
@@ -27,6 +28,7 @@ class ResearchInstance:
         args = [
             'node',
             'stock-guardian.js',
+            self.ticker,
             self.topic,
             self.goal,
             json.dumps(self.sources)
@@ -42,19 +44,21 @@ class StockLauncher:
     def __init__(self):
         self.instances: List[ResearchInstance] = []
 
-    def add_job(self, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
+    def add_job(self, ticker: str, topic: str, goal: str, sources: List[str], metadata: Optional[Dict] = None):
         """Add a research job to the queue."""
         if metadata is None:
             metadata = {}
 
-        instance = ResearchInstance(topic, goal, sources, metadata)
+        instance = ResearchInstance(ticker, topic, goal, sources, metadata)
         self.instances.append(instance)
         return instance
 
     def run_instance(self, instance: ResearchInstance, result_queue: queue.Queue):
         """Run a single research instance."""
         try:
-            print(f"🔍 Starting research on: {instance.topic}")
+            print(f"🔍 Starting research")
+            print(f"   Ticker: {instance.ticker}")
+            print(f"   Topic: {instance.topic}")
             print(f"   Goal: {instance.goal}")
             print(f"   Sources: {', '.join(instance.sources)}")
 
@@ -66,6 +70,7 @@ class StockLauncher:
             )
 
             output = {
+                'ticker': instance.ticker,
                 'topic': instance.topic,
                 'goal': instance.goal,
                 'sources': instance.sources,
@@ -80,6 +85,7 @@ class StockLauncher:
 
         except subprocess.TimeoutExpired:
             result_queue.put({
+                'ticker': instance.ticker,
                 'topic': instance.topic,
                 'goal': instance.goal,
                 'sources': instance.sources,
@@ -89,6 +95,7 @@ class StockLauncher:
             })
         except Exception as e:
             result_queue.put({
+                'ticker': instance.ticker,
                 'topic': instance.topic,
                 'goal': instance.goal,
                 'sources': instance.sources,
@@ -159,7 +166,8 @@ def example_stocks():
 
     # Research Apple
     launcher.add_job(
-        topic="AAPL",
+        ticker="AAPL",
+        topic="Apple Inc",
         goal="Monitor Apple stock for investment risks and opportunities. Focus on recent news, earnings, and market sentiment.",
         sources=tech_sources,
         metadata={"maxStepsPerSource": 15}
@@ -167,7 +175,8 @@ def example_stocks():
 
     # Research Microsoft
     launcher.add_job(
-        topic="MSFT",
+        ticker="MSFT",
+        topic="Microsoft Corporation",
         goal="Find recent news about Microsoft stock performance and any potential risks or growth opportunities.",
         sources=tech_sources,
         metadata={"maxStepsPerSource": 15}
@@ -175,7 +184,8 @@ def example_stocks():
 
     # Research NVIDIA
     launcher.add_job(
-        topic="NVDA",
+        ticker="NVDA",
+        topic="NVIDIA Corporation",
         goal="Research NVIDIA stock with focus on AI chip market and competition.",
         sources=financial_sources,
         metadata={"maxStepsPerSource": 15}
@@ -190,6 +200,7 @@ def example_stocks():
     print(f"{'='*60}\n")
 
     for result in results:
+        print(f"Ticker: {result['ticker']}")
         print(f"Topic: {result['topic']}")
         print(f"Goal: {result['goal'][:60]}...")
         print(f"Success: {result['success']}")
@@ -208,22 +219,24 @@ def example_stocks():
 def example_custom():
     """Example: Custom research job."""
 
-    if len(sys.argv) < 4:
-        print("Usage: python stock-launcher.py custom <topic> <goal> <source1> <source2> ...")
-        print('Example: python stock-launcher.py custom "TSLA" "Find Tesla stock news" https://news.ycombinator.com')
+    if len(sys.argv) < 5:
+        print("Usage: python stock-launcher.py custom <ticker> <topic> <goal> <source1> <source2> ...")
+        print('Example: python stock-launcher.py custom "TSLA" "Tesla Inc" "Find Tesla stock news" https://news.ycombinator.com')
         sys.exit(1)
 
-    topic = sys.argv[2]
-    goal = sys.argv[3]
-    sources = sys.argv[4:]
+    ticker = sys.argv[2]
+    topic = sys.argv[3]
+    goal = sys.argv[4]
+    sources = sys.argv[5:]
 
     launcher = StockLauncher()
-    launcher.add_job(topic, goal, sources, {"maxStepsPerSource": 20})
+    launcher.add_job(ticker, topic, goal, sources, {"maxStepsPerSource": 20})
 
     results = launcher.run_all_sequential()
 
     for result in results:
         print(f"\n{'='*60}")
+        print(f"Ticker: {result['ticker']}")
         print(f"Topic: {result['topic']}")
         print(f"Goal: {result['goal']}")
         print(f"Success: {result['success']}")
@@ -256,16 +269,17 @@ def print_usage():
     print("=" * 60)
     print("\nUsage:")
     print("  python stock-launcher.py stocks            - Monitor multiple stocks")
-    print('  python stock-launcher.py custom <topic> <goal> <sources...>')
+    print('  python stock-launcher.py custom <ticker> <topic> <goal> <sources...>')
     print("                                             - Custom research job")
     print("\nOr use as a library:")
     print("  from stock_launcher import StockLauncher")
     print("  launcher = StockLauncher()")
-    print('  launcher.add_job("AAPL", "Find Apple news", ["https://news.ycombinator.com"])')
+    print('  launcher.add_job("AAPL", "Apple Inc", "Find Apple news", ["https://news.ycombinator.com"])')
     print("  results = launcher.run_all_parallel()")
     print("\nExample:")
     print('  launcher.add_job(')
-    print('      topic="AAPL",')
+    print('      ticker="AAPL",')
+    print('      topic="Apple Inc",')
     print('      goal="Monitor Apple stock for investment risks and opportunities",')
     print('      sources=["https://news.ycombinator.com", "https://finance.yahoo.com"],')
     print('      metadata={"maxStepsPerSource": 20}')
