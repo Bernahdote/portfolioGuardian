@@ -1,6 +1,6 @@
 {
   "meta": {
-    "found": 8177649,
+    "found": 8177681,
     "returned": 3,
     "limit": 3,
     "page": 1
@@ -608,6 +608,55 @@
           "NVDA": {
             "impact": "neutral",
             "explanation": "Nvidia, while mentioned in the context of quantum computing, is primarily focused on AI and graphics processing. The news does not directly impact NVDA's core business, so its stock is expected to remain stable, resulting in a neutral impact."
+          }
+        }
+      }
+    },
+    {
+      "uuid": "a961d416-9c00-413e-9eff-7263043eafe9",
+      "title": "Our Life Without Headphones.",
+      "description": "Our Life Without Headphones. We’ve all read countless articles about life without a phone. But in today’s world phones have become an essential part of our life. It’s not that we can’t live …",
+      "keywords": "",
+      "snippet": "Our Life Without Headphones. Shrushti Patel 2 min read · Just now Just now -- Listen Share\n\nPress enter or click to view image in full size\n\nWe’ve all read c...",
+      "url": "https://medium.com/@shrushtipatel0806/our-life-without-headphones-4160544c2bb8",
+      "image_url": "https://miro.medium.com/v2/resize:fit:736/1*LFeMKY3xxHvviGEA9aeetA.jpeg",
+      "language": "en",
+      "published_at": "2025-11-08T14:34:35.000000Z",
+      "source": "medium.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Our Life Without Headphones. Shrushti Patel 2 min read · Just now Just now -- Listen Share\n\nPress enter or click to view image in full size\n\nWe’ve all read countless articles about life without a phone. But in today’s world phones have become an essential part of our life. It’s not that we can’t live without them, but in today’s fast-paced, tech-driven world, it’s pretty hard to imagine life without one. So, I came up with a new topic about the use of technology in day to day life: Headphones.\n\nYes, you heard that right and without the headphones. (hahaha)\n\nHeadphones have quietly become our life partner. In the olden days, if you asked people what they’d want in heaven, they would have said family, friends, and love. But in the digital age, people would probably ask for a phone, charger, and headphones—oh, and an internet connection too.\n\nBut why am I talking about headphones specifically? Because they’re not exactly essential like a charger or internet. A phone won’t survive long without a charger, and the world would feel slow without the internet.\n\nBut headphones? They’re like bubbles in a bath—you don’t need them, but you definitely want them. It’s funny how our life doesn’t actually become difficult without headphones, yet the moment we can’t find them, we start to panic like they’re our lifeline. Think about it when was the last time you went an entire day without using headphones? We use them everywhere while travelling, walking, exercising, studying, working, and even cooking! Whether it’s listening to songs, watching movies, attending meetings, lectures, or just scrolling through reels, if the phone’s in our hand, the headphones are already on our head.\n\nThe fault is not our. It’s the world we live in. We’ve made headphones a part of our “personal space.” Even for a simple video call, we reach for them instantly.\n\nWe complain about loud music and noise pollution outside, but we happily play loud music straight into our eardrums for hours.Many children have reduced their hearing ability because, from a young age, because bigger than their ear they ear headphones. We talk about outside noise pollution, but what about this problem that’s so much closer?\n\nI’m not saying to stop using headphones altogether. I’m saying use them wisely. Try walking without them. Eat without watching something. Travel while actually observing your surroundings. Use headphones when needed like meetings, online classes, or when you’re in a crowded space. Give your ears a break not always you have to watch reel while wearing headphones.",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [
+          "JBL",
+          "BTH",
+          "SNE",
+          "SONY",
+          "AAPL"
+        ],
+        "summary": "The article discusses the significance of headphones in modern life, suggesting that while they are not essential, their popularity remains high. This could lead to positive impacts on companies that manufacture headphones and audio equipment, such as Apple, Sony, and JBL, as consumer demand is likely to continue. Companies like Bose may remain unaffected due to the lack of specific trends mentioned.",
+        "ticker_impacts": {
+          "AAPL": {
+            "impact": "positive",
+            "explanation": "Apple produces headphones and other audio accessories. As the article discusses the importance of headphones in daily life, it suggests a continued demand for such products, which could positively impact Apple's sales."
+          },
+          "SONY": {
+            "impact": "positive",
+            "explanation": "Sony is a major manufacturer of headphones and audio equipment. The article highlights the role of headphones in modern life, indicating a sustained interest in audio products, which could boost Sony's sales."
+          },
+          "SNE": {
+            "impact": "positive",
+            "explanation": "As a parent company of Sony, SNE could benefit from the increased demand for headphones and audio products, as highlighted in the article, leading to potential growth in revenue."
+          },
+          "BTH": {
+            "impact": "neutral",
+            "explanation": "Bose is known for its high-quality headphones. While the article discusses headphones, it does not specifically mention any issues or trends that would directly impact Bose's market position, leading to a neutral impact."
+          },
+          "JBL": {
+            "impact": "positive",
+            "explanation": "JBL manufactures headphones and audio devices. The article's emphasis on the importance of headphones in everyday activities suggests a favorable environment for JBL's products, potentially increasing their sales."
           }
         }
       }
