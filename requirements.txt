@@ -1,3 +1,6 @@
 requests
 python-dotenv
 weaviate-client>=4.6,<5
+beautifulsoup4
+lxml[html_clean]
+newspaper3k

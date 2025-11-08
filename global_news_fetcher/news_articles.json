@@ -1,55 +1,207 @@
 {
   "meta": {
-    "found": 8176631,
+    "found": 8177013,
     "returned": 3,
     "limit": 3,
     "page": 1
   },
   "data": [
     {
-      "uuid": "d2407284-7fe4-4490-bb69-f059d418c7e6",
-      "title": "小川「楽しんで頂上を」 冬季パラのカーリング代表",
-      "description": "車いすカーリング混合ダブルスの世界王者で、来年のミラノ・コルティナ冬季パラリンピック日本代表に内定し...",
+      "uuid": "7ff38619-43a3-495a-95cb-a0ee4397b1cf",
+      "title": "Ares Capital: Strong Quarter, But A Dividend Cut Is Still On The Table (NASDAQ:ARCC)",
+      "description": "Ares Capital delivered a strong quarter with solid investment activity, NAV growth, and robust liquidity, maintaining its dividend for now. See why ARCC stock is a Hold.",
       "keywords": "",
-      "snippet": "練習後に写真に納まる小川亜希（中央左）、中島洋治（同右）組とコーチら＝東京辰巳アイスアリーナ\n\n車いすカーリ?...",
-      "url": "https://news.jp/i/1359831786494018142",
-      "image_url": "https://nordot-res.cloudinary.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1359836071276790352/origin_1.jpg",
-      "language": "ja",
-      "published_at": "2025-11-08T11:10:11.000000Z",
-      "source": "this.kiji.is",
+      "snippet": "I can hear it now. My article title is clickbait. But if you know me, then you know I don't write clickbait titles. I give my honest assessment.\n\nContributing a...",
+      "url": "https://seekingalpha.com/article/4840227-ares-capital-strong-quarter-dividend-cut-still-on-table",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2217841235/image_2217841235.jpg?io=getty-c-w1536",
+      "language": "en",
+      "published_at": "2025-11-08T12:30:00.000000Z",
+      "source": "seekingalpha.com",
       "relevance_score": null,
-      "entities": [],
-      "similar": []
+      "entities": [
+        {
+          "symbol": "ARCC",
+          "name": "Ares Capital Corporation",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Financial Services",
+          "match_score": 81.38498,
+          "sentiment_score": 0.296,
+          "highlights": [
+            {
+              "highlight": "<em>Ares</em> <em>Capital</em>: Strong Quarter, But A Dividend Cut Is Still On The Table (<em>NASDAQ:ARCC</em>)",
+              "sentiment": 0.296,
+              "highlighted_in": "title"
+            }
+          ]
+        }
+      ],
+      "similar": [],
+      "full_text": "I can hear it now. My article title is clickbait. But if you know me, then you know I don't write clickbait titles. I give my honest assessment.\n\nContributing analyst to the iREIT+Hoya Capital investment group. Dividend Collection Agency is not a registered investment professional nor financial advisor and these articles should not be taken as financial advice. This is for educational purposes only and I encourage everyone to do their own due diligence. I'm a Navy veteran who enjoys dividend investing in quality blue-chip stocks, BDC's, and REITs. I am a buy-and-hold investor who prefers quality over quantity and plans to supplement his retirement income and live off dividends in the next 5-7 years. I aspire to reach and help the hard working, lower and middle class workers build investment portfolios of high quality, dividend-paying companies. I also hope to give investors a new perspective to help them reach financial independence.\n\nAnalyst’s Disclosure:I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.\n\nSeeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body."
     },
     {
-      "uuid": "0f502bf3-9efc-480d-b17a-e3040078d173",
-      "title": "新潟で鳥インフル疑い 28万羽飼育の養鶏場",
-      "description": "新潟県は8日、同県胎内市の養鶏場で、高病原性鳥インフルエンザの疑いがある事例が簡易検査で確認されたと...",
+      "uuid": "24ec946c-daf3-4d78-82fd-e75d17825f83",
+      "title": "The One Chart Every S&P 500 Investor Needs To See Right Now",
+      "description": "The S&P 500 is highly concentrated in the Mag 7, making diversification beyond Big Tech increasingly attractive for long-term investors. Discover the full analysis here.",
       "keywords": "",
-      "snippet": "新潟県は8日、同県胎内市の養鶏場で、高病原性鳥インフルエンザの疑いがある事例が簡易検査で確認されたと発表した...",
-      "url": "https://news.jp/i/1359834807806263355",
-      "image_url": "https://nordot-res.cloudinary.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
-      "language": "ja",
-      "published_at": "2025-11-08T11:10:11.000000Z",
-      "source": "this.kiji.is",
+      "snippet": "Join iREIT on Alpha today to get the most in-depth research that includes REITs, mREITs, Preferreds, BDCs, MLPs, ETFs, and other income alternatives. 438 testim...",
+      "url": "https://seekingalpha.com/article/4840566-the-one-chart-every-s-and-p-500-investor-needs-to-see-right-now",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2208260093/image_2208260093.jpg?io=getty-c-w1536",
+      "language": "en",
+      "published_at": "2025-11-08T12:30:00.000000Z",
+      "source": "seekingalpha.com",
       "relevance_score": null,
       "entities": [],
-      "similar": []
+      "similar": [],
+      "full_text": "Join iREIT on Alpha today to get the most in-depth research that includes REITs, mREITs, Preferreds, BDCs, MLPs, ETFs, and other income alternatives. 438 testimonials, and most are 5 stars. Nothing to lose with our FREE 2-week trial .\n\nMore than a year ago, I wrote an article titled \"The One Chart That Keeps Me Up At Night.\" The article was about the ( updated ) chart below, which displays the long-term purchasing power\n\nLeo Nelissen is an analyst focusing on major economic developments related to supply chains, infrastructure, and commodities. He is a contributing author for iREIT®+HOYA Capital.As a member of the iREIT®+HOYA Capital team, Leo aims to provide insightful analysis and actionable investment ideas, with a particular emphasis on dividend growth opportunities. Learn More.\n\nAnalyst’s Disclosure:I/we have a beneficial long position in the shares of ODFL either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.\n\nSeeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body."
     },
     {
-      "uuid": "54228b6b-5f47-4a44-8a80-9e4e1fd8c080",
-      "title": "自民小林氏、防衛費のGDP比2％超を主張",
-      "description": "",
+      "uuid": "568cd827-7fa0-4a1f-8c02-f27fa68b2519",
+      "title": "What Moved Markets This Week",
+      "description": "US stocks ended the week lower in a broad risk-off move fueled by worries over the AI trade and valuations. Read more about this week's major events on Wall Street.",
       "keywords": "",
-      "snippet": "自民党の小林鷹之政調会長は8日、札幌市で講演し、防衛費と関連経費を合わせて国内総生産（GDP）比2％に増やす政府?...",
-      "url": "https://news.jp/i/1359840489017835888",
-      "image_url": "https://nordot-res.cloudinary.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
-      "language": "ja",
-      "published_at": "2025-11-08T11:10:11.000000Z",
-      "source": "this.kiji.is",
+      "snippet": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Spotify.\n\nDmitry Vinogradov/iStock Editorial...",
+      "url": "https://seekingalpha.com/article/4840853-what-moved-markets-this-week",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1497253868/image_1497253868.jpg?io=getty-c-w1536",
+      "language": "en",
+      "published_at": "2025-11-08T12:28:57.000000Z",
+      "source": "seekingalpha.com",
       "relevance_score": null,
-      "entities": [],
-      "similar": []
+      "entities": [
+        {
+          "symbol": "AAXN",
+          "name": "Axon Enterprise Inc",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Industrials",
+          "match_score": 22.228851,
+          "sentiment_score": 0,
+          "highlights": [
+            {
+              "highlight": "<em>Axon</em> <em>Enterprise</em> (AXON)[+185 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            }
+          ]
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corporation",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 11.816595,
+          "sentiment_score": 0,
+          "highlights": [
+            {
+              "highlight": "That vibe was encapsulated by \"Big Short[+299 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            }
+          ]
+        },
+        {
+          "symbol": "SMCI",
+          "name": "Super Micro Computer, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 25.582474,
+          "sentiment_score": -0.382,
+          "highlights": [
+            {
+              "highlight": "Here’s Why <em>Super</em> <em>Micro</e[+274 characters]",
+              "sentiment": -0.3125,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "Top S&P 500 Losers\n\n<em>Super</em> <em>M[+270 characters]",
+              "sentiment": -0.4515,
+              "highlighted_in": "main_text"
+            }
+          ]
+        },
+        {
+          "symbol": "DDOG",
+          "name": "Datadog, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 15.114777,
+          "sentiment_score": 0.3939,
+          "highlights": [
+            {
+              "highlight": "<em>Datadog</em> (DDOG) +17%. Expedia Gr[+315 characters]",
+              "sentiment": 0.3939,
+              "highlighted_in": "main_text"
+            }
+          ]
+        },
+        {
+          "symbol": "EXPE",
+          "name": "Expedia Group, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 14.765552,
+          "sentiment_score": 0.3939,
+          "highlights": [
+            {
+              "highlight": "<em>Expedia</em> Group (EXPE) +17%. DuPo[+294 characters]",
+              "sentiment": 0.3939,
+              "highlighted_in": "main_text"
+            }
+          ]
+        },
+        {
+          "symbol": "HSIC",
+          "name": "Henry Schein, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Healthcare",
+          "match_score": 19.965166,
+          "sentiment_score": 0.3939,
+          "highlights": [
+            {
+              "highlight": "<em>Henry</em> <em>Schein</em> (HSIC) +1[+290 characters]",
+              "sentiment": 0.3939,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "similar": [
+        {
+          "uuid": "c0266377-88d9-4dc5-84c8-8f880bab9922",
+          "title": "FPIs pull out ₹13,740 crore this week despite IPO optimism",
+          "description": "FPIs withdrew ₹13,740 crore from Indian markets this week, despite optimism surrounding IPOs and primary market resilience.",
+          "keywords": "FPI, IPO, Foreign portfolio investors, Sensex, Nifty, Rupee",
+          "snippet": "Foreign portfolio investors (FPIs) remained net sellers in Indian markets this week, withdrawing ₹13,740.43 crore across four trading sessions from November 3...",
+          "url": "https://www.thehindubusinessline.com/markets/fpis-pull-out-13740-crore-this-week-despite-ipo-optimism/article70255788.ece",
+          "image_url": "https://bl-i.thgim.com/public/incoming/pvahmp/article70255823.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__Euro__Ho_2_1_PPCJMJ46.jpg",
+          "language": "en",
+          "published_at": "2025-11-08T08:57:37.000000Z",
+          "source": "thehindubusinessline.com",
+          "relevance_score": null,
+          "entities": [],
+          "full_text": "Foreign portfolio investors (FPIs) remained net sellers in Indian markets this week, withdrawing ₹13,740.43 crore across four trading sessions from November 3 to November 7, 2025, according to data from National Securities Depository Limited (NSDL).\n\nThe selling pressure was most pronounced on Monday when FPIs pulled out ₹6,422.49 crore, followed by ₹3,754 crore on Friday. Thursday saw marginal net inflows of ₹20.14 crore, while Tuesday witnessed outflows of ₹1,583.52 crore. Markets remained closed on Wednesday for a holiday.\n\n\"While October witnessed net FII buying of ₹3,902 crores, November has started with FIIs turning sellers on every trading day, so far,\" said Dr V K Vijayakumar, Chief Investment Strategist, Geojit Investments Limited. \"The net FII sell figure through exchanges in November up to 8th, stood at ₹13,367 crore. This takes the total FII sell figure for 2025, so far, to a massive ₹2,07,568 crore.\"\n\nEquity witnessed the heaviest selling with FPIs withdrawing ₹12,568.66 crore through stock exchanges and primary markets combined during the week. Monday alone saw equity outflows of ₹7,586.75 crore, followed by ₹2,723.56 crore on Friday, ₹1,932.18 crore on Tuesday, and ₹326.17 crore on Thursday.\n\nHowever, the primary market showed resilience with FPIs investing ₹798.67 crore through IPOs and other routes. Thursday saw primary market investments of ₹444.26 crore, while Friday recorded ₹329.15 crore, signaling renewed confidence in new listings despite secondary market volatility.\n\n\"FIIs, particularly the hedge funds, are selling in India and buying in other markets which are driven by AI trade,\" Dr. Vijayakumar explained. \"US, China, South Korea and Taiwan are regarded as AI winners while India is widely regarded as an AI loser. This perception is hugely influencing the FPI action in the ongoing global rally driven by AI trade.\"\n\nIn the debt segment, FPIs showed mixed behavior. Under the Debt-FAR category, foreign investors remained net buyers, investing ₹1,003.81 crore for the week. The Debt-VRR segment saw positive inflows of ₹1,416.67 crore, while the general debt limit category witnessed outflows of ₹1,857.59 crore.\n\nRoss Maxwell, Global Strategy Lead at VT Markets, said, \"FPIs are likely seeing opportunities particularly in sectors such as financial services, renewable energy, and consumer tech, to gain early exposure to high quality companies aligned with India's long-term growth ambitions. At the same time, volatile global bond yields and currency fluctuations have made the secondary markets riskier, prompting investors to deploy capital through IPOs where valuations often appear more reasonable.\"\n\n\"The surge in FPI participation in IPOs indicates a subtle shift rather than a broader reversal of cautious sentiment,\" Maxwell added. \"While overall FPI flows into the secondary market remain uneven due to global rate uncertainty and geopolitical risks, primary market inflows show investors are differentiating between short-term volatility and long-term opportunity.\"\n\nThe rupee weakened marginally during the week, moving from ₹88.7241 per dollar on Monday to ₹88.6026 on Friday, reflecting the sustained FPI selling pressure.\n\nDr Vijayakumar noted that elevated AI valuations globally could impact future FPI flows. \"The problem, however, is that AI valuations have reached elevated levels and further rallies from here run the risk of a bubble burst. This realisation is dawning on investors widely now. This may restrain sustained FII selling in India. If, along with this realisation, India's earnings growth continues to improve, FIIs are likely to turn buyers. But this may take time.\"\n\nThe benchmark indices reflected the selling pressure, with Nifty50 declining 0.89 per cent during the week to close at 25,492.30, while BSE Sensex fell 0.86 per cent to settle at 83,216.28.\n\nMore Like This\n\nPublished on November 8, 2025"
+        }
+      ],
+      "full_text": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Spotify.\n\nDmitry Vinogradov/iStock Editorial via Getty Images\n\nSeeking Alpha News Quiz\n\nUp for a challenge? Test your knowledge on the biggest events in the investing world over the past week. Take the latest Seeking Alpha News Quiz and see how you stack up against the competition.\n\n\n\nWall Street closed out a volatile week lower in a broad risk-off move fueled by worries about the AI trade and valuations.\n\n\n\nMajor indexes fell across the board, with the Nasdaq Composite (COMP:IND) sliding -3.0% for its worst weekly performance since April, while the Nasdaq 100 (US100:IND) dropped -3.09%. The S&P 500 (SP500) lost -1.6%, and the Dow Jones Industrial Average (DJI) shed -1.2% as investors rotated away from high-growth names.\n\n\n\nThat vibe was encapsulated by \"Big Short\" money manager Michael Burry disclosing that he is betting against AI darlings Nvidia (NVDA) and Palantir (PLTR). That was followed by Palantir CEO Alex Karp, whose stock was sliding on valuation worries despite stellar earnings, calling Burry \"bats--- crazy.\"\n\n\n\nCrypto was also hit hard. Bitcoin (BTC-USD) tumbled 6.9%, flirting with bear-market territory and the closely watched $100,000 support level that traders have defended since early October.\n\n\n\n“An exhausting week in markets if you were paying attention. (But) Friday’s price action throughout the day indicates a potential recovery from this garden-variety correction,” said Seeking Alpha analyst Alex King of Cestrian Capital Research.\n\n\n\nThe pullback followed weeks of record highs and light data flow amid the prolonged government shutdown. Attention will now turn to next week’s earnings and any fresh Fed commentary as traders look for signs that the rally’s underlying momentum remains intact.\n\n\n\nRead a preview of next week’s major events in Seeking Alpha’s Catalyst Watch.\n\n\n\nSeeking Alpha's Calls Of The Week\n\nMedical Properties Trust's (MPW) Accelerating Recovery Justifies An Upgrade.\n\n\n\nObsidian Energy (OBE): Strong Production, But With High Operating Costs.\n\n\n\nVICI Properties (VICI) Is A Top REIT To Buy With Shares Priced Below $30.\n\n\n\nHere’s Why Super Micro Computer (SMCI) Is The Company I'll Never Trust.\n\n\n\n3M (MMM): Caution Still Needed After Sales Growth At Multiyear Highs.\n\n\n\nAMD (AMD) Reports Decent Results, But Correction Risks Are Growing.\n\n\n\nMoving To The Sidelines On UPS (UPS) As Global Trade Pains Deepen.\n\n\n\nCleveland-Cliffs (CLF) Is Being Pulled By Diverging Macroeconomic Forces.\n\n\n\nDarden (DRI): Weaker Spending By Younger Consumers Is A Warning Sign.\n\n\n\nMP Materials (MP) Is Now A Pawn In The U.S.-China Rare-Earth Tug Of War.\n\nWeekly Movement\n\nU.S. Indices\n\nDow -1.2% to 46,987. S&P 500 -1.6% to 6,729. Nasdaq -3.0% to 23,005. Russell 2000 -1.9% to 2,433. CBOE Volatility Index +9.4% to 19.08.\n\n\n\nS&P 500 Sectors\n\nConsumer Staples +0.8%. Utilities +0.7%. Financials +0.8%. Telecom -1.7%. Healthcare +1.3%. Industrials -1.1%. Information Technology -4.2%. Materials +0.4%. Energy +1.5%. Consumer Discretionary -1.6%. Real Estate +1%.\n\n\n\nWorld Indices\n\nLondon -0.4% to 9,683. France -2.1% to 7,950. Germany -1.6% to 23,570. Japan -4.1% to 50,276. China +1.1% to 3,998. Hong Kong +1.3% to 26,242. India -0.9% to 83,216.\n\n\n\nCommodities and Bonds\n\nCrude Oil WTI -2% to $59.75/bbl. Gold +0.3% to $4,009.8/oz. Natural Gas +4.6% to 4.315. Ten-Year Bond Yield -0.2 bps to 4.093.\n\n\n\nForex and Cryptos\n\nEUR/USD +0.26%. USD/JPY -0.38%. GBP/USD +0.05%. Bitcoin -7.%. Litecoin -1.1%. Ethereum -11.3%. XRP -7.7%.\n\n\n\nTop S&P 500 Gainers\n\nKenvue (KVUE) +17%. Datadog (DDOG) +17%. Expedia Group (EXPE) +17%. DuPont de Nemours (DD) +17%. Henry Schein (HSIC) +14%.\n\n\n\nTop S&P 500 Losers\n\nSuper Micro Computer (SMCI) -23%. DoorDash (DASH) -20%. Axon Enterprise (AXON) -18%. Zoetis (ZTS) -17%. Norwegian Cruise Line Holdings (NCLH) -15%.\n\n\n\nWhere will the markets be headed next week? Current trends and ideas? Add your thoughts to the comments section."
     }
   ]
 }
