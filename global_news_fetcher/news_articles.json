@@ -1,6 +1,6 @@
 {
   "meta": {
-    "found": 8177518,
+    "found": 8177527,
     "returned": 3,
     "limit": 3,
     "page": 1
@@ -360,6 +360,50 @@
         "original_tickers": [],
         "expanded_tickers": [],
         "summary": "The news article does not mention any specific companies or stock tickers, nor does it provide information that would directly impact any stocks. It discusses a summit related to COP30, which may have broader implications for environmental policies, but without specific companies mentioned, no direct impacts can be assessed.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "460a8139-5989-4c1b-9ef5-a3135f571bcf",
+      "title": "Названа средняя зарплата в госуправлении – смотрим сумму",
+      "description": "Сколько получают чиновники в Беларуси.",
+      "keywords": "зарплата в госуправлении, заработки чиновников, Белстат",
+      "snippet": "Фото носит иллюстративный характер, источник: msn.com\n\nФото носит иллюстративный характер,...",
+      "url": "https://myfin.by/article/money/nazvana-srednaa-zarplata-v-gosupravlenii-smotrim-summu-41643",
+      "image_url": "https://myfin.by/source//2/IKScUlhS5bqJ01sxX9CJRD9aO1A3PqFm.jpg",
+      "language": "ru",
+      "published_at": "2025-11-08T14:26:49.000000Z",
+      "source": "myfin.by",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "Фото носит иллюстративный характер, источник: msn.com\n\nФото носит иллюстративный характер, источник: msn.com 14:26 08.11.2025 883 Чтение: 1 мин.\n\nНациональный статистический комитет обновил данные о размере средней зарплаты в сфере государственного управления.\n\nВ сентябре 2025 года в Беларуси средняя зарплата в сфере «государственное управление» составила 3220,7 руб. За январь – сентябрь средняя зарплата госуправленцев вышла на уровень 3183,3 руб.\n\nОднако следует учитывать, что речь идет о номинальной начисленной средней заработной плате, то есть до вычета налогов и взносов.\n\nВ сентябре текущего года по отношению к предыдущему месяцу реальная зарплата в госуправлении сократилась на 2,5%, по сравнению с сентябрем 2024 года выросла на 17,4%.\n\nРеальная заработная плата за январь – сентябрь 2025 года по сравнению с аналогичным периодом прошлого года увеличилась на 11,1%.\n\n\n\n\n\nИсточник: Myfin.by Если вы заметили ошибку в тексте новости, пожалуйста, выделите её и нажмите Ctrl+Enter",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article discusses the average salary in the public administration sector in Belarus, highlighting changes in nominal and real salaries. However, it does not mention any specific companies or stock tickers that would be directly affected by this information. Therefore, there are no relevant stock tickers to report.",
+        "ticker_impacts": {}
+      }
+    },
+    {
+      "uuid": "979b1377-c779-4ace-a368-1f3c9931b9b7",
+      "title": "Grassroots O2",
+      "description": "",
+      "keywords": "",
+      "snippet": "",
+      "url": "http://o2and00823.blogspot.com/feeds/2114119835609664473/comments/default",
+      "image_url": "",
+      "language": "zh",
+      "published_at": "2025-11-08T14:22:28.000000Z",
+      "source": "o2and00823.blogspot.com",
+      "relevance_score": null,
+      "entities": [],
+      "full_text": "",
+      "ticker_info": {
+        "has_tickers": false,
+        "original_tickers": [],
+        "expanded_tickers": [],
+        "summary": "The news article titled 'Grassroots O2' does not provide sufficient information to identify any specific stock tickers or assess their potential impacts. As such, there are no relevant tickers or market implications to report.",
         "ticker_impacts": {}
       }
     }
