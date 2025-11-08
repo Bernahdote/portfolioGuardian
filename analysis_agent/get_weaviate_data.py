@@ -1,6 +1,6 @@
 import weaviate
 from weaviate.classes.init import Auth
-from weaviate.classes.query import Filter
+from weaviate.classes.query import Sort, Filter
 import json
 
 def get_data(ticker, weaviate_url, weaviate_api_key, verbose=False):
@@ -13,7 +13,8 @@ def get_data(ticker, weaviate_url, weaviate_api_key, verbose=False):
 
     response = news.query.fetch_objects(
         limit=5,
-        filters=Filter.by_property("ticker").equal(ticker)
+        filters=Filter.by_property("ticker").equal(ticker), 
+        sort=[Sort.by_property("time", direction="desc", missing = "last")]
     )
     print(response)
     if not response.objects:

@@ -19,7 +19,7 @@ with news.batch.fixed_size(batch_size=20) as batch:
         "signal": "Positive", 
         "title": "Apple launches new iPhone",
         "body": "Apple announced the latest version of the iPhone with performance improvements.", 
-        "time" : "2025-11-08"
+        "time" : "2023-11-08T00:00:00Z"
     })
 
     batch.add_object({
@@ -27,7 +27,7 @@ with news.batch.fixed_size(batch_size=20) as batch:
         "signal": "Positive", 
         "title": "NVIDIA earnings beat expectations",
         "body": "NVIDIA reported strong quarterly earnings driven by demand for AI chips.", 
-        "time" : "2025-11-08"
+        "time" : "2024-11-08T00:00:00Z"
     })
 
     batch.add_object({
@@ -35,7 +35,7 @@ with news.batch.fixed_size(batch_size=20) as batch:
         "signal": "Negative",
         "title": "Tesla expands production in Berlin",
         "body": "Tesla announced increased capacity for its Berlin Gigafactory.", 
-        "time": "2024-10-11"
+        "time": "2025-12-08T00:00:00Z"
     })
 
 failed = news.batch.failed_objects
