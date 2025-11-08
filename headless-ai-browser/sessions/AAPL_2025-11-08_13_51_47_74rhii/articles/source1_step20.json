@@ -1,0 +1,363 @@
+{
+  "step": 20,
+  "source": "https://www.cnbc.com/stocks/",
+  "timestamp": "2025-11-08T12:53:33.390Z",
+  "pageContext": {
+    "title": "Stock Market News",
+    "url": "https://www.cnbc.com/stocks/",
+    "inputs": [
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_1",
+        "id": "ot-group-id-IAB2V2_1",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_1"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-V2STACK42",
+        "id": "ot-group-id-V2STACK42",
+        "placeholder": "",
+        "selector": "#ot-group-id-V2STACK42"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_2",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_2"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_3",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_3"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_4",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_4"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_5",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_5"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_6",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_6"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_7",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_7"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_8",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_8"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_9",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_9"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_10",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_10"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_11",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_11"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-4",
+        "id": "ot-group-id-4",
+        "placeholder": "",
+        "selector": "#ot-group-id-4"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-7",
+        "id": "ot-group-id-7",
+        "placeholder": "",
+        "selector": "#ot-group-id-7"
+      },
+      {
+        "type": "text",
+        "name": "vendor-search-handler",
+        "id": "vendor-search-handler",
+        "placeholder": "Search…",
+        "selector": "#vendor-search-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-hosts-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-hosts-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-leg-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-leg-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "chkbox-id",
+        "placeholder": "",
+        "selector": "#chkbox-id"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "I Accept",
+        "id": "onetrust-accept-btn-handler",
+        "selector": "#onetrust-accept-btn-handler"
+      },
+      {
+        "text": "Reject All",
+        "id": "onetrust-reject-all-handler",
+        "selector": "#onetrust-reject-all-handler"
+      },
+      {
+        "text": "Manage Choices",
+        "id": "onetrust-pc-btn-handler",
+        "selector": "#onetrust-pc-btn-handler"
+      },
+      {
+        "text": "",
+        "id": "close-pc-btn-handler",
+        "selector": "#close-pc-btn-handler"
+      },
+      {
+        "text": "Filter Button",
+        "id": "filter-btn-handler",
+        "selector": "#filter-btn-handler"
+      },
+      {
+        "text": "Clear",
+        "id": "clear-filters-handler",
+        "selector": "#clear-filters-handler"
+      },
+      {
+        "text": "Apply",
+        "id": "filter-apply-handler",
+        "selector": "#filter-apply-handler"
+      },
+      {
+        "text": "Cancel",
+        "id": "filter-cancel-handler",
+        "selector": "#filter-cancel-handler"
+      },
+      {
+        "text": "Allow All",
+        "id": "accept-recommended-btn-handler",
+        "selector": "#accept-recommended-btn-handler"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip Navigation",
+        "href": "https://www.cnbc.com/stocks/#MainContent"
+      },
+      {
+        "text": "Warren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street",
+        "href": "https://www.cnbc.com/2025/11/08/warren-buffetts-cash-fortress-berkshire-closes-gap-with-sp-500-as-ai-worries-depress-wall-street.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.cnbc.com/world/"
+      },
+      {
+        "text": "Markets",
+        "href": "https://www.cnbc.com/markets/"
+      },
+      {
+        "text": "Pre-Markets",
+        "href": "https://www.cnbc.com/pre-markets/"
+      },
+      {
+        "text": "U.S. Markets",
+        "href": "https://www.cnbc.com/us-markets/"
+      },
+      {
+        "text": "Europe Markets",
+        "href": "https://www.cnbc.com/markets-europe/"
+      },
+      {
+        "text": "China Markets",
+        "href": "https://www.cnbc.com/china-markets/"
+      },
+      {
+        "text": "Asia Markets",
+        "href": "https://www.cnbc.com/markets-asia-pacific/"
+      },
+      {
+        "text": "World Markets",
+        "href": "https://www.cnbc.com/world-markets/"
+      },
+      {
+        "text": "Currencies",
+        "href": "https://www.cnbc.com/currencies/"
+      },
+      {
+        "text": "Cryptocurrency",
+        "href": "https://www.cnbc.com/cryptocurrency/"
+      },
+      {
+        "text": "Futures & Commodities",
+        "href": "https://www.cnbc.com/futures-and-commodities/"
+      },
+      {
+        "text": "Bonds",
+        "href": "https://www.cnbc.com/bonds/"
+      },
+      {
+        "text": "Funds & ETFs",
+        "href": "https://www.cnbc.com/funds-and-etfs/"
+      },
+      {
+        "text": "Business",
+        "href": "https://www.cnbc.com/business/"
+      },
+      {
+        "text": "Economy",
+        "href": "https://www.cnbc.com/economy/"
+      },
+      {
+        "text": "Finance",
+        "href": "https://www.cnbc.com/finance/"
+      },
+      {
+        "text": "Health & Science",
+        "href": "https://www.cnbc.com/health-and-science/"
+      },
+      {
+        "text": "Media",
+        "href": "https://www.cnbc.com/media/"
+      },
+      {
+        "text": "Real Estate",
+        "href": "https://www.cnbc.com/real-estate/"
+      },
+      {
+        "text": "Energy",
+        "href": "https://www.cnbc.com/energy/"
+      },
+      {
+        "text": "Climate",
+        "href": "https://www.cnbc.com/climate/"
+      },
+      {
+        "text": "Transportation",
+        "href": "https://www.cnbc.com/transportation/"
+      },
+      {
+        "text": "Industrials",
+        "href": "https://www.cnbc.com/industrials/"
+      },
+      {
+        "text": "Retail",
+        "href": "https://www.cnbc.com/retail/"
+      },
+      {
+        "text": "Wealth",
+        "href": "https://www.cnbc.com/wealth/"
+      },
+      {
+        "text": "Sports",
+        "href": "https://www.cnbc.com/sports/"
+      },
+      {
+        "text": "Life",
+        "href": "https://www.cnbc.com/life/"
+      },
+      {
+        "text": "Small Business",
+        "href": "https://www.cnbc.com/small-business/"
+      },
+      {
+        "text": "Investing",
+        "href": "https://www.cnbc.com/investing/"
+      },
+      {
+        "text": "Personal Finance",
+        "href": "https://www.cnbc.com/personal-finance/"
+      },
+      {
+        "text": "Fintech",
+        "href": "https://www.cnbc.com/fintech/"
+      },
+      {
+        "text": "Financial Advisors",
+        "href": "https://www.cnbc.com/financial-advisors/"
+      },
+      {
+        "text": "Options Action",
+        "href": "https://www.cnbc.com/options-action/"
+      },
+      {
+        "text": "ETF Street",
+        "href": "https://www.cnbc.com/etf-street/"
+      },
+      {
+        "text": "Buffett Archive",
+        "href": "https://buffett.cnbc.com/"
+      },
+      {
+        "text": "Earnings",
+        "href": "https://www.cnbc.com/earnings/"
+      },
+      {
+        "text": "Trader Talk",
+        "href": "https://www.cnbc.com/trader-talk/"
+      },
+      {
+        "text": "Tech",
+        "href": "https://www.cnbc.com/technology/"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "SKIP NAVIGATION\nNEWSLETTER\nWarren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street\nMARKETS\nBUSINESS\nINVESTING\nTECH\nPOLITICS\nVIDEO\nINVESTING CLUB\nPRO\nLIVESTREAM\nSearch quotes, news & videos\nWATCHLIST\nSIGN IN\n\nMARKETS\nSTOCKS\nSTOCKS\nDOW 30\nNASDAQ 100\nSECTORS\nBank of America says Domino’s Pizza is among the most likely M&A candidates\nLisa Kailai Han\n40 MIN AGO\nThese stocks are the most oversold in the selloff and could be due for a bounce\nPia Singh\n40 MIN AGO\nBuy the weakness in stocks like Tesla and Palantir as bull market has more room to run, investor says\nPia Singh\nAN HOUR AGO\nMarkets could face a digestion period next week as earnings, data slow to a trickle\nSarah Min\nFRI, NOV 7TH 2025\nStocks making big moves midday: Block, Akamai, Globus Medical and more\nScott Schnipper\nFRI, NOV 7TH 2025\nMARKETS\nBrad Gerstner says market pullback is healthy, sees no bubble in tech\nFRI, NOV 7TH 2025\nThese stocks are at risk if OpenAI misses its ‘extravagant’ spending plans, analyst says\nFRI, NOV 7TH 2025\nETF EDGE\nLow-cost ETFs in 401k retirement plan? Investors may soon see something like it\nFRI, NOV 7TH 2025\nTesla shareholders passed Elon Musk’s $1 trillion package. What analysts say\nFRI, NOV 7TH 2025\nTime to buy the dip in tech stocks, Fundstrat technical strategist says\nFRI, NOV 7TH 2025\nPenn Entertainment gets upgrade from Stifel after ESPN betting deal termination\nFRI, NOV 7TH 2025\nTRENDING NOW\n1\n8 ‘joyful’ phrases people with high emotional intelligence say: They turn ‘small talk into genuine connections’\n2\nSenate Republicans reject Democrat deal to reopen government\n3\nWarren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street\n4\nAirlines cancel more than 700 U.S. flights as FAA-ordered shutdown cuts begin\n5\nSupreme Court pauses order that Trump administration must pay full SNAP benefits\nMORE IN STOCKS\nDeutsche Bank upgrades Chinese internet provider, calls it a big AI beneficiary\nFRI, NOV 7TH 2025\nINVESTING TRENDS\nFrom ‘Trump dump’ to ‘Hedge America’: Global investors still hesitant on U.S.\nFRI, NOV 7TH 2025\nMAD MONEY\nCramer’s Lighting Round: Don’t sell TJX\nTHU, NOV 6TH 2025\nPLAYBOOKS\nFriday’s big stock stories: What’s likely to move the market in the next trading session\nTHU, NOV 6TH 2025\nMAD MONEY\nOngoing government shutdown and AI fears are putting the market under pressure, Jim Cramer says\nTHU, NOV 6TH 2025\nMAD MONEY\nDraftKings CEO says prediction markets aren’t luring users from sports betting\nTHU, NOV 6TH 2025\nMARKET INSIDER\nStocks making the biggest moves after hours: Airbnb, Take-Two Interactive, Peloton, Affirm and more\nTHU, NOV 6TH 2025\nSome energy stocks offer further upside from rising demand, Jay Peters says\nTHU, NOV 6TH 2025\nSociete Generale sees strong catalysts for reshoring. These names could benefit\nTHU, NOV 6TH 2025\nThis stock is both a crypto and AI play. Morgan Stanley sees big gains ahead\nTHU, NOV 6TH 2025\nMORNING MEETING\nCramer’s favorite dru"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"type\",\"selector\":\"#vendor-search-handler\",\"text\":\"AAPL\",\"reasoning\":\"To specifically search for news and articles related to Apple Inc. (AAPL) on CNBC, which will help in gathering relevant information about the stock's performance, market sentiment, and any recent developments.\"}",
+    "action": "type",
+    "selector": "#vendor-search-handler",
+    "text": "AAPL",
+    "reasoning": "To specifically search for news and articles related to Apple Inc. (AAPL) on CNBC, which will help in gathering relevant information about the stock's performance, market sentiment, and any recent developments."
+  },
+  "result": "Typed \"AAPL\""
+}

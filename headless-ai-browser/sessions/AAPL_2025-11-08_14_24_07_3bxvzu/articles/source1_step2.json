@@ -1,0 +1,524 @@
+{
+  "step": 2,
+  "source": "https://www.cnbc.com/stocks/",
+  "timestamp": "2025-11-08T13:24:28.565Z",
+  "url": "https://www.cnbc.com/search/?q=AAPL",
+  "title": "search",
+  "aiSummary": "The webpage content provided does not contain specific information about AAPL stock, including recent news, market sentiment, financial data, or associated risks and opportunities. It appears to be a general site navigation page without relevant financial analysis or stock performance details for Apple Inc. To summarize key insights on AAPL, one would typically look for recent earnings reports, analyst ratings, market trends, and any news affecting Apple's product lines or strategic initiatives.",
+  "allLinks": [
+    {
+      "text": "Skip Navigation",
+      "href": "https://www.cnbc.com/search/?q=AAPL#MainContent"
+    },
+    {
+      "text": "Warren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street",
+      "href": "https://www.cnbc.com/2025/11/08/warren-buffetts-cash-fortress-berkshire-closes-gap-with-sp-500-as-ai-worries-depress-wall-street.html"
+    },
+    {
+      "text": "Markets",
+      "href": "https://www.cnbc.com/markets/"
+    },
+    {
+      "text": "Pre-Markets",
+      "href": "https://www.cnbc.com/pre-markets/"
+    },
+    {
+      "text": "U.S. Markets",
+      "href": "https://www.cnbc.com/us-markets/"
+    },
+    {
+      "text": "Europe Markets",
+      "href": "https://www.cnbc.com/markets-europe/"
+    },
+    {
+      "text": "China Markets",
+      "href": "https://www.cnbc.com/china-markets/"
+    },
+    {
+      "text": "Asia Markets",
+      "href": "https://www.cnbc.com/markets-asia-pacific/"
+    },
+    {
+      "text": "World Markets",
+      "href": "https://www.cnbc.com/world-markets/"
+    },
+    {
+      "text": "Currencies",
+      "href": "https://www.cnbc.com/currencies/"
+    },
+    {
+      "text": "Cryptocurrency",
+      "href": "https://www.cnbc.com/cryptocurrency/"
+    },
+    {
+      "text": "Futures & Commodities",
+      "href": "https://www.cnbc.com/futures-and-commodities/"
+    },
+    {
+      "text": "Bonds",
+      "href": "https://www.cnbc.com/bonds/"
+    },
+    {
+      "text": "Funds & ETFs",
+      "href": "https://www.cnbc.com/funds-and-etfs/"
+    },
+    {
+      "text": "Business",
+      "href": "https://www.cnbc.com/business/"
+    },
+    {
+      "text": "Economy",
+      "href": "https://www.cnbc.com/economy/"
+    },
+    {
+      "text": "Finance",
+      "href": "https://www.cnbc.com/finance/"
+    },
+    {
+      "text": "Health & Science",
+      "href": "https://www.cnbc.com/health-and-science/"
+    },
+    {
+      "text": "Media",
+      "href": "https://www.cnbc.com/media/"
+    },
+    {
+      "text": "Real Estate",
+      "href": "https://www.cnbc.com/real-estate/"
+    },
+    {
+      "text": "Energy",
+      "href": "https://www.cnbc.com/energy/"
+    },
+    {
+      "text": "Climate",
+      "href": "https://www.cnbc.com/climate/"
+    },
+    {
+      "text": "Transportation",
+      "href": "https://www.cnbc.com/transportation/"
+    },
+    {
+      "text": "Industrials",
+      "href": "https://www.cnbc.com/industrials/"
+    },
+    {
+      "text": "Retail",
+      "href": "https://www.cnbc.com/retail/"
+    },
+    {
+      "text": "Wealth",
+      "href": "https://www.cnbc.com/wealth/"
+    },
+    {
+      "text": "Sports",
+      "href": "https://www.cnbc.com/sports/"
+    },
+    {
+      "text": "Life",
+      "href": "https://www.cnbc.com/life/"
+    },
+    {
+      "text": "Small Business",
+      "href": "https://www.cnbc.com/small-business/"
+    },
+    {
+      "text": "Investing",
+      "href": "https://www.cnbc.com/investing/"
+    },
+    {
+      "text": "Personal Finance",
+      "href": "https://www.cnbc.com/personal-finance/"
+    },
+    {
+      "text": "Fintech",
+      "href": "https://www.cnbc.com/fintech/"
+    },
+    {
+      "text": "Financial Advisors",
+      "href": "https://www.cnbc.com/financial-advisors/"
+    },
+    {
+      "text": "Options Action",
+      "href": "https://www.cnbc.com/options-action/"
+    },
+    {
+      "text": "ETF Street",
+      "href": "https://www.cnbc.com/etf-street/"
+    },
+    {
+      "text": "Buffett Archive",
+      "href": "https://buffett.cnbc.com/"
+    },
+    {
+      "text": "Earnings",
+      "href": "https://www.cnbc.com/earnings/"
+    },
+    {
+      "text": "Trader Talk",
+      "href": "https://www.cnbc.com/trader-talk/"
+    },
+    {
+      "text": "Tech",
+      "href": "https://www.cnbc.com/technology/"
+    }
+  ],
+  "pageContext": {
+    "title": "search",
+    "url": "https://www.cnbc.com/search/?q=AAPL",
+    "inputs": [
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-IAB2V2_1",
+        "id": "ot-group-id-IAB2V2_1",
+        "placeholder": "",
+        "selector": "#ot-group-id-IAB2V2_1"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-V2STACK42",
+        "id": "ot-group-id-V2STACK42",
+        "placeholder": "",
+        "selector": "#ot-group-id-V2STACK42"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_2",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_2"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_3",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_3"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_4",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_4"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_5",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_5"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_6",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_6"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_7",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_7"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_8",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_8"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_9",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_9"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_10",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_10"
+      },
+      {
+        "type": "checkbox",
+        "name": "switch",
+        "id": "ot-sub-group-id-IAB2V2_11",
+        "placeholder": "",
+        "selector": "#ot-sub-group-id-IAB2V2_11"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-4",
+        "id": "ot-group-id-4",
+        "placeholder": "",
+        "selector": "#ot-group-id-4"
+      },
+      {
+        "type": "checkbox",
+        "name": "ot-group-id-7",
+        "id": "ot-group-id-7",
+        "placeholder": "",
+        "selector": "#ot-group-id-7"
+      },
+      {
+        "type": "text",
+        "name": "vendor-search-handler",
+        "id": "vendor-search-handler",
+        "placeholder": "Search…",
+        "selector": "#vendor-search-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-hosts-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-hosts-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-groups-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-groups-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "select-all-vendor-leg-handler",
+        "placeholder": "",
+        "selector": "#select-all-vendor-leg-handler"
+      },
+      {
+        "type": "checkbox",
+        "name": "",
+        "id": "chkbox-id",
+        "placeholder": "",
+        "selector": "#chkbox-id"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "I Accept",
+        "id": "onetrust-accept-btn-handler",
+        "selector": "#onetrust-accept-btn-handler"
+      },
+      {
+        "text": "Reject All",
+        "id": "onetrust-reject-all-handler",
+        "selector": "#onetrust-reject-all-handler"
+      },
+      {
+        "text": "Manage Choices",
+        "id": "onetrust-pc-btn-handler",
+        "selector": "#onetrust-pc-btn-handler"
+      },
+      {
+        "text": "",
+        "id": "close-pc-btn-handler",
+        "selector": "#close-pc-btn-handler"
+      },
+      {
+        "text": "Filter Button",
+        "id": "filter-btn-handler",
+        "selector": "#filter-btn-handler"
+      },
+      {
+        "text": "Clear",
+        "id": "clear-filters-handler",
+        "selector": "#clear-filters-handler"
+      },
+      {
+        "text": "Apply",
+        "id": "filter-apply-handler",
+        "selector": "#filter-apply-handler"
+      },
+      {
+        "text": "Cancel",
+        "id": "filter-cancel-handler",
+        "selector": "#filter-cancel-handler"
+      },
+      {
+        "text": "Allow All",
+        "id": "accept-recommended-btn-handler",
+        "selector": "#accept-recommended-btn-handler"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip Navigation",
+        "href": "https://www.cnbc.com/search/?q=AAPL#MainContent"
+      },
+      {
+        "text": "Warren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street",
+        "href": "https://www.cnbc.com/2025/11/08/warren-buffetts-cash-fortress-berkshire-closes-gap-with-sp-500-as-ai-worries-depress-wall-street.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.cnbc.com/world/"
+      },
+      {
+        "text": "Markets",
+        "href": "https://www.cnbc.com/markets/"
+      },
+      {
+        "text": "Pre-Markets",
+        "href": "https://www.cnbc.com/pre-markets/"
+      },
+      {
+        "text": "U.S. Markets",
+        "href": "https://www.cnbc.com/us-markets/"
+      },
+      {
+        "text": "Europe Markets",
+        "href": "https://www.cnbc.com/markets-europe/"
+      },
+      {
+        "text": "China Markets",
+        "href": "https://www.cnbc.com/china-markets/"
+      },
+      {
+        "text": "Asia Markets",
+        "href": "https://www.cnbc.com/markets-asia-pacific/"
+      },
+      {
+        "text": "World Markets",
+        "href": "https://www.cnbc.com/world-markets/"
+      },
+      {
+        "text": "Currencies",
+        "href": "https://www.cnbc.com/currencies/"
+      },
+      {
+        "text": "Cryptocurrency",
+        "href": "https://www.cnbc.com/cryptocurrency/"
+      },
+      {
+        "text": "Futures & Commodities",
+        "href": "https://www.cnbc.com/futures-and-commodities/"
+      },
+      {
+        "text": "Bonds",
+        "href": "https://www.cnbc.com/bonds/"
+      },
+      {
+        "text": "Funds & ETFs",
+        "href": "https://www.cnbc.com/funds-and-etfs/"
+      },
+      {
+        "text": "Business",
+        "href": "https://www.cnbc.com/business/"
+      },
+      {
+        "text": "Economy",
+        "href": "https://www.cnbc.com/economy/"
+      },
+      {
+        "text": "Finance",
+        "href": "https://www.cnbc.com/finance/"
+      },
+      {
+        "text": "Health & Science",
+        "href": "https://www.cnbc.com/health-and-science/"
+      },
+      {
+        "text": "Media",
+        "href": "https://www.cnbc.com/media/"
+      },
+      {
+        "text": "Real Estate",
+        "href": "https://www.cnbc.com/real-estate/"
+      },
+      {
+        "text": "Energy",
+        "href": "https://www.cnbc.com/energy/"
+      },
+      {
+        "text": "Climate",
+        "href": "https://www.cnbc.com/climate/"
+      },
+      {
+        "text": "Transportation",
+        "href": "https://www.cnbc.com/transportation/"
+      },
+      {
+        "text": "Industrials",
+        "href": "https://www.cnbc.com/industrials/"
+      },
+      {
+        "text": "Retail",
+        "href": "https://www.cnbc.com/retail/"
+      },
+      {
+        "text": "Wealth",
+        "href": "https://www.cnbc.com/wealth/"
+      },
+      {
+        "text": "Sports",
+        "href": "https://www.cnbc.com/sports/"
+      },
+      {
+        "text": "Life",
+        "href": "https://www.cnbc.com/life/"
+      },
+      {
+        "text": "Small Business",
+        "href": "https://www.cnbc.com/small-business/"
+      },
+      {
+        "text": "Investing",
+        "href": "https://www.cnbc.com/investing/"
+      },
+      {
+        "text": "Personal Finance",
+        "href": "https://www.cnbc.com/personal-finance/"
+      },
+      {
+        "text": "Fintech",
+        "href": "https://www.cnbc.com/fintech/"
+      },
+      {
+        "text": "Financial Advisors",
+        "href": "https://www.cnbc.com/financial-advisors/"
+      },
+      {
+        "text": "Options Action",
+        "href": "https://www.cnbc.com/options-action/"
+      },
+      {
+        "text": "ETF Street",
+        "href": "https://www.cnbc.com/etf-street/"
+      },
+      {
+        "text": "Buffett Archive",
+        "href": "https://buffett.cnbc.com/"
+      },
+      {
+        "text": "Earnings",
+        "href": "https://www.cnbc.com/earnings/"
+      },
+      {
+        "text": "Trader Talk",
+        "href": "https://www.cnbc.com/trader-talk/"
+      },
+      {
+        "text": "Tech",
+        "href": "https://www.cnbc.com/technology/"
+      }
+    ],
+    "articles": [],
+    "bodyPreview": "SKIP NAVIGATION\nNEWSLETTER\nWarren Buffett Watch: Cash fortress Berkshire closes gap with S&P 500 as AI worries depress Wall Street\nMARKETS\nBUSINESS\nINVESTING\nTECH\nPOLITICS\nVIDEO\nINVESTING CLUB\nPRO\nLIVESTREAM\nWATCHLIST\nSIGN IN\n\nThis content is blocked because you are not allowing cookies.\n\nTo view this content, click on Cookie Preferences here or at the bottom of the page to allow all cookies.\n\nSubscribe to CNBC PRO\nSubscribe to Investing Club\nLicensing & Reprints\nCNBC Councils\nSupply Chain Values\nCNBC on Peacock\nJoin the CNBC Panel\nDigital Products\nNews Releases\nClosed Captioning\nCorrections\nAbout CNBC\nInternships\nSite Map\nAd Choices\nCareers\nHelp\nContact\nNews Tips\n\nGot a confidential news tip? We want to hear from you.\n\nGET IN TOUCH\nCNBC Newsletters\n\nSign up for free newsletters and get more CNBC delivered to your inbox\n\nSIGN UP NOW\n\nGet this delivered to your inbox, and more info about our products and services.\n\nAdvertise With Us\nPLEASE CONTACT US\nPrivacy Policy\nCookie Preferences\nCA Notice\nTerms of Service\n\n© 2025 CNBC LLC. All Rights Reserved. \nA Division of NBCUniversal\n\nData is a real-time snapshot *Data is delayed at least 15 minutes. Global Business and Financial News, Stock Quotes, and Market Data and Analysis.\n\nMarket Data Terms of Use and Disclaimers\n\nData also provided by\n\nDue to the breadth of the advertising ecosystem, a variety of vendors may be used for different campaigns. While NBCUniversal lists all of our potential partners, a smaller selection may be used on any given website. We and our 893 partners collect information from your device, such as device identifiers, IP address, and your browser type to personalize and deliver content, marketing and advertising—across devices and platforms; for analytics and measurement, so we can improve our services and develop new ones; to match and combine offline data with your online activity; and for social features. We share this information with selected partners with your consent. By clicking “I Accept”, you consent to our use of these Cookies. Click Manage Choices to learn more about these. We will also use other Cookies that are essential for our site and Services, including for security and fraud prevention. To learn more about some of our partners select IAB and Google Vendors. You can adjust your preferences at any time via the “Cookie Preferences” link in the footer of relevant NBCUniversal websites or in-app settings. Visit our Cookie Notice and Privacy Policy to learn more.\nWe and our partners process data to provide:\n\nStore and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.\nIAB and Google Vendors\n\nI Accept\nReject All\nManage Choices"
+  },
+  "action": {
+    "fullResponse": "{\"action\":\"scroll\",\"direction\":\"down\",\"pixels\":500,\"reasoning\":\"To search for more articles or relevant news content related to AAPL, as the initial search results may not have fully loaded.\"}",
+    "action": "scroll",
+    "direction": "down",
+    "pixels": 500,
+    "reasoning": "To search for more articles or relevant news content related to AAPL, as the initial search results may not have fully loaded."
+  },
+  "result": "Scrolled down"
+}
