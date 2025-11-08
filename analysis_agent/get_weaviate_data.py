@@ -22,7 +22,7 @@ def get_data(ticker, weaviate_url, weaviate_api_key, verbose=False):
         if verbose:
             print(json.dumps(props, indent=2))
 
-    data.append({
+    data.append({# update this when weaviate code is complete.
             "timestamp": props.get("timestamp", "no_timestamp"),
             "title": props.get("title", ""),
             "body": props.get("body", "")
